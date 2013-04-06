@@ -18,10 +18,14 @@ clockDict = OrderedDict()
 timeTableDict = {}
 
 def compareTime(t1, t2):
-    h,m = t1.split(" ")[0].split(":")
+    # Sanitize this shit, we only need first 5 characters XX:YY
+    t1 = "".join(list(t1)[:5])
+    t2 = "".join(list(t2)[:5])
+
+    h,m = t1.split(":")
     vt1 = int(h)*60 + int(m)
 
-    h,m = t2.split(" ")[0].split(":")
+    h,m = t2.split(":")
     vt2 = int(h)*60 + int(m)
 
     return (vt1 > vt2)
@@ -48,7 +52,6 @@ def parseTable(table):
             hours = content.replace("\t","").split("\r\n")
             timeTable = [hour.strip() for hour in hours if hour != '']
             return splitTimeTable(timeTable)
-            break
 
 def parsePage(doc):
     tableList = doc.xpath("/html//table")
