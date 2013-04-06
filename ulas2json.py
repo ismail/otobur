@@ -15,7 +15,7 @@ import time
 address="http://www.burulas.com.tr/sayfa.aspx?id=393"
 base_url="http://www.burulas.com.tr"
 clockDict = OrderedDict()
-timeTableDict = {}
+timeTableDict = OrderedDict()
 
 def compareTime(t1, t2):
     # Sanitize this shit, we only need first 5 characters XX:YY
