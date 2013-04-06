@@ -31,7 +31,7 @@ def compareTime(t1, t2):
     return (vt1 > vt2)
 
 def splitTimeTable(hours):
-    timeTable = [[]]
+    timeTable = [[hours[0]]]
 
     prevHour = hours[0]
     for currentHour in hours[1:]:
@@ -50,7 +50,7 @@ def parseTable(table):
             content = content.encode("utf-8")
             content = content.replace("\xc2\xa0","")
             hours = content.replace("\t","").split("\r\n")
-            timeTable = [hour.strip() for hour in hours if hour != '']
+            timeTable = [hour.strip() for hour in hours if hour.strip() != '']
             return splitTimeTable(timeTable)
 
 def parsePage(doc):
