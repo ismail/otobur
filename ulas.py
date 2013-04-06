@@ -15,14 +15,38 @@ address="http://www.burulas.com.tr/sayfa.aspx?id=393"
 base_url="http://www.burulas.com.tr"
 clock_dict = OrderedDict()
 
+def compareTime(t1, t2):
+    h,m = t1.split(":")
+    vt1 = int(h)*60 + int(m)
+
+    h,m = t2.split(":")
+    vt2 = int(h)*60 + int(m)
+
+    return (vt1 > vt2)
+
+def splitTimeTable(hours):
+    timeTable = [[]]
+
+    prevHour = hours[0]
+    for currentHour in hours[1:]:
+        if compareTime(prevHour, currentHour):
+            timeTable.append([])
+
+        timeTable[len(timeTable)-1].append(currentHour)
+        prevHour = currentHour
+
+    print timeTable
+
 def parseTable(table):
     for row in table.xpath("//tbody/tr"):
         content = row.text_content().strip()
         if re.match("\d\d:\d\d", content):
-            hours = content.encode("utf-8").replace("\t","").split("\r\n")
-            tmp = " ".join(hours).split("\xc2\xa0")
-            for t in tmp:
-                print t.strip().split(" ")
+            content = content.encode("utf-8")
+            content = content.replace("\xc2\xa0","")
+            hours = content.replace("\t","").split("\r\n")
+            timeTable = [hour.strip() for hour in hours if hour != '']
+            splitTimeTable(timeTable)
+            break
 
 def parsePage(doc):
     tableList = doc.xpath("/html//table")
