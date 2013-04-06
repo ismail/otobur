@@ -19,8 +19,8 @@ timeTableDict = {}
 
 def compareTime(t1, t2):
     # Sanitize this shit, we only need first 5 characters XX:YY
-    t1 = "".join(list(t1)[:5])
-    t2 = "".join(list(t2)[:5])
+    t1 = "".join(list(t1)[:5]).replace(".",":")
+    t2 = "".join(list(t2)[:5]).replace(".",":")
 
     h,m = t1.split(":")
     vt1 = int(h)*60 + int(m)
