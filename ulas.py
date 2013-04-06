@@ -15,7 +15,35 @@ address="http://www.burulas.com.tr/sayfa.aspx?id=393"
 base_url="http://www.burulas.com.tr"
 clock_dict = OrderedDict()
 
-if __name__ == "__main__":
+def parseTable(table):
+    for row in table.xpath("//tbody/tr"):
+        content = row.text_content().strip()
+        if re.match("\d\d:\d\d", content):
+            hours = content.encode("utf-8").replace("\t","").split("\r\n")
+            tmp = " ".join(hours).split("\xc2\xa0")
+            for t in tmp:
+                print t.strip().split(" ")
+
+def parsePage(doc):
+    tableList = doc.xpath("/html//table")
+    dataFound = False
+
+    for table in tableList:
+        if dataFound:
+            break
+            
+        try:
+            for key in table.attrib['style'].split(";"):
+                if key.find("width") >= 0:
+                    width = key.split(":")[1].strip().rstrip("px;")
+                    if width.find("%") < 0:
+                        parseTable(table)
+                        dataFound = True
+                        break
+        except KeyError:
+            pass
+
+def setupBus():
     tree = html.fromstring(urllib2.urlopen(address).read())
     for td in tree.xpath('/html/body//tbody/tr/td/a'):
         try:
@@ -25,21 +53,15 @@ if __name__ == "__main__":
         except KeyError:
             pass
 
+def setupTimeline():
     for key in clock_dict.keys():
         url = clock_dict[key]
-        url = "http://www.burulas.com.tr/sayfa.aspx?id=685"
+        print url
         doc = html.fromstring(urllib2.urlopen(url).read())
-        tableList = doc.xpath("/html//table")
-        for table in tableList:
-            try:
-                if table.attrib['cellpadding'] == "1" and table.attrib['cellspacing'] == "0": 
-                    for row in table.xpath("./tbody//tr"):
-                        if re.search("\d\d:\d\d", row.text_content()):
-                            for column in row.xpath("./td"):
-                                hours = column.text_content().replace(u'\xa0','').replace('\t','').split("\r\n")
-                                print [ x for x in hours if x != "" ]
-            except KeyError:
-                pass
-
-        sys.exit(0)
+        parsePage(doc)
         time.sleep(5)
+
+if __name__ == "__main__":
+    setupBus()
+    setupTimeline()
+
