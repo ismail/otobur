@@ -14,7 +14,7 @@ import time
 
 address="http://www.burulas.com.tr/sayfa.aspx?id=393"
 base_url="http://www.burulas.com.tr"
-clock_dict = OrderedDict()
+clockDict = OrderedDict()
 timeTableDict = {}
 
 def compareTime(t1, t2):
@@ -69,13 +69,13 @@ def setupBus():
         try:
             if "Hareket Saatleri" in td.attrib['title']:
                 line_name = td.attrib['title'].split(" ")[0]
-                clock_dict[line_name] = "%s/%s" % (base_url, td.attrib['href'])
+                clockDict[line_name] = "%s/%s" % (base_url, td.attrib['href'])
         except KeyError:
             pass
 
 def setupTimeline():
-    for key in clock_dict.keys():
-        url = clock_dict[key]
+    for key in clockDict.keys():
+        url = clockDict[key]
         doc = html.fromstring(urllib2.urlopen(url).read())
 
         if not key in timeTableDict.keys():
@@ -85,10 +85,10 @@ def setupTimeline():
 
         timeTableDict[key]["url"] = url
         timeTableDict[key]["hours"] = parsePage(doc)
-        print json.dumps(timeTableDict, sort_keys=True,
-                                        indent=4, separators=(',', ': '))
         time.sleep(5)
 
 if __name__ == "__main__":
     setupBus()
     setupTimeline()
+    print json.dumps(timeTableDict, sort_keys=True,
+                                    indent=4, separators=(',', ': '))
