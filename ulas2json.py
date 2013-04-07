@@ -64,17 +64,12 @@ def parseHourList(content):
     return hours
 
 def parseTable(table):
-    parsedDescription = False
-    description = []
+    rows = table.xpath("//tbody/tr")
+    content = rows[0].text_content()
+    description = re.sub("\d\d:\d\d.*", "", content)
 
-    for row in table.xpath("//tbody/tr"):
+    for row in rows[1:]:
         content = row.text_content().strip()
-        if not parsedDescription:
-            content = content.encode("utf-8")
-            description = re.sub("\d\d:\d\d.*", "", content)
-            #print description
-            parsedDescription = True
-
         if re.match("\d\d:\d\d", content):
             timeTable = parseHourList(content)
             return splitTimeTable(timeTable)
