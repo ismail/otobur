@@ -18,15 +18,24 @@ clockDict = OrderedDict()
 timeTableDict = OrderedDict()
 blacklistedLines = ["35/C", "38/B", "38/D"]
 
+fixupTimeDict =  {
+    "00" : "24",
+    "01" : "25",
+    "02" : "26",
+    "03" : "27",
+}
+
 def compareTime(t1, t2):
     # Sanitize this shit, we only need first 5 characters XX:YY
     t1 = "".join(list(t1)[:5]).replace(".",":")
     t2 = "".join(list(t2)[:5]).replace(".",":")
 
     h,m = t1.split(":")
+    h = fixupTimeDict.get(h, h)
     vt1 = int(h)*60 + int(m)
 
     h,m = t2.split(":")
+    h = fixupTimeDict.get(h, h)
     vt2 = int(h)*60 + int(m)
 
     return (vt1 > vt2)
@@ -142,7 +151,7 @@ if __name__ == "__main__":
     setupBus()
     setupTimeline()
 
-    fp = open("hours.json","w")
+    fp = open("hours.json","wb")
     fp.write(json.dumps(timeTableDict, sort_keys=True,
                         indent=4, separators=(',', ': ')))
     fp.close()
