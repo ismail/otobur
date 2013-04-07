@@ -136,10 +136,13 @@ def setupTimeline():
 
         timeTableDict[key]["url"] = url
         (timeTableDict[key]["description"], timeTableDict[key]["hours"]) = parsePage(doc)
-        time.sleep(0.1)
+        time.sleep(1)
 
 if __name__ == "__main__":
     setupBus()
     setupTimeline()
-    print json.dumps(timeTableDict, sort_keys=True,
-                                    indent=4, separators=(',', ': '))
+
+    fp = open("hours.json","w")
+    fp.write(json.dumps(timeTableDict, sort_keys=True,
+                        indent=4, separators=(',', ': ')))
+    fp.close()
