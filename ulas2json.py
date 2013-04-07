@@ -136,7 +136,7 @@ def setupTimeline():
 
         timeTableDict[key]["url"] = url
         (timeTableDict[key]["description"], timeTableDict[key]["hours"]) = parsePage(doc)
-        time.sleep(1)
+        time.sleep(0.2)
 
 if __name__ == "__main__":
     setupBus()
