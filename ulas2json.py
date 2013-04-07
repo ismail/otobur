@@ -64,11 +64,21 @@ def parseHourList(content):
     return hours
 
 def parseTable(table):
+    parsedDescription = False
+    description = []
+
     for row in table.xpath("//tbody/tr"):
         content = row.text_content().strip()
+        if not parsedDescription:
+            content = content.encode("utf-8")
+            description = re.sub("\d\d:\d\d.*", "", content)
+            #print description
+            parsedDescription = True
+
         if re.match("\d\d:\d\d", content):
             timeTable = parseHourList(content)
             return splitTimeTable(timeTable)
+
 
 def parsePage(doc):
     tableList = doc.xpath("/html//table")
@@ -99,6 +109,7 @@ def setupTimeline():
             continue
 
         url = clockDict[key]
+        #print url
         doc = html.fromstring(urllib2.urlopen(url).read())
 
         if not key in timeTableDict.keys():
