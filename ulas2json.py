@@ -63,16 +63,28 @@ def parseHourList(content):
 
     return hours
 
+def parseDescription(content):
+    content = content.encode("utf-8")
+    content = content.replace("\t","")
+    content = content.replace("\xc2\xa0","")
+    content = content.replace("\r","")
+    content = content.split("\n")
+    content = [x.strip() for x in content if x.strip() != '']
+    return content
+
 def parseTable(table):
     rows = table.xpath("//tbody/tr")
-    content = rows[0].text_content()
+    content = ""
+    for row in rows[:2]:
+        content += row.text_content()
     description = re.sub("\d\d:\d\d.*", "", content)
+    description = parseDescription(description)
 
-    for row in rows[1:]:
+    for row in rows[2:]:
         content = row.text_content().strip()
         if re.match("\d\d:\d\d", content):
             timeTable = parseHourList(content)
-            return splitTimeTable(timeTable)
+            return (description, splitTimeTable(timeTable))
 
 
 def parsePage(doc):
@@ -109,11 +121,12 @@ def setupTimeline():
 
         if not key in timeTableDict.keys():
             timeTableDict[key] = {}
-            timeTableDict[key]["url"] = None
+            timeTableDict[key]["description"] = None
             timeTableDict[key]["hours"] = None
+            timeTableDict[key]["url"] = None
 
         timeTableDict[key]["url"] = url
-        timeTableDict[key]["hours"] = parsePage(doc)
+        (timeTableDict[key]["description"], timeTableDict[key]["hours"]) = parsePage(doc)
         time.sleep(0.1)
 
 if __name__ == "__main__":
