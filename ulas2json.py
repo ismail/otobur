@@ -16,6 +16,7 @@ address="http://www.burulas.com.tr/sayfa.aspx?id=393"
 base_url="http://www.burulas.com.tr"
 clockDict = OrderedDict()
 timeTableDict = OrderedDict()
+blacklistedLines = ["35/C", "38/B", "38/D"]
 
 def compareTime(t1, t2):
     # Sanitize this shit, we only need first 5 characters XX:YY
@@ -43,14 +44,30 @@ def splitTimeTable(hours):
 
     return timeTable
 
+def parseHourList(content):
+    l = list(content)
+    hours = []
+
+    index = 0
+    for character in l:
+        if character.isspace():
+            continue
+
+        try:
+            if len(hours[index]) >= 5:
+                if character.isdigit():
+                    index += 1
+            hours[index] += character
+        except IndexError:
+            hours.append(character)
+
+    return hours
+
 def parseTable(table):
     for row in table.xpath("//tbody/tr"):
         content = row.text_content().strip()
         if re.match("\d\d:\d\d", content):
-            content = content.encode("utf-8")
-            content = content.replace("\xc2\xa0","")
-            hours = content.replace("\t","").split("\r\n")
-            timeTable = [hour.strip() for hour in hours if hour.strip() != '']
+            timeTable = parseHourList(content)
             return splitTimeTable(timeTable)
 
 def parsePage(doc):
@@ -78,6 +95,9 @@ def setupBus():
 
 def setupTimeline():
     for key in clockDict.keys():
+        if key in blacklistedLines:
+            continue
+
         url = clockDict[key]
         doc = html.fromstring(urllib2.urlopen(url).read())
 
@@ -88,7 +108,7 @@ def setupTimeline():
 
         timeTableDict[key]["url"] = url
         timeTableDict[key]["hours"] = parsePage(doc)
-        time.sleep(5)
+        time.sleep(0.1)
 
 if __name__ == "__main__":
     setupBus()
