@@ -92,8 +92,9 @@ def parseTable(table):
         content = row.text_content().strip()
         if re.match("\d\d:\d\d", content):
             timeTable = parseHourList(content)
-            return (description, splitTimeTable(timeTable))
+            break
 
+    return (description, splitTimeTable(timeTable))
 
 def parsePage(doc):
     tableList = doc.xpath("/html//table")
