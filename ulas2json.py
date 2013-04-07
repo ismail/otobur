@@ -69,15 +69,23 @@ def parseDescription(content):
     content = content.replace("\xc2\xa0","")
     content = content.replace("\r","")
     content = content.split("\n")
+
+    index = 0
+    for line in content:
+        if re.match("\d\d:\d\d", line.strip()):
+            index = content.index(line)
+            content = content[:index]
+            break
+
     content = [x.strip() for x in content if x.strip() != '']
     return content
 
 def parseTable(table):
     rows = table.xpath("//tbody/tr")
-    content = ""
+
+    description = ""
     for row in rows[:2]:
-        content += row.text_content()
-    description = re.sub("\d\d:\d\d.*", "", content)
+        description += row.text_content()
     description = parseDescription(description)
 
     for row in rows[2:]:
