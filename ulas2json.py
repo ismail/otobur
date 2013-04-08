@@ -18,8 +18,10 @@ clockDict = OrderedDict()
 timeTableDict = OrderedDict()
 
 linesWhereWePurelySuck = ["94", "B/41B", "E/2", "S/2"]
-linesWithWrongData = ["4/G", "6/F1", "6/F2", "15/A", "26/A", "35/S", "38", "92"]
+linesWithWrongData = ["6/F2", "35/S", "38"]
 linesWithCrapData = ["35/C", "38/B", "38/D", "B/34", "80"]
+
+whiteListedLines = ["4/G", "6/F1", "15/A", "26/A", "92"]
 blacklistedLines = linesWithWrongData + linesWithCrapData + linesWhereWePurelySuck
 
 fixupTimeDict =  {
@@ -56,6 +58,22 @@ def splitTimeTable(hours):
         prevHour = currentHour
 
     return timeTable
+
+def parseHourListStructured(content):
+    content = content.encode("utf-8")
+    content = content.replace("\t","")
+    content = content.split("\xc2\xa0")
+    hours = []
+
+    for hour in content:
+        if hour.isspace():
+            continue
+
+        entries = hour.split("\r\n")
+        entries = [x.strip() for x in entries if x.strip() != '']
+        hours.append(entries)
+
+    return hours
 
 def parseHourList(content):
     l = list(content)
@@ -103,7 +121,7 @@ def deduceDescriptions(description, timeLength):
 
     return lastRow
 
-def parseTable(table):
+def parseTable(table, structured):
     rows = table.xpath("//tbody/tr")
 
     description = ""
@@ -114,12 +132,18 @@ def parseTable(table):
     for row in rows[2:]:
         content = row.text_content().strip()
         if re.match("\d\d:\d\d", content):
-            timeTable = parseHourList(content)
+            if structured:
+                timeTable = parseHourListStructured(content)
+            else:
+                timeTable = parseHourList(content)
             break
 
-    return (description, splitTimeTable(timeTable))
+    if structured:
+        return (description, timeTable)
+    else:
+        return (description, splitTimeTable(timeTable))
 
-def parsePage(doc):
+def parsePage(doc, structured=False):
     tableList = doc.xpath("/html//table")
 
     for table in tableList:
@@ -128,7 +152,7 @@ def parsePage(doc):
                 if key.find("width") >= 0:
                     width = key.split(":")[1].strip().rstrip("px;")
                     if width.find("%") < 0:
-                        return parseTable(table)
+                        return parseTable(table, structured)
         except KeyError:
             pass
 
@@ -149,6 +173,7 @@ def setupTimeline():
 
         url = clockDict[key]
         print url
+        structured = (key in whiteListedLines)
         doc = html.fromstring(urllib2.urlopen(url).read())
 
         if not key in timeTableDict.keys():
@@ -158,7 +183,7 @@ def setupTimeline():
             timeTableDict[key]["url"] = None
 
         timeTableDict[key]["url"] = url
-        (timeTableDict[key]["description"], timeTableDict[key]["hours"]) = parsePage(doc)
+        (timeTableDict[key]["description"], timeTableDict[key]["hours"]) = parsePage(doc, structured)
         time.sleep(0.2)
 
 if __name__ == "__main__":
