@@ -144,9 +144,8 @@ def deduceHeaders(headers, timeLength):
         if len(stopRow) >= 2 and (stopRow[0] == stopRow[1]):
             stopRow.pop(0)
 
-        splitCount = len(dayRow) / len(stopRow)
-
         index = 0
+        splitCount = len(dayRow) / len(stopRow)
         for i in range(0, len(dayRow)):
             dayRow[i] = "%s [%s]" % (stopRow[index], dayRow[i])
 
