@@ -17,9 +17,9 @@ base_url="http://www.burulas.com.tr"
 clockDict = OrderedDict()
 timeTableDict = OrderedDict()
 
-linesWhereWePurelySuck = ["94", "B/41B", "E/2", "S/2"]
+linesWhereWePurelySuck = ["14/F", "26/B", "94", "B/41B", "E/2", "S/2"]
 linesWithWrongData = ["6/F2", "35/S", "38"]
-linesWithCrapData = ["35/C", "38/B", "38/D", "B/34", "80"]
+linesWithCrapData = ["35/C", "38/B", "38/D", "B/4", "B/34", "80"]
 
 whiteListedLines = ["4/G", "6/F1", "15/A", "26/A", "92"]
 blacklistedLines = linesWithWrongData + linesWithCrapData + linesWhereWePurelySuck
@@ -111,15 +111,49 @@ def parseDescription(content):
     content = [x.strip() for x in content if x.strip() != '']
     return content
 
-def deduceDescriptions(description, timeLength):
+def deduceHeaders(headers, timeLength):
+    headerLength = len(headers)
 
-    descriptionLength = len(description)
-    lastRow = []
+    stopRow = []
+    dayRow = []
 
     for i in reversed(range(0, timeLength)):
-        lastRow.append(description[descriptionLength - 1 -i])
+        dayRow.append(headers[headerLength - 1 -i])
 
-    return lastRow
+    # This is the usual case
+    start = len(headers)-timeLength*2-1
+
+    # Cheat the start, this let us parse less stuff
+    for header in headers:
+        if (header.find("GÜZERGAH") >= 0) or (header.find("GÜZERGÂH") >= 0): # they did it for lolz
+            index = headers.index(header)
+            if start < index:
+                start = index+1
+
+    for header in headers[start:-timeLength]:
+        if (header.find("HAFTA İÇİ-") >= 0):
+            pass
+        elif (header.find("-") >= 0) or (header.find("/") >= 0) or \
+             (header.find(":") >= 0):
+            continue
+
+        stopRow.append(header)
+
+    if len(stopRow) > 0:
+        # First two items might be duplicates
+        if len(stopRow) >= 2 and (stopRow[0] == stopRow[1]):
+            stopRow.pop(0)
+
+        splitCount = len(dayRow) / len(stopRow)
+
+        index = 0
+        for i in range(0, len(dayRow)):
+            dayRow[i] = "%s [%s]" % (stopRow[index], dayRow[i])
+
+            if (i+1) % splitCount == 0:
+                index += 1
+
+    return dayRow
 
 def parseTable(table, structured):
     rows = table.xpath("//tbody/tr")
@@ -138,10 +172,18 @@ def parseTable(table, structured):
                 timeTable = parseHourList(content)
             break
 
-    if structured:
-        return (description, timeTable)
-    else:
-        return (description, splitTimeTable(timeTable))
+    if not structured:
+        timeTable = splitTimeTable(timeTable)
+
+    hours = OrderedDict()
+    headerList = deduceHeaders(description, len(timeTable))
+
+    index = 0
+    for header in headerList:
+        hours[header] = timeTable[index]
+        index += 1
+
+    return hours
 
 def parsePage(doc, structured=False):
     tableList = doc.xpath("/html//table")
@@ -178,12 +220,11 @@ def setupTimeline():
 
         if not key in timeTableDict.keys():
             timeTableDict[key] = {}
-            timeTableDict[key]["description"] = None
-            timeTableDict[key]["hours"] = None
+            timeTableDict[key]["hours"] = {}
             timeTableDict[key]["url"] = None
 
         timeTableDict[key]["url"] = url
-        (timeTableDict[key]["description"], timeTableDict[key]["hours"]) = parsePage(doc, structured)
+        timeTableDict[key]["hours"] = parsePage(doc, structured)
         time.sleep(0.2)
 
 if __name__ == "__main__":
@@ -191,6 +232,6 @@ if __name__ == "__main__":
     setupTimeline()
 
     fp = open("hours.json","wb")
-    fp.write(json.dumps(timeTableDict, sort_keys=True,
+    fp.write(json.dumps(timeTableDict, sort_keys=False,
                         indent=4, separators=(',', ': ')))
     fp.close()
