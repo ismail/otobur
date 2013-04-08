@@ -111,7 +111,26 @@ def parseDescription(content):
     content = [x.strip() for x in content if x.strip() != '']
     return content
 
-def deduceHeaders(headers, timeLength):
+def parseStops(content):
+    parsedStops = []
+
+    for line in content:
+        stops = line.split("-")
+        if len(stops) >= 3:
+            line = line.replace("GİDİŞ", "")
+            line = line.replace("DÖNÜŞ", "")
+            line = line.replace("GÜZERGAHI", "")
+            line = line.replace("GÜZERGAH", "")
+            line = line.replace("GÜZERGÂH", "")
+            line = line.replace("(", "")
+            line = line.replace(")", "")
+            line = line.replace(":", "")
+            stops = line.split("-")
+            parsedStops.append([x.strip() for x in stops if x.strip() != ''])
+
+    return parsedStops
+
+def parseHeaders(headers, timeLength):
     headerLength = len(headers)
 
     stopRow = []
@@ -175,14 +194,14 @@ def parseTable(table, structured):
         timeTable = splitTimeTable(timeTable)
 
     hours = OrderedDict()
-    headerList = deduceHeaders(description, len(timeTable))
+    headerList = parseHeaders(description, len(timeTable))
 
     index = 0
     for header in headerList:
         hours[header] = timeTable[index]
         index += 1
 
-    return hours
+    return (parseStops(description), hours)
 
 def parsePage(doc, structured=False):
     tableList = doc.xpath("/html//table")
@@ -218,12 +237,21 @@ def setupTimeline():
         doc = html.fromstring(urllib2.urlopen(url).read())
 
         if not key in timeTableDict.keys():
-            timeTableDict[key] = {}
+            timeTableDict[key] = OrderedDict()
+            timeTableDict[key]["backward"] = None
+            timeTableDict[key]["forward"] = None
             timeTableDict[key]["hours"] = {}
             timeTableDict[key]["url"] = None
 
         timeTableDict[key]["url"] = url
-        timeTableDict[key]["hours"] = parsePage(doc, structured)
+        (stops, timeTableDict[key]["hours"]) = parsePage(doc, structured)
+
+        length = len(stops)
+        if length > 0:
+            timeTableDict[key]["forward"] = stops[0]
+            if length > 1:
+                timeTableDict[key]["backward"] = stops[1]
+
         time.sleep(0.2)
 
 if __name__ == "__main__":

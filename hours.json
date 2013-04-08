@@ -1,5 +1,63 @@
 {
     "1/A": {
+        "backward": [
+            "DOBURCA CAD.",
+            "BENT CAD.",
+            "FAT\u0130H CAD.",
+            "SEYRAN CAD.",
+            "DOBURCA CAD.",
+            "\u00c7EK\u0130RGE DEVLET HAST.",
+            "NAZLI CAD.",
+            "BA\u011eLAN CAD.",
+            "ARMUTLU MEYDANI",
+            "\u00c7EK\u0130RGE CAD.",
+            "HAMZABEY CAD.",
+            "MURAD\u0130YE",
+            "KAPLICA CAD.",
+            "HASTA YURDU CAD.",
+            "BURSA DEVLET HAST.",
+            "ASKER CAD.",
+            "TOPHANE",
+            "OSMANGAZ\u0130 CAD.",
+            "ATAT\u00dcRK CAD.",
+            "SETBA\u015eI",
+            "YE\u015e\u0130L CAD.",
+            "EM\u0130RSULTAN CAD.",
+            "DOYURAN CAD.",
+            "ZEYN\u0130LER CAD.",
+            "DEREBAH\u00c7E"
+        ],
+        "forward": [
+            "DEREBAH\u00c7E",
+            "ZEYN\u0130LER CAD.",
+            "DOYURAN CAD.",
+            "EM\u0130RSULTAN CAD.",
+            "YE\u015e\u0130L CAD.",
+            "SETBA\u015eI",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "OSMANGAZ\u0130 CAD.",
+            "TOPHANE",
+            "ASKER CAD.",
+            "BURSA DEVLET HAST.",
+            "HASTA YURDU CAD.",
+            "KAPLICA CAD.",
+            "CEM 2.SK.",
+            "MURAD\u0130YE",
+            "BE\u015e\u0130K\u00c7\u0130LER CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "ARMUTLU MEYDANI",
+            "BA\u011eLAN CAD.",
+            "NAZLI CAD.",
+            "\u00c7EK\u0130RGE DEVLET HAST.",
+            "DOBURCA CAD.",
+            "SEYRAN CAD.",
+            "FAT\u0130H CAD.",
+            "BENT CAD.",
+            "DOBURCA CAD.",
+            "DOBURCA"
+        ],
         "hours": {
             "DEREBAH\u00c7E [HAFTA \u0130\u00c7\u0130-CUMARTES\u0130]": [
                 "06:40",
@@ -110,6 +168,38 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=701&catid=38"
     },
     "3/\u0130": {
+        "backward": [
+            "ALTINOVA",
+            "BALIKLI",
+            "YE\u015e\u0130LOVA",
+            "K.\u00c7E\u015eME",
+            "K.MEYDANI",
+            "F.\u00c7AKMAK CD.",
+            "T\u0130MURTA\u015e PA\u015eA",
+            "ATAT\u00dcRK CD.",
+            "SETBA\u015eI",
+            "NAMAZGAH",
+            "I\u015eIKLAR ASKER\u0130 L\u0130SES\u0130",
+            "TELEFER\u0130K",
+            "TEFERR\u00dc\u00c7",
+            "HARMANYER\u0130 CAM\u0130\u0130"
+        ],
+        "forward": [
+            "HARMANYER\u0130 CAM\u0130\u0130",
+            "TEFERR\u00dc\u00c7",
+            "TELEFER\u0130K",
+            "I\u015eIKLAR ASKER\u0130 L\u0130SES\u0130",
+            "NAMAZGAH",
+            "SETBA\u015eI",
+            "\u0130N\u00d6N\u00dc CD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CD.",
+            "F.\u00c7AKMAK CD.",
+            "KENT MEYDANI",
+            "KEMER\u00c7E\u015eME",
+            "YE\u015e\u0130LOVA",
+            "BALIKLI",
+            "ALTINOVA"
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 [HARMANYER\u0130]": [
                 "06:40",
@@ -398,6 +488,35 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=421"
     },
     "4/A": {
+        "backward": [
+            "ULUDA\u011e YOLU",
+            "ORHANEL\u0130 CAD.",
+            "ALACAHIRKA CAD.",
+            "PINARBA\u015eI CAD.",
+            "MAKSEM",
+            "TEMENYER\u0130",
+            "E\u015eREF\u0130LER CAD.",
+            "NAMAZGAH",
+            "\u00c7ELEB\u0130 MEHMET BULVARI",
+            "SETBA\u015eI",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUYOL",
+            "KENT MEYDANI",
+            "FEVZ\u0130 \u00c7AKMAK CAD.",
+            "\u015eEHREK\u00dcST\u00dc",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "MAKSEM CAD.",
+            "PINARBA\u015eI CAD.",
+            "ALACAHIRKA CAD.",
+            "ORHANEL\u0130 CAD.",
+            "ULUDA\u011e YOLU"
+        ],
+        "forward": [
+            "ULUDA\u011e YOLU",
+            "KENT MEYDANI",
+            "ATAT\u00dcRK CADDES\u0130"
+        ],
         "hours": {
             "ULUDA\u011e YOLU [HAFTA \u0130\u00c7\u0130 VE CUMARTES\u0130]": [
                 "07:00",
@@ -442,6 +561,37 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=510"
     },
     "4/B": {
+        "backward": null,
+        "forward": [
+            "\u00c7EK\u0130RGE DEVLET HAST.",
+            "NAZLI CAD.",
+            "BA\u011eLAN CAD.",
+            "ARMUTLU MEYDANI",
+            "\u00c7EK\u0130RGE CAD.",
+            "ALTIPARMAK CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CAD.",
+            "SETBA\u015eI",
+            "NAMAZGAH CAD.",
+            "E\u015eREF\u0130LER CAD.",
+            "K\u00d6PR\u00dc CAD.",
+            "MAKSEM",
+            "PINAR BA\u015eI CAD.",
+            "ALACAHIRKA CAD.",
+            "K\u00d6\u015eK CAD.",
+            "DEM\u0130RKAPI CAD.",
+            "HULK\u0130 BEY CAD.",
+            "HAMZABEY CAD.",
+            "CEM 2 SK.",
+            "MURAD\u0130YE",
+            "BE\u015e\u0130K\u00c7\u0130LER CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "ARMUTLU MEYDANI",
+            "1.MURAT CAD.",
+            "KANAL CAD.",
+            "NAZLI CAD.",
+            "\u00c7EK\u0130RGE DEVLET HAST."
+        ],
         "hours": {
             "\u00c7EK\u0130RGE DEVLET HAST.": [
                 "07:05",
@@ -463,6 +613,33 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=511"
     },
     "4/G": {
+        "backward": null,
+        "forward": [
+            "\u00dcN\u0130VERS\u0130TE \u0130STASYONU",
+            "TIP FAK.",
+            "\u0130KT\u0130SAT FAK.",
+            "YURTLAR",
+            "Z\u0130RAAT FAK.",
+            "BAHR\u0130YE \u00dc\u00c7OK CD.",
+            "\u00dc\u00c7OLUK CD.",
+            "KIZILIRMAK CD.",
+            "OCAK SK.",
+            "T\u00dcTER SK.",
+            "ATAT\u00dcRK BLV.",
+            "\u00c7A\u011eDA\u015e CD.",
+            "F.\u00c7AKMAK CD.",
+            "ZAFFER CD.",
+            "ASIM BEY CD.",
+            "TA\u015ePINAR CD.",
+            "ATAT\u00dcRK CD.",
+            "\u00dc\u00c7OLUK CD.",
+            "BAHR\u0130YE \u00dc\u00c7OK CD.",
+            "Z\u0130RAAT FAK.",
+            "YURTLAR",
+            "\u0130KT\u0130SAT FAK.",
+            "TIP FAK.",
+            "\u00dcN\u0130VERS\u0130TE \u0130STASYONU R\u0130NG"
+        ],
         "hours": {
             "\u00dcN\u0130VERS\u0130TE \u0130STASYONU [HAFTA \u0130\u00c7\u0130]": [
                 "06:45",
@@ -573,6 +750,24 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=426"
     },
     "4/\u0130": {
+        "backward": null,
+        "forward": [
+            "DEM\u0130RKAPI",
+            "ALACAHAHIRKA",
+            "PINARBA\u015eI",
+            "\u0130VAZPA\u015eA",
+            "\u0130K\u0130 MEZARLIK ARASI",
+            "TEM\u0130Z CAD.",
+            "ATAT\u00dcRK CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CAD.",
+            "T\u0130MURTA\u015e PA\u015eA",
+            "MAKSEM",
+            "\u0130VAZPA\u015eA",
+            "PINARBA\u015eI",
+            "ALACAHIRKA",
+            "DEM\u0130RKAPI"
+        ],
         "hours": {
             "DEM\u0130RKAPI [HAFTA \u0130\u00c7\u0130]": [
                 "06:45",
@@ -681,6 +876,56 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=427"
     },
     "5/A": {
+        "backward": [
+            "HAMZABEY CAM\u0130",
+            "HAMZABEY CAD.",
+            "MURAD\u0130YE",
+            "KAPLICA CAD.",
+            "HASTA YURDU CAD",
+            "BURSA DEVLET HAST.",
+            "ASKER CAD.",
+            "TOPHANE",
+            "OSMANGAZ\u0130 CAD.",
+            "ATAT\u00dcRK CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUYOL",
+            "KENT MEYDANI",
+            "ULUBATLI HASAN BULVARI",
+            "\u00c7E\u015eME SK.",
+            "AYBER CAD.",
+            "G\u00dcRDAL CAD.",
+            "ADALET CAD",
+            "G\u00dc\u00c7L\u00dc CAD.",
+            "KANAL CAD.",
+            "ME\u015eEL\u0130 CAM\u0130"
+        ],
+        "forward": [
+            "ME\u015eEL\u0130 CAM\u0130",
+            "KANAL CAD.",
+            "G\u00dc\u00c7L\u00dc CAD.",
+            "ADALET CAD.",
+            "G\u00dcRDAL CAD.",
+            "AYBER CAD.",
+            "DR.SADIK AHMET CAD.",
+            "GEN\u00c7 OSMAN PTT",
+            "KENT MEYDANI",
+            "FEVZ\u0130 \u00c7AKMAK CAD.",
+            "\u015eEHREK\u00dcST\u00dc",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "OSMANGAZ\u0130 CAD.",
+            "TOPHANE",
+            "ASKER CAD.",
+            "BURSA DEVLET HAST.",
+            "HASTA YURDU CAD.",
+            "KAPLICA CAD.",
+            "CEM 2.SK",
+            "MURAD\u0130YE",
+            "BE\u015e\u0130K\u00c7\u0130LER CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "HAMZABEY CAD.",
+            "HAMZABEY CAM\u0130"
+        ],
         "hours": {
             "HAFTA\u0130\u00c7\u0130": [
                 "07:00",
@@ -753,6 +998,8 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=513"
     },
     "5/G": {
+        "backward": null,
+        "forward": null,
         "hours": {
             "HAFTA \u0130\u00c7\u0130-CUMARTES\u0130": [
                 "08:00",
@@ -777,6 +1024,60 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=471"
     },
     "6/A": {
+        "backward": [
+            "DEREBAH\u00c7E",
+            "ZEYN\u0130LER CAD.",
+            "DOYURAN CAD.",
+            "EM\u0130RSULTAN CAD.",
+            "YE\u015e\u0130L CAD.",
+            "SETBA\u015eI",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "CUMHUR\u0130YET CAD.",
+            "ALTIPARMAK CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "K\u00dcK\u00dcRTL\u00dc CAD.",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "Z\u00dcBEYDE HANIM DO\u011eUMEV\u0130",
+            "HAT CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI",
+            "D\u0130KKALDIRIM CAD.",
+            "M\u0130HRAPLI CAD.",
+            "YILDIRIM CAD.N\u0130L\u00dcFER",
+            "K\u00dc\u00c7\u00dcK SANAY\u0130",
+            "ERTU\u011eRUL CAD.",
+            "N\u0130L\u00dcFER CAD.",
+            "G\u00dcL KAV\u015eA\u011eI",
+            "U\u011eUR MUMCU CAD.",
+            "ABD\u0130 \u0130PEK\u00c7\u0130 CAD.",
+            "MENEK\u015eE S\u0130TELER\u0130"
+        ],
+        "forward": [
+            "MENEK\u015eE S\u0130TELER\u0130",
+            "ABD\u0130 \u0130PEK\u00c7\u0130 CAD.",
+            "U\u011eUR MUMCU CAD.",
+            "G\u00dcL KAV\u015eA\u011eI",
+            "K\u00dc\u00c7\u00dcK SANAY\u0130",
+            "N\u0130L\u00dcFER CAD.",
+            "ERTU\u011eRUL CAD.",
+            "YILDIRIM CAD.N\u0130L\u00dcFER",
+            "M\u0130HRAPLI CAD.",
+            "D\u0130KKALDIRIM CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI",
+            "HAT CAD.",
+            "Z\u00dcBEYDE HANIM DO\u011eUMEV\u0130",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "K\u00dcK\u00dcRTL\u00dc CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "ALTIPARMAK CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CAD.",
+            "SETBA\u015eI",
+            "YE\u015e\u0130L CAD.",
+            "EM\u0130RSULTAN CAD.",
+            "DOYURAN CAD.",
+            "ZEYN\u0130LER CAD.",
+            "DEREBAH\u00c7E"
+        ],
         "hours": {
             "MENEK\u015eE S\u0130TELER\u0130": [
                 "06:45",
@@ -847,6 +1148,55 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=568"
     },
     "6/E": {
+        "backward": [
+            "DEREBAH\u00c7E",
+            "ZEYN\u0130LER CAD.",
+            "DOYURAN CAD.",
+            "EM\u0130RSULTAN CAD.",
+            "YE\u015e\u0130L CAD.",
+            "SETBA\u015eI",
+            "\u0130N\u00d6N\u00dc CAD.HA\u015e\u0130M \u0130\u015eCAN CAD.",
+            "ALTIPARMAK CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "ARMUTLU MEYDANI",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "D\u0130KKALDIRIM CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI",
+            "D\u0130KKALDIRIM CAD.",
+            "M\u0130HRAPLI CAD.",
+            "YILDIRIM CAD.N\u0130L\u00dcFER",
+            "K\u00dc\u00c7\u00dcK SANAY\u0130",
+            "\u00d6ZL\u00dcCE KAV\u015eA\u011eI",
+            "ZEK\u0130 M\u00dcREN G\u00dcZEL SANATLAR L\u0130SES\u0130",
+            "KO\u00c7 \u0130LK\u00d6\u011eRET\u0130M OKULU",
+            "D\u00d6RT \u00c7EL\u0130K \u00c7OCUK HST.",
+            "U\u011eUR MUMCU CAD.",
+            "ERTU\u011eRUL KENT",
+            "EM\u0130R KOOP",
+            "SAYGIN KENT",
+            "\u00d6ZL\u00dcCE"
+        ],
+        "forward": [
+            "\u00d6ZL\u00dcCE",
+            "SAYGIN KENT",
+            "EM\u0130R KOOP",
+            "ERTU\u011eRUL KENT",
+            "U\u011eUR MUMCU CAD.",
+            "D\u00d6RT \u00c7EL\u0130K \u00c7OCUK HST.",
+            "KO\u00c7 \u0130LK\u00d6\u011eRET\u0130M OKULU",
+            "ZEK\u0130 M\u00dcREN G\u00dcZEL SANATLAR L\u0130SES\u0130",
+            "\u00d6ZL\u00dcCE KAV\u015eA\u011eI",
+            "K\u00dc\u00c7\u00dcK SANAY\u0130",
+            "YILDIRIM CAD.",
+            "D\u0130KKALDIRIM",
+            "\u00c7EK\u0130RGE DEVLET HAST. ALTI",
+            "\u00c7EK\u0130RGE CAD.",
+            "ALTIPARMAK",
+            "ATAT\u00dcRK CAD.",
+            "YE\u015e\u0130L",
+            "EM\u0130RSULTAN",
+            "DEREBAH\u00c7E"
+        ],
         "hours": {
             "\u00d6ZL\u00dcCE [HAFTA\u0130\u00c7\u0130-CUMARTES\u0130]": [
                 "06:30",
@@ -989,6 +1339,49 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=569"
     },
     "6/F": {
+        "backward": null,
+        "forward": [
+            "\u00dc\u00c7EVLER MAH.SON DURAK",
+            "DEN\u0130ZC\u0130LER CAD.",
+            "DUMLUPINAR CAD.",
+            "AHISKA CAD.",
+            "G\u00dcM\u00dc\u015eDERE CAD.",
+            "MEL\u0130KE PINAR L\u0130SES\u0130",
+            "G\u00dcM\u00dc\u015eDERE CAD.",
+            "G\u00dcNE\u015e CAD.",
+            "B\u0130LG\u0130NLER CAD.",
+            "KARA FATMA HEYKEL\u0130",
+            "BE\u015eEVLER CAD",
+            "M\u0130HRAPLI CAD.",
+            "D\u0130KKALDIRIM CAD",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "ARMUTLU MEYDANI",
+            "\u00c7EK\u0130RGE CAD.",
+            "ALTIPARMAK CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CAD",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CAD.",
+            "ALTIPARMAK CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "ARMUTLU MEYDANI",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI",
+            "D\u0130KKALDIRIM CAD.",
+            "M\u0130HRAPLI CAD.",
+            "BE\u015eEVLER CAD.",
+            "KARAFATMA HEYKEL\u0130",
+            "B\u0130LG\u0130NLER CAD.",
+            "G\u00dcNE\u015e CAD.",
+            "G\u00dcM\u00dc\u015eDERE CAD.",
+            "MEL\u0130KE PINAR L\u0130SES\u0130",
+            "G\u00dcM\u00dc\u015eDERE CAD.",
+            "AHISKA CAD.",
+            "DUMLUPINAR CAD.",
+            "DEN\u0130ZC\u0130LER CAD.",
+            "\u00dc\u00c7EVLER MAH."
+        ],
         "hours": {
             "\u00dc\u00c7EVLER [HAFTA \u0130\u00c7\u0130]": [
                 "06:24",
@@ -1318,6 +1711,63 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=570"
     },
     "6/F1": {
+        "backward": null,
+        "forward": [
+            "ALAATT\u0130NBEY",
+            "ALAATT\u0130NBEY CAD.",
+            "DEM\u0130RC\u0130",
+            "DEM\u0130RC\u0130 CAD.",
+            "AHISKA CAD.",
+            "\u00dc\u00c7EVLER",
+            "DEN\u0130ZC\u0130LER CAD.",
+            "DUMLUPINAR CAD.",
+            "\u00dc\u00c7EVLER CAD.",
+            "75.YIL CUMHUR\u0130YET CAD.",
+            "E\u011e\u0130T\u0130MC\u0130LER CAD.",
+            "AHMET TANER KI\u015eLALI CAD.",
+            "\u0130NK\u0130LAP CAD.",
+            "KAVAKDERE CAD.",
+            "LEFKO\u015eE CAD.",
+            "M\u0130HRAPLI CAD.",
+            "D\u0130KKALDIRIM CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "ARMUTLU MEYDANI",
+            "\u00c7EK\u0130RGE CAD.",
+            "HAMZABEY CAD.",
+            "MURAD\u0130YE",
+            "KAPLICA CAD.",
+            "HASTA YURDU CAD.",
+            "DEVLET HAST.",
+            "ASKER CAD.",
+            "TOPHANE",
+            "OSMANGAZ\u0130 CAD.",
+            "ATAT\u00dcRK CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CAD.",
+            "ALTIPARMAK CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "ARMUTLU MEYDANI",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI",
+            "D\u0130KKALDIRIM CAD.",
+            "M\u0130HRAPLI CAD.",
+            "LEFKO\u015eE CAD.",
+            "KAVAKDERE CAD.",
+            "\u0130NK\u0130LAP CAD.",
+            "AHMET TANER KI\u015eLALI CAD.",
+            "E\u011e\u0130T\u0130MC\u0130LER CAD.",
+            "75.YIL CUMHUR\u0130YET CAD.",
+            "\u00dc\u00c7EVLER CAD.",
+            "DUMLUPINAR CAD.",
+            "DEN\u0130ZC\u0130LER CAD.",
+            "\u00dc\u00c7EVLER",
+            "AHISKA CAD.",
+            "DEM\u0130RC\u0130 CAD.",
+            "DEM\u0130RC\u0130",
+            "ALAATT\u0130NBEY CAD.",
+            "ALAATT\u0130NBEY"
+        ],
         "hours": {
             "ALAATT\u0130NBEY [HAFTA \u0130\u00c7\u0130 VE CUMARTES\u0130]": [
                 "06:25",
@@ -1356,6 +1806,42 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=571"
     },
     "6/K1": {
+        "backward": null,
+        "forward": [
+            "\u00c7ALI CUMHUR\u0130YET MEYDANI",
+            "\u00d6MER B\u0130LTEK\u0130N BULVARI",
+            "AHISKA CAD.",
+            "BE\u015eEVLER CAD.",
+            "KONAK CAD.",
+            "M\u0130HRAPLI CAD.",
+            "D\u0130KKALDIRIM CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "ARMUTLU MEYDANI",
+            "\u00c7EK\u0130RGE CAD.",
+            "ALTIPARMAK CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUYOL",
+            "KENT MEYDANI",
+            "\u0130LK BAHAR CAD.",
+            "DARMSTAD CAD.",
+            "STADYUM CAD",
+            "\u00c7EK\u0130RGE CAD.",
+            "ARMUTLU MEYDANI",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "\u00c7EK\u0130RGE DEVLET HST.ALTI",
+            "D\u0130KKALDIRIM CAD.",
+            "M\u0130HRAPLI CAD.",
+            "KONAK CAD.",
+            "BE\u015eEVLER CAD.",
+            "AHISKA CAD.",
+            "\u00d6MER B\u0130LTEK\u0130N BULVARI",
+            "BURSA CAD.",
+            "\u00c7ALI CUMHUR\u0130YET MEYDANI"
+        ],
         "hours": {
             "\u00c7ALI MERKEZ": [
                 "06:40",
@@ -1378,6 +1864,13 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=573"
     },
     "7/A": {
+        "backward": null,
+        "forward": [
+            "KARSAN",
+            "AK\u00c7ALAR",
+            "\u0130ZM\u0130R YOLU",
+            "K.SANAY\u0130 \u0130ST."
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 [AK\u00c7ALAR]": [
                 "06:30",
@@ -1543,6 +2036,64 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=470"
     },
     "8/L": {
+        "backward": null,
+        "forward": [
+            "EMEK",
+            "TURGUT \u00d6ZAL CAD.",
+            "OKUL CAD.",
+            "OSMANA\u011eA CAD.",
+            "BA\u011eLAR CAD.",
+            "HAK\u0130M\u0130YET CAD.",
+            "ARMA\u011eAN CAD.",
+            "H\u0130SAR CAD.",
+            "HALAY CAD.",
+            "HANCI CAD.",
+            "HAYAT CAD.",
+            "HANCI CAD.",
+            "KAVAKLI CAD.",
+            "VATAN CAD.",
+            "OKUL CAD.",
+            "ADALET CAD.",
+            "YE\u015e\u0130LOVA CAD.",
+            "H\u00dcRR\u0130YET CAD.",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "ACEMLER",
+            "OULU CAD.",
+            "MUDANYA CAD.",
+            "YEN\u0130 KAPLICA CAD.",
+            "ESK\u0130 MUDAYA YOLU CAD.",
+            "MUDANYA CAD.",
+            "STADYUM CAD.",
+            "ALTIPARMAK CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CAD.",
+            "ALTIPARMAK CAD.",
+            "STADYUM CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUBATLI HASAN BULVARI",
+            "MUDANYA CAD.",
+            "SO\u011eUKKUYU CAD.",
+            "H\u00dcRR\u0130YET CAD.",
+            "\u0130ST\u0130KLAL CAD.",
+            "\u015e\u0130R\u0130N CAD.",
+            "ADALET CAD.",
+            "OKUL CAD.",
+            "VATAN CAD.",
+            "KAVAKLI CAD.",
+            "HAYAT CAD.",
+            "HANCI CAD.",
+            "HALAY CAD.",
+            "H\u0130SAR CAD.",
+            "ARMA\u011eAN CAD.",
+            "HAK\u0130M\u0130YET CAD.",
+            "BA\u011eLAR CAD.",
+            "OSMANA\u011eA CAD.",
+            "OKUL CAD.",
+            "TURGUT \u00d6ZAL CAD.",
+            "EMEK"
+        ],
         "hours": {
             "EMEK [HAFTA \u0130\u00c7\u0130]": [
                 "06:20",
@@ -1907,6 +2458,60 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=575"
     },
     "9/D": {
+        "backward": null,
+        "forward": [
+            "ATAEVLER SEMT DANI\u015eMA MERKEZ\u0130",
+            "EMEK CAD.",
+            "ATA CAD.",
+            "EMEK CAD.",
+            "N\u0130L\u00dcFER HATUN CAD.",
+            "GAZ\u0130 CAD.",
+            "N\u0130L\u00dcFER HATUN CAD.",
+            "M\u0130LL\u0130 P\u0130YANGO ANADOLU L\u0130SES\u0130",
+            "TUNA CAD.",
+            "\u0130SMET\u0130YE CAD.",
+            "N\u0130L\u00dcFER T\u0130CARET L\u0130SES\u0130",
+            "EMN\u0130YET CAD.",
+            "N\u0130L\u00dcFER KAYMAKAMLI\u011eI",
+            "AHMET VEF\u0130K PA\u015eA CAD.",
+            "OKUL CAD.",
+            "DEM\u0130RC\u0130 CAD.",
+            "KARAMAN CAD.",
+            "SANAY\u0130 CAD.",
+            "MUDANYA CAD.",
+            "YEN\u0130 KAPLICA CAD.",
+            "ESK\u0130 MUDAYA YOLU CAD.",
+            "MUDANYA CAD.",
+            "STADYUM CAD.",
+            "ALTIPARMAK CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CAD.",
+            "ALTIPARMAK CAD.",
+            "STADYUM CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUBATLI HASAN BULVARI",
+            "MUDANYA CAD.",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "KEREM CAD.",
+            "K\u00dcLT\u00dcR CAD.",
+            "DEM\u0130RC\u0130 CAD.",
+            "OKUL CAD.",
+            "AHMET VEF\u0130K PA\u015eA CAD.",
+            "N\u0130L\u00dcFER KAYMAKAMLI\u011eI",
+            "EMN\u0130YET CAD.",
+            "\u0130SMET\u0130YE CAD.",
+            "TUNA CAD.",
+            "N\u0130L\u00dcFER HATUN CAD.",
+            "M\u0130LL\u0130 P\u0130YANGO ANADOLU L\u0130SES\u0130",
+            "GAZ\u0130 CAD.",
+            "N\u0130L\u00dcFER HATUN CAD.",
+            "EMEK CAD.",
+            "ATA CAD.",
+            "EMEK CAD.",
+            "ATAEVLER SEMT DANI\u015eMA MERKEZ\u0130"
+        ],
         "hours": {
             "ATAEVLER [HAFTA \u0130\u00c7\u0130]": [
                 "06:30",
@@ -2229,6 +2834,43 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=576"
     },
     "9/PA": {
+        "backward": [
+            "KELEBEK SK",
+            "ULU CD",
+            "KIRLANGI\u00c7 SK",
+            "FER\u0130DE SK",
+            "UNDA SK",
+            "FAT\u0130H SULTAN MEHMET BLV",
+            "TUNA CD",
+            "OKUL CD",
+            "\u015eHT. JAN. AST. ZEK\u0130 BURAK OKAY CD",
+            "KEMER CD",
+            "KARAMAN CD",
+            "K\u00dcLT\u00dcR CD",
+            "\u0130ZM\u0130R BLV",
+            "ACEMLER STASYONU",
+            "Z\u00dcBEYDE HANIM CD",
+            "K\u00dcK\u00dcRTL\u00dc CD",
+            "HAMZABEY CD",
+            "KAPLICA CD",
+            "HASTA YURDU CD",
+            "2. OSMAN GAZ\u0130 CD",
+            "ATAT\u00dcRK CD"
+        ],
+        "forward": [
+            "MEHTAP SK",
+            "MUZ SK",
+            "1. FIRIN SK",
+            "FOSFOR SK",
+            "I\u015eIKTEPE CD",
+            "ATA CD",
+            "SAH\u0130L SK",
+            "EMEK CD",
+            "I\u015eIKTEPE CD",
+            "A\u011eALAR SK",
+            "TURAN SK",
+            "\u00c7ORUH SK"
+        ],
         "hours": {
             "I\u015eIKTEPE": [
                 "07:00",
@@ -2252,6 +2894,43 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=578"
     },
     "14/L": {
+        "backward": null,
+        "forward": [
+            "\u00c7A\u011eRI\u015eAN",
+            "MUDANYA CAD.",
+            "SANAY\u0130 CAD.",
+            "GE\u00c7\u0130T",
+            "BESA\u015e KAV\u015eA\u011eI",
+            "ORGAN\u0130ZE SANAY\u0130 \u0130ST.",
+            "ESENTEPE KAV\u015eA\u011eI",
+            "H\u00dcRR\u0130YET 1.CAD.",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "ACEMLER K\u00d6PR\u00dcL\u00dc KAV\u015eA\u011eI",
+            "OULU CAD.",
+            "MUDANYA YOLU CAD.",
+            "YEN\u0130 KAPLICA CAD.",
+            "ESK\u0130 MUDANYA YOLU CAD.",
+            "MUDANYA CAD.",
+            "STADYUM CAD.",
+            "ALTIPARMAK CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUYOL",
+            "KENT MEYDANI",
+            "ULUBATLI HASAN BULVARI",
+            "MUDANYA YOLU CAD.",
+            "SO\u011eUKKUYU CAD.",
+            "H\u00dcRR\u0130YET 1.CAD.",
+            "ESENTEPE KAV\u015eA\u011eI",
+            "SANAY\u0130 CAD.",
+            "ORGAN\u0130ZE SANAY\u0130 \u0130ST.",
+            "SANAY\u0130 CAD.",
+            "GE\u00c7\u0130T",
+            "MUDANYA CAD.",
+            "\u00c7A\u011eRI\u015eAN"
+        ],
         "hours": {
             "\u00c7A\u011eRI\u015eAN": [
                 "07:15",
@@ -2273,6 +2952,52 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=553"
     },
     "14/L2": {
+        "backward": [
+            "ATAT\u00dcRK CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "KENT MEYDANI",
+            "ULUBATLI HASAN BULVARI",
+            "MUDANYA YOLU CAD.",
+            "SO\u011eUKKUYU CAD.",
+            "H\u00dcRR\u0130YET CAD.",
+            "ESENTEPE KAV\u015eA\u011eI",
+            "SANAY\u0130 CAD.",
+            "ORGAN\u0130ZE SANAY\u0130 \u0130STASYONU",
+            "SANAY\u0130 CAD.",
+            "GE\u00c7\u0130T",
+            "MUDANYA YOLU CAD.",
+            "N\u0130L\u00dcFER K\u00d6Y KAV\u015eA\u011eI",
+            "KOLEJ CAD.",
+            "\u00d6ZERLER CAD.",
+            "BARBAROS CAD.",
+            "N\u0130L\u00dcFER K\u00d6Y CAM\u0130\u0130"
+        ],
+        "forward": [
+            "N\u0130L\u00dcFER K\u00d6Y CAM\u0130\u0130",
+            "BARBAROS CAD.",
+            "\u00d6ZERLER CAD.",
+            "KOLEJ CAD.",
+            "N\u0130L\u00dcFER K\u00d6Y KAV\u015eA\u011eI",
+            "MUDANYA YOLU CAD.",
+            "SANAY\u0130 CAD.",
+            "GE\u00c7\u0130T",
+            "ORGAN\u0130ZE SANAY\u0130 KAV\u015eA\u011eI",
+            "ORGAN\u0130ZE SANAY\u0130 \u0130STASYONU",
+            "ESENTEPE KAV\u015eA\u011eI",
+            "H\u00dcRR\u0130YET CAD.",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "ACEMLER KAV\u015eA\u011eI",
+            "OULU CAD.",
+            "MUDANYA YOLU CAD.",
+            "YEN\u0130 KAPLICA CAD.",
+            "ESK\u0130 MUDANYA YOLU CAD.",
+            "MUDANYA YOLU CAD.",
+            "STADYUM CAD.",
+            "ALTIPARMAK CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CAD."
+        ],
         "hours": {
             "T\u00dcM HAFTA [N\u0130L\u00dcFER K\u00d6Y CAM\u0130\u0130]": [
                 "07:00",
@@ -2296,6 +3021,50 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=554"
     },
     "14/N": {
+        "backward": null,
+        "forward": [
+            "AKSUNGUR",
+            "N\u0130L\u00dcFER CAD.",
+            "N\u0130L\u00dcFER K\u00d6Y",
+            "N\u0130L\u00dcFER CAD.",
+            "N\u0130L\u00dcFER K\u00d6Y SAPA\u011eI",
+            "MUDANYA YOLU",
+            "SANAY\u0130 CAD.",
+            "GE\u00c7\u0130T",
+            "BESA\u015e KAV\u015eA\u011eI",
+            "ORGAN\u0130ZE SANAY\u0130 \u0130ST.",
+            "ESENTEPE KAV\u015eA\u011eI",
+            "H\u00dcRR\u0130YET 1.CAD.",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "ACEMLER K\u00d6PR\u00dcL\u00dc KAV\u015eA\u011eI",
+            "OULU CAD.",
+            "MUDANYA YOLU CAD.",
+            "YEN\u0130 KAPLICA CAD.",
+            "ESK\u0130 MUDANYA YOLU CAD.",
+            "MUDANYA CAD.",
+            "STADYUM CAD.",
+            "ALTIPARMAK CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUYOL",
+            "KENT MEYDANI",
+            "ULUBATLI HASAN BULVARI",
+            "MUDANYA YOLU CAD.",
+            "SO\u011eUKKUYU CAD.",
+            "H\u00dcRR\u0130YET 1.CAD.",
+            "ESENTEPE KAV\u015eA\u011eI",
+            "SANAY\u0130 CAD.",
+            "ORGAN\u0130ZE SANAY\u0130 \u0130ST.",
+            "SANAY\u0130 CAD.",
+            "GE\u00c7\u0130T",
+            "MUDANYA YOLU",
+            "N\u0130L\u00dcFER K\u00d6Y SAPA\u011eI",
+            "N\u0130L\u00dcFER CAD.N\u0130L\u00dcFER K\u00d6Y",
+            "N\u0130L\u00dcFER CAD.",
+            "AKSUNGUR"
+        ],
         "hours": {
             "T\u00dcM HAFTA [AKSUNGUR]": [
                 "06:30",
@@ -2319,6 +3088,87 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=555"
     },
     "15": {
+        "backward": [
+            "BURSA DEVLET HAST.",
+            "ASKER CAD.",
+            "TOPHANE",
+            "OSMANGAZ\u0130 CAD.",
+            "ATAT\u00dcRK CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CAD.",
+            "ALTIPARMAK CAD.",
+            "STADYUM CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUBATLI HASAN BULVARI",
+            "MER\u0130NOS CAD.",
+            "GAZ\u0130 AKDEM\u0130R CAD.",
+            "DR.SADIK AHMET CAD.",
+            "SO\u011eANLI",
+            "N\u0130L\u00dcFER 1.CAD.",
+            "S\u00dcTER CAD.",
+            "HACI BAYRAM CAD.",
+            "BAH\u00c7EL\u0130 SK.",
+            "SEV\u0130ML\u0130 SK.",
+            "N\u0130L\u00dcFER 1.CAD.",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "BOTAN\u0130K PARKI",
+            "N\u0130L\u00dcFER 1.CAD.",
+            "\u00c7A\u011e SK.",
+            "AYOK 1.CAD.",
+            "\u00c7UKURCA",
+            "AYOK 1.CAD.",
+            "SU KAYA\u011eI TES\u0130SLER\u0130",
+            "\u00c7UKURCA YOLU CAD.",
+            "TRAFO CAD.",
+            "MEHMET AK\u0130F MAH.",
+            "MUTLULAR CAD.",
+            "\u00c7ELT\u0130K",
+            "YEN\u0130YOL",
+            "YEN\u0130CEABAT CAD.",
+            "YEN\u0130CEABAT",
+            "YE\u015e\u0130LYURT 1.SK.",
+            "YUNUSEL\u0130 CAD.",
+            "ARMUTK\u00d6Y"
+        ],
+        "forward": [
+            "ARMUTK\u00d6Y",
+            "YUNUSEL\u0130 CAD.",
+            "YE\u015e\u0130LYURT 1.SK",
+            "YEN\u0130CEABAT",
+            "YEN\u0130CEABAT CAD.",
+            "YEN\u0130YOL",
+            "\u00c7ELT\u0130K",
+            "MUTLULAR CAD.",
+            "MEHMET AK\u0130F MAH.",
+            "TRAFO CAD.",
+            "\u00c7UKURCA YOLU CAD.",
+            "SU KAYA\u011eI TES\u0130SLER\u0130",
+            "AYOK 1.CAD.",
+            "\u00c7UKURCA",
+            "AYOK 1.CAD.",
+            "\u00c7A\u011e SK.",
+            "N\u0130L\u00dcFER 1.CAD.",
+            "BOTAN\u0130K PARKI",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "N\u0130L\u00dcFER 1.CAD.",
+            "SEV\u0130ML\u0130 SK.",
+            "BAH\u00c7EL\u0130 SK.",
+            "HACI BAYRAM CAD.",
+            "S\u00dcTER CAD.",
+            "N\u0130L\u00dcFER 1.CAD.",
+            "SO\u011eANLI",
+            "DR.SADIK AHMET CAD.",
+            "GAZ\u0130 AKDEM\u0130R CAD.",
+            "MER\u0130NOS CAD.",
+            "MUDANYA CAD.",
+            "STADYUM CAD.",
+            "ALTIPARMAK CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "OSMANGAZ\u0130 CAD.",
+            "TOPHANE",
+            "ASKER CAD.",
+            "BURSA DEVLET HAST."
+        ],
         "hours": {
             "ARMUTK\u00d6Y [HAFTA \u0130\u00c7\u0130 - CUMARTES\u0130]": [
                 "06:30",
@@ -2370,6 +3220,60 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=484"
     },
     "15/A": {
+        "backward": [
+            "TEFERR\u00dc\u00c7",
+            "MENEK\u015eE CAD.",
+            "TELEFER\u0130K CAD.",
+            "I\u015eIKLAR CAD.",
+            "\u00c7ELEB\u0130 MEHMET CAD.",
+            "YE\u015e\u0130L CAD.",
+            "SETBA\u015eI",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUYOL",
+            "KENT MEYDANI",
+            "ULUBATLI HASAN BULV.",
+            "\u00c7E\u015eME SK.",
+            "DR.SADIK AHMET CAD.",
+            "KANAL CAD.",
+            "\u00c7\u0130R\u0130\u015eHANE CAD.",
+            "YILDIRIM SK.",
+            "TOPAL SK.",
+            "TANER SK.",
+            "S\u00dcTER CAD.",
+            "N\u0130L\u00dcFER CAD.",
+            "ORMANLAR YOLU CAD.",
+            "ULUYOL SK.",
+            "ULU SK.",
+            "AKARSU SK",
+            "KI\u015eLA SK.",
+            "ALEMDAR"
+        ],
+        "forward": [
+            "ALEMDAR",
+            "KI\u015eLA SK.",
+            "AKARSU SK.",
+            "ULU SK.",
+            "ULUYOL SK.",
+            "ORMANLARYOLU CAD.",
+            "N\u0130L\u00dcFER CAD.",
+            "SUYOLU CAD.",
+            "YEN\u0130 SK.",
+            "\u00c7\u0130R\u0130\u015eHANE CAD.",
+            "KANAL CAD.",
+            "GAZ\u0130AKDEM\u0130R CAD.",
+            "DR.SADIK AHMET CAD.",
+            "GEN\u00c7OSMAN PTT.",
+            "KENT MEYDANI",
+            "FEVZ\u0130 \u00c7AKMAK CAD.",
+            "T\u0130MURTA\u015e PA\u015eA.",
+            "ATAT\u00dcRK CAD.",
+            "SETBA\u015eI",
+            "NAMAZGAH CAD.",
+            "I\u015eIKLAR CAD.",
+            "TELEFER\u0130K CAD.",
+            "MENEK\u015eE CAD.TEFERR\u00dc\u00c7."
+        ],
         "hours": {
             "ALEMDAR [HAFTA \u0130\u00c7\u0130 VE CUMARTES\u0130]": [
                 "06:45",
@@ -2557,6 +3461,54 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=485"
     },
     "15/B": {
+        "backward": null,
+        "forward": [
+            "ME\u015eEL\u0130 CAM\u0130",
+            "ME\u015eEL\u0130 CAD.",
+            "\u00d6ZCAN CAD.",
+            "\u00c7\u0130R\u0130\u015eHANE CAD 1.CAD.",
+            "ET\u0130BANK CAD.",
+            "DR.SADIK AHMET CAD.",
+            "GEN\u00c7 OSMAN PTT",
+            "KENT MEYDANI",
+            "FEVZ\u0130 \u00c7AKMAK CAD.",
+            "\u015eEHREK\u00dcST\u00dc",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CAD.",
+            "SETBA\u015eI",
+            "NAMAZGAH CAD.",
+            "I\u015eIKLAR CAD.",
+            "TELEFER\u0130K CAD.",
+            "MENEK\u015eE CAD.",
+            "TEFERR\u00dc\u00c7",
+            "PARK SK.",
+            "ULUDA\u011e CAD.",
+            "DEM\u0130RTA\u015e SK.",
+            "\u0130\u015eG\u0130R \u0130LK \u00d6\u011eRET\u0130M OKULU  \u0130\u015eG\u0130R \u0130LK \u00d6\u011eRET\u0130M OKULU",
+            "DEM\u0130RTA\u015e SK.",
+            "ULUDA\u011e CAD.",
+            "PARK SK.",
+            "TEFERR\u00dc\u00c7",
+            "MENEK\u015eE CAD.",
+            "TELEFER\u0130K CAD.",
+            "I\u015eIKLAR CAD.",
+            "\u00c7ELEB\u0130 MEHMET CAD.",
+            "YE\u015e\u0130L CAD.",
+            "SETBA\u015eI",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CAD.",
+            "\u015eEHREK\u00dcST\u00dc",
+            "FEVZ\u0130 \u00c7AKMAK CAD.",
+            "KENT MEYDANI",
+            "ULUBATLI HASAN BULVARI",
+            "\u00c7E\u015eME SK.",
+            "DR.SADIK AHMET CAD.",
+            "ET\u0130BANK CAD.",
+            "\u00c7\u0130R\u0130\u015eHANE 1.CAD.",
+            "\u00d6ZCAN CAD.",
+            "ME\u015eEL\u0130 CAD.",
+            "ME\u015eEL\u0130 CAM\u0130"
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 VE CUMARTES\u0130 [ME\u015eEL\u0130 CAM\u0130\u0130]": [
                 "06:50",
@@ -2624,6 +3576,28 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=486"
     },
     "15/D": {
+        "backward": null,
+        "forward": [
+            "ALEMDAR",
+            "SO\u011eANLI",
+            "MER\u0130NOS",
+            "ALTIPARMAK CD.",
+            "DEVLET HASTANES\u0130.  DEVLET HASTANES\u0130",
+            "ATAT\u00dcRK CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CAD.",
+            "ALTIPARMAK CAD.",
+            "STADYUM CAD.",
+            "ULUBATLI HASAN BULV.",
+            "MER\u0130NOS CAD.",
+            "GAZ\u0130AKDEM\u0130R CAD.",
+            "SO\u011eANLI",
+            "N\u0130L\u00dcFER CAD.",
+            "ORMANLAR YOLU CAD.",
+            "ULUYOL SK.",
+            "ULU SK.",
+            "ALEMDAR."
+        ],
         "hours": {
             "ALEMDAR": [
                 "07:15",
@@ -2643,6 +3617,38 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=487"
     },
     "16/A": {
+        "backward": null,
+        "forward": [
+            "K\u00dc\u00c7\u00dcK BALIKLI SANAY\u0130",
+            "\u015eANLI CAD.",
+            "K\u00dcT\u00dcK SK.",
+            "UFUK SK.",
+            "K\u00dc\u00c7\u00dcK BALIKLI CAD.",
+            "K\u00d6\u015eK CAD.",
+            "ESK\u0130 YALOVA YOLU",
+            "\u0130N\u00d6N\u00dc CAD.KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUYOL",
+            "KENT MEYDANI",
+            "FEVZ\u0130 \u00c7AKMAK CAD.",
+            "\u015eEHREK\u00dcST\u00dc",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "OSMANGAZ\u0130 CAD.",
+            "TOPHANE",
+            "ASKER CAD.",
+            "BURSA DEVLET HAST.  BURSA DEVLET HAST.",
+            "ASKER CAD.",
+            "TOPHANE",
+            "OSMANGAZ\u0130 CAD.",
+            "ATAT\u00dcRK CAD",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "ESK\u0130 YALOVA YOLU",
+            "K\u00d6\u015eK CAD.",
+            "K\u00dc\u00c7\u00dcK BALIKLI CAD.",
+            "UFUK SK.",
+            "K\u00dcT\u00dcK SK.",
+            "\u015eANLI CAD.",
+            "K\u00dc\u00c7\u00dcK BALIKLI SANAY\u0130"
+        ],
         "hours": {
             "K\u00dc\u00c7\u00dcK BALIKLI SANAY\u0130 [HAFTA \u0130\u00c7\u0130-CUMARTES\u0130]": [
                 "07:10",
@@ -2674,6 +3680,37 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=489"
     },
     "16/\u0130": {
+        "backward": null,
+        "forward": [
+            "K\u00dc\u00c7\u00dcK BALIKLI SANAY\u0130",
+            "\u015eANLI CAD.",
+            "K\u00dcT\u00dcK SK.",
+            "UFUK SK.",
+            "K\u00dc\u00c7\u00dcK BALIKLI CAD.",
+            "K\u00d6\u015eK CAD.",
+            "ESK\u0130 YALOVA YOLU",
+            "\u0130N\u00d6N\u00dc CAD.KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUYOL",
+            "KENT MEYDANI",
+            "FEVZ\u0130 \u00c7AKMAK CAD.",
+            "\u015eEHREK\u00dcST\u00dc",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CAD",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "HA\u015e\u0130M \u0130\u015e\u00c7AN CAD.",
+            "\u015eEHREK\u00dcST\u00dc",
+            "FEVZ\u0130 \u00c7AKMAK CAD.",
+            "KENT MEYDANI",
+            "ANKARA YOLU CAD.",
+            "ESK\u0130 YALOVA YOLU",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "K\u00d6\u015eK CAD.",
+            "K\u00dc\u00c7\u00dcK BALIKLI CAD.",
+            "UFUK SK.",
+            "K\u00dcT\u00dcK SK.",
+            "\u015eANLI CAD.",
+            "K\u00dc\u00c7\u00dcK BALIKLI SANAY\u0130"
+        ],
         "hours": {
             "K\u00dc\u00c7\u00dcK BALIKLI SANAY\u0130 [HAFTA \u0130\u00c7\u0130-CUMARTES\u0130]": [
                 "06:40",
@@ -2755,6 +3792,39 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=412"
     },
     "17/A": {
+        "backward": null,
+        "forward": [
+            "YASEM\u0130N PARK CAM\u0130\u0130 \u2013 4.CD.",
+            "3.CD.",
+            "PANAY\u0130R CD.",
+            "PANAY\u0130R MAH.",
+            "2.DERMAN CD.",
+            "6.SELV\u0130L\u0130 SK.",
+            "4.N\u0130L\u00dcFER CD.",
+            "2.SERDAR SK.",
+            "PANAY\u0130R CD.",
+            "BURSA CD.",
+            "YEN\u0130 YALOVA YOLU CD.",
+            "KENT MEYDANI",
+            "FEVZ\u0130 \u00c7AKMAK CD.",
+            "T.PA\u015eA",
+            "ATAT\u00dcRK CD.",
+            "\u0130N\u00d6N\u00dc CD",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CD.",
+            "KENT MEYDANI",
+            "YEN\u0130 YALOVA YOLU CD.",
+            "BURSA CD.",
+            "PANAY\u0130R MAH.",
+            "PANAY\u0130R CD.",
+            "2.SERDAR SK.",
+            "4.N\u0130L\u00dcFER CD.",
+            "6.SELV\u0130L\u0130 SK.",
+            "2.DERMAN CD.",
+            "PANAY\u0130R CD.",
+            "3.CD.",
+            "4.CD.",
+            "YASEM\u0130N PARK CAM\u0130\u0130"
+        ],
         "hours": {
             "YASEM\u0130N PARK CAM\u0130\u0130 [HAFTA \u0130\u00c7\u0130-CUMARTES\u0130]": [
                 "06:40",
@@ -2816,6 +3886,30 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=524"
     },
     "17/D": {
+        "backward": null,
+        "forward": [
+            "DEM\u0130RTA\u015e",
+            "DEM\u0130RTA\u015e SANAY\u0130",
+            "TERM\u0130NAL",
+            "AS MERKEZ",
+            "BUTT\u0130M",
+            "\u00d6ZD\u0130LEK",
+            "BE\u015eYOL",
+            "KENT MEYDANI",
+            "FEVZ\u0130 \u00c7AKMAK CD.",
+            "ATAT\u00dcRK CD.",
+            "\u0130N\u00d6N\u00dc CD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CD.",
+            "\u015eEHREK\u00dcST\u00dc",
+            "KENT MEYDANI",
+            "BE\u015eYOL",
+            "\u00d6ZD\u0130LEK",
+            "BUTT\u0130M",
+            "AS MERKEZ",
+            "TERM\u0130NAL",
+            "DEM\u0130RTA\u015e SANAY\u0130",
+            "DEM\u0130RTA\u015e"
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130-CUMARTES\u0130 [DEM\u0130RTA\u015e]": [
                 "06:45",
@@ -2929,6 +4023,49 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=491"
     },
     "18/A": {
+        "backward": [
+            "\u00c7EK\u0130RGE DEVLET HAST.",
+            "6. DE\u011e\u0130RMEN SK.",
+            "HAT CD.",
+            "Z\u00dcBEYDE HANIM CD.",
+            "\u00c7EK\u0130RGE CD.",
+            "STADYUM CD.",
+            "MER\u0130NOS KAV\u015eA\u011eI",
+            "ULUBATLI HASAN BULV.",
+            "MER\u0130NOS CD.",
+            "ET\u0130BANK CD.",
+            "DR. SADIK AHMET CD.",
+            "YEN\u0130 YALOVA YOLU CD.",
+            "GEN\u00c7 OSMAN KAV\u015eA\u011eI",
+            "YEN\u0130 YALOVA YOLU CD.",
+            "KEMER\u00c7E\u015eME CD.",
+            "AL\u0130 GAL\u0130P YALDIZ CD.",
+            "4. OKUL CD.",
+            "3. OKUL CD.",
+            "ALTINOVA MAH."
+        ],
+        "forward": [
+            "ALTIOVA MAH.",
+            "3. OKUL CD.",
+            "4. OKUL CD.",
+            "AL\u0130 GAL\u0130P YALDIZ CD.",
+            "KEMER\u00c7E\u015eME CD.",
+            "YEN\u0130 YALOVA YOLU CD.",
+            "DR. SADIK AHMET CD.",
+            "MER\u0130NOS CD.",
+            "STADYUM CD.",
+            "ALTIPARMAK CD.",
+            "T.PA\u015eA",
+            "2. OSMAN GAZ\u0130 CD.",
+            "HASTA YURDU CD.",
+            "KAPLICA CD.",
+            "2. CEM SK",
+            "BE\u015e\u0130K\u00c7\u0130LER CD.",
+            "\u00c7EK\u0130RGE CD.",
+            "1.MURAT CD. ASKER\u0130 HAST. \u2013 1. KANAL CD.",
+            "DOBURCA CD.",
+            "\u00c7EK\u0130RGE DEVLET HAST."
+        ],
         "hours": {
             "HAFTA\u0130\u00c7\u0130 [Alt\u0131nova]": [
                 "06:40",
@@ -3047,6 +4184,31 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=525"
     },
     "18/B": {
+        "backward": [
+            "11 EYL\u00dcL BULVARI",
+            "K\u00dc\u00c7\u00dcK BALIKLI SANAY\u0130",
+            "AL\u0130 GAL\u0130P YALDIZ CAD.",
+            "KEMER\u00c7E\u015eME CAD.",
+            "GAZ\u0130 CAD. 2.Ceviz Sk.",
+            "3.Ceviz Sk.",
+            "VARDAR CAD.",
+            "8.Do\u011fan Sk. \u0130N\u00d6N\u00dc CAD.",
+            "ANKARA YOLU CAD.",
+            "MAHMUD\u0130YE CAD.",
+            "AL\u0130 FERRUH Y\u00dcCEL CAD.",
+            "G\u00d6KDERE BULVARI BEYAZIT CAD.",
+            "KASIM \u00d6NADIM BULVARI",
+            "E\u011e\u0130T\u0130M CAD.",
+            "M\u0130MARS\u0130NAN BULVARI",
+            "EMN\u0130YET CAD.",
+            "MEYVEL\u0130 SK. MERAL SK.",
+            "S\u0130TELER"
+        ],
+        "forward": [
+            "PANAYIR MAH.",
+            "PANAYIR YOLU CAD.",
+            "\u0130N\u00d6N\u00dc CAD."
+        ],
         "hours": {
             "T\u00dcM HAFTA [TERM\u0130NAL]": [
                 "06:30",
@@ -3082,6 +4244,24 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=556"
     },
     "18/\u0130": {
+        "backward": null,
+        "forward": [
+            "ALTINOVA",
+            "BALIKLI",
+            "YE\u015e\u0130LOVA",
+            "K.\u00c7E\u015eME",
+            "K.MEYDANI",
+            "F.\u00c7AKMAK CD.",
+            "T\u0130MURTA\u015e PA\u015eA",
+            "ATAT\u00dcRK CD.",
+            "\u0130N\u00d6N\u00dc CD.",
+            "ULUYOL",
+            "KENT MEYDANI",
+            "KEMER\u00c7E\u015eME",
+            "YE\u015e\u0130LOVA",
+            "BALIKLI",
+            "ALTINOVA"
+        ],
         "hours": {
             "ALTINOVA [HAFTA \u0130\u00c7\u0130]": [
                 "06:40",
@@ -3201,6 +4381,49 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=414"
     },
     "19/A": {
+        "backward": [
+            "DEVLET HAST.",
+            "ASKER CAD.",
+            "TOPHANE",
+            "OSMANGAZ\u0130 CAD.",
+            "ATAT\u00dcRK CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUYOL",
+            "KENT MEYDANI",
+            "YEN\u0130 YALOVA YOLU CAD.",
+            "DR.SADIK AHMET CAD.",
+            "\u00c7INAR CAD.",
+            "H\u00dcRR\u0130YET CAD.",
+            "GAZ\u0130 CAD.",
+            "TEL ALTI",
+            "AL\u0130 GAL\u0130P YALDIZ CAD.",
+            "K\u00dc\u00c7\u00dcK BALIKLI CAM\u0130",
+            "\u015eANLI CAD.",
+            "BALIKLI MEZARLI\u011e",
+            "K\u00dc\u00c7\u00dcK BALIKLI SANAY\u0130"
+        ],
+        "forward": [
+            "K\u00dc\u00c7\u00dcK BALIKLI SANAY\u0130",
+            "\u015eANLI CAD.",
+            "BALIKLI MEZARLI\u011eI",
+            "AL\u0130 GAL\u0130P YALDIZ CAD.",
+            "K\u00dc\u00c7\u00dcK BALIKLI CAM\u0130",
+            "GAZ\u0130 CAD.",
+            "TELALTI",
+            "H\u00dcRR\u0130YET SK",
+            "\u00c7INAR CAD.",
+            "KO\u011eUK\u00c7INAR",
+            "G\u00dcVEN SK.",
+            "ULUBATLI HASAN BULVARI",
+            "KENT MEYDANI",
+            "FEVZ\u0130 \u00c7AKMAK CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "OSMANGAZ\u0130 CAD.",
+            "TOPHANE",
+            "ASKER CAD.",
+            "DEVLET HAST."
+        ],
         "hours": {
             "K\u00dc\u00c7\u00dcK BALIKLI SANAY\u0130 [HAFTA \u0130\u00c7\u0130 VE CUMARTES\u0130]": [
                 "06:35",
@@ -3230,6 +4453,37 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=415"
     },
     "19/B": {
+        "backward": null,
+        "forward": [
+            "\u0130SMET\u0130YE MAH.",
+            "\u0130ST\u0130KLAL SK.",
+            "\u0130LKBAHAR SK.",
+            "\u0130LKBAHAR CAD.",
+            "DEM\u0130RTA\u015e FEN L\u0130SES\u0130",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "PANAYIR YOLU CAD.",
+            "DO\u011eRU SK.",
+            "DUMLUPINAR CAD.",
+            "DEN\u0130Z SK.",
+            "DO\u011eANEVLER CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "ULUYOL",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "KENT MEYDANI",
+            "FEVZ\u0130 \u00c7AKMAK CAD.",
+            "\u015eEHREK\u00dcST\u00dc \u0130ST.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CAD",
+            "\u0130N\u00d6N\u00dc CAD",
+            "DO\u011eANEVLER CAD.",
+            "DEN\u0130Z SK.",
+            "DUMLUPINAR CAD.",
+            "DO\u011eRU SK.",
+            "PANAYIR YOLU CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "\u0130SMET\u0130YE SK.",
+            "\u0130SMET\u0130YE MAH."
+        ],
         "hours": {
             "\u0130SMET\u0130YE [HAFTA \u0130\u00c7\u0130-CUMARTES\u0130]": [
                 "06:40",
@@ -3287,6 +4541,65 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=526"
     },
     "19/C": {
+        "backward": [
+            "\u00c7EK\u0130RGE DEVLET HAT.",
+            "NAZLI CAD.",
+            "BA\u011eLAN CAD.",
+            "ARMUTLU MEYDANI",
+            "\u00c7EK\u0130RGE CAD.",
+            "STADYUM CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUBATLI HASAN BULVARI",
+            "MER\u0130NOS CAD.",
+            "ET\u0130BANK CAD.",
+            "BE\u015eYOL",
+            "YEN\u0130 YALOVA YOLU CAD.",
+            "GEN\u00c7OSMAN PTT",
+            "YEN\u0130 YALOVA YOLU CAD.",
+            "DR.SADIK AHMET CAD.",
+            "\u00c7INAR CAD.",
+            "SEZG\u0130N CAD.",
+            "VARDAR CAD.",
+            "G\u00dcRGEN SK.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "ANKARA YOLU CAD.",
+            "G\u00d6KDERE KAV\u015eA\u011eI",
+            "ZAFER BULVARI",
+            "E\u011e\u0130T\u0130M VAD\u0130S\u0130",
+            "KISMET CAD.",
+            "VATAN CAD.",
+            "M\u0130LLET CAD.",
+            "M\u0130LLET MAH.V\u0130LLALAR"
+        ],
+        "forward": [
+            "M\u0130LLET MAH.V\u0130LLALAR",
+            "M\u0130LLET CAD.",
+            "VATAN CAD.",
+            "KISMET CAD.",
+            "E\u011e\u0130T\u0130M VAD\u0130S\u0130",
+            "VATAN CAD.",
+            "ATICILAR CAD.",
+            "ANADOLU CAD.",
+            "ANKARA YOLU CAD.",
+            "ZAFER BULVARI",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "VARDAR CAD.",
+            "SEZG\u0130N CAD.",
+            "\u00c7INAR CAD.",
+            "DR.SADIK AHMET CAD.",
+            "YEN\u0130 YALOVA YOLU CAD.",
+            "BE\u015eYOL",
+            "ET\u0130BANK CAD.",
+            "MER\u0130NOS CAD.",
+            "MUDANYA CAD.",
+            "STADYUM CAD.",
+            "\u00c7EK\u0130RGE CAD",
+            "ARMUTLU MEYDANI.",
+            "1.MURAT CAD.",
+            "KANAL CAD.",
+            "NAZLI CAD.",
+            "\u00c7EK\u0130RGE DEVLET HAST."
+        ],
         "hours": {
             "M\u0130LLET MAH. [HAFTA \u0130\u00c7\u0130-CUMARTES\u0130]": [
                 "06:40",
@@ -3387,6 +4700,59 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=527"
     },
     "19/D": {
+        "backward": [
+            "\u00c7EK\u0130RGE D. HASTANES\u0130",
+            "HASTANE YOKU\u015eU CAD.",
+            "DE\u011e\u0130RMEN SK.",
+            "HAT CAD.",
+            "DO\u011eUMEV\u0130",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "KELEBEK SK.",
+            "OULU CAD.",
+            "SIRAME\u015eELER",
+            "YEN\u0130 KAPLICA CAD.",
+            "MER\u0130NOS KAV\u015eA\u011eI",
+            "MER\u0130NOS CAD.",
+            "GAZ\u0130 AKDEM\u0130R CAD.",
+            "DR.SADIK AHMET CAD.",
+            "N\u0130L\u00dcFER 1.CAD.",
+            "SUYOLU CAD.",
+            "YED\u0130YOL",
+            "YEN\u0130 SK.",
+            "\u00c7\u0130R\u0130\u015eANE 2.CAD.",
+            "KANAL 2.CAD",
+            "AKKU\u015e SK.",
+            "MERT SK.",
+            "G\u00dc\u00c7L\u00dc CAD.",
+            "ADALET 2.CAD.",
+            "ET\u0130BANK CAD.",
+            "FERTUR OKULU."
+        ],
+        "forward": [
+            "FERTUR OKULU",
+            "ETBANK CAD.",
+            "ADALET 2.CAD",
+            "G\u00dc\u00c7L\u00dc CAD.",
+            "MERT SK.",
+            "\u00c7AMLIK SK.",
+            "ALP SK.",
+            "\u00c7AMLIK 1.SK",
+            "KANAL 2.CAD",
+            "\u00c7\u0130R\u0130\u015eAHENE 2.CAD.",
+            "YEN\u0130 SK.",
+            "YED\u0130YOL",
+            "SUYOLU CAD.",
+            "N\u0130L\u00dcFER 1.CAD.",
+            "ORMANLAR YOLU 1.CAD.",
+            "\u00c7ATAL SK.",
+            "EREN SK.",
+            "KANARYA SK.",
+            "MUDANYA CAD.",
+            "ACEMLER K\u00d6PR\u00dcL\u00dc KAV\u015e.",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "1.MURAT CAD. H\u00dcSN\u00dcG\u00dcZEL",
+            "\u00c7EK\u0130RGE D. HASTANES\u0130"
+        ],
         "hours": {
             "FERTUR \u0130.\u00d6. OKULU [HAFTA \u0130\u00c7\u0130]": [
                 "06:40",
@@ -3542,6 +4908,17 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=528"
     },
     "19/E": {
+        "backward": [
+            "VEYSEL KARAN\u0130 \u0130N\u00d6N\u00dc CAD.",
+            "NAZLI 2.SK.",
+            "G\u00dcLER SK."
+        ],
+        "forward": [
+            "\u015eANLI CAD.",
+            "K\u00dcT\u00dcK SK.",
+            "UFUK SK.",
+            "K\u00d6PR\u00dc BA\u015eI CAD."
+        ],
         "hours": {
             "AFET KORD\u0130NASYON MERKEZ\u0130 [HAFTA \u0130\u00c7\u0130]": [
                 "06:40",
@@ -3596,6 +4973,25 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=492"
     },
     "19/\u0130": {
+        "backward": null,
+        "forward": [
+            "BA\u015eARAN \u0130LK\u00d6\u011eRET\u0130M OKULU",
+            "ENDER CD.",
+            "TEL ALTI",
+            "G\u00dcLBAH\u00c7E",
+            "K.SARIAYDIN \u0130LK\u00d6\u011eRET\u0130M OKULU",
+            "KO\u011eUK\u00c7INAR",
+            "KENT MEYDANI",
+            "FEVZ\u0130 \u00c7AKMAK CD.",
+            "T\u0130MURTA\u015e PA\u015eA",
+            "ATAT\u00dcRK CD.",
+            "\u0130N\u00d6N\u00dc CD.",
+            "ULUYOL",
+            "KENT MEYDANI",
+            "KO\u011eUK\u00c7INAR",
+            "BAHAR MAH.",
+            "BA\u015eARAN \u0130LK\u00d6\u011eRET\u0130M OKULU"
+        ],
         "hours": {
             "BA\u015eARAN \u0130LK\u00d6\u011eRET\u0130M OKULU [HAFTA \u0130\u00c7\u0130-CUMARTES\u0130]": [
                 "06:30",
@@ -3776,6 +5172,47 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=416"
     },
     "20": {
+        "backward": [
+            "HASTA YURDU CD.",
+            "2. OSMAN GAZ\u0130 CD.",
+            "ATAT\u00dcRK CD.",
+            "\u0130N\u00d6N\u00dc CD.",
+            "ANKARA YOLU CD.",
+            "MAHMUD\u0130YE CD.",
+            "ZAFER BULV.",
+            "409. SK.",
+            "E\u011e\u0130T\u0130M VAD\u0130S\u0130",
+            "KISMET CD.",
+            "K\u00dcLHAN SK.",
+            "DERYA CD.",
+            "CENG\u0130ZHAN CD.",
+            "VATAN CD.",
+            "M\u0130LLET CD.",
+            "1. MARMARA SK M\u0130LLET MAH."
+        ],
+        "forward": [
+            "M\u0130LLET MAH.",
+            "1. MARMARA SK.",
+            "YILDIRIM SK.",
+            "M\u0130LLET CD.",
+            "VATAN CD.",
+            "CENG\u0130ZHAN CD.",
+            "DERYA CD.",
+            "K\u00dcLHAN SK.",
+            "KISMET CD.",
+            "E\u011e\u0130T\u0130M VAD\u0130S\u0130",
+            "409. SK.",
+            "ZAFER BULV.",
+            "NAMIK KEMAL CD.",
+            "SO\u011eUK HAVA SK.",
+            "9. GONCA SK.",
+            "ANKARA YOLU CD.",
+            "ULUBATLI HASAN BULV.",
+            "KENT MEYDANI",
+            "FEVZ\u0130 \u00c7AKMAK CD.",
+            "CEMAL NAD\u0130R CD. T\u0130MURTA\u015ePA\u015eA",
+            "OSMAN GAZ\u0130 CD. HASTA YURDU CD. BURSA DEVLET HAST."
+        ],
         "hours": {
             "M\u0130LLET MAH. [HAFTA \u0130\u00c7\u0130-CUMARTES\u0130]": [
                 "06:40",
@@ -3886,6 +5323,28 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=529"
     },
     "20/A": {
+        "backward": [
+            "M\u0130LLET MAH.",
+            "V\u0130LLALAR",
+            "MARMARA SK.",
+            "YILDIRIM 6.SK.",
+            "M\u0130LLET CAD.",
+            "VATAN 2.CAD.",
+            "ATICILAR CAD. ANADOLU CAD.",
+            "ANKARA YOLU CAD.",
+            "ZAFER BULVARI",
+            "G\u00d6KDERE KAV\u015eA\u011eI",
+            "AL\u0130 FERRUH Y\u00dcCEL CAD.",
+            "KEMAL BENG\u00dc CAD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "OSMANGAZ\u0130 CAD. BURSA DEVLET HASTANES\u0130"
+        ],
+        "forward": [
+            "M\u0130LLET MAH.",
+            "V\u0130LLALAR",
+            "BURSA DEVLET HASTANES\u0130"
+        ],
         "hours": {
             "M\u0130LLET MAH. [HAFTA \u0130\u00c7\u0130-CUMRTES\u0130]": [
                 "06:40",
@@ -4024,6 +5483,8 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=530"
     },
     "21": {
+        "backward": null,
+        "forward": null,
         "hours": {
             "SAMANLI [HAFTA \u0130\u00c7\u0130-CUMRTES\u0130]": [
                 "06:50",
@@ -4076,6 +5537,45 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=531"
     },
     "21/B": {
+        "backward": null,
+        "forward": [
+            "VATAN CD.",
+            "2.YAREN SK.",
+            "YE\u015e\u0130L\u0130NC\u0130LER CD.",
+            "KAZIM KARABEK\u0130R MAH.",
+            "KARAK\u00d6Y SK.",
+            "KAZIM KARABEK\u0130R CD.",
+            "1. KAYNAK SK",
+            "2. KERVAN SK",
+            "KAZIMKARA BEK\u0130R MUHTARLIK \u00d6N\u00dc",
+            "2. KERVAN SK \u2013 1. KUYULU SK.",
+            "KAZIM KARABEK\u0130R CD \u2013 KARTAL SK.",
+            "ELMALI SK.",
+            "V\u0130\u015eNE CD.",
+            "ATICILAR CD.",
+            "ANADOLU CD.",
+            "ANKARA YOLU CD.",
+            "ULUBATLI HASAN BULV.",
+            "KENT MEYDANI",
+            "DARMSTAD CD.",
+            "STADYUM CD.",
+            "ALTIPARMAK CD.",
+            "CEMAL NAD\u0130R CD. T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CD.",
+            "\u0130N\u00d6N\u00dc CD.",
+            "KEMAL BENG\u00dc CD.",
+            "KURTULU\u015e CD.",
+            "ANKARA YOLU CD.",
+            "Y\u00dcCE SK.",
+            "1. VATAN CD.",
+            "KARLIDA\u011e CD.",
+            "UZUN CD.",
+            "1.ELMALI SK.",
+            "V\u0130\u015eNE CD.",
+            "ELMALI SK.",
+            "KARTAL SK.",
+            "K.KARABEK\u0130R CADDES\u0130NDEN \u0130T\u0130BAREN AYNI ."
+        ],
         "hours": {
             "KAZIMKARABEK\u0130R [HAFTA \u0130\u00c7\u0130-CUMARTES\u0130]": [
                 "06:50",
@@ -4126,6 +5626,45 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=533"
     },
     "21/C": {
+        "backward": [
+            "DEVLET HASTANES\u0130",
+            "OSMANGAZ\u0130 CD.",
+            "ATAT\u00dcRK CD.",
+            "\u0130N\u00d6N\u00dc CAD",
+            "KEMAL BENG\u00dc CD.",
+            "G\u00d6KDERE",
+            "KURTULU\u015e CD.",
+            "ANKARA YOLU CD.",
+            "\u0130HT\u0130SAS KAV\u015eA\u011eI",
+            "11.EYL\u00dcL BULVARI",
+            "YEN\u0130YOL CD.",
+            "YE\u015e\u0130L CAM\u0130 CD.",
+            "HASTANE CD.",
+            "SUDEPOSU CD.",
+            "\u00d6ZD\u0130LEK CD.",
+            "YATIR SK.",
+            "YAHYA SK.",
+            "MEVLANA MH. YAVER SK."
+        ],
+        "forward": [
+            "MEVLANA MAH.",
+            "YAHYA SK.",
+            "YATIR SK.",
+            "\u00d6ZD\u0130LEK CD.",
+            "SUDEPOSU CD.",
+            "HASTANE CD.",
+            "YE\u015e\u0130L CAM\u0130 CD.",
+            "SUDEPOSU CD.",
+            "11 EYL\u00dcL BULVARI",
+            "\u0130HT\u0130SAS KAV\u015e.",
+            "ANKARA YOLU CD.",
+            "ULUBATLI HASAN BULVARI.",
+            "KENT MEYDANI",
+            "FEVZ\u0130 \u00c7AKMAK CD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "OSMANGAZ\u0130 CD.",
+            "DEVLET HAST."
+        ],
         "hours": {
             "MEVLANA MAHALLES\u0130 [HAFTA \u0130\u00c7\u0130-CUMARTES\u0130]": [
                 "06:40",
@@ -4229,6 +5768,30 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=534"
     },
     "22": {
+        "backward": null,
+        "forward": [
+            "HAMAMLI KIZIK",
+            "HAMAMLI KIZIK CD.",
+            "CUMALI KIZIK",
+            "4. PINAR SK",
+            "CUMALIKIZIK CD.",
+            "ANKARA YOLU CD.",
+            "G\u00dcRSU KAV\u015eA\u011eI",
+            "ANKARA YOLU CD.",
+            "ULUBATLI HASAN BULV.",
+            "KENT MEYDANI",
+            "FEVZ\u0130 \u00c7AKMAK CD.",
+            "CEMAL NAD\u0130R CD. T\u0130MURTA\u015ePA\u015eA  \u2013 ATAT\u00dcRK CD.",
+            "\u0130N\u00d6N\u00dc CD.",
+            "KEMAL BENG\u00dc CD.",
+            "KURTULU\u015e CD.",
+            "ANKARA YOLU CD.",
+            "CUMALIKIZIK CD",
+            "4. PINAR SK",
+            "CUMALIKIZIK",
+            "HAMAMLI KIZIK CD.",
+            "HAMAMLI KIZIK."
+        ],
         "hours": {
             "HAMAMLIKIZIK MERKEZ [HAFTA \u0130\u00c7\u0130 VE CUMARTES\u0130]": [
                 "06:40",
@@ -4274,6 +5837,35 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=535"
     },
     "22/A": {
+        "backward": [
+            "\u0130N\u00d6N\u00dc CD.",
+            "ANKARA YOLU CD.",
+            "G\u00dcRSU KAV\u015eA\u011eI",
+            "D109. SK.",
+            "163. SK.",
+            "23. CD.",
+            "24. CD.",
+            "A322. SK.",
+            "KARAPINAR MAH."
+        ],
+        "forward": [
+            "KARAPINAR MAH.",
+            "SELAATT\u0130N EYYUB\u0130 CAM\u0130\u0130",
+            "40. SK. AKTA\u015eTEPE",
+            "24. CD.",
+            "23. CD.",
+            "163. SK.",
+            "D109. SK.",
+            "D106. SK.",
+            "C107. SK.",
+            "ANKARA YOLU CD.",
+            "G\u00dcRSU KAV\u015eA\u011eI",
+            "ANKARA YOLU CD.",
+            "ULUBATLI HASAN BULV.",
+            "KENT MEYDANI",
+            "FEVZ\u0130 \u00c7AKMAK CD.",
+            "CEMAL NAD\u0130R CD. T\u0130MURTA\u015ePA\u015eA  \u2013 ATAT\u00dcRK CD."
+        ],
         "hours": {
             "KARAPINAR [HAFTA \u0130\u00c7\u0130 VE CUMARTES\u0130]": [
                 "06:45",
@@ -4301,6 +5893,8 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=536"
     },
     "22/B": {
+        "backward": null,
+        "forward": null,
         "hours": {
             "DEMETEVLER [HAFTA \u0130\u00c7\u0130 VE CUMARTES\u0130]": [
                 "06:45",
@@ -4337,6 +5931,36 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=537"
     },
     "22/S": {
+        "backward": [
+            "DEVLET HAST.",
+            "ASKER CAD.",
+            "TOPHANE",
+            "OSMANGAZ\u0130 CAD.",
+            "ATAT\u00dcRK CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "ANKARA YOLU CAD.",
+            "CUMALIKIZIK CAD.",
+            "\u015eEH\u0130TLER CAD.",
+            "DE\u011e\u0130RMEN\u00d6N\u00dc MEZARLI\u011eI",
+            "DE\u011e\u0130RMEN\u00d6N\u00dc MAH."
+        ],
+        "forward": [
+            "DE\u011e\u0130RMEN \u00d6N\u00dc MAH.",
+            "DE\u011e\u0130RMEN \u00d6N\u00dc MEZARLI\u011eI",
+            "\u015eEH\u0130TLER CAD.",
+            "CUMALIKIZIK CAD.",
+            "ANKARA YOLU CAD.",
+            "G\u00dcRSU KAV\u015eA\u011eI",
+            "ANKARA YOLU CAD.",
+            "ULUBATLI HASAN BULVARI",
+            "KENT MEYDANI",
+            "FEVZ\u0130 \u00c7AKMAK CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "OSMANGAZ\u0130 CAD.",
+            "TOPHANE",
+            "ASKER CAD.",
+            "DEVLET HAST."
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 VE CUMARTES\u0130 [DE\u011e\u0130RMEN \u00d6N\u00dc]": [
                 "06:50",
@@ -4386,6 +6010,29 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=540"
     },
     "23": {
+        "backward": [
+            "\u0130N\u00d6N\u00dc CD.",
+            "KEMAL BENG\u00dc CD.",
+            "KURTULU\u015e CD.",
+            "ANKARA YOLU CD.",
+            "ER\u0130KL\u0130 CD.",
+            "KAPTAN GAZ\u0130 CD.",
+            "6. EREN SK.",
+            "F\u0130DYEKIZIK MAH"
+        ],
+        "forward": [
+            "F\u0130DYEKIZIK MAH.",
+            "6. EREN SK.",
+            "KAPTAN GAZ\u0130 CD.",
+            "ER\u0130KL\u0130 CD.",
+            "ANKARA YOLU CD.",
+            "ZAFER BULV.",
+            "AL\u0130 FERRUH Y\u00dcCEL CD.",
+            "KEMAL BENG\u00dc CD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CD.",
+            "CEMAL NAD\u0130R CD. T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CD"
+        ],
         "hours": {
             "F\u0130DYEKIZIK [HAFTA \u0130\u00c7\u0130 - CUMARTES\u0130]": [
                 "06:40",
@@ -4468,6 +6115,8 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=541"
     },
     "23/A": {
+        "backward": null,
+        "forward": null,
         "hours": {
             "303.SK. 309.SK 302.SK. ER\u0130KL\u0130 CAD. HAZRET\u0130 B\u0130LAL CAM\u0130\u0130 [BA\u011eLARALTI MAH. (B\u0130LAL HABE\u015e\u0130 CAM\u0130)]": [
                 "06:40",
@@ -4555,6 +6204,8 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=542"
     },
     "24/B": {
+        "backward": null,
+        "forward": null,
         "hours": {
             "HAFTA \u0130\u00c7\u0130 VE CUMARTESi [HAC\u0130VAT]": [
                 "06:40",
@@ -4610,6 +6261,52 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=543"
     },
     "24/D": {
+        "backward": [
+            ".BURSA DEVLET HAST.",
+            "HASTA YURDU CD.",
+            "2. OSMAN GAZ\u0130 CD.",
+            "ATAT\u00dcRK CD.",
+            "\u0130N\u00d6N\u00dc CD.",
+            "KEMAL BENG\u00dc CD.",
+            "BEYAZIT CD.",
+            "KASIM \u00d6NADIM BULV.",
+            "E\u011e\u0130T\u0130M CD.",
+            "PROF. TEZOK CD.",
+            "SEL\u00c7UK BEY CD.",
+            "S\u0130TELER",
+            "BURSA CD.",
+            "KAPTAN GAZ\u0130 CD.",
+            "ER\u0130KL\u0130 CD.",
+            "ESENEVLER CD.",
+            "KARAG\u00d6Z CD.",
+            "75. YIL MAH."
+        ],
+        "forward": [
+            "75. YIL MAH.",
+            "KARAG\u00d6Z CD.",
+            "ERMANTA\u015e CD.",
+            "333. SK.",
+            "A344. SK.",
+            "A343. SK.",
+            "333. SK.",
+            "BA\u015eAK CD.",
+            "T\u00dcRKMENBA\u015eI CD.",
+            "EM\u0130R CD.",
+            "ESENEVLER CD.",
+            "ER\u0130KL\u0130 CD.",
+            "KAPTAN GAZ\u0130 CD.",
+            "BURSA CD.",
+            "S\u0130TELER",
+            "SEL\u00c7UK BEY CD.",
+            "PROF. TEZOK CD.",
+            "E\u011e\u0130T\u0130M CD.",
+            "KASIM \u00d6NADIM BULV.",
+            "BEYAZIT CD.",
+            "KEMAL BENG\u00dc CD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CD.",
+            "CEMAL NAD\u0130R CD. T\u0130MURTA\u015ePA\u015eA  \u2013 2. OSMANGAZ\u0130 CD.",
+            "HASTA YURDU CD. BURSA DEVLET HAST."
+        ],
         "hours": {
             "75.YIL MAHALLES\u0130 MUHTARLI\u011eI [HAFTA \u0130\u00c7\u0130 VE CUMARTES\u0130]": [
                 "06:40",
@@ -4667,6 +6364,59 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=544"
     },
     "25": {
+        "backward": [
+            "\u00c7EK\u0130RGE DEVLET HAST.",
+            "HAT CAD.",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "ARMUTLU MEYDANI",
+            "\u00c7EK\u0130RGE CAD.",
+            "STADYUM CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "DARMSTAD CAD.",
+            "\u0130LK BAHAR CAD.",
+            "KENT MEYDANI",
+            "ULUBATLI HASAN BULVARI",
+            "ANKARA YOLU CAD.",
+            "Y\u00dcKSEK \u0130HT\u0130SAS HAST.",
+            "PROF.TEZOK CAD.",
+            "ERTU\u011eRULGAZ\u0130 CAD.",
+            "KAPLIKAYA",
+            "ERTU\u011eRULGAZ\u0130 CAD.",
+            "KANUN\u0130 CAD.",
+            "M\u0130MAR S\u0130NAN CAD.",
+            "BARI\u015e MAN\u00c7O K\u00dcLT\u00dcR MERKEZ\u0130",
+            "S\u0130TELER",
+            "SEL\u00c7UKBEY CAD.",
+            "BURSA CAD.",
+            "B\u00dcT\u00dcN CAD.",
+            "PINAR MAHALLES\u0130"
+        ],
+        "forward": [
+            "PINAR MAHALLES\u0130",
+            "B\u00dcT\u00dcN CAD.",
+            "BURSA CAD.",
+            "S\u0130TELER",
+            "EMN\u0130YET CAD.",
+            "\u015eEVKET YILMAZ DEVLET HAST.",
+            "M\u0130MAR S\u0130NAN CAD.",
+            "SEL\u00c7UK BEY CAD.",
+            "ERTU\u011eRULGAZ\u0130",
+            "PROF TEZOK CAD.",
+            "Y\u00dcKSEK \u0130HT\u0130SAS HAST.",
+            "ANKARA YOLU CAD.",
+            "DUA\u00c7INAR",
+            "\u015e\u00dcKRAN\u0130YE",
+            "ULUBATLI HASAN BULVARI",
+            "KENT MEYDANI",
+            "\u0130LK BAHAR CAD.",
+            "DARMSTAD CAD.",
+            "STADYUM CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "ARMUTLU MEYDANI",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "HAT CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130."
+        ],
         "hours": {
             "PINAR MAHALLES\u0130": [
                 "06:45",
@@ -4709,6 +6459,26 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=495"
     },
     "25/A": {
+        "backward": null,
+        "forward": [
+            "S\u0130TELER",
+            "\u015eEVKET YILMAZ DEVT.HAST.",
+            "SELCUK BEY CAD.",
+            "ERTU\u011eRULGAZ\u0130",
+            "YE\u015e\u0130LYAYLA",
+            "TEYYAREC\u0130 M. AL\u0130 CAD.",
+            "DAVUTKADI",
+            "\u0130NC\u0130RL\u0130",
+            "MEYDANCIK",
+            "KEMAL BENG\u00dc CAD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CAD.",
+            "ALTIPARMAK CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "ARMUTLU MEYDANI",
+            "ASKER\u0130 HASTANE",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130.   ATAT\u00dcRK CAD.",
+            "SETBA\u015eI"
+        ],
         "hours": {
             "PAZAR [S\u0130TELER]": [
                 "06:40",
@@ -4756,6 +6526,32 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=496"
     },
     "25/B": {
+        "backward": null,
+        "forward": [
+            "S\u0130TELER",
+            "SELCUK BEY CAD.",
+            "ERTU\u011eRULGAZ\u0130",
+            "YE\u015e\u0130LYAYLA",
+            "TEYYAREC\u0130 M.AL\u0130 CAD.",
+            "DAVUTKADI",
+            "\u0130NC\u0130RL\u0130",
+            "MEYDANCIK",
+            "KEMAL BENG\u00dc CAD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CAD.",
+            "T\u0130MURTA\u015e PA\u015eA",
+            "ATAT\u00dcRK CAD.",
+            "SETBA\u015eI",
+            "MEYDANCIK",
+            "\u0130NC\u0130RL\u0130",
+            "DAVUTKADI",
+            "T.MEHMET AL\u0130 CAD.",
+            "YE\u015e\u0130LYAYLA",
+            "ERTU\u011eRUL GAZ\u0130",
+            "KAPLIKAYA",
+            "BAH\u00c7EL\u0130 EVLER",
+            "\u015eEVKET YILMAZ DEVLET HASTANES\u0130",
+            "S\u0130TELER."
+        ],
         "hours": {
             "S\u0130TELER [HAFTA \u0130\u00c7\u0130-CUMARTES\u0130]": [
                 "06:45",
@@ -4829,6 +6625,53 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=497"
     },
     "25/D": {
+        "backward": null,
+        "forward": [
+            "S\u0130TELER",
+            "EMN\u0130YET CAD.",
+            "\u015eEVKET YILMAZ DEVLET HAST.",
+            "SGK D\u0130\u015e HAST.",
+            "M\u0130MAR S\u0130NAN CAD.",
+            "SEL\u00c7UKBEY CAD.",
+            "ERTU\u011eRULGAZ\u0130",
+            "TEYYAREC\u0130 MEHMET AL\u0130 CAD.",
+            "DAVUTKADI",
+            "\u0130NC\u0130RL\u0130 CAD.",
+            "YILDIRIM BEYAZID HEYKEL\u0130",
+            "DAVUTKADI CAD.",
+            "ORTAYOL",
+            "DEREBAH\u00c7E",
+            "ZEYN\u0130LER CAD.",
+            "DOYURAN CAD.",
+            "EM\u0130RSULTAN CAD.",
+            "YE\u015e\u0130L CAD",
+            "SETBA\u015eI",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUYOL",
+            "KENT MEYDANI",
+            "FEVZ\u0130 \u00c7AKMAK CAD.",
+            "\u015eEHREK\u00dcST\u00dc",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CAD.",
+            "SETBA\u015eI",
+            "YE\u015e\u0130L CAD",
+            "EM\u0130RSULTAN CAD",
+            "DOYURAN CAD.",
+            "ZEYN\u0130LER CAD.",
+            "DEREBAH\u00c7E",
+            "ORTAYOL",
+            "DAVUTKADI CAD.",
+            "\u0130NC\u0130RL\u0130 CAD.",
+            "TEYYAREC\u0130 MEHMET AL\u0130 CAD.",
+            "ERTU\u011eRULGAZ\u0130",
+            "SEL\u00c7UKBEY CAD.",
+            "M\u0130MAR S\u0130NAN CAD.",
+            "SGK D\u0130\u015e HAST.",
+            "\u015eEVKET YILMAZ DEVLET HAST.",
+            "EMN\u0130YET CAD.",
+            "S\u0130TELER"
+        ],
         "hours": {
             "S\u0130TELER [HAFTA \u0130\u00c7\u0130-CUMARTES\u0130]": [
                 "06:40",
@@ -4876,6 +6719,41 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=498"
     },
     "26/A": {
+        "backward": [
+            "BURSA DEV. HAST.",
+            "ATAT\u00dcRK CAD.",
+            "SETBA\u015eI",
+            "YE\u015e\u0130L CAD.",
+            "\u00c7ELEB\u0130 MEHMET BULVARI",
+            "MEYDANCIK",
+            "\u0130NC\u0130RL\u0130",
+            "DAVUTKADI",
+            "T.M.AL\u0130 CAD.",
+            "YE\u015e\u0130LYAYLA",
+            "ERTU\u011eRUL GAZ\u0130",
+            "BAH\u00c7EL\u0130EVLER",
+            "K\u00d6Y YOLU",
+            "EMEK CAD.",
+            "SEL\u00c7UKBEY CAD.",
+            "\u015e.YILMAZ DEV.HAST.",
+            "S\u0130TELER"
+        ],
+        "forward": [
+            "S\u0130TELER",
+            "\u015e.YILMAZ DEV.HAST.",
+            "SEL\u00c7UK BEY CAD.",
+            "ERTU\u011eRULGAZ\u0130",
+            "YE\u015e\u0130LYAYLA",
+            "T.M.AL\u0130 CAD.",
+            "DAVUTKADI",
+            "\u0130NC\u0130RL\u0130",
+            "MEYDANCIK",
+            "G\u00d6KDERE",
+            "KEMAL BENG\u00dc CAD.",
+            "H.\u0130\u015eCAN CAD.",
+            "T\u0130MURTA\u015e PA\u015eA",
+            "BURSA DEV.HAST."
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 [S\u0130TELER]": [
                 "06:35",
@@ -4992,6 +6870,40 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=499"
     },
     "27/A": {
+        "backward": [
+            "HASTA YURDU CD.",
+            "2. OSMAN GAZ\u0130 CD.",
+            "ATAT\u00dcRK CD.",
+            "SETBA\u015eI",
+            "1. YE\u015e\u0130L CD.",
+            "G\u00d6KDERE BULV.",
+            "\u0130NC\u0130RL\u0130 CD.",
+            "3. ALAN SK.",
+            "TEYYAREC\u0130 MEHMET AL\u0130 CD.",
+            "2. DALYAN SK.",
+            "2. T\u00dcT\u00dcNC\u00dcO\u011eLU CD.",
+            "4.E\u011e\u0130T\u0130M SK.",
+            "KAVAKLI SK.",
+            "HUZUREV\u0130 CD.",
+            "KANUN\u0130 CD.",
+            "KAPLIKAYA MAH."
+        ],
+        "forward": [
+            "KAPLIKAYA MAH.",
+            "KANUN\u0130 CD.",
+            "HUZUREV\u0130 CD.",
+            "KAVAKLI SK.",
+            "4.E\u011e\u0130T\u0130M SK.",
+            "2. T\u00dcT\u00dcNC\u00dcO\u011eLU CD.",
+            "2. DALYAN SK.",
+            "TEYYAREC\u0130 MEHMET AL\u0130 CD.",
+            "\u0130NC\u0130RL\u0130 CD.",
+            "YEN\u0130 CUMHUR\u0130YET CD.",
+            "KEMAL BENG\u00dc CD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CD.",
+            "CEMAL NAD\u0130R CD. T\u0130MURTA\u015ePA\u015eA  \u2013 2. OSMANGAZ\u0130 CD.",
+            "HASTA YURDU CD. BURSA DEVLET HAST."
+        ],
         "hours": {
             "KAPLIKAYA [HAFTA \u0130\u00c7\u0130-CUMARTES\u0130]": [
                 "06:50",
@@ -5066,6 +6978,45 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=546"
     },
     "28": {
+        "backward": [
+            "\u00c7EK\u0130RGE D. HAST.",
+            "ARMUTLU MEYDANI",
+            "\u00c7EK\u0130RGE CD.",
+            "ALTIPARMAK CD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CD.",
+            "SETBA\u015eI",
+            "YE\u015e\u0130L CD.",
+            "G\u00d6KDERE CD.",
+            "KEMAL BENG\u00dc CD.",
+            "E\u011e\u0130T\u0130M CD.",
+            "PROF. TEZOK CD.",
+            "ERTU\u011eRULGAZ\u0130 CD.",
+            "KAPLIKAYA",
+            "ERTU\u011eRULGAZ\u0130 CD.",
+            "KANUN\u0130 CD.",
+            "M\u0130MAR S\u0130NAN CD.",
+            "BARI MAN\u00c7O K\u00dcLT\u00dcR MRK.",
+            "S\u0130TELER"
+        ],
+        "forward": [
+            "S\u0130TELER",
+            "SELCUKBEY CD.",
+            "ERTU\u011eRULGAZ\u0130",
+            "ORTABA\u011eLAR",
+            "PRF.TEZOK CD.",
+            "152 EVLER",
+            "E\u011e\u0130T\u0130M CD.",
+            "BEYAZIT CD.",
+            "G\u00d6KDERE",
+            "KEMAL BENG\u00dc CD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CD.",
+            "ALTIPARMAK CD.",
+            "\u00c7EK\u0130RGE CD.",
+            "ARMUTLU MEYDANI",
+            "ASKER\u0130 HASTANE",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130."
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130-CUMARTES\u0130 [S\u0130TELER]": [
                 "06:40",
@@ -5192,6 +7143,27 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=500"
     },
     "28/A": {
+        "backward": [
+            "ATAT\u00dcRK CAD.",
+            "\u0130N\u00d6N\u00dc CAD."
+        ],
+        "forward": [
+            "ERTU\u011eRULGAZ\u0130 CAD.",
+            "ORTABA\u011eLAR",
+            "PROF.TEZOK CAD.",
+            "152 EVLER",
+            "E\u011e\u0130T\u0130M CAD.",
+            "KASIM \u00d6NADIM BULVARI",
+            "BEYAZIT CAD.",
+            "KEMAL BENG\u00dc CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUYOL",
+            "KENT MEYDANI",
+            "FEVZ\u0130 \u00c7AKMAK CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CAD."
+        ],
         "hours": {
             "S\u0130TELER [HAFTA \u0130\u00c7\u0130]": [
                 "06:40",
@@ -5322,6 +7294,40 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=501"
     },
     "29/A": {
+        "backward": [
+            "S\u0130TELER",
+            "M\u0130MARS\u0130NAN CAD.",
+            "EMN\u0130YET CAD. \u015e.YILMAZ DEVLET HAST.",
+            "POL\u0130S OKULU KAV\u015eA\u011eI",
+            "ANKARA YOLU",
+            "ARABAYATA\u011eI",
+            "Y\u00dcKSEK \u0130HT\u0130SAS HASTANES\u0130",
+            "DUA\u00c7INAR",
+            "\u015e\u00dcKRAN\u0130YE",
+            "G\u00d6KDERE KAV\u015eA\u011eI",
+            "AL\u0130 FERRUH Y\u00dcCEL CAD.",
+            "KEMAL BENG\u00dc CAD.",
+            "H.\u0130\u015eCAN",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "BURSA DEVLET HAST.",
+            "MURAD\u0130YE",
+            "BE\u015e\u0130K\u00c7\u0130LER",
+            "\u00c7EK\u0130RGE CAD.",
+            "ARMUTLU MEYDANI",
+            "ASKER\u0130 HASTANE",
+            "\u00c7EK\u0130RGE DEVLET HAST.  \u00c7EK\u0130RGE DEVLET HAST.",
+            "\u00c7EK\u0130RGE CAD.",
+            "MURAD\u0130YE",
+            "BURSA DEVLET HAST.",
+            "ATAT\u00dcRK CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "KEMAL BENG\u00dc CADDES\u0130 YOLU \u0130LE NA DEVAM EDER."
+        ],
+        "forward": [
+            "S\u0130TELER",
+            "POL\u0130S OKULU",
+            "\u00c7EK\u0130RGE DEV.HAST."
+        ],
         "hours": {
             "S\u0130TELER": [
                 "06:50",
@@ -5396,6 +7402,60 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=502"
     },
     "30": {
+        "backward": [
+            "\u00c7EK\u0130RGE DEVLET HAST.",
+            "NAZLI CAD.",
+            "BA\u011eLAN CAD.",
+            "ARMUTLU MEYDANI",
+            "\u00c7EK\u0130RGE CAD.",
+            "ALTIPARMAK CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CAD.",
+            "SETBA\u015eI",
+            "YE\u015e\u0130L CAD.",
+            "\u00c7ELEB\u0130 MEHMET BULVARI",
+            "ALANCIK CAD.",
+            "G\u00d6KDERE",
+            "KURTULU\u015e CAD.",
+            "F.S.M.CAD.",
+            "YILDIRIM BELED\u0130YES\u0130",
+            "HASTANE CAD.",
+            "VOLKAN CAD.",
+            "TAYYAREC\u0130 MEHMET AL\u0130 CAD.",
+            "ERTU\u011eRULGAZ\u0130 CAD.",
+            "KAPLIKAYA",
+            "ERTU\u011eRULGAZ\u0130",
+            "KANUN\u0130 CAD.",
+            "S\u0130TELER"
+        ],
+        "forward": [
+            "S\u0130TELER",
+            "SEL\u00c7UK BEY CAD.",
+            "ERTU\u011eRULGAZ\u0130",
+            "TAYYAREC\u0130 MEHMET AL\u0130 CAD.",
+            "DAVUTKADI",
+            "VOLKAN CAD.",
+            "HASTANE CAD.",
+            "SGK D\u0130\u015e HAST.",
+            "YILDIRIM BELED\u0130YES\u0130",
+            "F.S.M.CAD.",
+            "KURTULU\u015e CAD.",
+            "G\u00d6KDERE",
+            "KEMAL BENG\u00dc CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUYOL",
+            "KENT MEYDANI",
+            "\u0130LK BAHAR CAD.",
+            "DARMSTAD CAD.",
+            "STADYUM CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "ARMUTLU MEYDANI",
+            "1.MURAT CAD.",
+            "KANAL CAD.",
+            "NAZLI CAD.",
+            "\u00c7EK\u0130RGE DEVLET HAST."
+        ],
         "hours": {
             "S\u0130TELER": [
                 "06:45",
@@ -5472,6 +7532,42 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=507"
     },
     "31/A": {
+        "backward": null,
+        "forward": [
+            "K.KAYA",
+            "S\u0130TELER",
+            "\u015e.YILMAZ D.H.",
+            "SEL\u00c7UKBEY CD.",
+            "E.GAZ\u0130",
+            "Y.YAYLA",
+            "T.M.AL\u0130 CD.",
+            "DAVUTKADI",
+            "VOLKAN CD.",
+            "S.DEDE",
+            "SGK D\u0130\u015e H.",
+            "YILDIRIM BELED\u0130YES\u0130",
+            "DAVUTDEDE",
+            "YILDIRIM",
+            "G\u00d6KDERE KAV\u015eA\u011eI",
+            "ANKARA YOLU",
+            "GEN\u00c7OSMAN",
+            "BE\u015eYOL",
+            "\u00c7.HAVUZLAR",
+            "ET\u0130BANK",
+            "GAZ\u0130AKDEM\u0130R",
+            "S.ME\u015eELER",
+            "ACEMLER",
+            "H\u00dcRR\u0130YET",
+            "ADALET",
+            "H.ULA\u015eTIRMA",
+            "B.BA\u015eI",
+            "HAM\u0130TLER",
+            "1050 KONUTLAR",
+            "AKPINAR MH.",
+            "Y.MUDANYA YOLU",
+            "BOTA\u015e",
+            "EMEK"
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 ve CUMARTES\u0130 [S\u0130TELER]": [
                 "06:40",
@@ -5672,6 +7768,18 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=559"
     },
     "35/E": {
+        "backward": null,
+        "forward": [
+            "Y\u00dcZ\u00dcNC\u00dc YIL \u0130STASYONU",
+            "LOZAN MEYDANI BULVARI",
+            "PROF. ERDAL \u0130N\u00d6N\u00dc CD.",
+            "\u00c7\u0130\u00c7EK CD.",
+            "AHMET TANER KI\u015eLALI BULVARI",
+            "U\u011eUR MUMCU CD.",
+            "ERTU\u011eRUL \u0130STASYONU",
+            "ABD\u0130 \u0130PEK\u00c7\u0130 CD.",
+            "315. SK.MOR MENEK\u015eE S\u0130TELER\u0130"
+        ],
         "hours": {
             "100. YIL \u0130STASYONU [HAFTA \u0130\u00c7\u0130 VE CUMARTES\u0130]": [
                 "06:40",
@@ -5929,6 +8037,19 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=679"
     },
     "35/G": {
+        "backward": null,
+        "forward": [
+            "G\u00d6R\u00dcKLE",
+            "TA\u015ePINAR CD",
+            "ATAT\u00dcRK CD.",
+            "G\u00d6R\u00dcKLE \u00dc\u00c7OLUK CD.",
+            "BAHR\u0130YE \u00dc\u00c7OK CD.",
+            "Z\u0130RAAT FAK\u00dcLTES\u0130",
+            "\u00d6\u011eRENC\u0130 YURDU",
+            "\u0130KT\u0130SAT FAK\u00dcLTES\u0130",
+            "TIP FAK\u00dcLTES\u0130",
+            "\u00dcN\u0130VERS\u0130TE \u0130STASYONU"
+        ],
         "hours": {
             "HAFTA\u0130\u00c7\u0130 [G\u00d6R\u00dcKLE]": [
                 "12:00",
@@ -5999,6 +8120,58 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=409"
     },
     "35/H": {
+        "backward": [
+            "NED\u0130M SK.",
+            "\u0130LKBAHAR CAD.",
+            "DARMSTAD CAD.",
+            "STADYUM CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUBATLI HASAN BULVARI",
+            "MUDANYA CAD.",
+            "SO\u011eUKKUYU CAD.",
+            "H\u00dcRR\u0130YET 1.CAD.",
+            "OSMANGAZ\u0130 CAD.",
+            "M\u00dcM\u0130N GEN\u00c7O\u011eLU CAD.",
+            "OKUL 1.CAD.",
+            "\u015eAFAK CAD.",
+            "KUTLUKBEY CAD.",
+            "NENE HATUN CAD.",
+            "HACI BEKTA\u015e CAD.",
+            "OSMANGAZ\u0130 TOK\u0130 KONUTLARI",
+            "G\u00dcR CAD.",
+            "KAFKA SK.",
+            "HAM\u0130TLER TOP SAHASI",
+            "NAZLI 3.SK.",
+            "ALBAYRAK CAD.",
+            "KENT MEZARLI\u011eI"
+        ],
+        "forward": [
+            "KENT MEZARLI\u011eI",
+            "ALBAYRAK CAD.",
+            "NAZLI 3.SK.",
+            "HAM\u0130TLER TOP SAHASI",
+            "KAFKAS SK.",
+            "G\u00dcR CAD.",
+            "OSMANGAZ\u0130 TOK\u0130 KONUTLARI",
+            "HACIBEKTA\u015e CAD.",
+            "NENE HATUN CAD.",
+            "KUTLUKBEY CAD.",
+            "\u015eAFAK CAD.",
+            "OKUL 1.CAD.",
+            "M\u00dcM\u0130N GEN\u00c7O\u011eLU CAD.",
+            "OSMANGAZ\u0130 CAD.",
+            "H\u00dcRR\u0130YET 1.CAD.",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "ACEMLER K\u00d6PR\u00dcL\u00dc KAV\u015eA\u011eI",
+            "OULU CAD.",
+            "MUDANYA CAD.",
+            "YEN\u0130 KAPLICA CAD.",
+            "ESK\u0130 MUDAYA YOLU CAD.",
+            "MUDANYA CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUBATLI HASAN BULVARI",
+            "KENT MEYDANI"
+        ],
         "hours": {
             "PAZAR [KENT MEZARLI\u011eI]": [
                 "07:45",
@@ -6056,6 +8229,13 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=560"
     },
     "35/U": {
+        "backward": null,
+        "forward": [
+            "\u00dcN\u0130VERS\u0130TE \u0130STASYONU",
+            "TIP FAK\u00dcLTES\u0130",
+            "\u0130KT\u0130SAT FAK\u00dcLTES\u0130",
+            "\u00d6\u011eRENC\u0130 YURTLARI R\u0130NG"
+        ],
         "hours": {
             "\u00dcN\u0130VERS\u0130TE \u0130STASYONU [HAFTA \u0130\u00c7\u0130]": [
                 "09:05",
@@ -6096,6 +8276,27 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=521"
     },
     "36": {
+        "backward": [
+            "DEREBAH\u00c7E",
+            "EM\u0130RSULTAN",
+            "YE\u015e\u0130L",
+            "SETBA\u015eI",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "ULUYOL",
+            "KENT MEYDANI",
+            "ANKARA YOLU",
+            "ESK\u0130 \u015e\u00dcKRAN\u0130YE KAV\u015eA\u011eI",
+            "YILDIRIM BELED\u0130YES\u0130",
+            "DO\u011eU CAD",
+            "YILDIRIM BEYAZIT HEYKEL\u0130",
+            "ORTAYOL",
+            "DEREBAH\u00c7E"
+        ],
+        "forward": [
+            "DEREBAH\u00c7E",
+            "KENT MEYDANI",
+            "YEN\u0130 HAL"
+        ],
         "hours": {
             "DEREBAH\u00c7E [HAFTA \u0130\u00c7\u0130 - CUMARTES\u0130]": [
                 "06:50",
@@ -6214,6 +8415,23 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=422"
     },
     "37": {
+        "backward": null,
+        "forward": [
+            "TEMENYER\u0130",
+            "E\u015eREF\u0130LER CAD.",
+            "MOLLAARAP",
+            "YEN\u0130MAHALE",
+            "NAMAZGAH",
+            "SETBA\u015eI",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CAD. ATAT\u00dcRK CAD.",
+            "SETBA\u015eI",
+            "NAMAZGAH",
+            "YEN\u0130MAHALLE",
+            "MOLLAARAP",
+            "E\u015eREF\u0130LER CAD.",
+            "TEMENYER\u0130."
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 [TEMENYER\u0130]": [
                 "06:45",
@@ -6300,6 +8518,42 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=424"
     },
     "40/H": {
+        "backward": null,
+        "forward": [
+            "YEN\u0130 MAHALLE \u2013 735. SK.",
+            "724. SK.",
+            "733. SK.",
+            "726. SK.",
+            "723. SK.",
+            "ALBAYRAK CD.",
+            "HAM\u0130TLER MERKEZ CAM\u0130\u0130 \u2013 1.VATAN CD.",
+            "1. OSMANGAZ\u0130 CD.",
+            "1. H\u00dcRR\u0130YET CD.",
+            "FUAT KU\u015e\u00c7UO\u011eLU CD.",
+            "AVRUPA KONSEY\u0130 BULV.",
+            "ACEMLER KAV\u015eA\u011eI \u2013 Z\u00dcBEYDE HANIM CD.",
+            "HAT CD.",
+            "6. DE\u011e\u0130RMEN SK.",
+            "D\u0130KKALDIRIM CD.",
+            "\u00c7EK\u0130RGE DEVLET HAST. ALTI",
+            "ARMUTLU MEYDANI",
+            "\u00c7EK\u0130RGE CD.",
+            "ALTIPARMAK CD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "2. OSMAN GAZ\u0130 CD.",
+            "BURSA DEVLET HAST.",
+            "KAPLICA CD.",
+            "2. CEM SK",
+            "BE\u015e\u0130K\u00c7\u0130LER CD.",
+            "\u00c7EK\u0130RGE CD.",
+            "ARMUTLU MEYDANI",
+            "D\u0130KKALDIRIM CD. \u00c7EK\u0130RGE HAST. ALTI  \u2013 6. DE\u011e\u0130RMEN SK.",
+            "HAT CD.",
+            "Z\u00dcBEYDE HANIM CD.",
+            "ACEMLER KAV\u015eA\u011eI \u2013 \u0130ZM\u0130R BULV.",
+            "SO\u011eUKKUYU CD.",
+            "1. H\u00dcRR\u0130YET CADDES\u0130NDEN \u0130T\u0130BAREN NA DEVAM EDER."
+        ],
         "hours": {
             "YEN\u0130 KENT [T\u00dcM HAFTA]": [
                 "06:30",
@@ -6336,6 +8590,63 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=512"
     },
     "43/A": {
+        "backward": [
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 \u00d6\u011eRENC\u0130 YURDU",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 \u0130KT\u0130SAT FAK\u00dcLTES\u0130",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 REKT\u00d6RL\u00dcK",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 TIP FAK\u00dcLTES\u0130",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "K\u00dc\u00c7\u00dcK SANAY\u0130 \u0130ST.",
+            "ATAEVLER \u0130ST.",
+            "BE\u015eEVLER \u0130ST.U",
+            "FSM \u0130ST.",
+            "N\u0130L\u00dcFER \u0130ST.",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "ACEMLER KAV\u015eA\u011eI",
+            "ACEMLER \u0130ST.",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "BOTAN\u0130K PARKI",
+            "G\u00dc\u00c7L\u00dc CAD.",
+            "ADALET CAD.",
+            "ET\u0130BANK CAD.",
+            "BE\u015eYOL KAV\u015eA\u011eI",
+            "TEPE SK.",
+            "KEMER\u00c7E\u015eME CAD.",
+            "GAZ\u0130 CAD.",
+            "TARLABA\u015eI SK.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "ZAFER BULVARI",
+            "OL\u0130MP\u0130K ATLET\u0130Z\u0130M STADI",
+            "E\u011e\u0130T\u0130M VAD\u0130S\u0130"
+        ],
+        "forward": [
+            "E\u011e\u0130T\u0130M VAD\u0130S\u0130",
+            "OL\u0130MP\u0130K ATLET\u0130Z\u0130M STADI",
+            "ZAFER BULVARI",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "TARLABA\u015eI SK.",
+            "GAZ\u0130 CAD.",
+            "KEMER\u00c7E\u015eME CAD.",
+            "TEPE SK.",
+            "BE\u015eYOL KAV\u015eA\u011eI",
+            "ET\u0130BANK CAD.",
+            "ADALET CAD.",
+            "G\u00dc\u00c7L\u00dc CAD.",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "BOTAN\u0130K PARKI",
+            "ACEMLER KAV\u015eA\u011eI",
+            "ACEMLER \u0130ST.",
+            "N\u0130L\u00dcFER \u0130ST.",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "FAT\u0130H SULTAN MEHMET \u0130ST.",
+            "BE\u015eEVLER \u0130ST.",
+            "ATAEVLER \u0130ST.",
+            "K\u00dc\u00c7\u00dcK SANAY\u0130 \u0130ST.",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 TIP FAK\u00dcLTES\u0130",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 REKT\u00d6RL\u00dcK",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 \u00d6\u011eRENC\u0130 YURDU"
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 [E\u011e\u0130T\u0130M VAD\u0130S\u0130]": [
                 "07:00",
@@ -6377,6 +8688,39 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=561"
     },
     "43/D": {
+        "backward": [
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 \u00d6\u011eRENC\u0130 YURDU",
+            "\u0130KT\u0130SAT FAK\u00dcLTES\u0130",
+            "REKT\u00d6RL\u00dcK",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "MUDANYA YOLU CAD.",
+            "YEN\u0130 KAPLICA CAD.",
+            "ESK\u0130 MUDANYA YOLU CAD.",
+            "KIBRIS \u015eEH\u0130TLER\u0130 CAD.",
+            "ULUBATLI HASAN BULVARI",
+            "ANKARA YOLU CAD.",
+            "G\u00d6KDERE KAV\u015eA\u011eI",
+            "ZAFER BULVARI",
+            "VATAN CAD.",
+            "ATICILAR CAD.",
+            "KAVAKLI 1.SK.",
+            "DO\u011eU GARAJI"
+        ],
+        "forward": [
+            "DO\u011eU GARAJI",
+            "ATICILAR CAD.",
+            "ANADOLU CAD.",
+            "ANKARA YOLU CAD.",
+            "ULUBATLI HASAN BULVARI",
+            "MUDANYA CAD.",
+            "ACEMLER \u0130ST.",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130",
+            "REKT\u00d6RL\u00dcK",
+            "\u0130KT\u0130SAT FAK\u00dcLTES\u0130",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 \u00d6\u011eRENC\u0130 YURDU"
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 [DO\u011eU GARAJI]": [
                 "06:45",
@@ -6548,6 +8892,16 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=562"
     },
     "43/H": {
+        "backward": [
+            "SO\u011eUKKUYU CAD.",
+            "SANAY\u0130 CAD.",
+            "ESENTEPE KAV\u015eA\u011eI"
+        ],
+        "forward": [
+            "YEN\u0130 YALOVA YOLU CAD.",
+            "BUTT\u0130M",
+            "AVRUPA KONSEY\u0130 BULVARI"
+        ],
         "hours": {
             "TERM\u0130NAL [HAFTA \u0130\u00c7\u0130]": [
                 "07:20",
@@ -6609,6 +8963,37 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=563"
     },
     "48": {
+        "backward": [
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 \u00d6\u011eRENC\u0130 YURDU",
+            "\u0130KT\u0130SAT FAK\u00dcLTES\u0130",
+            "REKT\u00d6RL\u00dcK",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "ACEMLER \u0130ST.",
+            "OULU CAD.",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "K\u00dcK\u00dcRTL\u00dc CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "ALTIPARMAK CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CAD.",
+            "\u0130N\u00d6N\u00dc CAD.HA\u015e\u0130M \u0130\u015eCAN CAD.",
+            "ALTIPARMAK CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "K\u00dcK\u00dcRTL\u00dc CAD.",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "ACEMLER K\u00d6PR\u00dcL\u00dc KAV\u015eA\u011eI",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130",
+            "REKT\u00d6RL\u00dcK",
+            "\u0130KT\u0130SAT FAK\u00dcLTES\u0130",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 \u00d6\u011eRENC\u0130 YURDU"
+        ],
+        "forward": [
+            "ULUDA\u011e \u00dcNV.",
+            "K\u00dcK\u00dcRL\u00dc CAD.",
+            "ATAT\u00dcRK CAD."
+        ],
         "hours": {
             "HAFTA\u0130\u00c7\u0130 [ULUDA\u011e \u00dcN\u0130.]": [
                 "06:40",
@@ -6845,6 +9230,20 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=565"
     },
     "48/A": {
+        "backward": [
+            "\u00dcN\u0130VERS\u0130TE 8. SK",
+            "\u00dcN\u0130VERS\u0130TE 7. SK",
+            "\u00dcN\u0130VERS\u0130TE 1. SK",
+            "U\u011eUR MUMCU BLV",
+            "AV. C. G\u00d6RAL CD",
+            "512. SK",
+            "U\u011eUR MUMCU BLV"
+        ],
+        "forward": [
+            "ULUDA\u011e \u00dcNV.",
+            "\u00c7EK\u0130RGE CAD.",
+            "ATAT\u00dcRK CAD."
+        ],
         "hours": {
             "HAFTA\u0130\u00c7\u0130 [ULUDA\u011e \u00dcN\u0130.]": [
                 "06:55",
@@ -6939,6 +9338,16 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=566"
     },
     "60/K": {
+        "backward": [
+            "K\u0130RAZLI",
+            "ULUDA\u011e YOLU",
+            "TEM\u0130Z CAD."
+        ],
+        "forward": [
+            "K\u0130RAZLI",
+            "ULUDA\u011e YOLU",
+            "TEM\u0130Z CAD."
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 [K\u0130RAZLI]": [
                 "06:50",
@@ -6974,6 +9383,56 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=475"
     },
     "91": {
+        "backward": [
+            "KESTEL G\u00d6\u00c7MEN KONUTLARI",
+            "TURGUT \u00d6ZAL CAD.",
+            "GAZ\u0130 CAD.",
+            "\u015eEH\u0130T KOM\u0130SER N\u0130ZAMETT\u0130N YAVLAK CAD.",
+            "NAMIK KEMAL CAD.",
+            "BURSA CAD.",
+            "KESTEL KAV\u015eA\u011eI",
+            "G\u00dcRSU KAV\u015eA\u011eI",
+            "OTOSANS\u0130T",
+            "ANKARA YOLU CAD.",
+            "G\u00d6KDERE BULVARI",
+            "ATICILAR",
+            "ZAFER BULVARI",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "ESK\u0130 GEML\u0130K YOLU",
+            "11 EYL\u00dcL BULVARI",
+            "REAL KAV\u015eA\u011eI",
+            "\u00d6ZD\u0130LEK",
+            "BUTT\u0130M",
+            "AS MERKEZ",
+            "YEN\u0130 YALOVA YOLU CAD.",
+            "AL\u0130 OSMAN S\u00d6NMEZ KAMP\u00dcS\u00dc",
+            "TERM\u0130NAL"
+        ],
+        "forward": [
+            "TERM\u0130NAL",
+            "AL\u0130 OSMAN S\u00d6NMEZ KAMP\u00dcS\u00dc",
+            "YEN\u0130 YALOVA YOLU CAD.",
+            "AS MERKEZ",
+            "BUTT\u0130M",
+            "\u00d6ZD\u0130LEK",
+            "REAL KAV\u015eA\u011eI",
+            "11 EYL\u00dcL BULVARI",
+            "ESK\u0130 GEML\u0130K YOLU",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "ZAFER BULVARI",
+            "ATICILAR",
+            "G\u00d6KDERE BULVARI",
+            "ANKARA YOLU CAD.",
+            "OTOSANS\u0130T",
+            "G\u00dcRSU KAV\u015eA\u011eI",
+            "KESTEL KAV\u015eA\u011eI",
+            "BURSA CAD.",
+            "NAMIK KEMAL CAD.",
+            "\u015eEH\u0130T KOM\u0130SER N\u0130ZAMETT\u0130N YAVLAK CAD.",
+            "GAZ\u0130 CAD.",
+            "TURGUT \u00d6ZAL CAD.",
+            "KESTEL G\u00d6\u00c7MEN KONUTLARI"
+        ],
         "hours": {
             "TERM\u0130NAL [HAFTA \u0130\u00c7\u0130]": [
                 "06:30",
@@ -7065,6 +9524,54 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=579"
     },
     "91/G": {
+        "backward": [
+            "G\u00dcRSU",
+            "KARANF\u0130L CAD.",
+            "ZAFER CAD.",
+            "ATAT\u00dcRK CAD.",
+            "DR.SADIK AHMET CAD.",
+            "\u015eEH\u0130T CENG\u0130Z TOPER CAD.",
+            "G\u00dcRSU KAV\u015eA\u011eI",
+            "OTOSANS\u0130T",
+            "ANKARA YOLU CAD.",
+            "G\u00d6KDERE BULVARI",
+            "ATICILAR",
+            "ZAFER BULVARI",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "ESK\u0130 GEML\u0130K YOLU",
+            "11 EYL\u00dcL BULVARI",
+            "REAL KAV\u015eA\u011eI",
+            "\u00d6ZD\u0130LEK",
+            "BUTT\u0130M",
+            "AS MERKEZ",
+            "YEN\u0130 YALOVA YOLU CAD.",
+            "AL\u0130 OSMAN S\u00d6NMEZ KAMP\u00dcS\u00dc",
+            "TERM\u0130NAL"
+        ],
+        "forward": [
+            "TERM\u0130NAL",
+            "AL\u0130 OSMAN S\u00d6NMEZ KAMP\u00dcS\u00dc",
+            "YEN\u0130 YALOVA YOLU CAD.",
+            "AS MERKEZ",
+            "BUTT\u0130M",
+            "\u00d6ZD\u0130LEK",
+            "REAL KAV\u015eA\u011eI",
+            "11 EYL\u00dcL BULVARI",
+            "ESK\u0130 GEML\u0130K YOLU",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "ZAFER BULVARI",
+            "ATICILAR",
+            "G\u00d6KDERE BULVARI",
+            "ANKARA YOLU CAD.",
+            "OTOSANS\u0130T",
+            "G\u00dcRSU KAV\u015eA\u011eI",
+            "\u015eEH\u0130T CENG\u0130Z TOPER CAD.",
+            "DR.SADIK AHMET CAD.",
+            "ATAT\u00dcRK CAD.",
+            "ZAFER CAD.",
+            "KARANF\u0130L CAD.",
+            "G\u00dcRSU"
+        ],
         "hours": {
             "TERM\u0130NAL [HAFTA \u0130\u00c7\u0130]": [
                 "06:05",
@@ -7157,6 +9664,50 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=580"
     },
     "92": {
+        "backward": [
+            "G\u00dcM\u00dc\u015eDERE CAD.",
+            "B\u0130LG\u0130NLER CAD.",
+            "AHISKA CAD.",
+            "BE\u015eEVLER CAD.",
+            "KARA FATMA HEYKEL\u0130",
+            "BE\u015eEVLER CAD.",
+            "M\u0130HRAPLI CAD.",
+            "ESK\u0130 BATI GARAJI",
+            "HAYRAN CAD.",
+            "D\u0130KKALDIRIM CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI",
+            "HAT CAD.",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "Z\u00dcBEYDE HANIM DO\u011eUMEV\u0130",
+            "ACEMLER K\u00d6PR\u00dcL\u00dc KAV\u015eA\u011eI",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "11 EYL\u00dcL BULVARI",
+            "YEN\u0130 YALOVA YOLU CAD.",
+            "BUTT\u0130M",
+            "AL\u0130 OSMAN S\u00d6NMEZ KAMP\u00dcS\u00dc",
+            "TERM\u0130NAL"
+        ],
+        "forward": [
+            "TERM\u0130NAL",
+            "AL\u0130 OSMAN S\u00d6NMEZ KAMP\u00dcS\u00dc",
+            "YEN\u0130 YALOVA YOLU CAD.",
+            "BUTT\u0130M",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "ACEMLER K\u00d6PR\u00dcL\u00dc KAV\u015eA\u011eI",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "HAT CAD.",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI",
+            "D\u0130KKALDIRIM CAD.",
+            "M\u0130HRAPLI CAD.",
+            "BE\u015eEVLER CAD.",
+            "KARA FATMA HEYKEL\u0130",
+            "BE\u015eEVLER CAD.",
+            "AHISKA CAD.",
+            "B\u0130LG\u0130NLER CAD.",
+            "G\u00dcM\u00dc\u015eDERE CAD.",
+            "K\u00dcLT\u00dcR MAH.PAZAR YER\u0130"
+        ],
         "hours": {
             "TERM\u0130NAL [HAFTA \u0130\u00c7\u0130 CUMARTES\u0130]": [
                 "08:40",
@@ -7325,6 +9876,33 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=581"
     },
     "93": {
+        "backward": [
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 \u00d6\u011eRENC\u0130 YURDU",
+            "\u0130KT\u0130SAT FAK\u00dcLTES\u0130",
+            "REKT\u00d6RL\u00dcK",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "ACEMLER K\u00d6PR\u00dcL\u00dc KAV\u015eA\u011eI",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "11 EYL\u00dcL BULVARI",
+            "YEN\u0130 YALOVA YOLU CAD.",
+            "BUTT\u0130M",
+            "AL\u0130 OSMAN S\u00d6NMEZ KAMP\u00dcS\u00dc",
+            "TERM\u0130NAL"
+        ],
+        "forward": [
+            "TERM\u0130NAL",
+            "AL\u0130 OSMAN S\u00d6NMEZ KAMP\u00dcS\u00dc",
+            "YEN\u0130 YALOVA YOLU CAD.",
+            "BUTT\u0130M",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "SO\u011eUKKUYU CAD.",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130",
+            "REKT\u00d6RL\u00dcK",
+            "\u0130KT\u0130SAT FAK\u00dcLTES\u0130",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 \u00d6\u011eRENC\u0130 YURDU"
+        ],
         "hours": {
             "TERM\u0130NAL [HAFTA \u0130\u00c7\u0130]": [
                 "06:05",
@@ -7485,6 +10063,16 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=582"
     },
     "93/E": {
+        "backward": null,
+        "forward": [
+            "G\u00d6R\u00dcKLE ATAT\u00dcRK CD.",
+            "\u00dc\u00c7OLUK CD.",
+            "BAHR\u0130YE \u00dc\u00c7OK CD.",
+            "Z\u0130RAAT FAK\u00dcLTES\u0130",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 YURTLAR",
+            "DEVLET \u00c7EVRE YOLU",
+            "YABANCI D\u0130LLER Y\u00dcKSEK OKULU"
+        ],
         "hours": {
             "G\u00d6R\u00dcKLE ATAT\u00dcRK CADDES\u0130": [
                 "08:00CP"
@@ -7493,6 +10081,40 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=583"
     },
     "95": {
+        "backward": [
+            "ATAEVLER PAZARYER\u0130",
+            "NENE HATUN CAD.",
+            "EMEK CAD.",
+            "ULA\u015eIM S\u0130TES\u0130",
+            "N\u0130L\u00dcFER HATUN CAD.",
+            "MEL\u0130SK\u00d6Y S\u0130TES\u0130 KAV\u015eA\u011eI",
+            "F.S.M.BULVARI",
+            "ESENTEPE KAV\u015eA\u011eI",
+            "H\u00dcRR\u0130YET CAD.",
+            "AL\u0130 FUATKU\u015eCU CAD.",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "BUTT\u0130M",
+            "YEN\u0130 YALOVA YOLU CAD.",
+            "AL\u0130 OSMAN S\u00d6NMEZ KAMP\u00dcS\u00dc",
+            "TERM\u0130NAL"
+        ],
+        "forward": [
+            "TERM\u0130NAL",
+            "AL\u0130 OSMAN S\u00d6NMEZ KAMP\u00dcS\u00dc",
+            "YEN\u0130 YALOVA YOLU CAD.",
+            "BUTT\u0130M",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "AL\u0130 FUATKU\u015eCU CAD.",
+            "H\u00dcRR\u0130YET CAD.",
+            "ESENTEPE KAV\u015eA\u011eI",
+            "F.S.M.BULVARI",
+            "MEL\u0130SK\u00d6Y S\u0130TES\u0130 KAV\u015eA\u011eI",
+            "N\u0130L\u00dcFER HATUN CAD.",
+            "ULA\u015eIM S\u0130TES\u0130",
+            "EMEK CAD.",
+            "NENE HATUN CAD.",
+            "ATAEVLER PAZARYER\u0130"
+        ],
         "hours": {
             "TERM\u0130NAL [HAFTA \u0130\u00c7\u0130]": [
                 "06:10",
@@ -7712,6 +10334,33 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=585"
     },
     "96": {
+        "backward": [
+            "TERM\u0130NAL",
+            "YALOVA YOLU",
+            "BE\u015eYOL",
+            "ET\u0130BANK",
+            "MER\u0130NOS KAV\u015e.",
+            "STADYUM CD.",
+            "ALTIPARMAK CD.",
+            "TOPHANE",
+            "DEVLET HAST.",
+            "MURAD\u0130YE",
+            "\u00c7EK\u0130RGE CD",
+            "ASKER\u0130 HAST.",
+            "\u00c7EK\u0130RGE D. HAST.",
+            "ACEMLER",
+            "OULU CD",
+            "MER\u0130NOS",
+            "ET\u0130BANK",
+            "BE\u015eYOL",
+            "YALOVA YOLU",
+            "TERM\u0130NAL"
+        ],
+        "forward": [
+            "TERM\u0130NAL",
+            "DEVLET HAST.",
+            "\u00c7EK\u0130RGE"
+        ],
         "hours": {
             "TERM\u0130NAL [HAFTA \u0130\u00c7\u0130]": [
                 "06:10",
@@ -7794,6 +10443,22 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=586"
     },
     "97": {
+        "backward": null,
+        "forward": [
+            "TERM\u0130NAL",
+            "YALOVA YOLU",
+            "BATI \u00c7EVRE YOLU",
+            "F.KU\u015e\u00c7UO\u011eLU CD.",
+            "YUNUSEL\u0130",
+            "H.KINALICI CD.",
+            "YAMAN CD",
+            "HIDIRBEY CD.",
+            "HACI BEKTA\u015e CD.",
+            "HAM\u0130TLER",
+            "KAVAKLI CD.",
+            "HANCI CD.",
+            "EMEK  AYNI"
+        ],
         "hours": {
             "TERM\u0130NAL": [
                 "06:00",
@@ -7887,6 +10552,34 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=587"
     },
     "97/G": {
+        "backward": null,
+        "forward": [
+            "TERM\u0130NAL",
+            "YALOVA YOLU",
+            "KENT MEYDANI",
+            "SIRAME\u015eELER",
+            "ACEMLER",
+            "F.KU\u015e\u00c7UO\u011eLU CD.",
+            "YUNUSEL\u0130",
+            "H.KINALICI CD.",
+            "YAMAN CD",
+            "HIDIRBEY CD.",
+            "HACI BEKTA\u015e CD.",
+            "HAM\u0130TLER",
+            "KAVAKLI CD.",
+            "HANCI CD.",
+            "EMEK",
+            "BESA\u015e KAV\u015eA\u011eI",
+            "MUDANYA YOLU",
+            "GE\u00c7\u0130T KAV\u015eA\u011eI",
+            "BESA\u015e KAV\u015eA\u011eI",
+            "ESENTEPE",
+            "ACEMLER",
+            "SIRAME\u015eELER",
+            "KENT MEYDANI",
+            "YALOVA YOLU",
+            "TERM\u0130NAL"
+        ],
         "hours": {
             "TERM\u0130NAL": [
                 "00:10",
@@ -7900,6 +10593,48 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=461"
     },
     "98": {
+        "backward": [
+            "\u015eEVKET YILMAZ DEVLET HAST.",
+            "SEL\u00c7UKBEY CAD.",
+            "ERTU\u011eRULGAZ\u0130",
+            "PROF.TEZOK CAD.",
+            "Y\u00dcKSEK \u0130HT\u0130SAS HAST",
+            "11 EYL\u00dcL BULVARI",
+            "VATAN CAD.",
+            "E\u011e\u0130T\u0130M VAD\u0130S\u0130",
+            "ZAFER BULVARI",
+            "KAD\u0130FEL\u0130 CAD.",
+            "AL\u0130 GAL\u0130P YALDIZ CAD.",
+            "OKUL CAD.",
+            "REAL KAV\u015eA\u011eI",
+            "\u00d6ZD\u0130LEK",
+            "BUTT\u0130M",
+            "AS MERKEZ",
+            "YEN\u0130 YALOVA YOLU CAD.",
+            "AL\u0130 OSMAN S\u00d6NMEZ KAMP\u00dcS\u00dc",
+            "TERM\u0130NAL"
+        ],
+        "forward": [
+            "TERM\u0130NAL",
+            "AL\u0130 OSMAN S\u00d6NMEZ KAMP\u00dcS\u00dc",
+            "YEN\u0130 YALOVA YOLU CAD.",
+            "AS MERKEZ",
+            "BUTT\u0130M",
+            "\u00d6ZD\u0130LEK",
+            "REAL KAV\u015eA\u011eI",
+            "OKUL CAD.",
+            "AL\u0130 GAL\u0130P YALDIZ CAD.",
+            "KAD\u0130FEL\u0130 CAD.",
+            "ZAFER BULVARI",
+            "E\u011e\u0130T\u0130M VAD\u0130S\u0130",
+            "VATAN CAD.",
+            "11 EYL\u00dcL BULVARI",
+            "Y\u00dcKSEK \u0130HT\u0130SAS HAST",
+            "PROF.TEZOK CAD.",
+            "ERTU\u011eRULGAZ\u0130",
+            "SEL\u00c7UKBEY CAD.",
+            "S\u0130TELER"
+        ],
         "hours": {
             "T\u00dcM HAFTA [TERM\u0130NAL]": [
                 "06:15",
@@ -7982,6 +10717,63 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=588"
     },
     "99": {
+        "backward": null,
+        "forward": [
+            "TERM\u0130NAL",
+            "YEN\u0130 YALOVA YOLU",
+            "REAL LAMBALARI",
+            "FAT\u0130H MAH.G\u00dc\u00c7L\u00dc CAD.",
+            "KANALBOYU CAD",
+            "\u00c7\u0130R\u0130\u015eHANE CAD.",
+            "TOPAL SK.",
+            "TANER SK.",
+            "S\u00dcTER CAD.",
+            "N\u0130L\u00dcFER CAD.",
+            "DR.SADIK AHMET CAD.",
+            "MER\u0130NOS KAV\u015e.",
+            "STADYUM CAD.",
+            "ALTIPARMAK CAD.",
+            "T\u0130MURTA\u015e PA\u015eA",
+            "ATAT\u00dcRK CAD.",
+            "SETBA\u015eI",
+            "YE\u015e\u0130L",
+            "EM\u0130RSULTAN",
+            "DEREBAH\u00c7E",
+            "KURTBASAN CD.",
+            "\u00c7\u0130\u00c7EK CD.",
+            "KAPLIKAYA",
+            "D\u0130\u015e HAST.",
+            "\u015e.YILMAZ DEV.HAST.",
+            "S\u0130TELER  S\u0130TELER",
+            "\u015e.YILMAZ DEV. HAST.",
+            "D\u0130\u015e HAST.",
+            "\u00d6ZD\u0130LEK",
+            "BAH\u00c7EL\u0130 EVLER",
+            "KAPLIKAYA",
+            "\u00c7\u0130\u00c7EK CD.",
+            "KURTBASAN CD.",
+            "DA\u011e YOLU",
+            "ORTAYOL",
+            "DEREBAH\u00c7E",
+            "EM\u0130RSULTAN",
+            "YE\u015e\u0130L",
+            "SETBA\u015eI",
+            "\u0130N\u00d6N\u00dc CD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CD.",
+            "ALTIPARMAK CAD.",
+            "STADYUM CAD.",
+            "MER\u0130NOS KAV\u015e.",
+            "DR.SADIK AHMET CAD.",
+            "N\u0130L\u00dcFER CAD.",
+            "S\u00dcTER CAD.",
+            "TANER SK.",
+            "TOPAL SK.",
+            "\u00c7\u0130R\u0130\u015eHANE CAD.",
+            "KANALBOYU CAD",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "YEN\u0130 YALOVA YOLU",
+            "TERM\u0130NAL"
+        ],
         "hours": {
             "TERM\u0130NAL": [
                 "06:55",
@@ -8025,6 +10817,29 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=589"
     },
     "101": {
+        "backward": [
+            "MER\u0130NOS \u0130ST.",
+            "GEN\u00c7OSMAN",
+            "BE\u015eYOL",
+            "OVAAK\u00c7A",
+            "KURTUL",
+            "BURSA YOLU",
+            "CUMHUR\u0130YET CAD.",
+            "ORHANGAZ\u0130 CAD.",
+            "\u0130ST\u0130KLAL CAD.",
+            "K\u00dcT\u00dcPHANE"
+        ],
+        "forward": [
+            "K\u00dcT\u00dcPHANE",
+            "\u0130ST\u0130KLAL CAD.",
+            "D\u00d6RTYOL",
+            "BURSA YOLU",
+            "KURTUL",
+            "OVAAK\u00c7A",
+            "BE\u015eYOL",
+            "GEN\u00c7OSMAN",
+            "MER\u0130NOS \u0130ST."
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 [GEML\u0130K]": [
                 "06:00",
@@ -8449,6 +11264,22 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=473"
     },
     "102": {
+        "backward": null,
+        "forward": [
+            "KUR\u015eUNLU",
+            "KUMSAZ",
+            "ENG\u00dcR\u00dcC\u00dcK",
+            "KURTUL",
+            "D\u00dcRDANE",
+            "OVAAK\u00c7A",
+            "TERM\u0130NAL",
+            "AS MERKEZ",
+            "BUTT\u0130M",
+            "\u00d6ZD\u0130LEK",
+            "BE\u015eYOL",
+            "MUDANYA CAD.",
+            "MER\u0130NOS \u0130ST."
+        ],
         "hours": {
             "T\u00dcM HAFTA [KUR\u015eUNLU]": [
                 "06:30",
@@ -8482,6 +11313,19 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=469"
     },
     "103": {
+        "backward": null,
+        "forward": [
+            "KUR\u015eUNLU",
+            "KUMSAZ",
+            "ENG\u00dcR\u00dcC\u00dcK",
+            "D\u00d6RTYOL",
+            "\u0130ST\u0130KLAL CAD.",
+            "GEML\u0130K K\u00dcT\u00dcPHANE  \u0130ST\u0130KLAL CAD.",
+            "D\u00d6RTYOL",
+            "ENG\u00dcR\u00dcC\u00dcK",
+            "KUMSAZ",
+            "KUR\u015eUNLU"
+        ],
         "hours": {
             "T\u00dcM HAFTA [KUR\u015eUNLU]": [
                 "07:00",
@@ -8503,6 +11347,16 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=548"
     },
     "104": {
+        "backward": null,
+        "forward": [
+            "GEML\u0130K",
+            "KUMSAZ",
+            "KUR\u015eUNLU",
+            "ALTINTA\u015e",
+            "KIZILAY KAMPI",
+            "G\u00dcZELYALI",
+            "MUDANYA"
+        ],
         "hours": {
             "T\u00dcM HAFTA [GEML\u0130K]": [
                 "07:30",
@@ -8530,6 +11384,17 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=468"
     },
     "105": {
+        "backward": null,
+        "forward": [
+            "K\u00dcT\u00dcPHANE",
+            "\u0130ST\u0130KLAL CD.",
+            "D\u00d6RTYOL",
+            "BURSA YOLU",
+            "KURTUL",
+            "OVAAK\u00c7A",
+            "DEVLET \u00c7EVRE YOLU",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 G\u00d6R\u00dcKLE KAMP\u00dcS\u00dc"
+        ],
         "hours": {
             "K\u00dcT\u00dcPHANE [HAFTA \u0130\u00c7\u0130]": [
                 "07:30"
@@ -8538,6 +11403,27 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=472"
     },
     "111": {
+        "backward": [
+            "SANAY\u0130",
+            "D\u00d6RTYOL",
+            "\u00c7EVRE YOLU",
+            "ORHANGAZ\u0130 CAD.",
+            "\u0130ST\u0130KLAL CAD.",
+            "K\u00dcT\u00dcPHANE",
+            "1 NO'LU BALIK PAZARI CAD.",
+            "YEN\u0130 MAH.",
+            "MANASTIR CUMHUR\u0130YET MAH."
+        ],
+        "forward": [
+            "MANASTIR CUMHUR\u0130YET MAH.",
+            "YEN\u0130 MAH.",
+            "2 NO'LU BALIK PAZARI CAD.",
+            "PTT \u00d6N\u00dc",
+            "\u0130ST\u0130KLAL CAD.",
+            "D\u00d6RTYOL",
+            "ATA MAH.",
+            "SANAY\u0130"
+        ],
         "hours": {
             "K\u00dcT\u00dcPHANE": [
                 "06:45A",
@@ -8637,6 +11523,26 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=396"
     },
     "112": {
+        "backward": [
+            "H\u0130SAR TEPE",
+            "H\u0130SAR S\u0130TES\u0130",
+            "\u00c7EVRE YOLU",
+            "KANAL BOYU",
+            "\u0130ST\u0130KLAL CAD.",
+            "GEML\u0130K K\u00dcT\u00dcPHANE",
+            "1 NOLU BALIK PAZARI CAD.",
+            "YEN\u0130 MAH.",
+            "MANASTIR CUMHUR\u0130YET MAH"
+        ],
+        "forward": [
+            "MANASTIR CUMHUR\u0130YET MAH.",
+            "YEN\u0130 MAH.",
+            "2 NOLU BALIK PAZARI CAD. GEML\u0130K K\u00dcT\u00dcPHANE",
+            "PTT \u00d6N\u00dc",
+            "\u0130ST\u0130KLAL CAD.",
+            "D\u00d6RTYOL",
+            "H\u0130SAR TEPE"
+        ],
         "hours": {
             "K\u00dcT\u00dcPHANE": [
                 "07:00",
@@ -8719,6 +11625,21 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=397"
     },
     "113": {
+        "backward": null,
+        "forward": [
+            "K\u00dcT\u00dcPHANE",
+            "1 NO LU BALIK PAZARI CD.",
+            "YEN\u0130 MH.",
+            "MANASTIR CUMHUR\u0130YET MH.",
+            "YEN\u0130 MH.",
+            "2 NO LU BALIK PAZARI CD.",
+            "PTT \u00d6N\u00dc",
+            "ORHANGAZ\u0130 CD.",
+            "UMURBEY ARITMA TES.",
+            "YALOVA YOLU",
+            "D\u00d6RTYOL",
+            "\u0130ST\u0130KLAL CD."
+        ],
         "hours": {
             "K\u00dcT\u00dcPHANE": [
                 "07:15",
@@ -8798,6 +11719,27 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=398"
     },
     "114": {
+        "backward": [
+            "D\u00d6N\u00dcS ODUN DEPOLARI",
+            "L.KEMAL I.\u00d6.O.",
+            "ESKI PAZAR CD.",
+            "K\u00dcT\u00dcPHANE"
+        ],
+        "forward": [
+            "K\u00dcT\u00dcPHANE",
+            "1 NO LU BALIK PAZARI CD.",
+            "YENI MAH.",
+            "MANASTIR CUMHURIYET MH.",
+            "YENI MH.",
+            "2 NO LU BALIK PAZARI CD.",
+            "PTT \u00d6N\u00dc",
+            "ISTKLAL CD.",
+            "KANALBOYU",
+            "MESLEK LISESI",
+            "MEZBAHA",
+            "SELALE",
+            "ODUN DEPOLARI"
+        ],
         "hours": {
             "K\u00dcT\u00dcPHANE": [
                 "07:30",
@@ -8863,6 +11805,28 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=399"
     },
     "115": {
+        "backward": null,
+        "forward": [
+            "K\u00dcT\u00dcPHANE",
+            "2 NO LU BALIK PAZARI CD.",
+            "YENI MH.",
+            "GEMLIK DEVLET HASTANESI",
+            "CUMHURIYET MH.",
+            "SAMANYOLU",
+            "420. SK.",
+            "BELDE",
+            "NOVADARI CD.",
+            "YENI MH.",
+            "1 NO LU BALIK PAZARI CD.",
+            "PTT \u00d6N\u00dc",
+            "ISTKLAL CD.",
+            "FATIH CD.",
+            "TERMINAL",
+            "YALOVA YOLU",
+            "SUNGIPEK KAMP\u00dcS\u00dc",
+            "ISTIKLAL CD.",
+            "K\u00dcT\u00dcPHANE"
+        ],
         "hours": {
             "T\u00dcM HAFTA [K\u00dcT\u00dcPHANE]": [
                 "06:45",
@@ -8962,6 +11926,23 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=400"
     },
     "116": {
+        "backward": null,
+        "forward": [
+            "MANASTIR CUMHURIYET MAH.",
+            "YENI MAH.",
+            "2 NOLU BALIK PAZARI CAD.",
+            "PTT \u00d6N\u00dc",
+            "ORHANGAZI CAD.",
+            "UMURBEY ARITMA TES.",
+            "CIHATLI K\u00d6Y\u00dc",
+            "YALOVA YOLU",
+            "D\u00d6RTYOL",
+            "ISTIKLAL CAD.",
+            "K\u00dcT\u00dcPHANE",
+            "1 NOLU BALIK PAZARI CAD.",
+            "YENI MAH.",
+            "MANASTIR CUMHURIYET MAH."
+        ],
         "hours": {
             "K\u00dcT\u00dcPHANE": [
                 "06:35",
@@ -8987,6 +11968,18 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=401"
     },
     "118": {
+        "backward": [
+            "D\u00d6N\u00dcS K\u00dcT\u00dcPHANE",
+            "ORHANGAZI CD.",
+            "\u00c7EVRE YOLU",
+            "HASTANE"
+        ],
+        "forward": [
+            "HASTANE",
+            "YENI MH.",
+            "2 NO LU BALIK PAZARI CD.",
+            "PTT \u00d6N\u00dc"
+        ],
         "hours": {
             "HAFTA I\u00c7I [K\u00dcT\u00dcPHANE]": [
                 "07:45",
@@ -9037,6 +12030,18 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=402"
     },
     "130": {
+        "backward": null,
+        "forward": [
+            "GEML\u0130K PTT \u00d6N\u00dc",
+            "\u0130ST\u0130KLAL CAD.",
+            "D\u00d6RTYOL",
+            "SANAY\u0130",
+            "ENG\u00dcR\u00dcC\u00dcK",
+            "YEN\u0130K\u00d6Y",
+            "\u00c7EVRE YOLU",
+            "\u0130ST\u0130KLAL CAD.",
+            "GEML\u0130K PTT \u00d6N\u00dc"
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 [PTT \u00d6N\u00dc]": [
                 "07:30",
@@ -9052,6 +12057,25 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=481"
     },
     "131": {
+        "backward": [
+            "KURTUL",
+            "ENG\u00dcR\u00dcC\u00dcK",
+            "SANAY\u0130",
+            "D\u00d6RTYOL",
+            "FAT\u0130H CAD.",
+            "\u0130ST\u0130KLAL CAD.",
+            "PTT \u00d6N\u00dc"
+        ],
+        "forward": [
+            "KURTUL   PTT \u00d6N\u00dc",
+            "\u0130ST\u0130KLAL CAD.",
+            "D\u00d6RTYOL",
+            "SANAY\u0130",
+            "SERBEST B\u00d6LGE",
+            "\u0130SLAMK\u00d6Y",
+            "ENG\u00dcR\u00dcC\u00dcK",
+            "KURTUL"
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 [YEN\u0130K\u00d6Y]": [
                 "06:30P",
@@ -9072,6 +12096,20 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=482"
     },
     "132": {
+        "backward": [
+            "GEMSAZ  PTT \u00d6N\u00dc",
+            "\u0130ST\u0130KLAL CAD.",
+            "D\u00d6RTYOL",
+            "K\u00dc\u00c7\u00dcK SANAY\u0130",
+            "ENG\u00dcR\u00dcC\u00dcK",
+            "SERBEST B\u00d6LGE",
+            "GEMSAZ"
+        ],
+        "forward": [
+            "GEML\u0130K",
+            "ENG\u00dcR\u00dcC\u00dcK",
+            "GEMSAZ"
+        ],
         "hours": {
             "GEML\u0130K PTT \u00d6N\u00dc": [
                 "07:00",
@@ -9094,6 +12132,17 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=483"
     },
     "133": {
+        "backward": [
+            "K\u00dcT\u00dcPHANE",
+            "\u0130ST\u0130KLAL CAD.",
+            "UMURBEY MERKEZ"
+        ],
+        "forward": [
+            "UMURBEY MERKEZ",
+            "\u00c7EVRE YOLU",
+            "\u0130ST\u0130KLAL CAD.",
+            "K\u00dcT\u00dcPHANE"
+        ],
         "hours": {
             "T\u00dcM HAFTA [GEML\u0130K]": [
                 "07:30",
@@ -9160,6 +12209,17 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=410"
     },
     "134": {
+        "backward": null,
+        "forward": [
+            "FEVZ\u0130YE",
+            "\u015e\u00dcKR\u0130YE",
+            "HAM\u0130D\u0130YE",
+            "KATIRLI",
+            "UMURBEY",
+            "\u00c7EVRE YOLU",
+            "\u0130ST\u0130KLAL CAD.",
+            "K\u00dcT\u00dcPHANE"
+        ],
         "hours": {
             "FEVZ\u0130YE": [
                 "07:30",
@@ -9175,6 +12235,13 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=467"
     },
     "135": {
+        "backward": null,
+        "forward": [
+            "KUMLA K\u00d6Y",
+            "B.KUMLA",
+            "K.KUMLA",
+            "GEML\u0130K K\u00dcT\u00dcPHANE"
+        ],
         "hours": {
             "B\u00dcY\u00dcKKUMLA": [
                 "06:45",
@@ -9209,6 +12276,19 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=549"
     },
     "136": {
+        "backward": [
+            "K\u00dc\u00c7\u00dcK KUMLA",
+            "B\u00dcY\u00dcK KUMLA",
+            "KARACAAL\u0130",
+            "NARLI"
+        ],
+        "forward": [
+            "NARLI",
+            "KARACAAL\u0130",
+            "B\u00dcY\u00dcK KUMLA",
+            "K\u00dc\u00c7\u00dcK KUMLA",
+            "GEML\u0130KK\u00dcT\u00dcPHANE"
+        ],
         "hours": {
             "NARLI": [
                 "06:15",
@@ -9256,6 +12336,13 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=550"
     },
     "137": {
+        "backward": null,
+        "forward": [
+            "KUMLA K\u00d6Y",
+            "B\u00dcY\u00dcK KUMLA",
+            "K\u00dc\u00c7\u00dcK KUMLA",
+            "K\u00dcT\u00dcPHANE"
+        ],
         "hours": {
             "K\u00dc\u00c7\u00dcK KUMLA": [
                 "07:00",
@@ -9293,6 +12380,14 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=404"
     },
     "138": {
+        "backward": null,
+        "forward": [
+            "KUMLA K\u00d6Y",
+            "B\u00dcY\u00dcK KUMLA",
+            "K\u00dc\u00c7\u00dcK KUMLA",
+            "JANDARMA",
+            "HASANA\u011eA"
+        ],
         "hours": {
             "T\u00dcM HAFTA [KUMLA K\u00d6Y]": [
                 "08:00",
@@ -9313,6 +12408,63 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=551"
     },
     "B/3": {
+        "backward": null,
+        "forward": [
+            "K\u00dcLT\u00dcR MH. MUHTARLI\u011eI",
+            "BOLU SK.",
+            "G\u00dcM\u00dc\u015eDERE CD.",
+            "AKIN SK.",
+            "DERYA SK.",
+            "AZ\u0130ML\u0130 SK.",
+            "BA\u011eDA\u015e SK.",
+            "KIRLANGI\u00c7 SK.",
+            "ASIR SK.",
+            "BEGONYA SK.",
+            "G\u00dcLT\u0130KEN SK.",
+            "G\u00dcLTEK\u0130N CD.",
+            "ATA CD.",
+            "KAVAKDERE CD.",
+            "AKKAN SK.",
+            "MENEK\u015eE SK.",
+            "\u0130NK\u0130LAP CD.",
+            "ADAY SK.",
+            "EGEMEN SK.",
+            "SALKIM SK.",
+            "E\u011e\u0130T\u0130MC\u0130LER CD.",
+            "BA\u011eLAR SK.",
+            "KONAK CD.",
+            "BE\u015eEVLER CD.",
+            "YILDIRIM CD.",
+            "LEFKO\u015eA CD.",
+            "\u0130ZM\u0130R YOLU",
+            "N\u0130L\u00dcFER \u0130ST.",
+            "AHMET VEF\u0130K PA\u015eA CD.",
+            "SIHAT SK.",
+            "\u015e.\u00dcT\u011eM.ZEK\u0130 BURAK OKAY CD.",
+            "OKUL CD.",
+            "TUNA CD.",
+            "F.S.M. BULVARI",
+            "\u0130ZM\u0130R YOLU",
+            "N\u0130L\u00dcFER \u0130ST.",
+            "LEFKO\u015eA CD.",
+            "ADAY SK.",
+            "\u0130NK\u0130LAP CD.",
+            "MENEK\u015eE SK.",
+            "AKKAN SK.",
+            "KAVAKDERE CD.",
+            "ATA CD.",
+            "G\u00dcLTEK\u0130N CD.",
+            "G\u00dcLT\u0130KEN SK.",
+            "BEGONYA SK.",
+            "ASIR SK.",
+            "KIRLANGI\u00c7 SK.",
+            "BA\u011eDA\u015e SK.",
+            "AZ\u0130ML\u0130 SK.",
+            "DERYA SK.",
+            "AKIN SK.G\u00dcM\u00dc\u015eDERE CD.",
+            "BOLU SK.",
+            "K\u00dcLT\u00dcR MH.MUHTARLI\u011eI"
+        ],
         "hours": {
             "K\u00dcLT\u00dcR MAH. MUHTARLI\u011eI [T\u00dcM HAFTA]": [
                 "07:00",
@@ -9334,6 +12486,38 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=439"
     },
     "B/5": {
+        "backward": [
+            "ACEMLER \u0130ST.",
+            "HAYRAN CAD.",
+            "M\u0130HRAPLI CAD.",
+            "YILDIRIM CAD.N\u0130L\u00dcFER",
+            "KONAK CAD.",
+            "E\u011e\u0130T\u0130MC\u0130LER CAD.",
+            "75.YIL CUMHUR\u0130YET CAD.",
+            "G\u00dcLTEK\u0130N CAD.",
+            "B\u0130LG\u0130NLER CAD.",
+            "G\u00dcM\u00dc\u015eDERE CAD",
+            "G\u00dcM\u00dc\u015eDERE CAD.",
+            "DUMLUPINAR CAD.",
+            "N\u0130L\u00dcFER CAD.",
+            "K\u00dc\u00c7\u00dcK SANAY\u0130 \u0130STASYONU"
+        ],
+        "forward": [
+            "K\u00dc\u00c7\u00dcK SANAY\u0130 \u0130ST.",
+            "N\u0130L\u00dcFER CAD.",
+            "DUMLUPINAR CAD.",
+            "G\u00dcM\u00dc\u015eDERE CAD.",
+            "G\u00dcM\u00dc\u015eDERE CAD",
+            "B\u0130LG\u0130NLER CAD.",
+            "G\u00dcLTEK\u0130N CAD.",
+            "75.YIL CUMHUR\u0130YET CAD.",
+            "E\u011e\u0130T\u0130MC\u0130LER CAD.",
+            "KONAK CAD.",
+            "YILDIRIM CAD.N\u0130L\u00dcFER",
+            "M\u0130HRAPLI CAD.",
+            "HAYRAN CAD.",
+            "ACEMLER \u0130STASYONU"
+        ],
         "hours": {
             "K\u00dc\u00c7\u00dcK SANAY\u0130 \u0130ST. [HAFTA \u0130\u00c7\u0130-CUMARTES\u0130]": [
                 "06:35",
@@ -9501,6 +12685,47 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=444"
     },
     "B/6": {
+        "backward": null,
+        "forward": [
+            "K.SAN.\u0130ST.",
+            "N\u0130L\u00dcFER CAD.",
+            "\u00c7ALI YOLU",
+            "M.PINAR L\u0130SES\u0130",
+            "G\u00dcM\u00dc\u015eDERE CAD.",
+            "KUMOVA SOKAK",
+            "G\u00dcNE\u015e CAD.",
+            "BE\u015eEVLER CAD.",
+            "ORHANEL\u0130 KAV\u015eA\u011eI",
+            "\u0130ZM\u0130R YOLU",
+            "N\u0130L\u00dcFER \u0130STASYONU",
+            "A.VEF\u0130KPA\u015eA CAD.",
+            "LEFKO\u015eA SK.",
+            "2.ER SK.",
+            "EMN\u0130YET CAD.",
+            "\u0130LBAY SK.",
+            "\u0130NCESU SK.",
+            "\u0130SMET\u0130YE SK.",
+            "TUNA CAD.",
+            "F.S.M.BULVARI",
+            "ESENTEPE",
+            "BA\u011eLARBA\u015eI",
+            "HAVA ULA\u015eTIRMA",
+            "ADALET",
+            "H\u00dcRR\u0130YET",
+            "ACEMLER",
+            "DO\u011eUMEV\u0130",
+            "\u00c7EK\u0130RGE DEV.HAST.ALTI",
+            "D\u0130KKALDIRIM",
+            "ORHANEL\u0130 KAV\u015eA\u011eI",
+            "BE\u015eEVLER CAD.",
+            "G\u00dcNE\u015e CAD.",
+            "KUMOVA SK.",
+            "G\u00dcM\u00dc\u015eDERE CAD.",
+            "M.PINAR L\u0130SES\u0130",
+            "\u00c7ALI YOLU",
+            "N\u0130L\u00dcFER CAD.",
+            "K.SAN.\u0130ST."
+        ],
         "hours": {
             "K\u00dc\u00c7\u00dcK SANAY\u0130 \u0130STASYONU [HAFTA \u0130\u00c7\u0130]": [
                 "06:42",
@@ -9549,6 +12774,63 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=445"
     },
     "B/7": {
+        "backward": null,
+        "forward": [
+            "K\u00dc\u00c7\u00dcK SANAY\u0130 \u0130ST.",
+            "3. SK.",
+            "N\u0130L\u00dcFER CD.",
+            "AHISKA CD.",
+            "B\u0130LG\u0130NLER CD.",
+            "G\u00dcM\u00dc\u015eDERE CD.",
+            "KUMOVA SK.",
+            "ADALAR SK.",
+            "BAHR\u0130YEL\u0130 SK.",
+            "SEVG\u0130 SK.",
+            "B\u00dcY\u00dcK SK.",
+            "BARBAROS CD.",
+            "BE\u015eEVLER CD.",
+            "YILDIRIM CD.",
+            "M\u0130HRAPLI CD.",
+            "D\u0130KKALDIRIM CD.",
+            "\u00c7EK\u0130RGE DEVLET HAST. ALTI",
+            "6. DE\u011e\u0130RMEN SK.",
+            "HAT CD.",
+            "Z\u00dcBEYDE HANIM CD.",
+            "ACEMLER KAV\u015eA\u011eI",
+            "MUDANYA BULV.",
+            "SO\u011eUKKUYU CD.",
+            "1. H\u00dcRR\u0130YET CD.",
+            "\u0130ST\u0130KLAL CD.",
+            "\u015e\u0130R\u0130N CD.",
+            "1. ADALET CD.",
+            "1. OKUL CD.",
+            "1. H\u00dcRR\u0130YET CD.",
+            "FAT\u0130H SULTAN MEHMET BULV.",
+            "TUNA CD.",
+            "\u0130SMET\u0130YE SK.",
+            "\u0130NCESU SK.",
+            "\u0130LBAY SK.",
+            "\u0130SKELE SK.",
+            "EMN\u0130YET CD.",
+            "2.ER SK.",
+            "BARBAROS CD.",
+            "FAT\u0130H SULTAN MEHMET BULV.",
+            "\u0130ZM\u0130R BULV.",
+            "LEFKO\u015eE CD.",
+            "YILDIRIM CD.",
+            "BE\u015eEVLER CD.",
+            "BARBAROS CD.",
+            "B\u00dcY\u00dcK SK.",
+            "SEVG\u0130 SK.",
+            "BAHR\u0130YEL\u0130 SK.",
+            "ADALAR SK.",
+            "KUMOVA SK.",
+            "G\u00dcM\u00dc\u015eDERE CD.",
+            "AHISKA CD.",
+            "N\u0130L\u00dcFER CD.",
+            "3. SK.",
+            "K\u00dc\u00c7\u00dcK SANAY\u0130 \u0130ST."
+        ],
         "hours": {
             "K\u00dc\u00c7\u00dcK SANAY\u0130 \u0130ST. [HAFTA \u0130\u00c7\u0130]": [
                 "06:32",
@@ -9595,6 +12877,39 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=446"
     },
     "B/8": {
+        "backward": null,
+        "forward": [
+            "BE\u015eEVLER \u0130ST.",
+            "B.M.M.O",
+            "BELDE SK.",
+            "N\u0130L SK.",
+            "UMUT SK.",
+            "C\u0130HAN SK.",
+            "E\u011e\u0130T\u0130M SK.",
+            "NENEHATUN CD.",
+            "EMEK CD.",
+            "N\u0130L\u00dcFER HATUN CD.",
+            "\u015eEH\u0130T \u00dcST.TEYMEN MESUT BEYAZIT CD.",
+            "G\u00dcVEN SK.",
+            "GAZ\u0130 CD.",
+            "N\u0130L\u00dcFER HATUN CD.",
+            "KANUN\u0130 CD.",
+            "\u0130SMET\u0130YE SK.",
+            "\u0130NCESU SK.",
+            "\u0130LBAY SK.",
+            "EMN\u0130YET CD.",
+            "ER SK.",
+            "LEFKO\u015eA SK.",
+            "AHMET VEF\u0130K PA\u015eA CD.",
+            "SIHAT SK.",
+            "\u015eEH\u0130T \u00dcSTTEYMEN ZEK\u0130 BURAK OKAY CD \u2013 SOKULLU SK.",
+            "S\u00d6ZER\u0130 L\u0130SES\u0130 SK.",
+            "N\u0130L\u00dcFER \u0130ST.  BARBAROS CD.",
+            "\u015eEH\u0130T \u00dcSTTEYMEN BURAK OKAY CD.",
+            "OKUL CD. \u2013 CEYLAN SK.",
+            "CAM\u0130 SK.",
+            "EMN\u0130YET CADDES\u0130NDEN \u0130T\u0130BAREN AYNI."
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 VE CUMARTES\u0130 [BE\u015eEVLER \u0130ST.]": [
                 "06:33",
@@ -9852,6 +13167,18 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=447"
     },
     "B/9": {
+        "backward": [
+            "FUNDA SK.",
+            "KIRLANGI\u00c7 SK.",
+            "ULU CAD.",
+            "FETH\u0130YE MERKEZ",
+            "PAZAR SK."
+        ],
+        "forward": [
+            "SANAY\u0130 CAD.",
+            "ESENTEPE KAV\u015eA\u011eI",
+            "FAT\u0130H SULTAN MEHMET BULVARI"
+        ],
         "hours": {
             "PAZAR [ESENTEPE \u0130STASYONU]": [
                 "07:25",
@@ -9922,6 +13249,16 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=448"
     },
     "B/10": {
+        "backward": [
+            "GREENPARK",
+            "B\u0130LLUR SK.",
+            "BAHAR SK."
+        ],
+        "forward": [
+            "BADEML\u0130",
+            "BALAT",
+            "ORGAN\u0130ZE SAN.\u0130ST."
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 VE CUMARTES\u0130 [BALAT]": [
                 "07:00",
@@ -9990,6 +13327,19 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=428"
     },
     "B/12": {
+        "backward": [
+            "HAM\u0130TLER TOK\u0130",
+            "ALBAYRAK CAD.",
+            "KAVAKLI CAD.",
+            "F\u0130LAMENT KAV\u015eA\u011eI",
+            "SANAY\u0130 CAD.",
+            "ORGAN\u0130ZE SANAY\u0130 \u0130ST."
+        ],
+        "forward": [
+            "B/12",
+            "B.O.\u0130.",
+            "\u00f6zel halk"
+        ],
         "hours": {
             "PAZAR [HAM\u0130TLER TOK\u0130]": [
                 "06:20",
@@ -10172,6 +13522,22 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=429"
     },
     "B/13": {
+        "backward": null,
+        "forward": [
+            "ESENTEPE \u0130STASYONU",
+            "BI\u00c7AKCI SK.",
+            "H\u00dcRR\u0130YET CAD.",
+            "OSMANGAZ\u0130 CAD.",
+            "HUZUR CAD.",
+            "\u00c7AMLI SK.",
+            "HAMZABEY SK.",
+            "NAZLI SK.",
+            "HAM\u0130TLER MERKEZ CAM\u0130\u0130",
+            "ALBAYRAK CAD.",
+            "HARB\u0130YE CD.",
+            "KARANF\u0130L CAD.",
+            "SARNI\u015e SK. BA\u015eI SON  AYNI."
+        ],
         "hours": {
             "PAZAR [KARANF\u0130L 1. CADDE]": [
                 "06:45",
@@ -10279,6 +13645,44 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=430"
     },
     "B/16A": {
+        "backward": [
+            "MUDANYA CAD.",
+            "SO\u011eUKKUYU CAD.",
+            "H\u00dcRR\u0130YET CAD.",
+            "\u0130ST\u0130KLAL CAD.",
+            "\u015e\u0130R\u0130N CAD.",
+            "ADALET CAD.",
+            "S\u00d6NMEZ CAD.",
+            "H\u00dcRR\u0130YET CAD.",
+            "BA\u011eLARBA\u015eI",
+            "OSMANGAZ\u0130 CAD.",
+            "M\u00dcM\u0130N GEN\u00c7O\u011eLU CAD.",
+            "OKUL CAD.",
+            "\u015eAFAK CAD.",
+            "KUTLUKBEY CAD.",
+            "NENE HATUN CAD.",
+            "HACI BEKTA\u015e CAD.",
+            "OSMANGAZ\u0130 TOK\u0130"
+        ],
+        "forward": [
+            "OSMANGAZ\u0130 TOK\u0130",
+            "HACI BEKTA\u015e CAD.",
+            "NENE HATUN CAD.",
+            "KUTLUKBEY CAD.",
+            "\u015eAFAK CAD.",
+            "OKUL CAD.",
+            "M\u00dcM\u0130N GEN\u00c7O\u011eLU CAD.",
+            "OSMANGAZ\u0130 CAD.",
+            "BA\u011eLARBA\u015eI",
+            "H\u00dcRR\u0130YET CAD.",
+            "S\u00d6NMEZ CAD.",
+            "ADALET CAD",
+            "YE\u015e\u0130LOVA CAD.",
+            "H\u00dcRR\u0130YET CAD.",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "ACEMLER K\u00d6PR\u00dcL\u00dc KAV\u015eA\u011eI",
+            "ACEMLER \u0130ST."
+        ],
         "hours": {
             "OSMANGAZ\u0130 TOK\u0130 [HAFTA \u0130\u00c7\u0130- CUMARTES\u0130]": [
                 "06:00",
@@ -10705,6 +14109,26 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=431"
     },
     "B/16B": {
+        "backward": [
+            "ESENTEPE \u0130ST.",
+            "\u0130HSAN\u0130YE CAD.",
+            "KADIZADE RUM\u0130 CAD.",
+            "OSMANGAZ\u0130 CAD.",
+            "VATAN CAD.",
+            "HAM\u0130D\u0130YE CAD.",
+            "HACI BEKTA\u015e CAD.",
+            "OSMANGAZ\u0130 TOK\u0130"
+        ],
+        "forward": [
+            "OSMANGAZ\u0130 TOK\u0130",
+            "HACI BEKTA\u015e CAD.",
+            "HAM\u0130D\u0130YE CAD.",
+            "VATAN CAD.",
+            "OSMANGAZ\u0130 CAD.",
+            "KADIZADE RUM\u0130 CAD.",
+            "\u0130HSAN\u0130YE CAD.",
+            "ESENTEPE \u0130ST."
+        ],
         "hours": {
             "T\u00dcM HAFTA [OSMANGAZ\u0130 TOK\u0130]": [
                 "07:00",
@@ -10720,6 +14144,55 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=432"
     },
     "B/17": {
+        "backward": [
+            "OSMANGAZ\u0130 TOK\u0130.",
+            "YAMAN CAD.",
+            "KUMRU SK.",
+            "D\u0130ZDAR CAD.",
+            "\u015eENTUNA SK.",
+            "AYDIN SK.",
+            "AKYILDIZ CAD.",
+            "FUAT KU\u015e\u00c7UO\u011eLU CAD.",
+            "SO\u011eUKKUYU CAD.",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "ODUNLUK CAD.",
+            "MUDANYA CAD.",
+            "ACENLER \u0130STASYONU",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "DO\u011eUMEV\u0130",
+            "HAT CAD.",
+            "DE\u011e\u0130RMEN SK.",
+            "HASTANE YOKU\u015eU SK.",
+            "DOBRUCA CAD.",
+            "ARMUT SK.",
+            "YA\u011eCI SK.",
+            "HASBAH\u00c7E SK.",
+            "ESEN CAD.",
+            "KARAA\u011eA\u00c7",
+            "BEND CAD.",
+            "D\u0130KKALDIRIM CAD.",
+            "DE\u011e\u0130RMEN SK.",
+            "HAT CAD.",
+            "DO\u011eUMEV\u0130",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "ACEMLER K\u00d6PR\u00dcL\u00dc KAV\u015eA\u011eI",
+            "BUSK\u0130 \u00d6N\u00dc",
+            "SO\u011eUKKUYU CAD.",
+            "FUAT K\u00dc\u015eCUO\u011eLU CAD.",
+            "B\u0130LAD\u0130YUNUS CAD.",
+            "AKYILDIZ CAD.",
+            "AYDIN SK.",
+            "\u015eENTUNA SK.",
+            "D\u0130ZDAR CAD.",
+            "KUMRU SK.",
+            "YAMAN CAD.",
+            "OSMANGAZ\u0130 TOK\u0130."
+        ],
+        "forward": [
+            "DOBURCA",
+            "YUNUSEL\u0130",
+            "OSMANGAZ\u0130 TOK\u0130"
+        ],
         "hours": {
             "HAFTA\u0130\u00c7\u0130 [OSMANGAZ\u0130TOK\u0130]": [
                 "06:00",
@@ -11078,6 +14551,16 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=433"
     },
     "B/17A": {
+        "backward": [
+            "OSMANGAZ\u0130 TOK\u0130",
+            "YAMAN CAD.",
+            "G\u00dcNEY SK."
+        ],
+        "forward": [
+            "OSMANGAZ\u0130 TOK\u0130",
+            "G\u00dcNE\u015eTEPE",
+            "ACEMLER"
+        ],
         "hours": {
             "OSMANGAZ\u0130 TOK\u0130 [HAFTA \u0130\u00c7\u0130]": [
                 "06:40",
@@ -11246,6 +14729,30 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=434"
     },
     "B/19": {
+        "backward": [
+            "ACEMLER \u0130ST.DO\u011eUMEV\u0130",
+            "DE\u011e\u0130RMEN SK.",
+            "\u00c7EK\u0130RGE DEVLET HAST ALTI",
+            "D\u0130KKALDIRIM CAD.",
+            "B\u00dcKL\u00dcM CAD.",
+            "SE\u00c7K\u0130N SK.",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "ARMUTLU MEYDANI",
+            "H\u00dcSN\u00dcG\u00dcZEL",
+            "ULUDA\u011e CAD.",
+            "\u0130NKAYA"
+        ],
+        "forward": [
+            "\u0130NKAYA",
+            "ULUDA\u011e CD.",
+            "1.MURAT CD.",
+            "ARMUTLU MEYDANI",
+            "D\u0130KKALDIRIM CD.",
+            "\u00c7EK\u0130RGE DEVLET HAST ALTI",
+            "DE\u011e\u0130RMEN SK.",
+            "HAT CAD.",
+            "ACEMLER \u0130ST."
+        ],
         "hours": {
             "ACEMLER \u0130ST. [HAFTA \u0130\u00c7\u0130]": [
                 "07:00",
@@ -11283,6 +14790,20 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=435"
     },
     "B/20A": {
+        "backward": null,
+        "forward": [
+            "G\u00dcZRGAH G\u00dcM\u00dc\u015eTEPE",
+            "N\u0130L\u00dcFER CAD.",
+            "ORHANEL\u0130 YOLU",
+            "KAVAKDERE CAD.",
+            "ORHANGAZ\u0130 CAD.",
+            "ODUNCU SK.",
+            "ORTAM SK.ODUNLUK CAD.",
+            "ODUNLUK KAV\u015eA\u011eI",
+            "D\u0130KKALDIRIM CAD.HAYRAN CAD.",
+            "VELEDROM",
+            "ACEMLER \u0130STASYONU"
+        ],
         "hours": {
             "T\u00dcM HAFTA [G\u00dcM\u00dc\u015eTEPE]": [
                 "06:55",
@@ -11323,6 +14844,19 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=1006&catid=38"
     },
     "B/20B": {
+        "backward": null,
+        "forward": [
+            "G\u00dcZRGAH G\u00dcM\u00dc\u015eTEPE",
+            "G\u00dcM\u00dc\u015eTEPE CD.",
+            "N\u0130L\u00dcFER CAD.",
+            "KAVAKDERE CAD.",
+            "ORHANEL\u0130 YOLU",
+            "BE\u015eEVLER KAV\u015eA\u011eI",
+            "M\u0130HRAPLI CAD.",
+            "HAYRAN CAD.",
+            "VELEDROM",
+            "ACEMLER \u0130STASYONU AYNI"
+        ],
         "hours": {
             "DA\u011eYEN\u0130CE [HAFTA \u0130\u00c7\u0130 CUMARTES\u0130]": [
                 "06:50",
@@ -11463,6 +14997,13 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=436"
     },
     "B/22": {
+        "backward": null,
+        "forward": [
+            "\u00dcR\u00dcNL\u00dc",
+            "\u00dcR\u00dcNL\u00dc CAD.",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "K\u00dc\u00c7\u00dcK SANAY\u0130 \u0130ST."
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 [\u00dcR\u00dcNL\u00dc]": [
                 "06:45",
@@ -11530,6 +15071,69 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=438"
     },
     "B/24": {
+        "backward": [
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 \u00d6\u011eRENC\u0130 YURDU",
+            "\u0130KT\u0130SAT FAK\u00dcLTES\u0130",
+            "REKT\u00d6RL\u00dcK",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "\u00c7ALI K\u00d6PR\u00dcL\u00dc KAV\u015eA\u011eI",
+            "AHISKA CAD.",
+            "KARA FATMA HEYKEL\u0130",
+            "B\u0130LG\u0130NLER CAD.",
+            "F.S.M.BULVARI",
+            "ESENTEPE KAV\u015eA\u011eI",
+            "SANAY\u0130 CAD.",
+            "ORGAN\u0130ZE SANAY\u0130 \u0130ST.",
+            "SANAY\u0130 CAD.",
+            "TURGUT \u00d6ZAL CAD.",
+            "EMEK",
+            "OKUL CAD.",
+            "H\u0130SAR CAD.",
+            "HALAY CAD.",
+            "HANCI CAD",
+            "HAYAT CAD.",
+            "HANCI CAD.",
+            "KAVAKLI CAD.",
+            "HAM\u0130D\u0130YE CAD.",
+            "HACI BEKTA\u015e CAD.",
+            "OSMAN GAZ\u0130 TOK\u0130",
+            "YAMAN CAD.",
+            "H\u00dcSEY\u0130N KANALICI CAD.",
+            "FUAT KU\u015eCUO\u011eLU CAD.",
+            "YUNUSEL\u0130"
+        ],
+        "forward": [
+            "YUNUSEL\u0130",
+            "FUAT KU\u015eCUO\u011eLU CAD.",
+            "H\u00dcSEY\u0130N KANALICI CAD.",
+            "YAMAN CAD.",
+            "OSMAN GAZ\u0130 TOK\u0130",
+            "HACI BEKTA\u015e CAD.",
+            "HAM\u0130D\u0130YE CAD.",
+            "KAVAKLI CAD.",
+            "HAYAT CAD.",
+            "HANCI CAD.",
+            "HALAY CAD.",
+            "H\u0130SAR CAD.",
+            "OKUL CAD.",
+            "EMEK",
+            "TURGUT \u00d6ZAL CAD.",
+            "BESA\u015e KAV\u015eA\u011eI",
+            "SANAY\u0130 CAD.",
+            "ORGAN\u0130ZE SANAY\u0130 \u0130ST.",
+            "ESENTEPE KAV\u015eA\u011eI",
+            "F.S.M. BULVARI",
+            "B\u0130LG\u0130NLER CAD.",
+            "KARA FATMA HEYKEL\u0130",
+            "AHISKA CAD.",
+            "\u00c7ALI KAV\u015eA\u011eI",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130",
+            "REKT\u00d6RL\u00dcK",
+            "\u0130KT\u0130SAT FAK\u00dcLTES\u0130",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 \u00d6\u011eRENC\u0130 YURDU"
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 [YUNUSEL\u0130]": [
                 "06:23",
@@ -11974,6 +15578,21 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=590"
     },
     "B/25": {
+        "backward": [
+            "\u00c7EK\u0130RGE CD",
+            "HAMZABEY CD",
+            "KAPLICA CD",
+            "HASTA YURDU CD"
+        ],
+        "forward": [
+            "HIDIRBEY SK",
+            "YAMAN CD",
+            "D\u0130ZDAR CD",
+            "29. AYDIN SK",
+            "AKYILDIZ CD",
+            "FUAT KU\u015e\u00c7UO\u011eLU CD",
+            "Z\u00dcBEYDE HANIM CD"
+        ],
         "hours": {
             "OSMANGAZ\u0130 TOK\u0130 [HAFTA \u0130\u00c7\u0130 - CUMARTES\u0130]": [
                 "06:30",
@@ -12063,6 +15682,19 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=591"
     },
     "B/27": {
+        "backward": null,
+        "forward": [
+            "AHMETK\u00d6Y",
+            "DERE\u00c7AVU\u015e",
+            "YUNUSEL\u0130 MEZARLI\u011eI",
+            "B\u0130LAD\u0130 YUNUS CAD.",
+            "\u015e\u00dcKR\u00dc \u015eENKAYA ANADOLU.L\u0130SES\u0130",
+            "FUAT KU\u015eCUO\u011eLU CAD.",
+            "ADALET",
+            "H\u00dcRR\u0130YET",
+            "SO\u011eUKKUYU",
+            "ACEMLER \u0130STASYONU"
+        ],
         "hours": {
             "AHMET K\u00d6Y": [
                 "07:00",
@@ -12089,6 +15721,15 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=592"
     },
     "B/29": {
+        "backward": null,
+        "forward": [
+            "G\u00dcNDO\u011eDU",
+            "DUMLUPINAR CD.",
+            "YUNUSEL\u0130",
+            "FUATKU\u015e\u00c7UO\u011eLU CAD.",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "ACEMLER"
+        ],
         "hours": {
             "HAFTA\u0130\u00c7\u0130 VE CUMARTES\u0130 [G\u00dcNDO\u011eDU]": [
                 "06:30",
@@ -12216,6 +15857,16 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=593"
     },
     "B/31": {
+        "backward": null,
+        "forward": [
+            "DEM\u0130RC\u0130",
+            "KAYAPA YOLU",
+            "DEN\u0130ZC\u0130LER CAD.",
+            "FEN \u0130\u015eLER\u0130 S\u0130TELER\u0130",
+            "DUMLUPINAR CAD.",
+            "N\u0130L\u00dcFER CD.",
+            "K\u00dc\u00c7\u00dcK SANAY\u0130 \u0130ST."
+        ],
         "hours": {
             "DEM\u0130RC\u0130 [HAFTA \u0130\u00c7\u0130-CUMARTES\u0130]": [
                 "06:30",
@@ -12386,6 +16037,16 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=440"
     },
     "B/33": {
+        "backward": null,
+        "forward": [
+            "KAYAPA TOK\u0130",
+            "KAYAPA K\u00d6Y \u0130\u00c7\u0130",
+            "TAHTALI",
+            "YAYLACIK",
+            "K\u00dc\u00c7\u00dcK NANAY\u0130",
+            "N\u0130L\u00dcFER CD.",
+            "K.SANAY\u0130\u0130 \u0130STASYONU"
+        ],
         "hours": {
             "T\u00dcM HAFTA [KAYAPA TOK\u0130]": [
                 "06:45",
@@ -12428,6 +16089,15 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=594"
     },
     "B/33H": {
+        "backward": null,
+        "forward": [
+            "HASANA\u011eA",
+            "KAYAPA YOLU",
+            "TAHTALI",
+            "YAYLACIK",
+            "N\u0130L\u00dcFER CD.",
+            "K.SANAY\u0130\u0130 \u0130STASYONU"
+        ],
         "hours": {
             "HASANA\u011eA": [
                 "06:10",
@@ -12469,6 +16139,27 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=595"
     },
     "B/33K": {
+        "backward": null,
+        "forward": [
+            "HASANA\u011eA MERKEZ",
+            "CUMHUR\u0130YET CAD.",
+            "BURA CAD.",
+            "KAYAPA CAD.",
+            "KAYAPA SANAY\u0130",
+            "KAYAPA CAD.",
+            "M.AK\u0130F ERSOY CAD.",
+            "KAYAPA TOK\u0130",
+            "DEVLET \u00c7EVRE YOLU",
+            "G\u00d6R\u00dcKLE",
+            "ATAT\u00dcRK CAD.",
+            "GEL\u0130BOLU CAD.",
+            "KURTULU\u015e CAD.",
+            "SEYHANLAR MARKET",
+            "ATAT\u00dcRK CAD.",
+            "\u00dc\u00c7OLUK CAD.",
+            "BAHR\u0130YE \u00dc\u00c7OK CAD.",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 \u0130STASYONU"
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 [HASANA\u011eA SANAY\u0130]": [
                 "06:30",
@@ -12560,6 +16251,44 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=515"
     },
     "B/35K": {
+        "backward": [
+            "ORGAN\u0130ZE SANAY\u0130 \u0130ST.",
+            "SANAY\u0130 CAD.",
+            "MAV\u0130 CAD.",
+            "YE\u015e\u0130L CAD.",
+            "SARI CAD.",
+            "GR\u0130 CAD.",
+            "M\u0130NAREL\u0130 \u00c7AVU\u015e CAD.",
+            "ME\u015eE CAD.",
+            "N\u0130L\u00dcFER BULVARI",
+            "\u00c7AMLIK CAD.",
+            "IHLAMUR CAD.",
+            "\u00d6ZL\u00dcCE",
+            "\u00c7\u0130\u00c7EK CAD.",
+            "U\u011eUR MUMCU CAD.",
+            "G\u00dcL KAV\u015eA\u011eI",
+            "K\u00dc\u00c7\u00dcK SANAY\u0130 \u0130ST."
+        ],
+        "forward": [
+            "K\u00dc\u00c7\u00dcK SANAY\u0130 \u0130ST.",
+            "G\u00dcL KAV\u015eA\u011eI",
+            "U\u011eUR MUMCU CAD.",
+            "\u00c7\u0130\u00c7EK CAD.",
+            "\u00d6ZL\u00dcCE",
+            "IHLAMUR CAD.",
+            "\u00c7AMLIK CAD.",
+            "N\u0130L\u00dcFER BULVARI",
+            "ME\u015eE CAD.",
+            "M\u0130NAREL\u0130 \u00c7AVU\u015e CAD.",
+            "GR\u0130 CAD.",
+            "SARI CAD.",
+            "YE\u015e\u0130L CAD.",
+            "MAV\u0130 CAD.",
+            "BANKALAR CAD.",
+            "BESA\u015e KAV\u015eA\u011eI",
+            "SANAY\u0130 CAD.",
+            "ORGAN\u0130ZE SANAY\u0130 \u0130ST."
+        ],
         "hours": {
             "HAFTA\u0130\u00c7\u0130 VE CUMARTES\u0130 [ORG. SAN. \u0130ST.]": [
                 "06:50",
@@ -12667,6 +16396,15 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=441"
     },
     "B/36": {
+        "backward": [
+            "MUDANYA BLV",
+            "SANAY\u0130 CD",
+            "AL\u0130 OSMAN S\u00d6NMEZ BLV"
+        ],
+        "forward": [
+            "E\u011e\u0130T\u0130M CD",
+            "ESK\u0130 BURSA MUDANYA YOLU"
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 VE CUMARTES\u0130 [BADEML\u0130]": [
                 "06:15",
@@ -12927,6 +16665,27 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=517"
     },
     "B/36-C": {
+        "backward": [
+            "AYDINPINAR",
+            "G\u00d6KTA\u015e AYDINPINAR EVLER\u0130",
+            "AYDIN K\u00d6Y",
+            "M\u00dcHEND\u0130SLER S\u0130TES\u0130",
+            "G\u00d6KTA\u015e AYDINPINAR EVLER\u0130",
+            "ESK\u0130 MUDANYA CAD.",
+            "EMEK \u0130STASYONU"
+        ],
+        "forward": [
+            "EMEK \u0130STASYONU",
+            "GE\u00c7\u0130T",
+            "BADEML\u0130",
+            "ESK\u0130 MUDANYA CAD.",
+            "G\u00d6KTA\u015e AYDINPINAR EVLER\u0130",
+            "AYDIN K\u00d6Y",
+            "M\u00dcHEND\u0130SLER S\u0130TES\u0130",
+            "G\u00d6KTA\u015e AYDINPINAR EVLER\u0130",
+            "ESK\u0130 MUDANYA CAD.",
+            "AYDINPINAR"
+        ],
         "hours": {
             "EMEK \u0130STASYONU": [
                 "07:30",
@@ -12946,6 +16705,56 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=518"
     },
     "B/38": {
+        "backward": [
+            "ESK\u0130 MUDANYA CAD.",
+            "KEMALPA\u015eA CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "HAMZABEY CAD.",
+            "MURAD\u0130YE",
+            "KAPLICA CAD.",
+            "HASTA YURDU CAD.",
+            "BURSA DEVLET HAST.",
+            "TOPHANE",
+            "OSMANGAZ\u0130 CAD.",
+            "ATAT\u00dcRK CAD.",
+            "MAKSEM CAD.",
+            "K\u00d6PR\u00dc CAD.",
+            "E\u015eREF\u0130LER CAD.",
+            "BALABANCIK CAD.",
+            "DEVRENGE\u00c7 CAD.",
+            "KEYRUVAN PARKI"
+        ],
+        "forward": [
+            "KEYRUVAN PARKI",
+            "DEVRENGE\u00c7 CAD.",
+            "BALABANCIK CAD.",
+            "E\u015eREF\u0130LER CAD.",
+            "K\u00d6PR\u00dc CAD.",
+            "PINARBA\u015eI CAD.",
+            "\u0130VAZPA\u015eA CAD.",
+            "VEZ\u0130R\u0130 CAD.",
+            "KAZIM BAYKAL CAD.",
+            "OSMANGAZ\u0130 CAD.",
+            "TOPHANE",
+            "ASKER CAD.",
+            "DEVLET HAST.",
+            "HASTA YURDU CAD.",
+            "KAPLICA CAD.",
+            "CEM 2SK.",
+            "MURAD\u0130YE",
+            "BE\u015e\u0130K\u00c7\u0130LER CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "ARMUTLU MEYDANI",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "D\u0130KKALDIRIM CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI",
+            "HAT CAD.",
+            "Z\u00dcBEYDE HANIM DO\u011eUMEV\u0130",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "OULU CAD.",
+            "MUDANYA CAD.",
+            "K\u00dcLT\u00dcRPARK \u0130ST."
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 [K\u00dcLT\u00dcRPARK \u0130STASYONU]": [
                 "07:00",
@@ -13047,6 +16856,30 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=519"
     },
     "B/39": {
+        "backward": null,
+        "forward": [
+            "ACEMLER \u0130ST.",
+            "HAYRAN CAD.",
+            "D\u0130KKALDIRIM CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "ARMUTLU MEYDANI",
+            "\u00c7EK\u0130RGE CAD.",
+            "ALTIPARMAK CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "ATAT\u00dcRK CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CAD.",
+            "ALTIPARMAK CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "ARMUTLU MEYDANI",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "D\u0130KKALDIRIM CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI",
+            "D\u0130KKALDIRIM CAD.",
+            "HAYRAN CAD.",
+            "ACEMLER \u0130ST"
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 VECUMARTES\u0130 [ACEMLER \u0130STASYONU]": [
                 "06:30",
@@ -13207,6 +17040,78 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=442"
     },
     "B/40A": {
+        "backward": [
+            "KARANF\u0130L CAD.",
+            "HARB\u0130YE CAD.",
+            "ALBAYRAK CAD.",
+            "HAM\u0130D\u0130YE CAD.",
+            "NENE HATUN CAD.",
+            "KUTLUKBEY CAD.",
+            "\u015eAFAK CAD.",
+            "OKUL CAD",
+            "ADALET CAD",
+            "YE\u015e\u0130LOVA CAD.",
+            "H\u00dcRR\u0130YET CAD",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "ACEMLER K\u00d6PR\u00dcL\u00dc KAV\u015eA\u011eI",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "Z\u00dcBEYDE HANIM DO\u011eUMEV\u0130",
+            "HAT CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI",
+            "D\u0130KKALDIRIM CAD.",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "ARMUTLU MEYDANI",
+            "\u00c7EK\u0130RGE CAD.",
+            "HAMZABEY CAD.",
+            "MURAD\u0130YE",
+            "KAPLICA CAD.",
+            "HASTA YURDU CAD.",
+            "DEVLET HAST.",
+            "ASKER CAD.",
+            "TOPHANE",
+            "OSMANGAZ\u0130 CAD.",
+            "ATAT\u00dcRK CAD.",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "HA\u015e\u0130M \u0130\u015eCAN.CAD",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "OSMANGAZ\u0130 CAD.",
+            "TOPHANE",
+            "ASKER CAD.",
+            "DEVLET HAST.",
+            "HASTA YURDU CAD.",
+            "KAPLICA CAD.",
+            "CEM 2.SK.",
+            "MURAD\u0130YE",
+            "BE\u015e\u0130KC\u0130LER CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "ARMUTLU MEYDANI",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "D\u0130KKALDIRIM CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI",
+            "HAT CAD.",
+            "Z\u00dcBEYDE HANIM DO\u011eUMEV\u0130",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "ACEMLER K\u00d6PR\u00dcL\u00dc KAV\u015eA\u011eI",
+            "MUDANYA CAD.",
+            "SO\u011eUKKUYU CAD.",
+            "H\u00dcRR\u0130YET CAD.",
+            "\u0130ST\u0130KLAL CAD.",
+            "\u015e\u0130R\u0130N CAD.",
+            "ADALET CAD.",
+            "OKUL CAD",
+            "\u015eAFAK CAD.",
+            "KUTLUKBEY CAD.",
+            "NENE HATUN CAD.",
+            "HAM\u0130D\u0130YE CAD.",
+            "ALBAYRAK CAD.",
+            "HARB\u0130YE CAD.",
+            "KARANF\u0130L CAD."
+        ],
+        "forward": [
+            "YEN\u0130BA\u011eLAR",
+            "\u00c7EK\u0130RGE CAD.",
+            "ATAT\u00dcRK CAD."
+        ],
         "hours": {
             "KARANF\u0130L CADDES\u0130 [HAFTA \u0130\u00c7\u0130]": [
                 "06:20",
@@ -13345,6 +17250,69 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=597"
     },
     "B/41-C": {
+        "backward": null,
+        "forward": [
+            "MADENC\u0130LER S\u0130TES\u0130",
+            "\u015eEH\u0130T AYHAN YILDIZ CAD.",
+            "TURGUT \u00d6ZAL CAD.",
+            "OKUL CAD.",
+            "H\u0130SAR CAD.",
+            "HALAY CAD.",
+            "HANCI CAD.",
+            "HAYAT CAD.",
+            "HANCI CAD.",
+            "KAVAKLI CAD.",
+            "HUZUR CAD.",
+            "OSMANGAZ\u0130 CAD.",
+            "H\u00dcRR\u0130YET CAD.",
+            "ESENTEPE KAV\u015eA\u011eI",
+            "SANAY\u0130 CAD.",
+            "MUDANYA CAD.",
+            "ACEMLER \u0130ST.",
+            "OULU CAD.",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "Z\u00dcBEYDE HANIM DO\u011eUMEV\u0130",
+            "HAT CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI",
+            "D\u0130KKALDIRIM CAD.",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "ARMUTLU MEYDANI",
+            "\u00c7EK\u0130RGE CAD.",
+            "ALTIPARMAK CAD.",
+            "T\u0130MURTA\u015ePA\u015eA",
+            "OSMANGAZ\u0130 CAD.",
+            "TOPHANE",
+            "ASKER CAD.",
+            "DEVLET HAST.",
+            "HASTA YURDU CAD.",
+            "KAPLICA CAD.",
+            "CEM 2.SK.",
+            "BE\u015e\u0130K\u00c7\u0130LER CAD",
+            "\u00c7EK\u0130RGE CAD.",
+            "ARMUTLU MEYDANI",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "D\u0130KKALDIRIM CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI",
+            "HAT CAD.",
+            "Z\u00dcBEYDE HANIM DO\u011eUMEV\u0130",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "ACEMLER K\u00d6PR\u00dcL\u00dc KAV\u015eA\u011eI",
+            "MUDANYA CAD.",
+            "SANAY\u0130 CAD.",
+            "ESENTEPE KAV\u015eA\u011eI",
+            "SANAY\u0130 CAD.",
+            "F\u0130LEMENT KAV\u015eA\u011eI",
+            "KAVAKLI CAD.",
+            "HANCI CAD.",
+            "HAYAT CAD.",
+            "HANCI CAD.",
+            "HALAY CAD.",
+            "H\u0130SAR CAD.",
+            "OKUL CAD.",
+            "TURGUT \u00d6ZAL CAD.",
+            "\u015eEH\u0130T AYHAN YILDIZ CAD.",
+            "MADENC\u0130LER S\u0130TES\u0130"
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 [MADENC\u0130LER S\u0130TES\u0130]": [
                 "07:15",
@@ -13388,6 +17356,32 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=599"
     },
     "B/42A": {
+        "backward": null,
+        "forward": [
+            "ATAEVLER",
+            "PAZAR YER\u0130 \u2013 EMEK CAD.",
+            "N\u0130L SK.",
+            "NENE HATUN CAD.",
+            "AL\u0130 R\u0130ZA BEY CAD.",
+            "BASIN SK.",
+            "N\u0130L\u00dcFER HATUN CAD.",
+            "GAZ\u0130 CAD.",
+            "N\u0130L\u00dcFER HATUN CAD.",
+            "F.S.BULVARI \u2013 KANUN\u0130 CAD.",
+            "AHMET VEF\u0130K PA\u015eA CAD.",
+            "\u0130MARET SK.",
+            "KEMER CAD.",
+            "DEM\u0130RC\u0130 CAD.",
+            "K\u00dcLT\u00dcR CAD.",
+            "ORHANEL\u0130 KAV\u015eA\u011eI",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "CARREFOUR \u00d6N\u00dc \u2013 L\u0130MAN CAD.",
+            "AKPINAR CAD.",
+            "M\u0130HRAPLI CAD.",
+            "D\u0130KKALDIRIM CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "MURAD\u0130YE DEVLET HAST.  AYNI"
+        ],
         "hours": {
             "PAZAR [ATAEVLER]": [
                 "06:40",
@@ -13487,6 +17481,18 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=600"
     },
     "B/43": {
+        "backward": [
+            "2. OKUL CD",
+            "H\u0130SAR CD",
+            "HALAY CD",
+            "HANCI CD",
+            "1. ACAR SK"
+        ],
+        "forward": [
+            "EMEK",
+            "ATAEVLER",
+            "BURSA DEV.HAST."
+        ],
         "hours": {
             "EMEK MAHALLES\u0130 [HAFTA \u0130\u00c7\u0130]": [
                 "06:30",
@@ -13572,6 +17578,53 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=601"
     },
     "B/44B": {
+        "backward": [
+            "ME\u015eEL\u0130 CAM\u0130",
+            "KANAL CAD",
+            "\u00c7\u0130R\u0130\u015eHANE CAD.",
+            "YED\u0130YOL",
+            "SUYOLU CAD.",
+            "N\u0130L\u00dcFER CAD.",
+            "ORMANLAR YOLU CAD.",
+            "MUDANYA CAD.",
+            "ACEMLER K\u00d6PR\u00dcL\u00dc KAV\u015eA\u011eI",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI.D\u0130KKALDIRIM CAD.",
+            "M\u0130HRAPLI CAD.",
+            "BE\u015eEVLER CAD.",
+            "K\u00dc\u00c7\u00dcK SANAY\u0130",
+            "ERTU\u011eRUL CAD.",
+            "N\u0130L\u00dcFER CAD.",
+            "G\u00dcL KAV\u015eA\u011eI",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130",
+            "REKT\u00d6RL\u00dcK",
+            "\u0130KT\u0130SAT FAK\u00dcLTES\u0130",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130",
+            "SA\u011eLIK MESLEK Y\u00dcKSEK OKULU",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 \u00d6\u011eRENC\u0130 YURDU"
+        ],
+        "forward": [
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130 \u00d6\u011eRENC\u0130 YURDU",
+            "\u0130KT\u0130SAT FAK\u00dcLTES\u0130",
+            "REKT\u00d6RL\u00dcK",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "K\u00dc\u00c7\u00dcK SANAY\u0130",
+            "N\u0130L\u00dcFER CAD.",
+            "ERTU\u011eRUL CAD.",
+            "BE\u015eEVLER CAD.",
+            "M\u0130HRAPLI CAD.",
+            "D\u0130KKALDIRIM CAD.",
+            "\u00c7EK\u0130RGE DEVLET HASTANES\u0130 ALTI",
+            "HAT CAD.",
+            "Z\u00dcBEYDE HANIM DO\u011eUMEV\u0130",
+            "Z\u00dcBEYDE HANIM CAD.",
+            "ACEMLER K\u00d6PR\u00dcL\u00dc KAV\u015eA\u011eI",
+            "AVRUPA KONSEY\u0130 BULVARI",
+            "KANAL CAD.",
+            "ME\u015eEL\u0130 CAM\u0130"
+        ],
         "hours": {
             "ULUDA\u011e \u00dc. \u00d6\u011eRENC\u0130 YURDU [HAFTA \u0130\u00c7\u0130 VE CUMARTES\u0130]": [
                 "07:00",
@@ -13722,6 +17775,34 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=602"
     },
     "B/46": {
+        "backward": [
+            "FUNDA SK.",
+            "KIRLANGI\u00c7 SK.",
+            "ULU CAD.",
+            "FETH\u0130YE MERKEZ",
+            "TOP SAHASI CAD.",
+            "FAT\u0130H SK.",
+            "TURHAN SK.",
+            "I\u015eIKTEPE SK.",
+            "I\u015eIKTEPE CAD.",
+            "EMEK CAD.",
+            "SAH\u0130L SK.",
+            "ATA CAD.",
+            "YAPRAK SK.",
+            "NENE HATUN CAD.",
+            "E\u011e\u0130T\u0130M SK.",
+            "C\u0130HAN SK.",
+            "UMUT SK.",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "U. \u00dc. TIP FAK\u00dcLTES\u0130"
+        ],
+        "forward": [
+            "YUNUSEL\u0130",
+            "FUAT KU\u015e\u00c7UO\u011eLU CAD.",
+            "H\u00dcRR\u0130YET 1.CAD.",
+            "ESENTEPE KAV\u015eA\u011eI",
+            "FAT\u0130H SULTAN MEHMET BULVARI"
+        ],
         "hours": {
             "SO\u011eUKKUYU CAD. [H\u00dcRR\u0130YET]": [
                 "06:40",
@@ -13912,6 +17993,26 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=604"
     },
     "D/1A": {
+        "backward": null,
+        "forward": [
+            "M\u0130LLET MAH.  V\u0130LLALAR MEVK\u0130\u0130",
+            "MARMARA SK.",
+            "YILDIRIM SK.",
+            "M\u0130LLET CD.",
+            "VATAN CD.",
+            "SEV\u0130N\u00c7 CD.",
+            "KAZIM KARABEK\u0130R CD.",
+            "K\u00d6KL\u00dc CD.",
+            "KIRKPINAR CD.",
+            "V\u0130\u015eNE CD.",
+            "11 EYL\u00dcL BULV.",
+            "Y\u00dcKSEK \u0130HT\u0130SAS HAST. KAV\u015eA\u011eI",
+            "ANKARA YOLU CD.",
+            "ARABAYATA\u011eI \u0130STASYONU",
+            "EMN\u0130YET CD.",
+            "\u015eEVKET YILMAZ HAST.",
+            "S\u0130TELER   AYNI"
+        ],
         "hours": {
             "PAZAR [M\u0130LLET MAHALLES\u0130]": [
                 "07:00",
@@ -13974,6 +18075,50 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=450"
     },
     "D/2": {
+        "backward": [
+            "AK\u015eAM ARABAYATA\u011eI \u0130STASYONU",
+            "M.S\u0130NAN KAV\u015eA\u011eI",
+            "\u015e.YILMAZ D. HASTANES\u0130",
+            "S\u0130TELER",
+            "BURSA CD.",
+            "F\u0130DYEKIZIK",
+            "ER\u0130KL\u0130 CD.",
+            "YAZICI CD.",
+            "EM\u0130R CD",
+            "T\u00dcRKMENBA\u015eI CD.",
+            "BA\u015eAK CD.",
+            "333.SK",
+            "347.SK.",
+            "B17 SK.",
+            "BAYRAKTAR CD.",
+            "C13 SK.",
+            "B.21 SK.",
+            "C .9 SK.",
+            "\u0130MKB A.M.L\u0130SES\u0130",
+            "ANKARA YOLUNDAN D\u0130REK ARABAYATA\u011eI \u0130STASYONU"
+        ],
+        "forward": [
+            "SABAH \u0130MKB ANADOLU MESLEK L\u0130SES\u0130",
+            "C.9 SK",
+            "B21 SK.",
+            "C",
+            "13 SK.",
+            "BAYRAKTAR CD.",
+            "B",
+            "17 SK.",
+            "347 SK.",
+            "333. SK.",
+            "ERMANTA\u015e CD.",
+            "YAZICI CD.",
+            "ER\u0130KL\u0130 CD.",
+            "BURSA CD.",
+            "S\u0130TELER",
+            "\u015e. YILMAZ D.HASTANES\u0130",
+            "M.S\u0130NAN KAV\u015eA\u011eI",
+            "ANKARA YOLU",
+            "ARABAYATA\u011eI \u0130STASYONU",
+            "ANKARA YOLUNDAN D\u0130REK \u0130MKB A.M. L\u0130SES\u0130"
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 [\u0130MKB ANADOLU MESLEK L.]": [
                 "07:05EC",
@@ -13991,6 +18136,74 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=451"
     },
     "D/2A": {
+        "backward": [
+            "\u0130MKB ANADOLU MESLEK L\u0130SES\u0130",
+            "C.9 SK",
+            "B21 SK.",
+            "C",
+            "13 SK.",
+            "BAYRAKTAR CD.",
+            "B",
+            "17 SK.",
+            "347 SK.",
+            "333. SK.",
+            "ERMANTA\u015e CD.",
+            "YAZICI CD.",
+            "ER\u0130KL\u0130 CD.",
+            "BURSA CD.",
+            "S\u0130TELER",
+            "\u015e.YILMAZ D.HASTANES\u0130",
+            "M.S\u0130NAN KAV\u015eA\u011eI",
+            "ANKARA YOLU",
+            "A.YATA\u011eI \u0130ST.",
+            "Y. \u0130HT\u0130SAS HAST. KAV\u015eA\u011eI",
+            "11 EYL\u00dcL BULV.",
+            "YEN\u0130YOL",
+            "SU DEPOSU YOLU",
+            "HASTANE CD.",
+            "A.YATA\u011eI ODUN DEPOLARI",
+            "CAM\u0130 CD.",
+            "\u00d6ZD\u0130LEK CD.",
+            "3. ULUBAT SK.",
+            "1. YANAR SK.",
+            "1. VARDAR SK.",
+            "YAVER SK.",
+            "MEVLANA MH.HACILAR CAM\u0130 \u00d6N\u00dc"
+        ],
+        "forward": [
+            "MEVLANA MH.HACILAR CAM\u0130 \u00d6N\u00dc",
+            "YAVER SK.",
+            "1. VARDAR SK.",
+            "1. YANAR SK.",
+            "3. ULUBAT SK.",
+            "\u00d6ZD\u0130LEK CD.",
+            "CAM\u0130 CD.",
+            "A.YATA\u011eI ODUN DEPOLARI",
+            "HASTANE CD.",
+            "SU DEPOSU CD.",
+            "11 EYL\u00dcL BULV.",
+            "Y.\u0130HT\u0130SAS HAST. KAV\u015eA\u011eI",
+            "A.YATA\u011eI \u0130ST.",
+            "ANKARA YOLU CD.",
+            "EMN\u0130YET CD.",
+            "\u015e.YILMAZ D.HAST.",
+            "S\u0130TELER",
+            "BURSA CD.",
+            "F\u0130DYEKIZIK",
+            "ER\u0130KL\u0130 CD.",
+            "YAZICI CD.",
+            "EM\u0130R CD",
+            "T\u00dcRKMENBA\u015eI CD.",
+            "BA\u015eAK CD.",
+            "333.SK",
+            "347.SK.",
+            "B17 SK.",
+            "BAYRAKTAR CD.",
+            "C13 SK.",
+            "B.21 SK.",
+            "C .9 SK.",
+            "\u0130MKB A.M.L\u0130SES\u0130"
+        ],
         "hours": {
             "PAZAR [MEVLANA MAH.]": [
                 "07:15",
@@ -14082,6 +18295,28 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=452"
     },
     "D/4": {
+        "backward": null,
+        "forward": [
+            "VAKIFK\u00d6Y HOB\u0130 BAH\u00c7ELER\u0130",
+            "BURSASPOR TES\u0130SLER\u0130",
+            "VAKIF CAD.",
+            "\u00c7INAR\u00d6N\u00dc CAD.",
+            "ERT\u00dcRK CAD.",
+            "HASTANE CAD.",
+            "YAKUT SK.",
+            "ANKARA YOLU CAD.",
+            "ARABAYATA\u011eI \u0130STASYONU",
+            "Y\u00dcKSEK \u0130HT\u0130SAS HASTANES\u0130 KAV\u015eA\u011eI",
+            "PROF. TEZOK CAD.",
+            "M\u0130MAR S\u0130NAN BULV.",
+            "EMN\u0130YET CAD.",
+            "\u015eEVKET YILMAZ HAST.",
+            "MER\u0130\u00c7 SK.",
+            "MERAL SK.",
+            "C3 SK.",
+            "S\u0130TELER",
+            "AYNI"
+        ],
         "hours": {
             "\u00c7ALI\u015eMA SAATLER\u0130 [HOB\u0130 BAH\u00c7ELER\u0130]": [
                 "06:40",
@@ -14146,6 +18381,29 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=453"
     },
     "D/5": {
+        "backward": [
+            "BURSA CD",
+            "1. SK",
+            "2. MERAL SK",
+            "MER\u0130\u00c7 SK",
+            "EMN\u0130YET CD",
+            "M\u0130MAR S\u0130NAN BLV"
+        ],
+        "forward": [
+            "A338 SK",
+            "D211 SK",
+            "C224 SK",
+            "12. CD",
+            "C111 SK",
+            "ANKARA YOLU CD",
+            "PROF. TEZOK CD",
+            "M\u0130MAR S\u0130NAN BLV",
+            "EMN\u0130YET CD",
+            "MER\u0130\u00c7 SK",
+            "2. MERAL SK",
+            "3. SK",
+            "BURSA CD"
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 [HAC\u0130VAT]": [
                 "06:45",
@@ -14263,6 +18521,46 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=454"
     },
     "D/6": {
+        "backward": [
+            "S\u0130TELER",
+            "3.SK.",
+            "MERAL SK.",
+            "MER\u0130\u00c7 SK.",
+            "EMN\u0130YET CAD.",
+            "M\u0130MAR S\u0130NAN BULVARI \u2013 \u0130HT\u0130SAS KAV\u015eA\u011eI \u2013 ANKARA YOLU \u2013 ARABAYATA\u011eI \u0130ST.",
+            "OTOSANS\u0130T KAV\u015eA\u011eI \u2013 ER SK.",
+            ".",
+            "96.SK.",
+            "21.SK.",
+            "BULU\u015e SK.",
+            "39.SK.",
+            "\u015e\u0130R\u0130NEVLER CAD.",
+            "119.SK.",
+            "\u0130SMET\u0130YE CAD.",
+            "201. SK.",
+            "\u0130SMET PA\u015eA CAD.",
+            "\u0130SABEY CAD.",
+            "\u0130SABEY MAH. MUHTARLI\u011eI"
+        ],
+        "forward": [
+            "\u0130SABEY MAH. MUHTARLI\u011eI \u2013 \u0130SABEY CAD.",
+            "\u0130SMET PA\u015eA CAD.",
+            "201. SK.",
+            "\u0130SMET\u0130YE CAD.",
+            "119.SK.",
+            "\u015e\u0130R\u0130NEVLER CAD.",
+            "39.SK.",
+            "BULU\u015e SK.",
+            "21.SK.",
+            "96.SK.",
+            "27.SK.",
+            "ANKARA YOLU \u2013 ARABAYATA\u011eI \u0130ST.",
+            "\u0130HT\u0130SAS KAV\u015eA\u011eI \u2013 M\u0130MAR S\u0130NAN BULVARI \u2013 EMN\u0130YET CAD.",
+            "MEYVEL\u0130 SK.",
+            "MERAL SK.",
+            "3.SK.",
+            "S\u0130TELER"
+        ],
         "hours": {
             "T\u00dcM HAFTA [\u0130SABEY]": [
                 "06:30",
@@ -14308,6 +18606,42 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=455"
     },
     "D/7": {
+        "backward": [
+            "S\u0130TELER 3.SK.",
+            "MERAL SK.",
+            "MER\u0130\u00c7 SK.",
+            "EMN\u0130YET CAD.",
+            "M\u0130MAR S\u0130NAN BULVARI\u2013 PRF. TEZOK CAD.",
+            "\u0130HT\u0130SAS KAV\u015eA\u011eI \u2013 ANKARA YOLU",
+            "ARABAYATA\u011eI \u0130ST.",
+            "109 SK.",
+            "163.SK.",
+            "22. CAD.",
+            "204 SK.",
+            "23.CAD.",
+            "24. CAD.",
+            "40.SK.",
+            "KARAPINAR MAH"
+        ],
+        "forward": [
+            "KARAPINAR MAH.",
+            "40.SK.",
+            "24. CAD.",
+            "23.CAD.",
+            "204 SK.",
+            "22. CAD.",
+            "163.SK.",
+            "102.SK.",
+            "101 SK.",
+            "ANKARA YOLU",
+            "ARABAYATA\u011eI \u0130ST.",
+            "\u0130HT\u0130SAS KAV\u015eA\u011eI \u2013 PRF. TEZOK CAD.",
+            "M\u0130MAR S\u0130NAN BULVARI \u2013 EMN\u0130YET CAD.",
+            "MEYVEL\u0130 SK.",
+            "MERAL SK.",
+            "3.SK.",
+            "S\u0130TELER"
+        ],
         "hours": {
             "T\u00dcM HAFTA [KARAPINAR]": [
                 "06:30",
@@ -14336,6 +18670,35 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=456"
     },
     "D/8": {
+        "backward": [
+            "S\u0130TELER 3.SK.",
+            "MERAL SK.",
+            "EMN\u0130YET CAD.",
+            "M\u0130MAR S\u0130NAN BULVARI\u2013 PRF. TEZOK CAD.",
+            "\u0130HT\u0130SAS KAV\u015eA\u011eI \u2013 ANKARA YOLU",
+            "ARABAYATA\u011eI \u0130ST.",
+            "CUAMLIKIZIK CAD.",
+            "OKUL CAD.",
+            "BOZDEM\u0130R SK.",
+            "\u015eEH\u0130TLER CAD.",
+            "F\u0130L\u0130Z SK.",
+            "DE\u011e\u0130RMEN\u00d6N\u00dc MAHALLES\u0130"
+        ],
+        "forward": [
+            "DE\u011e\u0130RMEN\u00d6N\u00dc MAHALLES\u0130 \u2013 F\u0130L\u0130Z SK.",
+            "\u015eEH\u0130TLER CAD.",
+            "BOZDEM\u0130R SK.",
+            "OKUL CAD.",
+            "CUMALIKIZIK CAD.",
+            "ANKARA YOLU \u2013 G\u00dcRSU KAV\u015eA\u011eI",
+            "ARABAYATA\u011eI \u0130ST.",
+            "\u0130HT\u0130SAS KAV\u015eA\u011eI \u2013 PRF. TEZOK CAD.",
+            "M\u0130MAR S\u0130NAN BULVARI \u2013 EMN\u0130YET CAD.",
+            "MEYVEL\u0130 SK.",
+            "MERAL SK.",
+            "3.SK.",
+            "S\u0130TELER"
+        ],
         "hours": {
             "T\u00dcM HAFTA [DE\u011e\u0130RMEN\u00d6N\u00dc]": [
                 "06:30",
@@ -14364,6 +18727,16 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=457"
     },
     "D/9": {
+        "backward": null,
+        "forward": [
+            "KUMLUKALAN",
+            "SAMANLI",
+            "11 EYL\u00dcL BULVARI",
+            "Y.\u0130HT\u0130SAS HASTANES\u0130 KAV\u015eA\u011eI",
+            "ARABAYATA\u011eI \u0130STASYONU",
+            "EMN\u0130YET CD.",
+            "\u015eEVKET YILMAZ D.HASTANES\u0130"
+        ],
         "hours": {
             "T\u00dcM HAFTA [KUMLUKALAN]": [
                 "06:45P",
@@ -14401,6 +18774,22 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=983&catid=38"
     },
     "D/13": {
+        "backward": null,
+        "forward": [
+            "BARAKFAK\u0130H",
+            "SERME YOLU",
+            "SERME",
+            "SERME YOLU",
+            "BARAKFAK\u0130H KAV\u015eA\u011eI",
+            "ANKARA YOLU",
+            "KESTEL KURTULU\u015e CAD.",
+            "KESTEL BELED\u0130YE MEYDANI",
+            "KESTEL BURSA CAD.",
+            "KESTEL KAV\u015eA\u011eI",
+            "ANKARA YOLU CD.",
+            "Y\u00dcKSEK \u0130HT\u0130SAS KAV\u015eA\u011eI",
+            "ARABAYATA\u011eI \u0130ST."
+        ],
         "hours": {
             "T\u00dcM HAFTA [BARAKFAK\u0130H]": [
                 "06:30",
@@ -14442,6 +18831,18 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=605"
     },
     "D/15": {
+        "backward": null,
+        "forward": [
+            "\u00dcM\u0130TALAN",
+            "ANKARA YOLU",
+            "KESTEL KURTULU\u015e CADDES\u0130",
+            "KESTEL BELED\u0130YE MEYDANI",
+            "KESTEL BURSA CADDES\u0130",
+            "KESTEL KAV\u015eA\u011eI",
+            "ANKARA YOLU",
+            "Y\u00dcKSEK \u0130HT\u0130SAS KAV\u015eA\u011eI",
+            "ARABAYATA\u011eI \u0130STASYONU AYNI"
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130 [\u00dcM\u0130TALAN]": [
                 "06:30",
@@ -14503,6 +18904,17 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=644"
     },
     "D/16": {
+        "backward": [
+            "PAZARTES\u0130",
+            "SALI",
+            "\u00c7AR\u015eAMBA",
+            "PER\u015eEMBE"
+        ],
+        "forward": [
+            "SAYF\u0130YE K\u00d6Y\u00dc",
+            "\u015eEVKET\u0130YE K\u00d6Y\u00dc",
+            "ARABAYATA\u011eI \u0130STASYONU"
+        ],
         "hours": {
             "\u015eEVKET\u0130YE K\u00d6Y\u00dc": [
                 "06:30",
@@ -14522,6 +18934,48 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=685"
     },
     "E/12": {
+        "backward": null,
+        "forward": [
+            "S\u0130TELER",
+            "EMN\u0130YET CAD.",
+            "\u015e.YILMAZ D. HAST.",
+            "B.MAN\u00c7O K.MERKEZ\u0130",
+            "M.S\u0130NAN CAD.",
+            "KANUN\u0130 CAD.",
+            "E.GAZ\u0130",
+            "KANUN\u0130 CAD.",
+            "\u00c7\u0130\u00c7EK CAD.",
+            "TELEFER\u0130K CAD.",
+            "I\u015eIKLAR CAD.",
+            "NAMAZGAH",
+            "\u00c7.MEHMET CAD.",
+            "YE\u015e\u0130L CAD.",
+            "SETBA\u015eI",
+            "\u0130N\u00d6N\u00dc CAD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CAD.",
+            "T.PA\u015eA",
+            "OSMANGAZ\u0130 CAD.",
+            "TOPHANE",
+            "ASKER CAD.",
+            "D. HAST.",
+            "MURAD\u0130YE",
+            "BE\u015e\u0130K\u00c7\u0130LER CAD.",
+            "\u00c7EK\u0130RGE CAD.",
+            "ARMUTLU MEYDANI",
+            "BA\u011eLAN CAD.",
+            "D\u0130KKALDIRIM CAD.",
+            "\u00c7EK\u0130RGE D.HASTANES\u0130 ALTI",
+            "D\u0130KKALDIRIM CAD.",
+            "M\u0130HRAPLI CAD.",
+            "BE\u015eEVLER CAD.",
+            "KARA FATMA HEYKEL\u0130",
+            "BE\u015eEVLER CAD.",
+            "AHISKA CAD.",
+            "\u00c7ALI KAV\u015eA\u011eI",
+            "\u0130ZM\u0130R YOLU CAD.",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130",
+            "\u00d6\u011eRENC\u0130 YURDU"
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130-CUMARTES\u0130 [S\u0130TELER]": [
                 "06:40",
@@ -14576,6 +19030,41 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=606"
     },
     "E/13": {
+        "backward": null,
+        "forward": [
+            "S\u0130TELER",
+            "EMN\u0130YET CD.",
+            "\u015e.YILMAZ DEVLET HAST.",
+            "B.MAN\u00c7O K\u00dcLT\u00dcR MERKEZ\u0130",
+            "M.S\u0130NAN CD.",
+            "SEL\u00c7UKBEY CD.",
+            "E.GAZ\u0130",
+            "T.MEHMET AL\u0130 CD.",
+            "\u0130NC\u0130RL\u0130 CD.",
+            "MEYDANCIK",
+            "KEMAL BENG\u00dc CD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CD.",
+            "ALTIPARMAK CD.",
+            "\u00c7EK\u0130RGE CD.",
+            "K\u00dcK\u00dcRTL\u00dc CD.",
+            "Z\u00dcBEYDE HANIM CD.",
+            "HAT CD.",
+            "Z\u00dcBEYDE HANIM DO\u011eUMEV\u0130",
+            "\u00c7.DEVLET HASTANES\u0130 ALTI",
+            "D\u0130KKALDIRIM CD.",
+            "M\u0130HRAPLI CD.",
+            "BE\u015eEVLER CD.",
+            "KARA FATMA HEYKEL\u0130",
+            "B\u0130LG\u0130NLER CD.",
+            "KUMOVA SK",
+            "G\u00dcM\u00dc\u015eDERE CD.",
+            "MEHL\u0130KE PINAR L\u0130SES\u0130",
+            "AHISKA CD.",
+            "\u00c7ALI KAV\u015eA\u011eI",
+            "\u0130ZM\u0130R YOLU CD.",
+            "ULUDA\u011e \u00dcN\u0130VERS\u0130TES\u0130",
+            "\u00d6\u011eRENC\u0130 YURDU"
+        ],
         "hours": {
             "HAFTA \u0130\u00c7\u0130-CUMARTES\u0130 [S\u0130TELER]": [
                 "06:45",
@@ -14632,6 +19121,35 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=607"
     },
     "F/2": {
+        "backward": [
+            "DEREBAH\u00c7E",
+            "EM\u0130RSULTAN",
+            "YE\u015e\u0130L CD.",
+            "SETBA\u015eI",
+            "\u0130N\u00d6N\u00dc CD.",
+            "HA\u015e\u0130M \u0130\u015eCAN CD.",
+            "ALTIPARMAK CD.",
+            "\u00c7EK\u0130RGE CD.",
+            "Z\u00dcBEYDEHANIM CD.",
+            "ACEMLER",
+            "SANAY\u0130 CD.",
+            "MUDANYA CD.",
+            "G\u00dcZELYALI FER\u0130BOT \u0130SKELES\u0130"
+        ],
+        "forward": [
+            "G\u00dcZELYALI FER\u0130BOT \u0130SKELES\u0130",
+            "MUDANYA CD.",
+            "SANAY\u0130 CD.",
+            "ACEMLER",
+            "Z\u00dcBEYDEHANIM CD.",
+            "\u00c7EK\u0130RGE CD.",
+            "ALTIPARMAK CD.",
+            "ATAT\u00dcRK CD.",
+            "SETBA\u015eI",
+            "YE\u015e\u0130L CD.",
+            "EM\u0130RSULTAN",
+            "DEREBAH\u00c7E"
+        ],
         "hours": {
             "G\u00dcZELYALI": [
                 "06:30",
@@ -14655,6 +19173,36 @@
         "url": "http://www.burulas.com.tr/sayfa.aspx?id=460"
     },
     "S/1": {
+        "backward": [
+            "S\u0130TELER",
+            "M\u0130MARS\u0130NAN CD.",
+            "\u015e.YILMAZ D.HAST.",
+            "KANUN\u0130 CD.",
+            "BAH\u00c7EL\u0130EVLER",
+            "KAPLIKAYA",
+            "\u00c7\u0130\u00c7EK CD.",
+            "Z\u00dcMR\u00dcTEVLER",
+            "TELEFER\u0130K",
+            "NAMAZGAH",
+            "SETBA\u015eI",
+            "\u0130N\u00d6N\u00dc CD.",
+            "ULUYOL",
+            "KENT MEYDANI",
+            "ANKARA YOLU",
+            "\u015e\u00dcKRAN\u0130YE",
+            "DUA\u00c7INAR",
+            "Y.\u0130HT\u0130SAS HAST. PROF.TEZOK CD.",
+            "ORTABA\u011eLAR",
+            "ERTU\u011eRUL GAZ\u0130",
+            "SEL\u00c7UKBEY CD.",
+            "S\u0130TELER"
+        ],
+        "forward": [
+            "S/1 S\u0130TELER",
+            "TELEFER\u0130K",
+            "KENT MEYDANI",
+            "ANKARA YOLU"
+        ],
         "hours": {
             "S\u0130TELER [HAFTA \u0130\u00c7\u0130 - CUMARTES\u0130]": [
                 "06:40",
