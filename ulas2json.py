@@ -16,7 +16,11 @@ address="http://www.burulas.com.tr/sayfa.aspx?id=393"
 base_url="http://www.burulas.com.tr"
 clockDict = OrderedDict()
 timeTableDict = OrderedDict()
-blacklistedLines = ["35/C", "38/B", "38/D"]
+
+linesWhereWePurelySuck = ["94", "B/41B", "E/2", "S/2"]
+linesWithWrongData = ["4/G", "6/F1", "6/F2", "15/A", "26/A", "35/S", "38", "92"]
+linesWithCrapData = ["35/C", "38/B", "38/D", "B/34", "80"]
+blacklistedLines = linesWithWrongData + linesWithCrapData + linesWhereWePurelySuck
 
 fixupTimeDict =  {
     "00" : "24",
@@ -89,11 +93,21 @@ def parseDescription(content):
     content = [x.strip() for x in content if x.strip() != '']
     return content
 
+def deduceDescriptions(description, timeLength):
+
+    descriptionLength = len(description)
+    lastRow = []
+
+    for i in reversed(range(0, timeLength)):
+        lastRow.append(description[descriptionLength - 1 -i])
+
+    return lastRow
+
 def parseTable(table):
     rows = table.xpath("//tbody/tr")
 
     description = ""
-    for row in rows[:2]:
+    for row in rows[:6]:
         description += row.text_content()
     description = parseDescription(description)
 
@@ -134,7 +148,7 @@ def setupTimeline():
             continue
 
         url = clockDict[key]
-        #print url
+        print url
         doc = html.fromstring(urllib2.urlopen(url).read())
 
         if not key in timeTableDict.keys():
