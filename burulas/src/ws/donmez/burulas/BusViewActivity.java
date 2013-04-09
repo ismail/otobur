@@ -6,13 +6,13 @@ import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
+import java.util.HashMap;
 
 import javax.net.ssl.HttpsURLConnection;
 
 import org.json.JSONArray;
-import org.json.JSONObject;
 import org.json.JSONException;
+import org.json.JSONObject;
 
 import android.app.ListActivity;
 import android.app.ProgressDialog;
@@ -24,17 +24,15 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import ws.donmez.burulas.ForwardStopsActivity;
-
 public class BusViewActivity extends ListActivity {
     private class Bus {
         ArrayList<String> backward;
         ArrayList<String> forward;
-        LinkedHashMap<String, JSONArray> hours;
+        HashMap<String, JSONArray> hours;
         String url;
     }
 
-    private static LinkedHashMap<String, Bus> busMap;
+    private static HashMap<String, Bus> busMap;
     private static String jsonURL = "https://raw.github.com/cartman/hackweek9/master/scripts/hours.json";
 
     @Override
@@ -57,7 +55,7 @@ public class BusViewActivity extends ListActivity {
         @Override
         protected ArrayList<String> doInBackground(String... urls) {
             ByteArrayOutputStream input = downloadSchedule(urls[0]);
-            busMap = new LinkedHashMap<String, Bus>();
+            busMap = new HashMap<String, Bus>();
             ArrayList<String> busNames = new ArrayList<String>();
 
             try {
