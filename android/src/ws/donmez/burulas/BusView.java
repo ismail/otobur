@@ -7,8 +7,7 @@ import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.List;
 
 import javax.net.ssl.HttpsURLConnection;
@@ -17,40 +16,75 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.JSONException;
 
-import android.os.AsyncTask;
+import android.app.ListActivity;
 import android.os.Bundle;
 import android.app.Activity;
-import android.content.Context;
 import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class BusView extends Activity {
+public class BusView extends ListActivity {
+    private class Bus {
+        JSONArray backward;
+        JSONArray forward;
+        LinkedHashMap<String, JSONArray> hours;
+        String url;
+    }
+
+    private static LinkedHashMap<String, Bus> busMap;
+    private static String jsonURL = "https://raw.github.com/cartman/hackweek9/master/hours.json";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bus_view);
+        //setContentView(R.layout.activity_bus_view);
 
-        final ListView listview = (ListView) findViewById(R.id.listView1);
-
-        new DownloadScheduleTask().execute("https://raw.github.com/cartman/hackweek9/master/hours.json");
+        //final ListView listView = (ListView) findViewById(R.d.listView1);
+        setListAdapter(new ArrayAdapter(this,
+                                        android.R.layout.simple_list_item_1,
+                                        this.parseSchedule()));
     }
 
-    private class Bus {
-        JSONArray backward;
-        JSONArray forward;
-        HashMap<String, ArrayList> hours;
-        String url;
+    private ArrayList<String> parseSchedule ()
+    {
+        ByteArrayOutputStream input = downloadSchedule();
+        busMap = new LinkedHashMap<String, Bus>();
+
+        try {
+            JSONObject json = new JSONObject(input.toString());
+            JSONArray keys = json.names();
+
+            for (int i=0; i < keys.length(); ++i) {
+                String entry = keys.getString(i);
+                JSONObject entries = json.getJSONObject(entry);
+
+                Bus bus = new Bus();
+
+                try {
+                    bus.backward = entries.getJSONArray("backward");
+                    bus.forward = entries.getJSONArray("forward");
+                } catch (JSONException e) { }
+
+                bus.url = entries.getString("url");
+                busMap.put(entry, bus);
+
+            }
+        } catch(JSONException e) {
+            Log.d("Burulas", e.toString());
+        }
+
+        ArrayList<String> keys = new ArrayList<String>();
+        keys.addAll(busMap.keySet());
+
+        return keys;
     }
 
-   private class DownloadScheduleTask extends AsyncTask<String, Void, ByteArrayOutputStream> {
-        protected ByteArrayOutputStream doInBackground(String... address) {
+    private ByteArrayOutputStream downloadSchedule() {
             ByteArrayOutputStream result = new ByteArrayOutputStream();
             byte[] buffer = new byte[4096];
 
             try {
-                URL url =  new URL(address[0]);
+                URL url =  new URL(jsonURL);
                 HttpsURLConnection urlConnection = (HttpsURLConnection) url.openConnection();
                 urlConnection.setRequestMethod("GET");
 
@@ -67,39 +101,5 @@ public class BusView extends Activity {
             }
 
             return result;
-         }
-
-         protected void onPostExecute(ByteArrayOutputStream result) {
-            Log.d("Burulas","Downloaded " + result.size() + " bytes.");
-            parseSchedule(result);
-        }
-    }
-
-    private void parseSchedule (ByteArrayOutputStream input)
-    {
-        HashMap<String, Bus> busMap = new HashMap<String, Bus>();
-
-        try {
-            JSONObject json = new JSONObject(input.toString());
-            JSONArray keys = json.names();
-
-            for (int i=0; i < keys.length(); ++i) {
-                String entry = keys.getString(i);
-                JSONObject entries = json.getJSONObject(entry);
-
-                Bus bus = new Bus();
-                try {
-                    bus.backward = entries.getJSONArray("backward");
-                    bus.forward = entries.getJSONArray("forward");
-                } catch (JSONException e) {
-                }
-
-                bus.url = entries.getString("url");
-
-                Log.d("Burulas", bus.url.toString());
-            }
-        } catch(JSONException e) {
-            Log.d("Burulas", e.toString());
-        }
     }
 }
