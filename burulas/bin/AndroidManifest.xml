@@ -7,6 +7,10 @@
                  android:icon="@drawable/ic_launcher"
                  android:theme="@android:style/Theme.Holo">
 
+<!-- SDK requirements -->
+        <uses-sdk android:minSdkVersion="16"
+                  android:targetSdkVersion="17"
+                  android:maxSdkVersion="17" />
 
 <!-- Main activity -->
         <activity android:name="BusViewActivity"
