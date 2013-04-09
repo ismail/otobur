@@ -39,7 +39,7 @@ public class BusViewActivity extends ListActivity {
 
     private static LinkedHashMap<String, Bus> busMap;
     private static ProgressDialog loading;
-    private static String jsonURL = "https://raw.github.com/cartman/hackweek9/master/hours.json";
+    private static String jsonURL = "https://raw.github.com/cartman/hackweek9/master/scripts/hours.json";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
