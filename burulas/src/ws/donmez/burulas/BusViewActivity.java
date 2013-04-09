@@ -115,6 +115,7 @@ public class BusViewActivity extends ListActivity {
             try {
                 URL url =  new URL(address);
                 HttpsURLConnection urlConnection = (HttpsURLConnection) url.openConnection();
+                urlConnection.setRequestProperty("Accept-Encoding", "gzip, deflate");
                 urlConnection.setRequestMethod("GET");
 
                 InputStream inputStream = urlConnection.getInputStream();
