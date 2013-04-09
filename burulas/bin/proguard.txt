@@ -1,3 +1,6 @@
-# view AndroidManifest.xml #generated:9
+# view AndroidManifest.xml #generated:12
 -keep class ws.donmez.burulas.BusView { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class ws.donmez.burulas.ForwardStopsActivity { <init>(...); }
 

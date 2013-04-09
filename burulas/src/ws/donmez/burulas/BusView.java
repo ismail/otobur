@@ -17,16 +17,20 @@ import org.json.JSONObject;
 import org.json.JSONException;
 
 import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.app.Activity;
 import android.util.Log;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import ws.donmez.burulas.ForwardStopsActivity;
+
 public class BusView extends ListActivity {
     private class Bus {
-        JSONArray backward;
-        JSONArray forward;
+        ArrayList<String> backward;
+        ArrayList<String> forward;
         LinkedHashMap<String, JSONArray> hours;
         String url;
     }
@@ -37,9 +41,6 @@ public class BusView extends ListActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_bus_view);
-
-        //final ListView listView = (ListView) findViewById(R.d.listView1);
         setListAdapter(new ArrayAdapter(this,
                                         android.R.layout.simple_list_item_1,
                                         this.parseSchedule()));
@@ -61,8 +62,19 @@ public class BusView extends ListActivity {
                 Bus bus = new Bus();
 
                 try {
-                    bus.backward = entries.getJSONArray("backward");
-                    bus.forward = entries.getJSONArray("forward");
+                    ArrayList<String> backwardList = new ArrayList<String>();
+                    JSONArray backwardArray = entries.getJSONArray("backward");
+                    for (int j=0; j < backwardArray.length(); ++j)
+                        backwardList.add(backwardArray.getString(j));
+
+                    ArrayList<String> forwardList = new ArrayList<String>();
+                    JSONArray forwardArray = entries.getJSONArray("forward");
+                    for (int k=0; k < forwardArray.length(); ++k)
+                        forwardList.add(forwardArray.getString(k));
+
+                    bus.backward = backwardList;
+                    bus.forward = forwardList;
+
                 } catch (JSONException e) { }
 
                 bus.url = entries.getString("url");
@@ -101,5 +113,18 @@ public class BusView extends ListActivity {
             }
 
             return result;
+    }
+
+    @Override
+    protected void onListItemClick(ListView l, View v, int position, long id)
+    {
+        super.onListItemClick(l, v, position, id);
+        // Get the item that was clicked
+        Object o = this.getListAdapter().getItem(position);
+        String keyword = o.toString();
+        Log.d("Burulas", keyword + " is selected!");
+        Intent intent = new Intent(this, ForwardStopsActivity.class);
+        intent.putExtra("ForwardStops", busMap.get(keyword).forward);
+        startActivity(intent);
     }
 }

@@ -1,3 +1,8 @@
 *.class
 *.swp
+*.ap_
+*.apk
+*.dex
+*.dex.d
+
 
