@@ -6,4 +6,5 @@
 *.d
 build.prop
 *.db
+bin
 
