@@ -1,7 +1,6 @@
 package ws.donmez.burulas;
 
 import java.io.ByteArrayOutputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.MalformedURLException;
@@ -17,11 +16,9 @@ import org.json.JSONException;
 
 import android.app.ListActivity;
 import android.app.ProgressDialog;
-import android.content.Context;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.app.Activity;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -38,7 +35,6 @@ public class BusViewActivity extends ListActivity {
     }
 
     private static LinkedHashMap<String, Bus> busMap;
-    private static ProgressDialog loading;
     private static String jsonURL = "https://raw.github.com/cartman/hackweek9/master/scripts/hours.json";
 
     @Override
