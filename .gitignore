@@ -5,4 +5,5 @@
 *.dex
 *.d
 build.prop
+*.db
 
