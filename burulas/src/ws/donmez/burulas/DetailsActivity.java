@@ -21,6 +21,9 @@ public class DetailsActivity extends FlingActivity {
     };
 
     private DetailView currentView;
+    private ArrayList<String> backwardRoute;
+    private ArrayList<String> forwardRoute;
+    private HashMap<String, ArrayList<String>> busMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,15 +83,25 @@ public class DetailsActivity extends FlingActivity {
     }
 
     private ArrayList<String> getForwardRoute() {
-        return BusViewActivity.currentBus.forward;
+        if (forwardRoute == null) {
+            forwardRoute = new ArrayList<String>(BusViewActivity.currentBus.forward);
+            forwardRoute.add(0, "Forward Route");
+        }
+        return forwardRoute;
     }
 
     private ArrayList<String> getBackwardRoute() {
-        return BusViewActivity.currentBus.backward;
+        if (backwardRoute == null) {
+            backwardRoute = new ArrayList<String>(BusViewActivity.currentBus.backward);
+            backwardRoute.add(0, "Backward Route");
+        }
+        return backwardRoute;
     }
 
     private ArrayList<String> getHourList() {
-        List<String> keys = new ArrayList<String>(BusViewActivity.currentBus.hours.keySet());
+        if (busMap == null)
+            busMap = new HashMap<String, ArrayList<String>>(BusViewActivity.currentBus.hours);
+        List<String> keys = new ArrayList<String>(busMap.keySet());
         ArrayList<String> hours = new ArrayList<String>();
 
         for (String key : keys) {
