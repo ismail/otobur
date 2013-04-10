@@ -7,6 +7,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.zip.GZIPInputStream;
 
 import javax.net.ssl.HttpsURLConnection;
 
@@ -75,14 +76,16 @@ public class BusViewActivity extends ListActivity {
                         for (int j=0; j < backwardArray.length(); ++j)
                             backwardList.add(backwardArray.getString(j));
 
+                        bus.backward = backwardList;
+                    } catch (JSONException e) {}
+
+                    try {
                         ArrayList<String> forwardList = new ArrayList<String>();
                         JSONArray forwardArray = entries.getJSONArray("forward");
                         for (int k=0; k < forwardArray.length(); ++k)
                             forwardList.add(forwardArray.getString(k));
 
-                        bus.backward = backwardList;
                         bus.forward = forwardList;
-
                     } catch (JSONException e) { }
 
                     bus.url = entries.getString("url");
@@ -117,6 +120,12 @@ public class BusViewActivity extends ListActivity {
                 urlConnection.setRequestMethod("GET");
 
                 InputStream inputStream = urlConnection.getInputStream();
+                String contentEncoding = urlConnection.getHeaderField("Content-Encoding");
+
+                if (contentEncoding != null && contentEncoding.equalsIgnoreCase("gzip")) {
+                    Log.d("Burulas", "Content-Encoding: " + contentEncoding);
+                    inputStream = new GZIPInputStream(inputStream);
+                }
 
                 int length  = 0;
                 while ( (length = inputStream.read(buffer)) > 0 ) {
