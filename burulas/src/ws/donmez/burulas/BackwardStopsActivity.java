@@ -6,12 +6,9 @@ import android.app.ListActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.GestureDetector;
-import android.view.MotionEvent;
-import android.view.View;
 import android.widget.ArrayAdapter;
 
-public class ForwardStopsActivity extends FlingActivity {
+public class BackwardStopsActivity extends ListActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,17 +19,9 @@ public class ForwardStopsActivity extends FlingActivity {
                                         this.getForwardRoute()));
     }
 
-    @Override
-    public void next() {
-        ArrayList<String> backwardStops = getIntent().getStringArrayListExtra("BackwardStops");
-        Intent intent = new Intent(this, BackwardStopsActivity.class);
-        intent.putExtra("BackwardStops", backwardStops);
-        startActivity(intent);
-    }
-
     private ArrayList<String> getForwardRoute() {
         Intent intent = getIntent();
-        return intent.getStringArrayListExtra("ForwardStops");
+        return intent.getStringArrayListExtra("BackwardStops");
     }
 }
 
