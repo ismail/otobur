@@ -51,15 +51,16 @@ public class DetailsActivity extends FlingActivity {
         switch (currentView) {
             case BACKWARD_ROUTE:
                 switchView(DetailView.FORWARD_ROUTE);
+                break;
             case HOUR:
                 switchView(DetailView.BACKWARD_ROUTE);
+                break;
             default:
                 break;
         }
     }
 
     private void switchView (DetailView view) {
-        Log.d("Burulas", "Requested to change the view");
         switch (view) {
             case FORWARD_ROUTE:
                 setListAdapter(new ArrayAdapter<String>(this,
@@ -76,6 +77,8 @@ public class DetailsActivity extends FlingActivity {
                                 R.layout.custom_row_layout,
                                 this.getHourList()));
                 break;
+            default:
+                return;
 
        }
 
@@ -85,7 +88,7 @@ public class DetailsActivity extends FlingActivity {
     private ArrayList<String> getForwardRoute() {
         if (forwardRoute == null) {
             forwardRoute = new ArrayList<String>(BusViewActivity.currentBus.forward);
-            forwardRoute.add(0, "Forward Route");
+            forwardRoute.add(0, ":: Forward Route ::");
         }
         return forwardRoute;
     }
@@ -93,7 +96,7 @@ public class DetailsActivity extends FlingActivity {
     private ArrayList<String> getBackwardRoute() {
         if (backwardRoute == null) {
             backwardRoute = new ArrayList<String>(BusViewActivity.currentBus.backward);
-            backwardRoute.add(0, "Backward Route");
+            backwardRoute.add(0, ":: Backward Route ::");
         }
         return backwardRoute;
     }
