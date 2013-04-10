@@ -4,8 +4,9 @@
 *.apk
 *.dex
 *.d
-build.prop
 *.db
+build.prop
+local.properties
 bin
 gen
 R.java
