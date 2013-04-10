@@ -162,7 +162,7 @@ public class BusViewActivity extends ListActivity {
         Object o = this.getListAdapter().getItem(position);
         String busName = o.toString();
         currentBus = busMap.get(busName);
-        Intent intent = new Intent(this, ForwardStopsActivity.class);
+        Intent intent = new Intent(this, DetailsActivity.class);
 
         startActivity(intent);
     }
