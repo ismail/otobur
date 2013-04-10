@@ -49,6 +49,9 @@ public class DetailsActivity extends FlingActivity {
     @Override
     public void prev() {
         switch (currentView) {
+            case FORWARD_ROUTE:
+                finish();
+                break;
             case BACKWARD_ROUTE:
                 switchView(DetailView.FORWARD_ROUTE);
                 break;
