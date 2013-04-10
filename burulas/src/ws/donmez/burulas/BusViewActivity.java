@@ -29,7 +29,7 @@ public class BusViewActivity extends ListActivity {
     private class Bus {
         ArrayList<String> backward;
         ArrayList<String> forward;
-        HashMap<String, JSONArray> hours;
+        HashMap<String, ArrayList<String>> hours;
         String url;
     }
 
@@ -64,15 +64,15 @@ public class BusViewActivity extends ListActivity {
                 JSONArray keys = json.names();
 
                 for (int i=0; i < keys.length(); ++i) {
-                    String entry = keys.getString(i);
-                    JSONObject entries = json.getJSONObject(entry);
-                    busNames.add(entry);
+                    String busName = keys.getString(i);
+                    JSONObject root = json.getJSONObject(busName);
+                    busNames.add(busName);
 
                     Bus bus = new Bus();
 
                     try {
                         ArrayList<String> backwardList = new ArrayList<String>();
-                        JSONArray backwardArray = entries.getJSONArray("backward");
+                        JSONArray backwardArray = root.getJSONArray("backward");
                         for (int j=0; j < backwardArray.length(); ++j)
                             backwardList.add(backwardArray.getString(j));
 
@@ -81,19 +81,33 @@ public class BusViewActivity extends ListActivity {
 
                     try {
                         ArrayList<String> forwardList = new ArrayList<String>();
-                        JSONArray forwardArray = entries.getJSONArray("forward");
+                        JSONArray forwardArray = root.getJSONArray("forward");
                         for (int k=0; k < forwardArray.length(); ++k)
                             forwardList.add(forwardArray.getString(k));
 
                         bus.forward = forwardList;
                     } catch (JSONException e) { }
 
-                    bus.url = entries.getString("url");
-                    busMap.put(entry, bus);
+                    JSONObject hourArray = root.getJSONObject("hours");
+                    JSONArray days = hourArray.names();
+                    bus.hours = new HashMap<String, ArrayList<String>>();
+                    for (int l=0; l < days.length(); ++l) {
+                        String dayName = days.getString(l);
+                        JSONArray hours = hourArray.getJSONArray(dayName);
+
+                        ArrayList<String> hoursArray = new ArrayList<String>();
+                        for (int m=0; m < hours.length(); ++m)
+                            hoursArray.add(hours.getString(m));
+
+                        bus.hours.put(dayName, hoursArray);
+                    }
+
+                    bus.url = root.getString("url");
+                    busMap.put(busName, bus);
 
                 }
             } catch(JSONException e) {
-            Log.d("Burulas", e.toString());
+                Log.d("Burulas", e.toString());
             }
 
             return busNames;
@@ -123,7 +137,6 @@ public class BusViewActivity extends ListActivity {
                 String contentEncoding = urlConnection.getHeaderField("Content-Encoding");
 
                 if (contentEncoding != null && contentEncoding.equalsIgnoreCase("gzip")) {
-                    Log.d("Burulas", "Content-Encoding: " + contentEncoding);
                     inputStream = new GZIPInputStream(inputStream);
                 }
 
@@ -145,12 +158,16 @@ public class BusViewActivity extends ListActivity {
     protected void onListItemClick(ListView l, View v, int position, long id)
     {
         super.onListItemClick(l, v, position, id);
-        // Get the item that was clicked
         Object o = this.getListAdapter().getItem(position);
-        String keyword = o.toString();
-        Log.d("Burulas", keyword + " is selected!");
+        String busName = o.toString();
+
+        Log.d("Burulas", busName + " is selected!");
+
         Intent intent = new Intent(this, ForwardStopsActivity.class);
-        intent.putExtra("ForwardStops", busMap.get(keyword).forward);
+        intent.putExtra("ForwardStops", busMap.get(busName).forward);
+        intent.putExtra("BackwardStops", busMap.get(busName).backward);
+        intent.putExtra("Hours", busMap.get(busName).hours);
+
         startActivity(intent);
     }
 }
