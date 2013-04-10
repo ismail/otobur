@@ -22,15 +22,13 @@ public class ForwardStopsActivity extends FlingActivity {
 
     @Override
     public void next() {
-        ArrayList<String> backwardStops = getIntent().getStringArrayListExtra("BackwardStops");
         Intent intent = new Intent(this, BackwardStopsActivity.class);
-        intent.putExtra("BackwardStops", backwardStops);
         startActivity(intent);
+        finish();
     }
 
     private ArrayList<String> getForwardRoute() {
-        Intent intent = getIntent();
-        return intent.getStringArrayListExtra("ForwardStops");
+        return BusViewActivity.currentBus.forward;
     }
 }
 

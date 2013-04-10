@@ -2,14 +2,16 @@ package ws.donmez.burulas;
 
 import android.app.ListActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 
 public class FlingActivity extends ListActivity implements GestureDetector.OnGestureListener {
 
-    private static final int SWIPE_MIN_DISTANCE = 120;
+    private static final int SWIPE_MIN_DISTANCE = 75;
     private static final int SWIPE_MAX_OFF_PATH = 250;
-    private static final int SWIPE_THRESHOLD_VELOCITY = 100;
+    private static final int SWIPE_THRESHOLD_VELOCITY = 75;
+    private static boolean thatWasAFling = false;
 
     private GestureDetector gestureDetector;
 
@@ -38,6 +40,7 @@ public class FlingActivity extends ListActivity implements GestureDetector.OnGes
             prev();
         }
 
+        thatWasAFling = true;
         return true;
     }
 
@@ -47,12 +50,12 @@ public class FlingActivity extends ListActivity implements GestureDetector.OnGes
 
     @Override
     public boolean onScroll(MotionEvent e1, MotionEvent e2, float vX, float vY) {
-        return true;
+        return false;
     }
 
     @Override
     public boolean onSingleTapUp(MotionEvent e) {
-        return true;
+        return false;
     }
 
     @Override
@@ -66,7 +69,11 @@ public class FlingActivity extends ListActivity implements GestureDetector.OnGes
 
     @Override
     public boolean dispatchTouchEvent(MotionEvent event) {
-        return gestureDetector.onTouchEvent(event);
+        thatWasAFling = false;
+        gestureDetector.onTouchEvent(event);
+        if (!thatWasAFling)
+            super.dispatchTouchEvent(event);
+        return true;
     }
 }
 

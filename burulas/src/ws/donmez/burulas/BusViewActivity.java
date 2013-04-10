@@ -26,13 +26,14 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class BusViewActivity extends ListActivity {
-    private class Bus {
+    public static class Bus {
         ArrayList<String> backward;
         ArrayList<String> forward;
         HashMap<String, ArrayList<String>> hours;
         String url;
     }
 
+    public static Bus currentBus;
     private static HashMap<String, Bus> busMap;
     private static String jsonURL = "https://raw.github.com/cartman/hackweek9/master/scripts/hours.json";
 
@@ -160,13 +161,8 @@ public class BusViewActivity extends ListActivity {
         super.onListItemClick(l, v, position, id);
         Object o = this.getListAdapter().getItem(position);
         String busName = o.toString();
-
-        Log.d("Burulas", busName + " is selected!");
-
+        currentBus = busMap.get(busName);
         Intent intent = new Intent(this, ForwardStopsActivity.class);
-        intent.putExtra("ForwardStops", busMap.get(busName).forward);
-        intent.putExtra("BackwardStops", busMap.get(busName).backward);
-        intent.putExtra("Hours", busMap.get(busName).hours);
 
         startActivity(intent);
     }
