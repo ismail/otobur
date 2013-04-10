@@ -11,7 +11,6 @@ public class FlingActivity extends ListActivity implements GestureDetector.OnGes
     private static final int SWIPE_MIN_DISTANCE = 75;
     private static final int SWIPE_MAX_OFF_PATH = 250;
     private static final int SWIPE_THRESHOLD_VELOCITY = 75;
-    private static boolean thatWasAFling = false;
 
     private GestureDetector gestureDetector;
 
@@ -30,7 +29,7 @@ public class FlingActivity extends ListActivity implements GestureDetector.OnGes
     @Override
     public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
         if (Math.abs(e1.getY() - e2.getY()) > SWIPE_MAX_OFF_PATH)
-            return false;
+            return true;
 
         if (e1.getX() - e2.getX() > SWIPE_MIN_DISTANCE &&
             Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY)
@@ -40,8 +39,7 @@ public class FlingActivity extends ListActivity implements GestureDetector.OnGes
             prev();
         }
 
-        thatWasAFling = true;
-        return true;
+        return false;
     }
 
     @Override
@@ -50,12 +48,12 @@ public class FlingActivity extends ListActivity implements GestureDetector.OnGes
 
     @Override
     public boolean onScroll(MotionEvent e1, MotionEvent e2, float vX, float vY) {
-        return false;
+        return true;
     }
 
     @Override
     public boolean onSingleTapUp(MotionEvent e) {
-        return false;
+        return true;
     }
 
     @Override
@@ -69,11 +67,10 @@ public class FlingActivity extends ListActivity implements GestureDetector.OnGes
 
     @Override
     public boolean dispatchTouchEvent(MotionEvent event) {
-        thatWasAFling = false;
-        gestureDetector.onTouchEvent(event);
-        if (!thatWasAFling)
+        boolean continueProcessing = gestureDetector.onTouchEvent(event);
+        if (continueProcessing)
             super.dispatchTouchEvent(event);
-        return true;
+        return false;
     }
 }
 

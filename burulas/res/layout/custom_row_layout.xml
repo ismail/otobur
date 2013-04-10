@@ -8,7 +8,5 @@
     android:paddingRight="6dip"
     android:gravity="center"
     android:ellipsize="end"
-    android:textStyle="bold"
-    android:textColor="#ffffffff"
-    android:shadowColor="#000000"/>
+    android:textStyle="bold"/>
 
