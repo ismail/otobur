@@ -7,6 +7,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.zip.GZIPInputStream;
 
 import javax.net.ssl.HttpsURLConnection;
@@ -29,7 +30,7 @@ public class BusViewActivity extends ListActivity {
     public static class Bus {
         ArrayList<String> backward;
         ArrayList<String> forward;
-        HashMap<String, ArrayList<String>> hours;
+        LinkedHashMap<String, ArrayList<String>> hours;
         String url;
     }
 
@@ -91,7 +92,7 @@ public class BusViewActivity extends ListActivity {
 
                     JSONObject hourArray = root.getJSONObject("hours");
                     JSONArray days = hourArray.names();
-                    bus.hours = new HashMap<String, ArrayList<String>>();
+                    bus.hours = new LinkedHashMap<String, ArrayList<String>>();
                     for (int l=0; l < days.length(); ++l) {
                         String dayName = days.getString(l);
                         JSONArray hours = hourArray.getJSONArray(dayName);
@@ -120,7 +121,7 @@ public class BusViewActivity extends ListActivity {
                 this.dialog.dismiss();
 
             setListAdapter(new ArrayAdapter<String>(BusViewActivity.this,
-                                                    android.R.layout.simple_list_item_1,
+                                                    R.layout.custom_row_layout,
                                                     busNames));
         }
 

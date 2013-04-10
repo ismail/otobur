@@ -1,6 +1,9 @@
 package ws.donmez.burulas;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.List;
 
 import android.app.ListActivity;
 import android.content.Intent;
@@ -32,6 +35,9 @@ public class DetailsActivity extends FlingActivity {
             case FORWARD_ROUTE:
                 switchView(DetailView.BACKWARD_ROUTE);
                 break;
+            case BACKWARD_ROUTE:
+                switchView(DetailView.HOUR);
+                break;
             default:
                 break;
         }
@@ -42,6 +48,8 @@ public class DetailsActivity extends FlingActivity {
         switch (currentView) {
             case BACKWARD_ROUTE:
                 switchView(DetailView.FORWARD_ROUTE);
+            case HOUR:
+                switchView(DetailView.BACKWARD_ROUTE);
             default:
                 break;
         }
@@ -52,15 +60,21 @@ public class DetailsActivity extends FlingActivity {
         switch (view) {
             case FORWARD_ROUTE:
                 setListAdapter(new ArrayAdapter<String>(this,
-                                android.R.layout.simple_list_item_1,
+                                R.layout.custom_row_layout,
                                 this.getForwardRoute()));
                 break;
-            case BACKWARD_ROUTE:
+             case BACKWARD_ROUTE:
                 setListAdapter(new ArrayAdapter<String>(this,
-                                android.R.layout.simple_list_item_1,
+                                R.layout.custom_row_layout,
                                 this.getBackwardRoute()));
                 break;
-        }
+            case HOUR:
+                setListAdapter(new ArrayAdapter<String>(this,
+                                R.layout.custom_row_layout,
+                                this.getHourList()));
+                break;
+
+       }
 
         currentView = view;
     }
@@ -71,5 +85,17 @@ public class DetailsActivity extends FlingActivity {
 
     private ArrayList<String> getBackwardRoute() {
         return BusViewActivity.currentBus.backward;
+    }
+
+    private ArrayList<String> getHourList() {
+        List<String> keys = new ArrayList<String>(BusViewActivity.currentBus.hours.keySet());
+        ArrayList<String> hours = new ArrayList<String>();
+
+        for (String key : keys) {
+            hours.add(key);
+            hours.addAll((ArrayList<String>) BusViewActivity.currentBus.hours.get(key));
+        }
+
+        return hours;
     }
 }
