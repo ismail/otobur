@@ -5,6 +5,7 @@
 *.dex
 *.d
 *.db
+*.keystore
 build.prop
 local.properties
 bin
