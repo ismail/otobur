@@ -105,13 +105,23 @@ public class DetailsSlidePageFragment extends ListFragment {
     }
 
     private ArrayList<String> getForwardRoute() {
-        ArrayList<String> forwardRoute = new ArrayList<String>(MainActivity.currentBus.forward);
-        return forwardRoute;
+        if (MainActivity.currentBus.forward != null)
+            return new ArrayList<String>(MainActivity.currentBus.forward);
+        else {
+            ArrayList<String> dummy = new ArrayList<String>();
+            dummy.add("No route data.");
+            return dummy;
+        }
     }
 
     private ArrayList<String> getBackwardRoute() {
-        ArrayList<String> backwardRoute = new ArrayList<String>(MainActivity.currentBus.backward);
-        return backwardRoute;
+        if (MainActivity.currentBus.backward != null)
+            return new ArrayList<String>(MainActivity.currentBus.backward);
+        else {
+            ArrayList<String> dummy = new ArrayList<String>();
+            dummy.add("No route data.");
+            return dummy;
+        }
     }
 
     private void setupHourList() {
