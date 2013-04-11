@@ -8,6 +8,7 @@
     <TextView android:id="@android:id/text1"
             style="?android:textAppearanceLarge"
             android:gravity="center"
+            android:textIsSelectable="false"
             android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -15,7 +16,7 @@
 
      <ListView android:id="@id/android:list"
                android:layout_width="match_parent"
-               android:layout_height="match_parent"
+               android:layout_height="0dip"
                android:layout_weight="1"
                android:drawSelectorOnTop="false"/>
  </LinearLayout>
