@@ -28,13 +28,12 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class MainActivity extends ListActivity {
-    public static class Bus {
+    private static class Bus {
         ArrayList<String> backward;
         ArrayList<String> forward;
         LinkedHashMap<String, ArrayList<String>> hours;
         String url;
     }
-
     public static Bus currentBus;
     private static HashMap<String, Bus> busMap;
     private static String jsonURL = "https://raw.github.com/cartman/hackweek9/master/scripts/hours.json";
