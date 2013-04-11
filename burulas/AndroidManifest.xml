@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="ws.donmez.burulas"
-      android:versionName="0.5" 
+      android:versionName="0.5"
       android:versionCode="1">
 
 <!-- SDK requirements -->
@@ -11,14 +11,14 @@
 
 <!--  Permissions -->
         <uses-permission android:name="android.permission.INTERNET"/>
-        
+
         <application android:label="@string/app_name"
                  android:icon="@drawable/ic_launcher"
-                 android:theme="@android:style/Theme.Holo.Light" 
+                 android:theme="@android:style/Theme.Holo.Light"
                  android:allowBackup="true">
 
 <!-- Main activity -->
-        <activity android:name="BusViewActivity"
+        <activity android:name="MainActivity"
                   android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +28,7 @@
 
 <!-- Details activity -->
         <activity
-            android:name="ws.donmez.burulas.DetailsActivity"
+            android:name="ws.donmez.burulas.DetailsSlideActivity"
             android:label="@string/app_name" >
         </activity>
 

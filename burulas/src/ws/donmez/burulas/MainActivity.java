@@ -26,7 +26,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class BusViewActivity extends ListActivity {
+public class MainActivity extends ListActivity {
     public static class Bus {
         ArrayList<String> backward;
         ArrayList<String> forward;
@@ -47,7 +47,7 @@ public class BusViewActivity extends ListActivity {
 
     private class fetchScheduleTask extends AsyncTask<String, Void, ArrayList<String>> {
 
-        private final ProgressDialog dialog = new ProgressDialog(BusViewActivity.this);
+        private final ProgressDialog dialog = new ProgressDialog(MainActivity.this);
 
         @Override
         protected void onPreExecute() {
@@ -120,7 +120,7 @@ public class BusViewActivity extends ListActivity {
             if(this.dialog.isShowing())
                 this.dialog.dismiss();
 
-            setListAdapter(new ArrayAdapter<String>(BusViewActivity.this,
+            setListAdapter(new ArrayAdapter<String>(MainActivity.this,
                                                     R.layout.custom_row_layout,
                                                     busNames));
         }
@@ -163,7 +163,7 @@ public class BusViewActivity extends ListActivity {
         Object o = this.getListAdapter().getItem(position);
         String busName = o.toString();
         currentBus = busMap.get(busName);
-        Intent intent = new Intent(this, DetailsActivity.class);
+        Intent intent = new Intent(this, DetailsSlideActivity.class);
 
         startActivity(intent);
     }
