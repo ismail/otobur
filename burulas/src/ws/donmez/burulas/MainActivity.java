@@ -28,7 +28,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 public class MainActivity extends ListActivity {
-    private static class Bus {
+    public static class Bus {
         ArrayList<String> backward;
         ArrayList<String> forward;
         LinkedHashMap<String, ArrayList<String>> hours;
