@@ -65,7 +65,7 @@ public class DetailsSlidePageFragment extends ListFragment {
         return mPageNumber;
     }
 
-    public void setHeader(TextView tv) {
+    private void setHeader(TextView tv) {
         switch (mPageNumber) {
             case 0:
                 tv.setText("Forward Route");
@@ -81,7 +81,7 @@ public class DetailsSlidePageFragment extends ListFragment {
             setHourText(tv, mPageNumber);
     }
 
-    public void setupListView() {
+    private void setupListView() {
         switch (mPageNumber) {
             case 0:
                 setListAdapter(new ArrayAdapter<String>( getActivity(),
