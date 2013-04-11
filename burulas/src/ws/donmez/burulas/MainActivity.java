@@ -35,6 +35,8 @@ public class MainActivity extends ListActivity {
         String url;
     }
     public static Bus currentBus;
+
+    private static final int HTTP_CHUNK_SIZE = 8*1024;
     private static HashMap<String, Bus> busMap;
     private static String jsonURL = "https://raw.github.com/cartman/hackweek9/master/scripts/hours.json";
 
@@ -128,7 +130,7 @@ public class MainActivity extends ListActivity {
 
         private ByteArrayOutputStream downloadSchedule(String address) {
             ByteArrayOutputStream result = new ByteArrayOutputStream();
-            byte[] buffer = new byte[1024];
+            byte[] buffer = new byte[HTTP_CHUNK_SIZE];
 
             try {
                 URL url =  new URL(address);
