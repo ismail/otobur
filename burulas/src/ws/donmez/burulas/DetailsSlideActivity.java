@@ -10,7 +10,6 @@ import android.support.v4.view.ViewPager;
 
 public class DetailsSlideActivity extends FragmentActivity {
 
-    private static final int NUM_PAGES = 3;
     private ViewPager mPager;
     private PagerAdapter mPagerAdapter;
 
@@ -37,7 +36,8 @@ public class DetailsSlideActivity extends FragmentActivity {
 
         @Override
         public int getCount() {
-            return NUM_PAGES;
+            int hourCount = MainActivity.currentBus.hours.size();
+            return hourCount+2;
         }
     }
 }

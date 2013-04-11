@@ -18,6 +18,10 @@ public class DetailsSlidePageFragment extends ListFragment {
     public static final String ARG_PAGE = "page";
     private int mPageNumber;
 
+    private ArrayList<String> stopList;
+    private ArrayList<ArrayList<String>> hourList;
+    private int hourIndex;
+
     public static DetailsSlidePageFragment create(int pageNumber) {
         DetailsSlidePageFragment fragment = new DetailsSlidePageFragment();
         Bundle args = new Bundle();
@@ -32,13 +36,15 @@ public class DetailsSlidePageFragment extends ListFragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        setupHourList();
         mPageNumber = getArguments().getInt(ARG_PAGE);
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
             Bundle savedInstanceState) {
-        
+
         // Inflate the layout containing a title and body text.
         ViewGroup rootView = (ViewGroup) inflater
                 .inflate(R.layout.fragment_details_slide_page, container, false);
@@ -67,11 +73,12 @@ public class DetailsSlidePageFragment extends ListFragment {
             case 1:
                 tv.setText("Backward Route");
                 break;
-            case 2:
-                tv.setText("Hours");
             default:
                 break;
         }
+
+        if (mPageNumber > 1)
+            setHourText(tv, mPageNumber);
     }
 
     public void setupListView() {
@@ -86,16 +93,17 @@ public class DetailsSlidePageFragment extends ListFragment {
                                                          R.layout.custom_row_layout,
                                                          this.getBackwardRoute()));
                 break;
-            case 2:
-                setListAdapter(new ArrayAdapter<String>( getActivity(),
-                                                         R.layout.custom_row_layout,
-                                                         this.getHourList()));
-                break;
             default:
                 break;
         }
+
+        if (mPageNumber > 1) {
+            setListAdapter(new ArrayAdapter<String>( getActivity(),
+                                                     R.layout.custom_row_layout,
+                                                     this.getHourList(mPageNumber)));
+        }
     }
-    
+
     private ArrayList<String> getForwardRoute() {
         ArrayList<String> forwardRoute = new ArrayList<String>(MainActivity.currentBus.forward);
         return forwardRoute;
@@ -106,17 +114,25 @@ public class DetailsSlidePageFragment extends ListFragment {
         return backwardRoute;
     }
 
-    private ArrayList<String> getHourList() {
-        ArrayList<String> hours = new ArrayList<String>();
+    private void setupHourList() {
+        stopList = new ArrayList<String>();
+        hourList = new ArrayList<ArrayList<String>>();
+        hourIndex = 0;
+
         HashMap<String, ArrayList<String>> busMap =
                 new HashMap<String, ArrayList<String>>(MainActivity.currentBus.hours);
         List<String> keys = new ArrayList<String>(busMap.keySet());
-
         for (String key : keys) {
-            hours.add(key);
-            hours.addAll((ArrayList<String>) MainActivity.currentBus.hours.get(key));
+             hourList.add(new ArrayList<String>(MainActivity.currentBus.hours.get(key)));
+             stopList.add(key);
         }
+    }
 
-        return hours;       
+    private void setHourText(TextView tv, int index) {
+        tv.setText(stopList.get(index-2));
+    }
+
+    private ArrayList<String> getHourList(int index) {
+        return hourList.get(index-2);
     }
 }
