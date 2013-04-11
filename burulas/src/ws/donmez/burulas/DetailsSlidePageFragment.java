@@ -20,7 +20,6 @@ public class DetailsSlidePageFragment extends ListFragment {
 
     private ArrayList<String> stopList;
     private ArrayList<ArrayList<String>> hourList;
-    private int hourIndex;
 
     public static DetailsSlidePageFragment create(int pageNumber) {
         DetailsSlidePageFragment fragment = new DetailsSlidePageFragment();
@@ -127,8 +126,6 @@ public class DetailsSlidePageFragment extends ListFragment {
     private void setupHourList() {
         stopList = new ArrayList<String>();
         hourList = new ArrayList<ArrayList<String>>();
-        hourIndex = 0;
-
         HashMap<String, ArrayList<String>> busMap =
                 new HashMap<String, ArrayList<String>>(MainActivity.currentBus.hours);
         List<String> keys = new ArrayList<String>(busMap.keySet());
