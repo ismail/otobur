@@ -129,7 +129,7 @@ public class MainActivity extends ListActivity {
 
         private ByteArrayOutputStream downloadSchedule(String address) {
             ByteArrayOutputStream result = new ByteArrayOutputStream();
-            byte[] buffer = new byte[4096];
+            byte[] buffer = new byte[1024];
 
             try {
                 URL url =  new URL(address);
