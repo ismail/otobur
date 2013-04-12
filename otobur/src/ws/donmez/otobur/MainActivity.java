@@ -64,7 +64,7 @@ public class MainActivity extends FragmentActivity {
                 Object o = lv.getAdapter().getItem(position);
                 String busName = o.toString();
                 currentBus = busMap.get(busName);
-                Intent intent = new Intent(MainActivity.this, DetailsSlideActivity.class);
+                Intent intent = new Intent(MainActivity.this, DetailsActivity.class);
                 startActivity(intent);
             }
         });

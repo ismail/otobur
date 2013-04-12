@@ -14,22 +14,22 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-public class DetailsSlidePageFragment extends ListFragment {
+public class DetailsPageFragment extends ListFragment {
     public static final String ARG_PAGE = "page";
     private int mPageNumber;
 
     private ArrayList<String> stopList;
     private ArrayList<ArrayList<String>> hourList;
 
-    public static DetailsSlidePageFragment create(int pageNumber) {
-        DetailsSlidePageFragment fragment = new DetailsSlidePageFragment();
+    public static DetailsPageFragment create(int pageNumber) {
+        DetailsPageFragment fragment = new DetailsPageFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_PAGE, pageNumber);
         fragment.setArguments(args);
         return fragment;
     }
 
-    public DetailsSlidePageFragment() {
+    public DetailsPageFragment() {
     }
 
     @Override

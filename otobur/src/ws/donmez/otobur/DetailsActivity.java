@@ -15,7 +15,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
 
-public class DetailsSlideActivity extends FragmentActivity {
+public class DetailsActivity extends FragmentActivity {
 
     private ViewPager mPager;
     private PagerAdapter mPagerAdapter;
@@ -29,7 +29,7 @@ public class DetailsSlideActivity extends FragmentActivity {
 
         // Instantiate a ViewPager and a PagerAdapter.
         mPager = (ViewPager) findViewById(R.id.pager);
-        mPagerAdapter = new DetailsSlidePagerAdapter(getFragmentManager());
+        mPagerAdapter = new DetailsPagerAdapter(getFragmentManager());
         mPager.setAdapter(mPagerAdapter);
 
         mSpinnerAdapter = ArrayAdapter.createFromResource(this, R.array.action_list,
@@ -68,14 +68,14 @@ public class DetailsSlideActivity extends FragmentActivity {
         actionBar.setTitle(MainActivity.currentBus.name);
     }
 
-    private class DetailsSlidePagerAdapter extends FragmentStatePagerAdapter {
-        public DetailsSlidePagerAdapter(FragmentManager fm) {
+    private class DetailsPagerAdapter extends FragmentStatePagerAdapter {
+        public DetailsPagerAdapter(FragmentManager fm) {
             super(fm);
         }
 
         @Override
         public Fragment getItem(int position) {
-            return DetailsSlidePageFragment.create(position);
+            return DetailsPageFragment.create(position);
         }
 
         @Override

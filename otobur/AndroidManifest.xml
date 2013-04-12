@@ -28,7 +28,7 @@
 
 <!-- Details activity -->
         <activity
-            android:name="ws.donmez.otobur.DetailsSlideActivity"
+            android:name="ws.donmez.otobur.DetailsActivity"
             android:label="@string/app_name" >
         </activity>
 
