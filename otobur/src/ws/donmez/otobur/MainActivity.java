@@ -102,7 +102,10 @@ public class MainActivity extends FragmentActivity {
                 jsonContent.append(new String(buffer));
             }
 
-        } catch (IOException e) {}
+        } catch (IOException e) {
+            Log.d("Otobur", "Failed to write to hours.json!");
+            Log.d("Otobur", e.toString());
+        }
 
         ArrayList<String> busNames = parseScheduleData(jsonContent.toString());
         updateBusList(busNames);
