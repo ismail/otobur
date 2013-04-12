@@ -17,17 +17,25 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.app.ListActivity;
+import android.app.Activity;
+import android.app.ListFragment;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.AdapterView;
 import android.widget.ListView;
 
-public class MainActivity extends ListActivity {
+public class MainActivity extends FragmentActivity {
     public static class Bus {
         ArrayList<String> backward;
         ArrayList<String> forward;
@@ -40,12 +48,46 @@ public class MainActivity extends ListActivity {
     private static final int HTTP_CHUNK_SIZE = 8*1024;
     private static HashMap<String, Bus> busMap;
     private static String jsonURL = "https://raw.github.com/cartman/hackweek9/master/scripts/hours.json";
+    private ListView lv;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.main_activity);
+        lv = (ListView) findViewById(android.R.id.list);
 
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Object o = lv.getAdapter().getItem(position);
+                String busName = o.toString();
+                currentBus = busMap.get(busName);
+                Intent intent = new Intent(MainActivity.this, DetailsSlideActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        getActionBar().setTitle("Bus Lines");
         new fetchScheduleTask().execute(jsonURL);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_activity, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.refresh:
+                lv.setAdapter(null);
+                new fetchScheduleTask().execute(jsonURL);
+                return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     private class fetchScheduleTask extends AsyncTask<String, Void, ArrayList<String>> {
@@ -125,7 +167,7 @@ public class MainActivity extends ListActivity {
             if(this.dialog.isShowing())
                 this.dialog.dismiss();
 
-            setListAdapter(new ArrayAdapter<String>(MainActivity.this,
+            lv.setAdapter(new ArrayAdapter<String>(MainActivity.this,
                                                     R.layout.custom_row_layout,
                                                     busNames));
         }
@@ -159,17 +201,5 @@ public class MainActivity extends ListActivity {
 
             return result;
         }
-    }
-
-    @Override
-    protected void onListItemClick(ListView l, View v, int position, long id)
-    {
-        super.onListItemClick(l, v, position, id);
-        Object o = this.getListAdapter().getItem(position);
-        String busName = o.toString();
-        currentBus = busMap.get(busName);
-        Intent intent = new Intent(this, DetailsSlideActivity.class);
-
-        startActivity(intent);
     }
 }
