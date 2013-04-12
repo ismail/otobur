@@ -155,7 +155,7 @@ public class MainActivity extends FragmentActivity {
 
                 }
             } catch(JSONException e) {
-                Log.d("Burulas", e.toString());
+                Log.d("Otobur", e.toString());
             }
 
             Collections.sort(busNames);
