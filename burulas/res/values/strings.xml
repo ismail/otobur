@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Burulaş</string>
+    <string name="app_name">OtoBUR</string>
 
     <string-array name="action_list">
             <item>Forward Route</item>
