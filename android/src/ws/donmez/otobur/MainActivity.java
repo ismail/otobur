@@ -49,7 +49,7 @@ public class MainActivity extends FragmentActivity {
     private static final int HTTP_CHUNK_SIZE = 8*1024;
     private static final int FILE_CHUNK_SIZE = 4*1024;
     private static HashMap<String, Bus> busMap;
-    private static String jsonURL = "https://raw.github.com/cartman/hackweek9/master/scripts/hours.json";
+    private static String jsonURL = "https://raw.github.com/cartman/otobur/master/scripts/hours.json";
     private ListView lv;
 
     @Override
