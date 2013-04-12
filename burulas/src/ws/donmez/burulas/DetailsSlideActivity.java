@@ -11,8 +11,6 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.SpinnerAdapter;
@@ -68,13 +66,6 @@ public class DetailsSlideActivity extends FragmentActivity {
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
         actionBar.setListNavigationCallbacks(mSpinnerAdapter, mOnNavigationListener);
         actionBar.setTitle(MainActivity.currentBus.name);
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.activity_details_slide, menu);
-        return true;
     }
 
     private class DetailsSlidePagerAdapter extends FragmentStatePagerAdapter {
