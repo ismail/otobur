@@ -33,6 +33,7 @@ public class MainActivity extends ListActivity {
         ArrayList<String> forward;
         LinkedHashMap<String, ArrayList<String>> hours;
         String url;
+        String name;
     }
     public static Bus currentBus;
 
@@ -106,6 +107,7 @@ public class MainActivity extends ListActivity {
                         bus.hours.put(dayName, hoursArray);
                     }
 
+                    bus.name = busName;
                     bus.url = root.getString("url");
                     busMap.put(busName, bus);
 

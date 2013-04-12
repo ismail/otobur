@@ -65,19 +65,12 @@ public class DetailsSlidePageFragment extends ListFragment {
     }
 
     private void setHeader(TextView tv) {
-        switch (mPageNumber) {
-            case 0:
-                tv.setText("Forward Route");
-                break;
-            case 1:
-                tv.setText("Backward Route");
-                break;
-            default:
-                break;
+        if (mPageNumber < 2)
+            tv.setVisibility(View.GONE);
+        else {
+            tv.setVisibility(View.VISIBLE);
+            tv.setText(stopList.get(mPageNumber - 2));
         }
-
-        if (mPageNumber > 1)
-            setHourText(tv, mPageNumber);
     }
 
     private void setupListView() {
@@ -133,10 +126,6 @@ public class DetailsSlidePageFragment extends ListFragment {
              hourList.add(new ArrayList<String>(MainActivity.currentBus.hours.get(key)));
              stopList.add(key);
         }
-    }
-
-    private void setHourText(TextView tv, int index) {
-        tv.setText(stopList.get(index-2));
     }
 
     private ArrayList<String> getHourList(int index) {

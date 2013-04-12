@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Burulaş</string>
+
+    <string-array name="action_list">
+            <item>Forward Route</item>
+            <item>Backward Route</item>
+            <item>Hours</item>
+    </string-array>
+
+    <string name="refresh">Refresh</string>
+    <string name="about_app">About</string>
 </resources>
