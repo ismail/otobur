@@ -5,7 +5,7 @@
       android:versionCode="1">
 
 <!-- SDK requirements -->
-        <uses-sdk android:minSdkVersion="16"
+        <uses-sdk android:minSdkVersion="13"
                   android:targetSdkVersion="17"
                   android:maxSdkVersion="17" />
 
