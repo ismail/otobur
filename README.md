@@ -1,4 +1,5 @@
-hackweek9
+OtoBUR
 =========
 
-Converting Bursa Municipal Bus Timeline into something usable, see http://www.burulas.com.tr/sayfa.aspx?id=393
+An Android app to display Bursa Municipal Bus Timeline
+
