@@ -36,8 +36,6 @@ public class DetailsActivity extends FragmentActivity {
                                                           android.R.layout.simple_spinner_dropdown_item);
 
         mOnNavigationListener = new OnNavigationListener() {
-            String[] strings = getResources().getStringArray(R.array.action_list);
-
             @Override
             public boolean onNavigationItemSelected(int position, long itemId) {
                 mPager.setCurrentItem(position);
