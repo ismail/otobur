@@ -10,6 +10,8 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.text.Spannable;
+import android.text.SpannableString;
 import android.widget.ArrayAdapter;
 import android.widget.SpinnerAdapter;
 
@@ -61,7 +63,11 @@ public class DetailsActivity extends FragmentActivity {
         ActionBar actionBar = getActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_LIST);
         actionBar.setListNavigationCallbacks(mSpinnerAdapter, mOnNavigationListener);
-        actionBar.setTitle(MainActivity.currentBus.name);
+        actionBar.setDisplayShowHomeEnabled(false);
+
+        SpannableString s = new SpannableString("BUS " +MainActivity.currentBus.name);
+        s.setSpan(new CustomFont(this), 0, s.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+        actionBar.setTitle(s);
     }
 
     private class DetailsPagerAdapter extends FragmentStatePagerAdapter {

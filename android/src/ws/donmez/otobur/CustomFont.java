@@ -11,7 +11,7 @@ public class CustomFont extends MetricAffectingSpan {
 	
 	public CustomFont(Context context) {
 		mTypeface = Typeface.createFromAsset(context.getAssets(), 
-				"font/EHSMB.ttf");
+				"font/ehsmb.ttf");
 	}
 
 	@Override
