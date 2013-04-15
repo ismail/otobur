@@ -13,6 +13,7 @@ def cleanup(x):
 def parseRoute(data):
     data = data.encode("utf-8")
     data = data.split("\r\n\t\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\t\t\t")
+    data = [x.strip() for x in data if x.strip() != '']
     result = [[], []]
 
     result[0] = data[0].replace("GİDİŞ GÜZERGAHI: ","").split("-")
