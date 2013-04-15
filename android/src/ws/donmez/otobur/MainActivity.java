@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -12,8 +13,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.zip.GZIPInputStream;
-
-import javax.net.ssl.HttpsURLConnection;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -46,7 +45,7 @@ public class MainActivity extends FragmentActivity {
     private static final int HTTP_CHUNK_SIZE = 8*1024;
     private static final int FILE_CHUNK_SIZE = 4*1024;
     private static HashMap<String, Bus> busMap;
-    private static String jsonURL = "https://raw.github.com/ismail/otobur/master/scripts/hours.json";
+    private static String jsonURL = "http://otobur.donmez.ws/data/hours.json";
     private ListView lv;
 
     @Override
@@ -225,7 +224,7 @@ public class MainActivity extends FragmentActivity {
 
             try {
                 URL url =  new URL(address);
-                HttpsURLConnection urlConnection = (HttpsURLConnection) url.openConnection();
+                HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
                 urlConnection.setRequestProperty("Accept-Encoding", "gzip, deflate");
                 urlConnection.setRequestMethod("GET");
 
