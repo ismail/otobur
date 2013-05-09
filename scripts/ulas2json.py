@@ -24,6 +24,8 @@ linesWithCrapData = ["35/C", "38/B", "38/D", "B/4", "B/34", "80"]
 whiteListedLines = ["4/G", "6/F1", "15/A", "26/A", "92"]
 blacklistedLines = linesWithWrongData + linesWithCrapData + linesWhereWePurelySuck
 
+dayKeywords = ["HAFTAİÇİ", "HAFTA İÇİ", "CUMARTESİ", "PAZAR"]
+
 fixupTimeDict =  {
     "00" : "24",
     "01" : "25",
@@ -150,10 +152,8 @@ def parseHeaders(headers, timeLength):
                 start = index+1
 
     for header in headers[start:-timeLength]:
-        if (header.find("HAFTA İÇİ-") >= 0):
-            pass
-        elif (header.find("-") >= 0) or (header.find("/") >= 0) or \
-             (header.find(":") >= 0):
+        dayKeyword = any([header.find(keyword) >= 0 for keyword in dayKeywords])
+        if not dayKeyword:
             continue
 
         stopRow.append(header)
