@@ -24,7 +24,7 @@ linesWithCrapData = ["35/C", "38/B", "38/D", "B/4", "B/34", "80"]
 whiteListedLines = ["4/G", "6/F1", "15/A", "26/A", "92"]
 blacklistedLines = linesWithWrongData + linesWithCrapData + linesWhereWePurelySuck
 
-dayKeywords = ["HAFTAİÇİ", "HAFTA İÇİ", "CUMARTESİ", "PAZAR"]
+dayKeywords = ["HAFTA İÇİ", "HAFTAİÇİ", "CUMARTESİ", "PAZAR"]
 
 fixupTimeDict =  {
     "00" : "24",
@@ -32,6 +32,20 @@ fixupTimeDict =  {
     "02" : "26",
     "03" : "27",
 }
+
+DEBUG_ENABLED = False
+
+def debug_print(x):
+    if DEBUG_ENABLED:
+        print(x)
+    else:
+        pass
+
+def debug_exit(x):
+    if DEBUG_ENABLED:
+        sys.exit(x)
+    else:
+        pass
 
 def compareTime(t1, t2):
     # Sanitize this shit, we only need first 5 characters XX:YY
@@ -140,9 +154,10 @@ def parseHeaders(headers, timeLength):
 
     for i in reversed(range(0, timeLength)):
         dayRow.append(headers[headerLength - 1 -i])
+    debug_print(dayRow)
 
     # This is the usual case
-    start = len(headers)-timeLength*2-1
+    start = len(headers)-timeLength*2
 
     # Cheat the start, this let us parse less stuff
     for header in headers:
@@ -152,12 +167,35 @@ def parseHeaders(headers, timeLength):
                 start = index+1
 
     for header in headers[start:-timeLength]:
-        dayKeyword = any([header.find(keyword) >= 0 for keyword in dayKeywords])
-        if not dayKeyword:
+        if (header.find("(") >= 0 or header.find(")") >= 0 or
+            header.find(":") >= 0 or header.find("/") >= 0):
             continue
+
+        if (header.find("-") >= 0):
+            # This is tricky, because in case for 35/G dates and stops are switched
+            # so we can't assume anything with a dash inside is a route
+            if (len(header) > len("HAFTA İÇİ - CUMARTESİ")):
+                continue
+
+            # Length check will eliminate most false-positives
+            # but not all
+            dayKeyword = any([header.find(keyword) >= 0 for keyword in dayKeywords])
+            if not dayKeyword:
+                continue
 
         stopRow.append(header)
 
+    # If indeed our stopRow is actually contains days
+    # We can eliminate non-day keywords
+    # This helps with B/46 line
+    containsDay = any([(stop.find(keyword) >= 0) for stop in stopRow for keyword in dayKeywords])
+    if containsDay:
+        for stop in stopRow:
+            isADay = any([stop.find(keyword) >= 0 for keyword in dayKeywords])
+            if not isADay:
+                stopRow.pop(stopRow.index(stop))
+
+    debug_print(stopRow)
     if len(stopRow) > 0:
         # First two items might be duplicates
         if len(stopRow) >= 2 and (stopRow[0] == stopRow[1]):
@@ -171,6 +209,7 @@ def parseHeaders(headers, timeLength):
             if (i+1) % splitCount == 0:
                 index += 1
 
+    debug_print(dayRow)
     return dayRow
 
 def parseTable(table, structured):
@@ -232,6 +271,7 @@ def setupTimeline():
             continue
 
         url = clockDict[key]
+        #url = "http://www.burulas.com.tr/sayfa.aspx?id=604"
         print url
         structured = (key in whiteListedLines)
         doc = html.fromstring(urllib2.urlopen(url).read())
@@ -253,6 +293,7 @@ def setupTimeline():
                 timeTableDict[key]["backward"] = stops[1]
 
         time.sleep(0.2)
+        debug_exit(0)
 
 if __name__ == "__main__":
     setupBus()
