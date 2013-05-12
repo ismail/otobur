@@ -1,6 +1,7 @@
 package ws.donmez.otobur;
 
 import java.io.ByteArrayOutputStream;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -8,12 +9,21 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.zip.GZIPInputStream;
 
+import org.apache.http.Header;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.ClientProtocolException;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpHead;
+import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -67,10 +77,7 @@ public class MainActivity extends FragmentActivity {
 
         getActionBar().setTitle("Bus Lines");
 
-        if (!scheduleFileExists())
-            new fetchScheduleTask().execute(jsonURL);
-        else
-            parseScheduleFile();
+        new fetchScheduleTask().execute(jsonURL);
     }
 
     private void updateBusList(ArrayList<String> busNames) {
@@ -88,7 +95,7 @@ public class MainActivity extends FragmentActivity {
         }
     }
 
-    private void parseScheduleFile() {
+    private ArrayList<String> parseScheduleFile() {
         StringBuffer jsonContent = new StringBuffer("");
         try {
             FileInputStream json = openFileInput("hours.json");
@@ -104,7 +111,7 @@ public class MainActivity extends FragmentActivity {
         }
 
         ArrayList<String> busNames = parseScheduleData(jsonContent.toString());
-        updateBusList(busNames);
+        return busNames;
     }
 
     private ArrayList<String> parseScheduleData(String input) {
@@ -198,8 +205,14 @@ public class MainActivity extends FragmentActivity {
 
         @Override
         protected ArrayList<String> doInBackground(String... urls) {
-            ByteArrayOutputStream input = downloadSchedule(urls[0]);
-            return parseScheduleData(input.toString());
+        	this.dialog.setMessage("Checking for schedule updates...");
+        	boolean shouldUpdate = shouldUpdateSchedule();
+        	if (shouldUpdate) {
+                ByteArrayOutputStream input = downloadSchedule(urls[0]);
+                return parseScheduleData(input.toString());
+        	} else {
+        		return parseScheduleFile();
+        	}
         }
 
         @Override
@@ -210,6 +223,45 @@ public class MainActivity extends FragmentActivity {
             updateBusList(busNames);
         }
 
+        private boolean shouldUpdateSchedule() {
+        	if (!scheduleFileExists())
+        		return true;
+
+        	HttpClient client = new DefaultHttpClient();
+        	HttpHead method = new HttpHead(jsonURL);
+        	HttpResponse response = null;
+    		try {
+    			response = client.execute(method);
+    		} catch (ClientProtocolException e) {
+    			Log.d("Otobur", e.toString());
+    		} catch (IOException e) {
+    			Log.d("Otobur", e.toString());
+    		}
+    		
+    		SimpleDateFormat format = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss zzz");
+        	Header[] s = response.getHeaders("last-modified");
+        	String lastModifiedDate = s[0].getValue();
+        	
+        	Date remoteDate = null;
+        	try {
+    			remoteDate = format.parse(lastModifiedDate);
+    		} catch (ParseException e) {
+    			e.printStackTrace();
+    		}
+        	
+        	File hourFile = getFileStreamPath("hours.json");
+        	Date localDate = new Date(hourFile.lastModified());
+        
+        	if (localDate.before(remoteDate))
+        		return true;
+        	else {
+                Log.d("Otobur", "Schedule file up to date.");
+                Log.d("Otobur", "Local file date "+ localDate.toString());
+                Log.d("Otobur", "Remote file date "+ remoteDate.toString());
+        		return false;
+        	}
+        }
+        
         private ByteArrayOutputStream downloadSchedule(String address) {
             ByteArrayOutputStream result = new ByteArrayOutputStream();
             byte[] buffer = new byte[HTTP_CHUNK_SIZE];
