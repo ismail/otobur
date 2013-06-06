@@ -12,7 +12,7 @@ import re
 import sys
 import time
 
-address="http://www.burulas.com.tr/sayfa.aspx?id=393"
+address="http://www.burulas.com.tr/hatsorgulama.aspx?hatAdi=99999"
 base_url="http://www.burulas.com.tr"
 clockDict = OrderedDict()
 timeTableDict = OrderedDict()
@@ -257,10 +257,10 @@ def parsePage(doc, structured=False):
 
 def setupBus():
     tree = html.fromstring(urllib2.urlopen(address).read())
-    for td in tree.xpath('/html/body//tbody/tr/td/a'):
+    for td in tree.xpath('//body//a'):
         try:
-            if "Hareket Saatleri" in td.attrib['title']:
-                line_name = td.attrib['title'].split(" ")[0]
+            if td.attrib['href'].find("hareketSaatleri.aspx") >= 0:
+                line_name = td.attrib['href'].split("hat=")[1]
                 clockDict[line_name] = "%s/%s" % (base_url, td.attrib['href'])
         except KeyError:
             pass
