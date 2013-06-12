@@ -64,7 +64,7 @@ def parseSchedule(busName, address):
                     hours.append(hour)
                 el = el.getnext()
 
-            stopDayName = "%s - [%s]" % (stopName, day.encode("utf-8"))
+            stopDayName = "%s [%s]" % (stopName, day.encode("utf-8"))
             scheduleDict[busName]["hours"][stopDayName] = hours
 
             if not hours:
