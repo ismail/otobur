@@ -32,6 +32,7 @@ import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.v4.app.DialogFragment;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.Menu;
@@ -203,8 +204,8 @@ public class MainActivity extends FragmentActivity {
 
 		@Override
 		protected ArrayList<String> doInBackground(String... urls) {
-			boolean shouldUpdate = shouldUpdateSchedule();
-			if (shouldUpdate) {
+            shouldUpdateSchedule();
+			if (!scheduleFileExists()) {
 				this.dialog.setMessage("Fetching bus schedule...");
 				this.dialog.show();
 				ByteArrayOutputStream input = downloadSchedule(urls[0]);
@@ -222,12 +223,9 @@ public class MainActivity extends FragmentActivity {
 			updateBusList(busNames);
 		}
 
-		private boolean shouldUpdateSchedule() {
+		private void shouldUpdateSchedule() {
 			if (!scheduleFileExists())
-				return true;
-
-			this.dialog.setMessage("Checking for schedule updates...");
-			this.dialog.show();
+				return;
 
 			HttpClient client = new DefaultHttpClient();
 			HttpHead method = new HttpHead(jsonURL);
@@ -254,13 +252,14 @@ public class MainActivity extends FragmentActivity {
 			File hourFile = getFileStreamPath("hours.json");
 			Date localDate = new Date(hourFile.lastModified());
 
-			if (localDate.before(remoteDate))
-				return true;
+			if (localDate.before(remoteDate)) {
+                DialogFragment dialog = new AlertFragment();
+                dialog.show(getSupportFragmentManager(), "AlertFragment");
+            }
 			else {
 				Log.d("Otobur", "Schedule file up to date.");
 				Log.d("Otobur", "Local file date "+ localDate.toString());
 				Log.d("Otobur", "Remote file date "+ remoteDate.toString());
-				return false;
 			}
 		}
 

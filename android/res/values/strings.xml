@@ -9,4 +9,7 @@
     </string-array>
 
     <string name="refresh">Refresh</string>
+    <string name="update_schedule">An update is available.</string>
+    <string name="download">Download it</string>
+    <string name="remind_later">Remind me later</string>
 </resources>
