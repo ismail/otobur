@@ -45,7 +45,7 @@ public class MainActivity extends FragmentActivity {
     private static final int HTTP_CHUNK_SIZE = 8*1024;
     private static final int FILE_CHUNK_SIZE = 4*1024;
     private static HashMap<String, Bus> busMap;
-    private static String jsonURL = "http://otobur.donmez.ws/data/hours.json";
+    private static String jsonURL = "http://otobur.donmez.ws/data/schedule.json";
     private ListView lv;
 
     @Override
@@ -81,7 +81,7 @@ public class MainActivity extends FragmentActivity {
 
     private boolean scheduleFileExists() {
         try {
-            FileInputStream json = openFileInput("hours.json");
+            openFileInput("schedule.json");
             return true;
         } catch (IOException e) {
             return false;
@@ -89,9 +89,9 @@ public class MainActivity extends FragmentActivity {
     }
 
     private void parseScheduleFile() {
-        StringBuffer jsonContent = new StringBuffer("");
+        StringBuilder jsonContent = new StringBuilder("");
         try {
-            FileInputStream json = openFileInput("hours.json");
+            FileInputStream json = openFileInput("schedule.json");
             byte[] buffer = new byte[FILE_CHUNK_SIZE];
 
             while (json.read(buffer) != -1) {
@@ -99,7 +99,7 @@ public class MainActivity extends FragmentActivity {
             }
 
         } catch (IOException e) {
-            Log.d("Otobur", "Failed to write to hours.json!");
+            Log.d("Otobur", "Failed to write to schedule.json!");
             Log.d("Otobur", e.toString());
         }
 
@@ -112,12 +112,16 @@ public class MainActivity extends FragmentActivity {
             ArrayList<String> busNames = new ArrayList<String>();
 
             try {
-                JSONObject json = new JSONObject(input.toString());
+                JSONObject json = new JSONObject(input);
                 JSONArray keys = json.names();
+                int length = keys.length();
 
-                for (int i=0; i < keys.length(); ++i) {
-                    String busName = keys.getString(i);
-                    JSONObject root = json.getJSONObject(busName);
+
+                for (int i=0; i < length; ++i) {
+                    JSONObject root = json.getJSONObject(Integer.toString(i));
+
+                    String busName;
+                    busName = root.getString("name");
                     busNames.add(busName);
 
                     Bus bus = new Bus();
@@ -129,7 +133,7 @@ public class MainActivity extends FragmentActivity {
                             backwardList.add(backwardArray.getString(j));
 
                         bus.backward = backwardList;
-                    } catch (JSONException e) {}
+                    } catch (JSONException ignored) {}
 
                     try {
                         ArrayList<String> forwardList = new ArrayList<String>();
@@ -138,7 +142,7 @@ public class MainActivity extends FragmentActivity {
                             forwardList.add(forwardArray.getString(k));
 
                         bus.forward = forwardList;
-                    } catch (JSONException e) { }
+                    } catch (JSONException ignored) { }
 
                     JSONObject hourArray = root.getJSONObject("hours");
                     JSONArray days = hourArray.names();
@@ -163,7 +167,6 @@ public class MainActivity extends FragmentActivity {
                 Log.d("Otobur", e.toString());
             }
 
-            Collections.sort(busNames);
             return busNames;
     }
 
@@ -216,9 +219,9 @@ public class MainActivity extends FragmentActivity {
             FileOutputStream fos = null;
 
             try {
-                fos = openFileOutput("hours.json", MODE_PRIVATE);
+                fos = openFileOutput("schedule.json", MODE_PRIVATE);
             } catch (IOException e) {
-                Log.d("Otobur", "Failed to open hours.json file!");
+                Log.d("Otobur", "Failed to open schedule.json file!");
                 Log.d("Otobur", e.toString());
             }
 
@@ -235,7 +238,7 @@ public class MainActivity extends FragmentActivity {
                     inputStream = new GZIPInputStream(inputStream);
                 }
 
-                int length  = 0;
+                int length;
                 while ( (length = inputStream.read(buffer)) > 0 ) {
                     result.write(buffer, 0, length);
                     fos.write(buffer, 0, length);
@@ -249,7 +252,7 @@ public class MainActivity extends FragmentActivity {
             try {
                 fos.close();
             } catch (IOException e) {
-                Log.d("Otobur", "Failed to close hours.json file!");
+                Log.d("Otobur", "Failed to close schedule.json file!");
                 Log.d("Otobur", e.toString());
             }
 
