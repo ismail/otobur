@@ -12,9 +12,10 @@ import sys
 
 root = "http://www.burulas.com.tr/hatsorgulama.aspx?hatAdi=99999"
 baseUrl = "http://www.burulas.com.tr/hareketSaatleri.aspx"
+scheduleVersion="20130407"
 scheduleDict = {}
 
-def parseSchedule(busName, address):
+def parseSchedule(busIndex, address):
     tree=html.fromstring(urllib2.urlopen(address).read())
 
     stopName = None
@@ -33,7 +34,7 @@ def parseSchedule(busName, address):
                     keyword = "DÖNÜŞ :"
 
                 if keyword:
-                    if busName == "F/3": # XXX hackity hack
+                    if scheduleDict[busIndex]["name"] == "F/3": # XXX hackity hack
                         (forward, foo, backward) = route.split(keyword)
                     else:
                         (forward, backward) = route.split(keyword)
@@ -44,8 +45,8 @@ def parseSchedule(busName, address):
                     forward = [x.strip() for x in route.split("-")]
                     backward = None
 
-                scheduleDict[busName]["forward"] = forward
-                scheduleDict[busName]["backward"] = backward
+                scheduleDict[busIndex]["forward"] = forward
+                scheduleDict[busIndex]["backward"] = backward
 
             elif td.attrib.get("style") == None:
                 stopName = td.text_content()
@@ -65,13 +66,14 @@ def parseSchedule(busName, address):
                 el = el.getnext()
 
             stopDayName = "%s [%s]" % (stopName, day.encode("utf-8"))
-            scheduleDict[busName]["hours"][stopDayName] = hours
+            scheduleDict[busIndex]["hours"][stopDayName] = hours
 
             if not hours:
                 print "Error!"
                 sys.exit(1)
 
 def parseBusList():
+    busIndex=0
     tree=html.fromstring(urllib2.urlopen(root).read())
     for link in tree.xpath("//body//a"):
         target = link.attrib.get("href")
@@ -79,17 +81,20 @@ def parseBusList():
             address = "%s?%s" % (baseUrl, target.split("?")[1].encode("utf-8"))
             busName = target.split("hat=")[1].encode("utf-8")
 
-            scheduleDict[busName] = OrderedDict()
-            scheduleDict[busName]["forward"] = None
-            scheduleDict[busName]["backward"] = None
-            scheduleDict[busName]["url"] = address
-            scheduleDict[busName]["hours"] = OrderedDict()
+            scheduleDict[busIndex] = OrderedDict()
+            scheduleDict[busIndex]["name"] = busName
+            scheduleDict[busIndex]["forward"] = None
+            scheduleDict[busIndex]["backward"] = None
+            scheduleDict[busIndex]["url"] = address
+            scheduleDict[busIndex]["hours"] = OrderedDict()
 
             print "%s - %s" % (busName, address)
-            parseSchedule(busName, address)
+            parseSchedule(busIndex, address)
+            busIndex += 1
 
 if __name__ == "__main__":
     parseBusList()
+    scheduleDict["version"] = scheduleVersion
 
     fp = open("hours.json","wb")
     fp.write(json.dumps(scheduleDict, sort_keys=False,
