@@ -96,7 +96,9 @@ if __name__ == "__main__":
     parseBusList()
     scheduleDict["version"] = scheduleVersion
 
-    fp = open("hours.json","wb")
-    fp.write(json.dumps(scheduleDict, sort_keys=False,
-                        indent=4, separators=(',', ': ')))
-    fp.close()
+    with open("schedule.version", "wb") as fp:
+        fp.write(scheduleVersion)
+
+    with open("schedule.json","wb") as fp:
+        fp.write(json.dumps(scheduleDict, sort_keys=False,
+                            indent=4, separators=(',', ': ')))
