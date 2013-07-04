@@ -8,8 +8,8 @@
             <item>Hours</item>
     </string-array>
 
+    <string name="bus_lines">Bus Lines</string>
+    <string name="fetch_schedule">Fetching bus schedule...</string>
+    <string name="no_route_data">No route data</string>
     <string name="refresh">Refresh</string>
-    <string name="update_schedule">An update is available.</string>
-    <string name="download">Download it</string>
-    <string name="remind_later">Remind me later</string>
 </resources>

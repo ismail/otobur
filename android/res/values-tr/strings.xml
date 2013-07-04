@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OtoBUR</string>
+
+    <string-array name="action_list">
+            <item>Gidiş Hattı</item>
+            <item>Dönüş Hattı</item>
+            <item>Saatler</item>
+    </string-array>
+
+    <string name="bus_lines">Hat Listesi</string>
+    <string name="fetch_schedule">Saat bilgisi alınıyor...</string>
+    <string name="no_route_data">Durak bilgisi yok.</string>
+    <string name="refresh">Güncelle</string>
+</resources>

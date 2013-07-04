@@ -65,7 +65,7 @@ public class DetailsActivity extends FragmentActivity {
         actionBar.setListNavigationCallbacks(mSpinnerAdapter, mOnNavigationListener);
         actionBar.setDisplayShowHomeEnabled(false);
 
-        SpannableString s = new SpannableString("BUS " +MainActivity.currentBus.name);
+        SpannableString s = new SpannableString(MainActivity.currentBus.name);
         s.setSpan(new CustomFont(this), 0, s.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         actionBar.setTitle(s);
     }

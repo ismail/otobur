@@ -99,7 +99,7 @@ public class DetailsPageFragment extends ListFragment {
             return new ArrayList<String>(MainActivity.currentBus.forward);
         else {
             ArrayList<String> dummy = new ArrayList<String>();
-            dummy.add("No route data.");
+            dummy.add(getString(R.string.no_route_data));
             return dummy;
         }
     }
@@ -109,7 +109,7 @@ public class DetailsPageFragment extends ListFragment {
             return new ArrayList<String>(MainActivity.currentBus.backward);
         else {
             ArrayList<String> dummy = new ArrayList<String>();
-            dummy.add("No route data.");
+            dummy.add(getString(R.string.no_route_data));
             return dummy;
         }
     }
