@@ -236,6 +236,10 @@ public class MainActivity extends FragmentActivity {
                 lv.setAdapter(null);
                 new fetchScheduleTask().execute(jsonURL);
                 return true;
+            case R.id.settings:
+                Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
+                startActivity(intent);
+                return true;
         }
 
         return super.onOptionsItemSelected(item);

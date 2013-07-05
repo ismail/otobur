@@ -12,4 +12,7 @@
     <string name="fetch_schedule">Saat bilgisi alınıyor...</string>
     <string name="no_route_data">Durak bilgisi yok.</string>
     <string name="refresh">Güncelle</string>
+    <string name="settings">Ayarlar</string>
+    <string name="pref_summary_auto_update">Açılışta saat güncellemelerini kontrol et.</string>
+    <string name="pref_title_auto_update">Otomatik güncelleme</string>
 </resources>
