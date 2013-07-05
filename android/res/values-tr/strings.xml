@@ -15,4 +15,5 @@
     <string name="settings">Ayarlar</string>
     <string name="pref_summary_auto_update">Açılışta saat güncellemelerini kontrol et.</string>
     <string name="pref_title_auto_update">Otomatik güncelleme</string>
+    <string name="schedule_updated">Saat bilgisi güncellendi.</string>
 </resources>
