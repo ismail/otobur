@@ -19,6 +19,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
@@ -33,6 +34,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 public class MainActivity extends FragmentActivity {
     public static class Bus {
@@ -272,7 +274,27 @@ public class MainActivity extends FragmentActivity {
         @Override
         protected void onPostExecute(Boolean updateNeeded) {
             if (updateNeeded)
-                new fetchScheduleTask().execute(jsonURL);
+                new updateScheduleTask().execute(jsonURL);
+        }
+    }
+
+    private class updateScheduleTask extends AsyncTask<String, Void, ArrayList<String>> {
+        @Override
+        protected ArrayList<String> doInBackground(String... urls) {
+            ByteArrayOutputStream input = downloadToFile(urls[0], "schedule.json");
+            return parseScheduleData(input.toString());
+        }
+
+        @Override
+        protected void onPostExecute(ArrayList<String> busNames) {
+            updateBusList(busNames);
+
+            Context context = getApplicationContext();
+            CharSequence text = getString(R.string.schedule_updated);
+            int duration = Toast.LENGTH_LONG;
+
+            Toast toast = Toast.makeText(context, text, duration);
+            toast.show();
         }
     }
 
