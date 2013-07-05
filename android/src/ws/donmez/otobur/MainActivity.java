@@ -20,8 +20,10 @@ import org.json.JSONObject;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.Menu;
@@ -73,7 +75,12 @@ public class MainActivity extends FragmentActivity {
             new fetchScheduleTask().execute(jsonURL);
        else {
             parseScheduleFile();
-            new checkForUpdatesTask().execute(versionURL);
+
+            // See if auto-update is enabled
+            SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this);
+            Boolean autoUpdate = sharedPref.getBoolean("pref_auto_update", true);
+            if (autoUpdate)
+                new checkForUpdatesTask().execute(versionURL);
         }
     }
 
