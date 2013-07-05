@@ -46,6 +46,8 @@ public class MainActivity extends FragmentActivity {
     private static final int FILE_CHUNK_SIZE = 4*1024;
     private static HashMap<String, Bus> busMap;
     private static String jsonURL = "http://otobur.donmez.ws/data/schedule.json";
+    private static String versionURL = "http://otobur.donmez.ws/data/schedule.version";
+    private static String jsonVersion;
     private ListView lv;
 
     @Override
@@ -69,8 +71,10 @@ public class MainActivity extends FragmentActivity {
 
         if (!scheduleFileExists())
             new fetchScheduleTask().execute(jsonURL);
-        else
+       else {
             parseScheduleFile();
+            new checkForUpdatesTask().execute(versionURL);
+        }
     }
 
     private void updateBusList(ArrayList<String> busNames) {
@@ -114,7 +118,7 @@ public class MainActivity extends FragmentActivity {
             try {
                 JSONObject json = new JSONObject(input);
                 JSONArray keys = json.names();
-                int length = keys.length();
+                int length = keys.length() - 1; // Last key is version
 
 
                 for (int i=0; i < length; ++i) {
@@ -123,8 +127,9 @@ public class MainActivity extends FragmentActivity {
                     String busName;
                     busName = root.getString("name");
                     busNames.add(busName);
-
                     Bus bus = new Bus();
+
+                    jsonVersion = json.getString("version");
 
                     try {
                         ArrayList<String> backwardList = new ArrayList<String>();
@@ -170,65 +175,23 @@ public class MainActivity extends FragmentActivity {
             return busNames;
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.main_activity, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.refresh:
-                lv.setAdapter(null);
-                new fetchScheduleTask().execute(jsonURL);
-                return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-    private class fetchScheduleTask extends AsyncTask<String, Void, ArrayList<String>> {
-
-        private final ProgressDialog dialog = new ProgressDialog(MainActivity.this);
-
-        @Override
-        protected void onPreExecute() {
-            this.dialog.setMessage(getString(R.string.fetch_schedule));
-            this.dialog.show();
-        }
-
-        @Override
-        protected ArrayList<String> doInBackground(String... urls) {
-            ByteArrayOutputStream input = downloadSchedule(urls[0]);
-            return parseScheduleData(input.toString());
-        }
-
-        @Override
-        protected void onPostExecute(ArrayList<String> busNames) {
-            if(this.dialog.isShowing())
-                this.dialog.dismiss();
-
-            updateBusList(busNames);
-        }
-
-        private ByteArrayOutputStream downloadSchedule(String address) {
+    private ByteArrayOutputStream downloadToFile(String address, String output) {
             ByteArrayOutputStream result = new ByteArrayOutputStream();
             byte[] buffer = new byte[HTTP_CHUNK_SIZE];
             FileOutputStream fos = null;
 
             try {
-                fos = openFileOutput("schedule.json", MODE_PRIVATE);
+                fos = openFileOutput(output, MODE_PRIVATE);
             } catch (IOException e) {
-                Log.d("Otobur", "Failed to open schedule.json file!");
+                Log.d("Otobur", "Failed to open " + output + " file!");
                 Log.d("Otobur", e.toString());
             }
 
             try {
-                URL url =  new URL(address);
+                URL url = new URL(address);
                 HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
                 urlConnection.setRequestProperty("Accept-Encoding", "gzip, deflate");
+                urlConnection.addRequestProperty("Cache-Control", "no-cache");
                 urlConnection.setRequestMethod("GET");
 
                 InputStream inputStream = urlConnection.getInputStream();
@@ -252,11 +215,78 @@ public class MainActivity extends FragmentActivity {
             try {
                 fos.close();
             } catch (IOException e) {
-                Log.d("Otobur", "Failed to close schedule.json file!");
+                Log.d("Otobur", "Failed to close " + output + " file!");
                 Log.d("Otobur", e.toString());
             }
 
             return result;
+        }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_activity, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.refresh:
+                lv.setAdapter(null);
+                new fetchScheduleTask().execute(jsonURL);
+                return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    private class checkForUpdatesTask extends AsyncTask<String, Void, Boolean> {
+
+        @Override
+        protected Boolean doInBackground(String... urls) {
+            ByteArrayOutputStream byteArray = downloadToFile(urls[0], "schedule.version");
+            String version = byteArray.toString().trim();
+
+            if (!version.equals(jsonVersion)) {
+                Log.d("Otobur", "Need to update schedule. " + version + " != " + jsonVersion);
+                return true;
+            }
+            else {
+                Log.d("Otobur", "No need to update schedule. " + version + " == " + jsonVersion);
+                return false;
+            }
+        }
+
+        @Override
+        protected void onPostExecute(Boolean updateNeeded) {
+            if (updateNeeded)
+                new fetchScheduleTask().execute(jsonURL);
+        }
+    }
+
+    private class fetchScheduleTask extends AsyncTask<String, Void, ArrayList<String>> {
+
+        private final ProgressDialog dialog = new ProgressDialog(MainActivity.this);
+
+        @Override
+        protected void onPreExecute() {
+            this.dialog.setMessage(getString(R.string.fetch_schedule));
+            this.dialog.show();
+        }
+
+        @Override
+        protected ArrayList<String> doInBackground(String... urls) {
+            ByteArrayOutputStream input = downloadToFile(urls[0], "schedule.json");
+            return parseScheduleData(input.toString());
+        }
+
+        @Override
+        protected void onPostExecute(ArrayList<String> busNames) {
+            if(this.dialog.isShowing())
+                this.dialog.dismiss();
+
+            updateBusList(busNames);
         }
     }
 }
