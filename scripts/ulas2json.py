@@ -8,11 +8,12 @@ from collections import OrderedDict
 from lxml import etree, html
 import json
 import urllib2
+import re
 import sys
 
 root = "http://www.burulas.com.tr/hatsorgulama.aspx?hatAdi=99999"
 baseUrl = "http://www.burulas.com.tr/hareketSaatleri.aspx"
-scheduleVersion="20130704"
+scheduleVersion="20130706"
 scheduleDict = {}
 
 def parseSchedule(busIndex, address):
@@ -23,6 +24,7 @@ def parseSchedule(busIndex, address):
         if td.attrib.get("colspan") in ["1", "2", "3", "4"] and not td.attrib.get("cellpadding"):
             if td.attrib.get("style") == "text-align:justify;padding:5px;":
                 route = td.text_content().strip().encode("utf-8")
+                route = re.sub(" \".*\"", "", route)
 
                 keyword = None
 

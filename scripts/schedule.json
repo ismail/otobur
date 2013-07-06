@@ -15075,13 +15075,7 @@
             "ACEMLER",
             "SANAY\u0130 CD.",
             "MUDANYA CD.",
-            "G\u00dcZELYALI FER\u0130BOT \u0130SKELES\u0130  \"DEREBAH\u00c7EDEN G\u00dcZELYALI FER\u0130BOT \u0130SKELES\u0130NE G\u0130D\u0130\u015eTE SADECE EM\u0130RSULTAN",
-            "YE\u015e\u0130L",
-            "\u0130N\u00d6N\u00dc CD.",
-            "H.\u0130\u015eCAN \u00d6RDEKL\u0130 HAMAMI",
-            "ALTIPARMAK",
-            "KARAG\u00d6Z",
-            "KERVANSARAY KAPLICALARI DI\u015eINDA H\u0130\u00c7B\u0130R DURAKTAN YOLCU ALINMAZ\""
+            "G\u00dcZELYALI FER\u0130BOT \u0130SKELES\u0130"
         ],
         "url": "http://www.burulas.com.tr/hareketSaatleri.aspx?id=210&hat=F/2",
         "hours": {
@@ -15150,15 +15144,7 @@
             "ACEMLER",
             "SANAY\u0130 CD.",
             "MUDANYA CD.",
-            "MUDANYA \u0130SKELES\u0130 \"TELEFER\u0130K'TEN MUDANYA \u0130SKELES\u0130NE G\u0130D\u0130\u015eTE SADECE TELEFER\u0130K",
-            "ASKER\u0130 L\u0130SE",
-            "NAMAZGAH",
-            "\u0130N\u00d6N\u00dc CD.",
-            "H.\u0130\u015eCAN \u00d6RDEKL\u0130 HAMAMI",
-            "ALTIPARMAK",
-            "KARAG\u00d6Z",
-            "KERVANSARAY KAPLICALARI",
-            "ACEMLER DURAKLARI DI\u015eINDA H\u0130\u00c7B\u0130R DURAKTAN YOLCU ALINMAZ\""
+            "MUDANYA \u0130SKELES\u0130"
         ],
         "url": "http://www.burulas.com.tr/hareketSaatleri.aspx?id=211&hat=F/3",
         "hours": {
@@ -15895,5 +15881,5 @@
             ]
         }
     },
-    "version": "20130704"
+    "version": "20130706"
 }
