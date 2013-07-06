@@ -1,0 +1,1280 @@
+[
+   {
+      "g_id" : "26",
+      "g_adi" : "1/A",
+      "varis_yeri" : "Durak: DOBRUCA CAMİİ;Cadde: 1. ALAN SK; Mahalle: DOBURCA",
+      "kalkis_yeri" : "Durak: DEREBAHÇE;Cadde: 1. SULTAN SK; Mahalle: DAVUTKADI"
+   },
+   {
+      "g_id" : "27",
+      "g_adi" : "1/C",
+      "varis_yeri" : "Durak: KORUYUCU PERON 3;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: AŞİYAN;Cadde: ULUDAĞ CD; Mahalle: İNKAYA"
+   },
+   {
+      "g_id" : "168",
+      "g_adi" : "1/GY",
+      "varis_yeri" : "Durak: EMEK İSTASYONU PERON 2;Cadde: SANAYİ CD; Mahalle: BALAT",
+      "kalkis_yeri" : "Durak: GÜZELYALI FERİBOT İSKELESİ 2;Cadde: LİMAN SK; Mahalle: BURGAZ"
+   },
+   {
+      "g_id" : "28",
+      "g_adi" : "1/H",
+      "varis_yeri" : "Durak: YENİ HAL;Cadde: BURSA HALİ; Mahalle: YOLÇATI",
+      "kalkis_yeri" : "Durak: KENT MEYDANI;Cadde: KIBRIS ŞEHİTLERİ CD; Mahalle: SANTRALGARAJ"
+   },
+   {
+      "g_id" : "29",
+      "g_adi" : "1/K",
+      "varis_yeri" : "Durak: ŞEVKET YILMAZ DEVLET HASTANESİ;Cadde: EMNİYET CD; Mahalle: MİMARSİNAN",
+      "kalkis_yeri" : "Durak: FATİH CAD. 1 KESTEL;Cadde: FATİH CD; Mahalle: YENİ"
+   },
+   {
+      "g_id" : "30",
+      "g_adi" : "1/M",
+      "varis_yeri" : "Durak: EMEK İSTASYONU PERON 1;Cadde: ; Mahalle: ",
+      "kalkis_yeri" : "Durak: ARNAVUTKÖY;Cadde: KUMYAKA CD; Mahalle: HALİTPAŞA"
+   },
+   {
+      "g_id" : "31",
+      "g_adi" : "1/T",
+      "varis_yeri" : "Durak: ÜNİVERSİTE İSTASYONU;Cadde: V; Mahalle: GÖRÜKLE SAKARYA",
+      "kalkis_yeri" : "Durak: TOKİ B/2 BLOK DURAĞI;Cadde: HASANAĞA TOKİ; Mahalle: HASANAĞA KIZILCIKLI"
+   },
+   {
+      "g_id" : "32",
+      "g_adi" : "1/TH",
+      "varis_yeri" : "Durak: KÜÇÜK SANAYİ PERON 4;Cadde: KÜÇÜK SANAYİ İSTASYONU; Mahalle: ÜÇEVLER",
+      "kalkis_yeri" : "Durak: AKYAPAK MAKİNA;Cadde: KURTULUŞ CD; Mahalle: AKÇALAR KURTULUŞ"
+   },
+   {
+      "g_id" : "167",
+      "g_adi" : "101",
+      "varis_yeri" : "Durak: ATATÜRK KÜLTÜR MERKEZİ 1;Cadde: ULUBATLI HASAN BLV; Mahalle: ÇIRPAN",
+      "kalkis_yeri" : "Durak: GEMLİK MEYDANI 1 BURSA DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI"
+   },
+   {
+      "g_id" : "186",
+      "g_adi" : "102",
+      "varis_yeri" : "Durak: ATATÜRK KÜLTÜR MERKEZİ 1;Cadde: ULUBATLI HASAN BLV; Mahalle: ÇIRPAN",
+      "kalkis_yeri" : "Durak: KURŞUNLU İSKELESİ;Cadde: SAHİL YOLU CD; Mahalle: KURŞUNLU"
+   },
+   {
+      "g_id" : "180",
+      "g_adi" : "103",
+      "varis_yeri" : "Durak: GEMLİK MEYDANI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI",
+      "kalkis_yeri" : "Durak: KURŞUNLU İSKELESİ;Cadde: SAHİL YOLU CD; Mahalle: KURŞUNLU"
+   },
+   {
+      "g_id" : "185",
+      "g_adi" : "104",
+      "varis_yeri" : "Durak: MUDANYA İSKELESİ;Cadde: HALİTPAŞA CD; Mahalle: ÖMERBEY",
+      "kalkis_yeri" : "Durak: GEMLİK MEYDANI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI"
+   },
+   {
+      "g_id" : "205",
+      "g_adi" : "105",
+      "varis_yeri" : "Durak: GEMLİK MEYDANI 1 BURSA DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI",
+      "kalkis_yeri" : "Durak: GEMLİK MEYDANI 1 BURSA DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI"
+   },
+   {
+      "g_id" : "171",
+      "g_adi" : "111",
+      "varis_yeri" : "Durak: GEMLİK MEYDANI 3 İÇ HATLAR DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI",
+      "kalkis_yeri" : "Durak: GEMLİK MEYDANI 3 İÇ HATLAR DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI"
+   },
+   {
+      "g_id" : "172",
+      "g_adi" : "112",
+      "varis_yeri" : "Durak: GEMLİK MEYDANI 3 İÇ HATLAR DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI",
+      "kalkis_yeri" : "Durak: GEMLİK MEYDANI 3 İÇ HATLAR DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI"
+   },
+   {
+      "g_id" : "173",
+      "g_adi" : "113",
+      "varis_yeri" : "Durak: GEMLİK MEYDANI 3 İÇ HATLAR DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI",
+      "kalkis_yeri" : "Durak: GEMLİK MEYDANI 3 İÇ HATLAR DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI"
+   },
+   {
+      "g_id" : "174",
+      "g_adi" : "114",
+      "varis_yeri" : "Durak: GEMLİK MEYDANI 3 İÇ HATLAR DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI",
+      "kalkis_yeri" : "Durak: GEMLİK MEYDANI 3 İÇ HATLAR DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI"
+   },
+   {
+      "g_id" : "175",
+      "g_adi" : "115",
+      "varis_yeri" : "Durak: GEMLİK MEYDANI 3 İÇ HATLAR DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI",
+      "kalkis_yeri" : "Durak: GEMLİK MEYDANI 3 İÇ HATLAR DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI"
+   },
+   {
+      "g_id" : "209",
+      "g_adi" : "116",
+      "varis_yeri" : "Durak: CİHATLI KÖYÜ;Cadde: CİHATLI; Mahalle: CİHATLI",
+      "kalkis_yeri" : "Durak: GEMLİK MEYDANI - KÖY HATLARI DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI"
+   },
+   {
+      "g_id" : "178",
+      "g_adi" : "118",
+      "varis_yeri" : "Durak: GEMLİK MEYDANI 3 İÇ HATLAR DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI",
+      "kalkis_yeri" : "Durak: GEMLİK MEYDANI 3 İÇ HATLAR DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI"
+   },
+   {
+      "g_id" : "206",
+      "g_adi" : "120",
+      "varis_yeri" : "Durak: GEMLİK MEYDANI 3 İÇ HATLAR DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI",
+      "kalkis_yeri" : "Durak: GEMLİK MEYDANI 3 İÇ HATLAR DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI"
+   },
+   {
+      "g_id" : "210",
+      "g_adi" : "130",
+      "varis_yeri" : "Durak: YENİKÖY;Cadde: YENİKÖY; Mahalle: YENİKÖY",
+      "kalkis_yeri" : "Durak: GEMLİK MEYDANI 4;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI"
+   },
+   {
+      "g_id" : "211",
+      "g_adi" : "131",
+      "varis_yeri" : "Durak: GEMLİK MEYDANI 4;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI",
+      "kalkis_yeri" : "Durak: GEMLİK MEYDANI 4;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI"
+   },
+   {
+      "g_id" : "181",
+      "g_adi" : "132",
+      "varis_yeri" : "Durak: GEMLİK MEYDANI 4;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI",
+      "kalkis_yeri" : "Durak: GEMLİK MEYDANI 4;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI"
+   },
+   {
+      "g_id" : "170",
+      "g_adi" : "133",
+      "varis_yeri" : "Durak: UMURBEY MEYDANI;Cadde: CELAL BAYAR CD; Mahalle: UMURBEY",
+      "kalkis_yeri" : "Durak: GEMLİK MEYDANI - KÖY HATLARI DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI"
+   },
+   {
+      "g_id" : "198",
+      "g_adi" : "134",
+      "varis_yeri" : "Durak: FEVZİYE KÖYÜ;Cadde: FEVZİYE KÖYÜ; Mahalle: FEVZİYE",
+      "kalkis_yeri" : "Durak: GEMLİK MEYDANI - KÖY HATLARI DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI"
+   },
+   {
+      "g_id" : "187",
+      "g_adi" : "135",
+      "varis_yeri" : "Durak: GEMLİK MEYDANI 2 KUMLA DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI",
+      "kalkis_yeri" : "Durak: BÜYÜK KUMLA MEYDANI;Cadde: ABDULLAH ASLAN CD; Mahalle: BÜYÜKKUMLA"
+   },
+   {
+      "g_id" : "169",
+      "g_adi" : "136",
+      "varis_yeri" : "Durak: GEMLİK MEYDANI 2 KUMLA DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI",
+      "kalkis_yeri" : "Durak: NARLI 4;Cadde: NARLI; Mahalle: NARLI"
+   },
+   {
+      "g_id" : "212",
+      "g_adi" : "137",
+      "varis_yeri" : "Durak: GEMLİK MEYDANI 2 KUMLA DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI",
+      "kalkis_yeri" : "Durak: KUMLA KÖYÜ MEYDANI;Cadde: UZUN CD; Mahalle: KÜÇÜKKUMLA"
+   },
+   {
+      "g_id" : "184",
+      "g_adi" : "138",
+      "varis_yeri" : "Durak: KUMLA CADDESİ 12;Cadde: GEMLİK KUMLA ARMUTLU YOLU; Mahalle: GÜZELYALİ",
+      "kalkis_yeri" : "Durak: KUMLA KÖYÜ MEYDANI;Cadde: UZUN CD; Mahalle: KÜÇÜKKUMLA"
+   },
+   {
+      "g_id" : "238",
+      "g_adi" : "139",
+      "varis_yeri" : "Durak: MURATOBA KÖYÜ;Cadde: ; Mahalle: ",
+      "kalkis_yeri" : "Durak: GEMLİK MEYDANI - KÖY HATLARI DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI"
+   },
+   {
+      "g_id" : "33",
+      "g_adi" : "14/F",
+      "varis_yeri" : "Durak: KORUYUCU PERON 2;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: BARBOROS SK.;Cadde: BARBAROS SK; Mahalle: BALAT"
+   },
+   {
+      "g_id" : "34",
+      "g_adi" : "14/L",
+      "varis_yeri" : "Durak: KORUYUCU PERON 2;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: ÇAĞRIŞAN KÖY MEYDANI;Cadde: MUDANYA BLV; Mahalle: ÇAĞRIŞAN"
+   },
+   {
+      "g_id" : "182",
+      "g_adi" : "14/L-2",
+      "varis_yeri" : "Durak: KORUYUCU PERON 2;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: NİLÜFER KÖY CAMİİ;Cadde: NİLÜFER CD; Mahalle: NİLÜFERKÖY"
+   },
+   {
+      "g_id" : "35",
+      "g_adi" : "14/N",
+      "varis_yeri" : "Durak: KORUYUCU PERON 2;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: AKSUNGUR KÖYÜ;Cadde: AKSUNGUR KÖYÜ; Mahalle: AKSUNGUR"
+   },
+   {
+      "g_id" : "239",
+      "g_adi" : "140",
+      "varis_yeri" : "Durak: GÜVENLİ KÖYÜ;Cadde: ; Mahalle: ",
+      "kalkis_yeri" : "Durak: GEMLİK MEYDANI - KÖY HATLARI DURAĞI;Cadde: İSKELE CD; Mahalle: DEMİRSUBAŞI"
+   },
+   {
+      "g_id" : "1",
+      "g_adi" : "15",
+      "varis_yeri" : "Durak: DEVLET HASTANESİ;Cadde: HASTA YURDU CD; Mahalle: ALAADDİN",
+      "kalkis_yeri" : "Durak: ARMUTKÖY CAMİİ;Cadde: 5. AY SK; Mahalle: ARMUTKOY"
+   },
+   {
+      "g_id" : "36",
+      "g_adi" : "15/A",
+      "varis_yeri" : "Durak: TEFERRÜÇ;Cadde: 2.MENEKŞE CD.; Mahalle: PİREMİR",
+      "kalkis_yeri" : "Durak: 5. AKARSU SK.;Cadde: 5. AKARSU SK; Mahalle: SIRAMEŞELER"
+   },
+   {
+      "g_id" : "37",
+      "g_adi" : "15/B",
+      "varis_yeri" : "Durak: TEFERRÜÇ;Cadde: 2.MENEKŞE CD.; Mahalle: PİREMİR",
+      "kalkis_yeri" : "Durak: MEŞELİ CAMİİ;Cadde: 2. KANAL CD; Mahalle: SOĞANLI"
+   },
+   {
+      "g_id" : "38",
+      "g_adi" : "15/D",
+      "varis_yeri" : "Durak: DEVLET HASTANESİ;Cadde: HASTA YURDU CD; Mahalle: ALAADDİN",
+      "kalkis_yeri" : "Durak: KIŞLA SK.;Cadde: KIŞLA SK; Mahalle: SIRAMEŞELER"
+   },
+   {
+      "g_id" : "204",
+      "g_adi" : "15/H",
+      "varis_yeri" : "Durak: DEVLET HASTANESİ;Cadde: HASTA YURDU CD; Mahalle: ALAADDİN",
+      "kalkis_yeri" : "Durak: F. KUŞÇUOĞLU CAD. 4;Cadde: FUAT KUŞÇUOĞLU CD; Mahalle: YUNUSELI"
+   },
+   {
+      "g_id" : "40",
+      "g_adi" : "16/A",
+      "varis_yeri" : "Durak: DEVLET HASTANESİ;Cadde: HASTA YURDU CD; Mahalle: ALAADDİN",
+      "kalkis_yeri" : "Durak: ŞANLI CAD.;Cadde: ŞANLI CD; Mahalle: KÜÇÜKBALIKLI"
+   },
+   {
+      "g_id" : "41",
+      "g_adi" : "16/İ",
+      "varis_yeri" : "Durak: PTT PERON 2;Cadde: ATATÜRK CD; Mahalle: NALBANTOĞLU",
+      "kalkis_yeri" : "Durak: ŞANLI CAD.;Cadde: ŞANLI CD; Mahalle: KÜÇÜKBALIKLI"
+   },
+   {
+      "g_id" : "2",
+      "g_adi" : "17",
+      "varis_yeri" : "Durak: ALAŞAR;Cadde: 1. ALAŞAR CD; Mahalle: ALAŞAR",
+      "kalkis_yeri" : "Durak: 17 SON DURAK;Cadde: ŞEHİRLERARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR"
+   },
+   {
+      "g_id" : "42",
+      "g_adi" : "17/A",
+      "varis_yeri" : "Durak: KORUYUCU PERON 3;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: YASEMİN PARK;Cadde: İNÖNÜ CD; Mahalle: DEMİRTAŞ CUMHURİYET"
+   },
+   {
+      "g_id" : "43",
+      "g_adi" : "17/D",
+      "varis_yeri" : "Durak: FEVZİ ÇAKMAK CAD. 3;Cadde: FEVZİ ÇAKMAK CD; Mahalle: DOĞANBEY",
+      "kalkis_yeri" : "Durak: BARBOROS CAMİİ;Cadde: PANAYIR CD; Mahalle: DEMİRTAŞ BARBAROS"
+   },
+   {
+      "g_id" : "44",
+      "g_adi" : "18/A",
+      "varis_yeri" : "Durak: ÇEKİRGE DEVLET HASTANESİ PERON 7;Cadde: 2. NAZLI CD; Mahalle: ÇEKİRGE",
+      "kalkis_yeri" : "Durak: ALTINOVA MAH.;Cadde: 3. OKUL CD; Mahalle: ALTINOVA"
+   },
+   {
+      "g_id" : "213",
+      "g_adi" : "18/B",
+      "varis_yeri" : "Durak: SİTELER ;Cadde: BURSA CD; Mahalle: SİTELER",
+      "kalkis_yeri" : "Durak: TERMİNAL PERON 9;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR"
+   },
+   {
+      "g_id" : "46",
+      "g_adi" : "18/İ",
+      "varis_yeri" : "Durak: KORUYUCU PERON 4;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: ALTINOVA MAH.;Cadde: 3. OKUL CD; Mahalle: ALTINOVA"
+   },
+   {
+      "g_id" : "47",
+      "g_adi" : "19/A",
+      "varis_yeri" : "Durak: DEVLET HASTANESİ;Cadde: HASTA YURDU CD; Mahalle: ALAADDİN",
+      "kalkis_yeri" : "Durak: ŞANLI CAD.;Cadde: ŞANLI CD; Mahalle: KÜÇÜKBALIKLI"
+   },
+   {
+      "g_id" : "48",
+      "g_adi" : "19/B",
+      "varis_yeri" : "Durak: PTT PERON 2;Cadde: ATATÜRK CD; Mahalle: NALBANTOĞLU",
+      "kalkis_yeri" : "Durak: İSMETİYE 3;Cadde: İSTİKLAL SK; Mahalle: İSMETİYE"
+   },
+   {
+      "g_id" : "49",
+      "g_adi" : "19/C",
+      "varis_yeri" : "Durak: ÇEKİRGE DEVLET HASTANESİ PERON 8;Cadde: 2. NAZLI CD; Mahalle: ÇEKİRGE",
+      "kalkis_yeri" : "Durak: 1. MARMARA SK;Cadde: 1. MARMARA SK; Mahalle: MİLLET"
+   },
+   {
+      "g_id" : "50",
+      "g_adi" : "19/D",
+      "varis_yeri" : "Durak: ÇEKİRGE DEVLET HASTANESİ PERON 9;Cadde: 2. NAZLI CD; Mahalle: ÇEKİRGE",
+      "kalkis_yeri" : "Durak: ETİBANK CAD. 5;Cadde: ETİBANK CD; Mahalle: TUNA"
+   },
+   {
+      "g_id" : "51",
+      "g_adi" : "19/E",
+      "varis_yeri" : "Durak: ÇEKİRGE DEVLET HASTANESİ PERON 3;Cadde: 2. NAZLI CD; Mahalle: ÇEKİRGE",
+      "kalkis_yeri" : "Durak: AKOM;Cadde: AKOM; Mahalle: KÜÇÜKBALIKLI"
+   },
+   {
+      "g_id" : "52",
+      "g_adi" : "19/İ",
+      "varis_yeri" : "Durak: PTT PERON 2;Cadde: ATATÜRK CD; Mahalle: NALBANTOĞLU",
+      "kalkis_yeri" : "Durak: BAŞARAN İ.Ö.O.;Cadde: 1. HAKAN CD; Mahalle: BAŞARAN"
+   },
+   {
+      "g_id" : "53",
+      "g_adi" : "2/B",
+      "varis_yeri" : "Durak: 5.PERON B-17 B/17-A B/19;Cadde: ACEMLER İSTASYONU; Mahalle: DİKKALDIRIM",
+      "kalkis_yeri" : "Durak: DOĞANCI;Cadde: DOĞANCI; Mahalle: DOĞANCI"
+   },
+   {
+      "g_id" : "54",
+      "g_adi" : "2/E",
+      "varis_yeri" : "Durak: TİMURTAŞPAŞA 1 PERON;Cadde: CEMAL NADİR CD; Mahalle: OSMANGAZİ",
+      "kalkis_yeri" : "Durak: KÜLTÜR MAH. MUHTARLIĞI;Cadde: BOLU SK; Mahalle: KÜLTÜR"
+   },
+   {
+      "g_id" : "55",
+      "g_adi" : "2/G",
+      "varis_yeri" : "Durak: ŞEVKET YILMAZ DEVLET HASTANESİ;Cadde: EMNİYET CD; Mahalle: MİMARSİNAN",
+      "kalkis_yeri" : "Durak: GÜRSU 1;Cadde: KARANFİL CD; Mahalle: ZAFER"
+   },
+   {
+      "g_id" : "183",
+      "g_adi" : "2/GM",
+      "varis_yeri" : "Durak: ARNAVUTKÖY;Cadde: KUMYAKA CD; Mahalle: HALİTPAŞA",
+      "kalkis_yeri" : "Durak: GÜZELYALI BELEDİYESİ;Cadde: ATATÜRK CD; Mahalle: BURGAZ"
+   },
+   {
+      "g_id" : "56",
+      "g_adi" : "2/K",
+      "varis_yeri" : "Durak: ARABAYATAĞI İSTASYONU;Cadde: ANKARA YOLU CD; Mahalle: ORTABAGLAR",
+      "kalkis_yeri" : "Durak: KESTEL TOKİ 5;Cadde: BASIN CD; Mahalle: KALE"
+   },
+   {
+      "g_id" : "57",
+      "g_adi" : "2/U",
+      "varis_yeri" : "Durak: MUDANYA İSKELESİ;Cadde: HALİTPAŞA CD; Mahalle: ÖMERBEY",
+      "kalkis_yeri" : "Durak: U.Ü. ÖĞRENCİ YURDU;Cadde: ÜNİVERSİTE 8. SK; Mahalle: ÖZLÜCE"
+   },
+   {
+      "g_id" : "3",
+      "g_adi" : "20",
+      "varis_yeri" : "Durak: DEVLET HASTANESİ;Cadde: HASTA YURDU CD; Mahalle: ALAADDİN",
+      "kalkis_yeri" : "Durak: 1. MARMARA SK;Cadde: 1. MARMARA SK; Mahalle: MİLLET"
+   },
+   {
+      "g_id" : "58",
+      "g_adi" : "20/A",
+      "varis_yeri" : "Durak: DEVLET HASTANESİ;Cadde: HASTA YURDU CD; Mahalle: ALAADDİN",
+      "kalkis_yeri" : "Durak: 1. MARMARA SK;Cadde: 1. MARMARA SK; Mahalle: MİLLET"
+   },
+   {
+      "g_id" : "4",
+      "g_adi" : "21",
+      "varis_yeri" : "Durak: İNEGÖL ÇARŞISI PERON 3;Cadde: İNÖNÜ CD; Mahalle: KAYHAN",
+      "kalkis_yeri" : "Durak: SAMANLI LATİF DÖRT ÇELİK İ.Ö.O.;Cadde: YİĞİTLER CD; Mahalle: SAMANLI"
+   },
+   {
+      "g_id" : "61",
+      "g_adi" : "21/B",
+      "varis_yeri" : "Durak: PTT PERON 3;Cadde: ATATÜRK CD; Mahalle: NALBANTOĞLU",
+      "kalkis_yeri" : "Durak: KAZIM KARABEKİR CAD. 1;Cadde: 12. GÜL SK; Mahalle: YUNUSEMRE"
+   },
+   {
+      "g_id" : "62",
+      "g_adi" : "21/C",
+      "varis_yeri" : "Durak: DEVLET HASTANESİ;Cadde: HASTA YURDU CD; Mahalle: ALAADDİN",
+      "kalkis_yeri" : "Durak: NURETTİN-GÜLTEN KUTLUCAN İ.Ö.O;Cadde: YAVER SOKAK; Mahalle: MEVLANA"
+   },
+   {
+      "g_id" : "5",
+      "g_adi" : "22",
+      "varis_yeri" : "Durak: PTT PERON 3;Cadde: ATATÜRK CD; Mahalle: NALBANTOĞLU",
+      "kalkis_yeri" : "Durak: HAMAMLIKIZIK MERKEZ;Cadde: HAMAMLI KIZIK CD; Mahalle: HAMAMLIKIZIK"
+   },
+   {
+      "g_id" : "64",
+      "g_adi" : "22/A",
+      "varis_yeri" : "Durak: PTT PERON 3;Cadde: ATATÜRK CD; Mahalle: NALBANTOĞLU",
+      "kalkis_yeri" : "Durak: AKTAŞTEPE;Cadde: ÜLKÜ SK; Mahalle: YENİ"
+   },
+   {
+      "g_id" : "65",
+      "g_adi" : "22/B",
+      "varis_yeri" : "Durak: PTT PERON 3;Cadde: ATATÜRK CD; Mahalle: NALBANTOĞLU",
+      "kalkis_yeri" : "Durak: DEMETEVLER 1;Cadde: İSMETİYE CD; Mahalle: DEMETEVLER"
+   },
+   {
+      "g_id" : "66",
+      "g_adi" : "22/C",
+      "varis_yeri" : "Durak: İNEGÖL ÇARŞISI PERON 3;Cadde: İNÖNÜ CD; Mahalle: KAYHAN",
+      "kalkis_yeri" : "Durak: VAKIFKÖY MERKEZ;Cadde: VAKIF KÖYÜ YOLU CD; Mahalle: VAKIF"
+   },
+   {
+      "g_id" : "67",
+      "g_adi" : "22/D",
+      "varis_yeri" : "Durak: İNEGÖL ÇARŞISI PERON 3;Cadde: İNÖNÜ CD; Mahalle: KAYHAN",
+      "kalkis_yeri" : "Durak: BAŞAK CAD. 1;Cadde: BAŞAK CD; Mahalle: YİĞİTLER"
+   },
+   {
+      "g_id" : "68",
+      "g_adi" : "22/S",
+      "varis_yeri" : "Durak: DEVLET HASTANESİ;Cadde: HASTA YURDU CD; Mahalle: ALAADDİN",
+      "kalkis_yeri" : "Durak: DEĞİRMENÖNÜ 1;Cadde: ŞEHİTLER CD; Mahalle: HAMAMLIKIZIK"
+   },
+   {
+      "g_id" : "6",
+      "g_adi" : "23",
+      "varis_yeri" : "Durak: PTT PERON 3;Cadde: ATATÜRK CD; Mahalle: NALBANTOĞLU",
+      "kalkis_yeri" : "Durak: FİDYEKIZIK CAMİİ;Cadde: 6. EREN SK; Mahalle: FİDYEKIZIK"
+   },
+   {
+      "g_id" : "69",
+      "g_adi" : "23/A",
+      "varis_yeri" : "Durak: PTT PERON 3;Cadde: ATATÜRK CD; Mahalle: NALBANTOĞLU",
+      "kalkis_yeri" : "Durak: BAĞLARALTI PARKI 2;Cadde: 1. CD; Mahalle: BAĞLARALTI"
+   },
+   {
+      "g_id" : "70",
+      "g_adi" : "24/B",
+      "varis_yeri" : "Durak: DEVLET HASTANESİ;Cadde: HASTA YURDU CD; Mahalle: ALAADDİN",
+      "kalkis_yeri" : "Durak: HACİVAT MAH.;Cadde: A338 SK; Mahalle: HACIVAT"
+   },
+   {
+      "g_id" : "72",
+      "g_adi" : "24/D",
+      "varis_yeri" : "Durak: DEVLET HASTANESİ;Cadde: HASTA YURDU CD; Mahalle: ALAADDİN",
+      "kalkis_yeri" : "Durak: 75.YIL MAH. MURTARLIĞI;Cadde: KARAGÖZ CD; Mahalle: 75.YIL"
+   },
+   {
+      "g_id" : "7",
+      "g_adi" : "25",
+      "varis_yeri" : "Durak: ÇEKİRGE DEVLET HASTANESİ PERON 3;Cadde: 2. NAZLI CD; Mahalle: ÇEKİRGE",
+      "kalkis_yeri" : "Durak: PINAR MAH. 7;Cadde: 6. FATİH SK; Mahalle: FİDYEKIZIK"
+   },
+   {
+      "g_id" : "74",
+      "g_adi" : "25/A",
+      "varis_yeri" : "Durak: ÇEKİRGE DEVLET HASTANESİ PERON 2;Cadde: 2. NAZLI CD; Mahalle: ÇEKİRGE",
+      "kalkis_yeri" : "Durak: SİTELER 25, 25/A SON DURAĞI;Cadde: BURSA CD; Mahalle: SİTELER"
+   },
+   {
+      "g_id" : "75",
+      "g_adi" : "25/B",
+      "varis_yeri" : "Durak: KAFKAS PERON 2;Cadde: ATATÜRK CD; Mahalle: HOCAALİZADE",
+      "kalkis_yeri" : "Durak: SİTELER 25/B, 29/C SON DURAĞI;Cadde: BURSA CD; Mahalle: SİTELER"
+   },
+   {
+      "g_id" : "76",
+      "g_adi" : "25/D",
+      "varis_yeri" : "Durak: KAFKAS PERON 2;Cadde: ATATÜRK CD; Mahalle: HOCAALİZADE",
+      "kalkis_yeri" : "Durak: SİTELER 25/D, 24/C SON DURAĞI;Cadde: BURSA CD; Mahalle: SİTELER"
+   },
+   {
+      "g_id" : "77",
+      "g_adi" : "26/A",
+      "varis_yeri" : "Durak: DEVLET HASTANESİ;Cadde: HASTA YURDU CD; Mahalle: ALAADDİN",
+      "kalkis_yeri" : "Durak: SİTELER 28/A, 26/A SON DURAĞI;Cadde: BURSA CD; Mahalle: SİTELER"
+   },
+   {
+      "g_id" : "216",
+      "g_adi" : "26/B",
+      "varis_yeri" : "Durak: DEVLET HASTANESİ;Cadde: HASTA YURDU CD; Mahalle: ALAADDİN",
+      "kalkis_yeri" : "Durak: ŞİRİN EVLER 1;Cadde: ŞİRİNEVLER CD; Mahalle: ŞİRİNEVLER"
+   },
+   {
+      "g_id" : "80",
+      "g_adi" : "27/A",
+      "varis_yeri" : "Durak: DEVLET HASTANESİ;Cadde: HASTA YURDU CD; Mahalle: ALAADDİN",
+      "kalkis_yeri" : "Durak: KAPLIKAYA;Cadde: KANUNİ CD; Mahalle: KAPLIKAYA"
+   },
+   {
+      "g_id" : "8",
+      "g_adi" : "28",
+      "varis_yeri" : "Durak: ÇEKİRGE DEVLET HASTANESİ PERON 4;Cadde: 2. NAZLI CD; Mahalle: ÇEKİRGE",
+      "kalkis_yeri" : "Durak: SİTELER 29/A, 28 SON DURAĞI;Cadde: BURSA CD; Mahalle: SİTELER"
+   },
+   {
+      "g_id" : "81",
+      "g_adi" : "28/A",
+      "varis_yeri" : "Durak: KAFKAS PERON 2;Cadde: ATATÜRK CD; Mahalle: HOCAALİZADE",
+      "kalkis_yeri" : "Durak: SİTELER 28/A, 26/A SON DURAĞI;Cadde: BURSA CD; Mahalle: SİTELER"
+   },
+   {
+      "g_id" : "82",
+      "g_adi" : "29/A",
+      "varis_yeri" : "Durak: ÇEKİRGE DEVLET HASTANESİ PERON 6;Cadde: 2. NAZLI CD; Mahalle: ÇEKİRGE",
+      "kalkis_yeri" : "Durak: SİTELER 29/A, 28 SON DURAĞI;Cadde: BURSA CD; Mahalle: SİTELER"
+   },
+   {
+      "g_id" : "86",
+      "g_adi" : "3/C",
+      "varis_yeri" : "Durak: ÇEKİRGE DEVLET HASTANESİ PERON 1;Cadde: 2. NAZLI CD; Mahalle: ÇEKİRGE",
+      "kalkis_yeri" : "Durak: MUSABABA 1;Cadde: MUSA BABA CD; Mahalle: MUSABABA"
+   },
+   {
+      "g_id" : "221",
+      "g_adi" : "3/G-K",
+      "varis_yeri" : "Durak: ÜNİVERSİTE İSTASYONU;Cadde: V; Mahalle: GÖRÜKLE SAKARYA",
+      "kalkis_yeri" : "Durak: KOCATEPE CD;Cadde: KOCATEPE CD; Mahalle: GÖRÜKLE DUMLUPINAR"
+   },
+   {
+      "g_id" : "88",
+      "g_adi" : "3/İ",
+      "varis_yeri" : "Durak: ALTINOVA MAH.;Cadde: 3. OKUL CD; Mahalle: ALTINOVA",
+      "kalkis_yeri" : "Durak: HARMANYERİ 3/İ SON DURAĞI;Cadde: HARMANYERİ SK; Mahalle: MOLLAARAP"
+   },
+   {
+      "g_id" : "9",
+      "g_adi" : "30",
+      "varis_yeri" : "Durak: ÇEKİRGE DEVLET HASTANESİ PERON 2;Cadde: 2. NAZLI CD; Mahalle: ÇEKİRGE",
+      "kalkis_yeri" : "Durak: SİTELER 30, 29/C SON DURAĞI;Cadde: BURSA CD; Mahalle: SİTELER"
+   },
+   {
+      "g_id" : "89",
+      "g_adi" : "31/A",
+      "varis_yeri" : "Durak: EMEK;Cadde: 2. OKUL CD; Mahalle: EMEK ADNAN MENDERES",
+      "kalkis_yeri" : "Durak: SİTELER 31/A, 98 SON DURAĞI;Cadde: BURSA CD; Mahalle: SİTELER"
+   },
+   {
+      "g_id" : "90",
+      "g_adi" : "35/B",
+      "varis_yeri" : "Durak: ŞEHREKÜSTÜ 2;Cadde: HAŞİM İŞCAN CD; Mahalle: DOĞANBEY",
+      "kalkis_yeri" : "Durak: ŞEHREKÜSTÜ 2;Cadde: HAŞİM İŞCAN CD; Mahalle: DOĞANBEY"
+   },
+   {
+      "g_id" : "91",
+      "g_adi" : "35/C",
+      "varis_yeri" : "Durak: ŞEHREKÜSTÜ 2;Cadde: HAŞİM İŞCAN CD; Mahalle: DOĞANBEY",
+      "kalkis_yeri" : "Durak: ŞEHREKÜSTÜ 2;Cadde: HAŞİM İŞCAN CD; Mahalle: DOĞANBEY"
+   },
+   {
+      "g_id" : "233",
+      "g_adi" : "35/E",
+      "varis_yeri" : "Durak: MENEKŞE SİTESİ;Cadde: 315. SK; Mahalle: ALTINŞEHİR",
+      "kalkis_yeri" : "Durak: YÜZÜNCÜ YIL İSTASYONU;Cadde: ; Mahalle: "
+   },
+   {
+      "g_id" : "226",
+      "g_adi" : "35/G",
+      "varis_yeri" : "Durak: MUAMMER AKSOY CAD.;Cadde: MUAMMER AKSOY CD; Mahalle: GÖRÜKLE DUMLUPINAR",
+      "kalkis_yeri" : "Durak: ÜNİVERSİTE İSTASYONU;Cadde: V; Mahalle: GÖRÜKLE SAKARYA"
+   },
+   {
+      "g_id" : "92",
+      "g_adi" : "35/H",
+      "varis_yeri" : "Durak: KENT MEYDANI;Cadde: KIBRIS ŞEHİTLERİ CD; Mahalle: SANTRALGARAJ",
+      "kalkis_yeri" : "Durak: HAMİTLER KENT MEZARLIĞI;Cadde: HAMİTLER KENT MEZARLIĞI; Mahalle: HAMİTLER"
+   },
+   {
+      "g_id" : "231",
+      "g_adi" : "35/S",
+      "varis_yeri" : "Durak: ORGANİZE SANAYİ İST.;Cadde: SANAYİ CD; Mahalle: FETHİYE",
+      "kalkis_yeri" : "Durak: KÜÇÜK SANAYİ PERON 1;Cadde: KÜÇÜK SANAYİ İSTASYONU; Mahalle: ÜÇEVLER"
+   },
+   {
+      "g_id" : "229",
+      "g_adi" : "35/U",
+      "varis_yeri" : "Durak: U.Ü. ÖĞRENCİ YURDU;Cadde: ÜNİVERSİTE 8. SK; Mahalle: ÖZLÜCE",
+      "kalkis_yeri" : "Durak: ÜNİVERSİTE İSTASYONU;Cadde: V; Mahalle: GÖRÜKLE SAKARYA"
+   },
+   {
+      "g_id" : "10",
+      "g_adi" : "36",
+      "varis_yeri" : "Durak: DEREBAHÇE;Cadde: 1. SULTAN SK; Mahalle: DAVUTKADI",
+      "kalkis_yeri" : "Durak: DEREBAHÇE;Cadde: 1. SULTAN SK; Mahalle: DAVUTKADI"
+   },
+   {
+      "g_id" : "95",
+      "g_adi" : "36/A",
+      "varis_yeri" : "Durak: KENT MEYDANI;Cadde: KIBRIS ŞEHİTLERİ CD; Mahalle: SANTRALGARAJ",
+      "kalkis_yeri" : "Durak: DEREBAHÇE;Cadde: 1. SULTAN SK; Mahalle: DAVUTKADI"
+   },
+   {
+      "g_id" : "11",
+      "g_adi" : "37",
+      "varis_yeri" : "Durak: PTT PERON 1;Cadde: ATATÜRK CD; Mahalle: NALBANTOĞLU",
+      "kalkis_yeri" : "Durak: HÜNKAR KÖŞKÜ;Cadde: 4. VAKIF SK; Mahalle: MOLLAARAP"
+   },
+   {
+      "g_id" : "12",
+      "g_adi" : "38",
+      "varis_yeri" : "Durak: KORUYUCU PERON 4;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: TERMİNAL PERON 1;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR"
+   },
+   {
+      "g_id" : "188",
+      "g_adi" : "38/B",
+      "varis_yeri" : "Durak: ULUYOL - KENT MEYDANI;Cadde: KIBRIS ŞEHİTLERİ CD; Mahalle: ULU",
+      "kalkis_yeri" : "Durak: TERMİNAL PERON 5;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR"
+   },
+   {
+      "g_id" : "189",
+      "g_adi" : "38/D",
+      "varis_yeri" : "Durak: ULUYOL - KENT MEYDANI;Cadde: KIBRIS ŞEHİTLERİ CD; Mahalle: ULU",
+      "kalkis_yeri" : "Durak: TERMİNAL PERON 5;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR"
+   },
+   {
+      "g_id" : "190",
+      "g_adi" : "38/G",
+      "varis_yeri" : "Durak: ULUYOL - KENT MEYDANI;Cadde: KIBRIS ŞEHİTLERİ CD; Mahalle: ULU",
+      "kalkis_yeri" : "Durak: TERMİNAL PERON 5;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR"
+   },
+   {
+      "g_id" : "96",
+      "g_adi" : "4/A",
+      "varis_yeri" : "Durak: ULUYOL - KENT MEYDANI;Cadde: KIBRIS ŞEHİTLERİ CD; Mahalle: ULU",
+      "kalkis_yeri" : "Durak: ULUDAĞ YOLU;Cadde: ULUDAĞ YOLU CD; Mahalle: DEMİRKAPI"
+   },
+   {
+      "g_id" : "97",
+      "g_adi" : "4/B",
+      "varis_yeri" : "Durak: KAFKAS PERON 1;Cadde: ATATÜRK CD; Mahalle: HOCAALİZADE",
+      "kalkis_yeri" : "Durak: ÇEKİRGE DEVLET HASTANESİ PERON 5;Cadde: 2. NAZLI CD; Mahalle: ÇEKİRGE"
+   },
+   {
+      "g_id" : "98",
+      "g_adi" : "4/G",
+      "varis_yeri" : "Durak: IHLAMUR PARKI;Cadde: ÇAĞDAŞ CD; Mahalle: GÖRÜKLE DUMLUPINAR",
+      "kalkis_yeri" : "Durak: ÜNİVERSİTE İSTASYONU;Cadde: V; Mahalle: GÖRÜKLE SAKARYA"
+   },
+   {
+      "g_id" : "99",
+      "g_adi" : "4/İ",
+      "varis_yeri" : "Durak: KORUYUCU PERON 4;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: DEMİRKAPI;Cadde: DEMİRKAPI CD; Mahalle: DEMİRKAPI"
+   },
+   {
+      "g_id" : "219",
+      "g_adi" : "40/H",
+      "varis_yeri" : "Durak: DEVLET HASTANESİ;Cadde: HASTA YURDU CD; Mahalle: KURUÇEŞME",
+      "kalkis_yeri" : "Durak: YENİKENT MAH. 10;Cadde: 735. SK; Mahalle: YENİKENT"
+   },
+   {
+      "g_id" : "100",
+      "g_adi" : "43/A",
+      "varis_yeri" : "Durak: U.Ü. ÖĞRENCİ YURDU;Cadde: ÜNİVERSİTE 8. SK; Mahalle: ÖZLÜCE",
+      "kalkis_yeri" : "Durak: KENT GÜVENLİK MERKEZİ;Cadde: MOBESE MERKEZİ; Mahalle: VEYSELKARANİ"
+   },
+   {
+      "g_id" : "101",
+      "g_adi" : "43/D",
+      "varis_yeri" : "Durak: U.Ü. ÖĞRENCİ YURDU;Cadde: ÜNİVERSİTE 8. SK; Mahalle: ÖZLÜCE",
+      "kalkis_yeri" : "Durak: DOĞU GARAJI  - 43/D PERONU;Cadde: DOĞU GARAJI; Mahalle: ANADOLU"
+   },
+   {
+      "g_id" : "102",
+      "g_adi" : "43/H",
+      "varis_yeri" : "Durak: U.Ü. ÖĞRENCİ YURDU;Cadde: ÜNİVERSİTE 8. SK; Mahalle: ÖZLÜCE",
+      "kalkis_yeri" : "Durak: TERMİNAL PERON 4;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR"
+   },
+   {
+      "g_id" : "15",
+      "g_adi" : "48",
+      "varis_yeri" : "Durak: KORUYUCU PERON 1;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: U.Ü. ÖĞRENCİ YURDU;Cadde: ÜNİVERSİTE 8. SK; Mahalle: ÖZLÜCE"
+   },
+   {
+      "g_id" : "103",
+      "g_adi" : "48/A",
+      "varis_yeri" : "Durak: KORUYUCU PERON 1;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: U.Ü. ÖĞRENCİ YURDU;Cadde: ÜNİVERSİTE 8. SK; Mahalle: ÖZLÜCE"
+   },
+   {
+      "g_id" : "104",
+      "g_adi" : "5/A",
+      "varis_yeri" : "Durak: HAMZABEY CAMİİ;Cadde: HAMZABEY CD; Mahalle: MURADİYE",
+      "kalkis_yeri" : "Durak: MEŞELİ CAMİİ;Cadde: 2. KANAL CD; Mahalle: ÇİFTEHAVUZLAR"
+   },
+   {
+      "g_id" : "191",
+      "g_adi" : "5/G",
+      "varis_yeri" : "Durak: KÜÇÜK SANAYİ PERON 4;Cadde: KÜÇÜK SANAYİ İSTASYONU; Mahalle: ÜÇEVLER",
+      "kalkis_yeri" : "Durak: GÖLYAZI 1;Cadde: BALIKESİR BURSA YOLU; Mahalle: GÖLYAZI MERKEZ"
+   },
+   {
+      "g_id" : "105",
+      "g_adi" : "6/A",
+      "varis_yeri" : "Durak: DEREBAHÇE;Cadde: 1. SULTAN SK; Mahalle: DAVUTKADI",
+      "kalkis_yeri" : "Durak: MENEKŞE SİTESİ;Cadde: 315. SK; Mahalle: ALTINŞEHİR"
+   },
+   {
+      "g_id" : "106",
+      "g_adi" : "6/E",
+      "varis_yeri" : "Durak: DEREBAHÇE;Cadde: 1. SULTAN SK; Mahalle: DAVUTKADI",
+      "kalkis_yeri" : "Durak: ÖZLÜCE CAMİİ;Cadde: CAMİ SK; Mahalle: ÖZLÜCE"
+   },
+   {
+      "g_id" : "107",
+      "g_adi" : "6/F",
+      "varis_yeri" : "Durak: KORUYUCU PERON 2;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: DENİZCİLER CAD. 1;Cadde: DENİZCİLER CD; Mahalle: ÜÇEVLER"
+   },
+   {
+      "g_id" : "108",
+      "g_adi" : "6/F-1",
+      "varis_yeri" : "Durak: TİMURTAŞPAŞA 1 PERON;Cadde: CEMAL NADİR CD; Mahalle: OSMANGAZİ",
+      "kalkis_yeri" : "Durak: ALAATTİN BEY MAH.;Cadde: ALAADDİNBEY CD; Mahalle: ALAADDİNBEY"
+   },
+   {
+      "g_id" : "109",
+      "g_adi" : "6/F-2",
+      "varis_yeri" : "Durak: TİMURTAŞPAŞA 1 PERON;Cadde: CEMAL NADİR CD; Mahalle: OSMANGAZİ",
+      "kalkis_yeri" : "Durak: ÇALI MEYDANI;Cadde: CUMHURİYET CD; Mahalle: ÇALI"
+   },
+   {
+      "g_id" : "110",
+      "g_adi" : "6/K-1",
+      "varis_yeri" : "Durak: KORUYUCU PERON 2;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: ÇALI MEYDANI;Cadde: CUMHURİYET CD; Mahalle: ÇALI"
+   },
+   {
+      "g_id" : "199",
+      "g_adi" : "60/K",
+      "varis_yeri" : "Durak: TEMİZ CAD;Cadde: KAZIM BAYKAL CD; Mahalle: TAHTAKALE",
+      "kalkis_yeri" : "Durak: KİRAZLI;Cadde: KİRAZLI; Mahalle: KİRAZLI"
+   },
+   {
+      "g_id" : "232",
+      "g_adi" : "62",
+      "varis_yeri" : "Durak: KUŞTEPE ABDAL MURAT CAMİİ;Cadde: ÇİMEN SK; Mahalle: ALACAHIRKA",
+      "kalkis_yeri" : "Durak: TEMİZ CAD;Cadde: KAZIM BAYKAL CD; Mahalle: TAHTAKALE"
+   },
+   {
+      "g_id" : "240",
+      "g_adi" : "66",
+      "varis_yeri" : "Durak: 4.VAKIF SOKAK SON DURAK;Cadde: 4.VAKIF SK; Mahalle: MOLLAARAP",
+      "kalkis_yeri" : "Durak: SİTELER ;Cadde: BURSA CD; Mahalle: SİTELER"
+   },
+   {
+      "g_id" : "245",
+      "g_adi" : "66/A",
+      "varis_yeri" : "Durak: TEMENYERİ PARKI;Cadde: EŞREFİLER CD; Mahalle: MOLLAARAP",
+      "kalkis_yeri" : "Durak: SİTELER ;Cadde: BURSA CD; Mahalle: SİTELER"
+   },
+   {
+      "g_id" : "192",
+      "g_adi" : "7/A",
+      "varis_yeri" : "Durak: KÜÇÜK SANAYİ PERON 4;Cadde: KÜÇÜK SANAYİ İSTASYONU; Mahalle: ÜÇEVLER",
+      "kalkis_yeri" : "Durak: AKYAPAK MAKİNA;Cadde: KURTULUŞ CD; Mahalle: AKÇALAR KURTULUŞ"
+   },
+   {
+      "g_id" : "111",
+      "g_adi" : "8/L",
+      "varis_yeri" : "Durak: KORUYUCU PERON 2;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: TURGUT ÖZAL CAD.;Cadde: TURGUT ÖZAL CD; Mahalle: EMEK FATİH SULTAN MEHMET"
+   },
+   {
+      "g_id" : "208",
+      "g_adi" : "80",
+      "varis_yeri" : "Durak: YENİŞEHİR HAVAALANI;Cadde: YENİŞEHİR HAVAALANI; Mahalle: YENİŞEHİR HAVAALANI",
+      "kalkis_yeri" : "Durak: KENT MEYDANI;Cadde: KIBRIS ŞEHİTLERİ CD; Mahalle: SANTRALGARAJ"
+   },
+   {
+      "g_id" : "112",
+      "g_adi" : "9/D",
+      "varis_yeri" : "Durak: KORUYUCU PERON 2;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: ATAEVLER PAZAR YERİ;Cadde: ATAEVLER PAZAR YERİ; Mahalle: ATAEVLER"
+   },
+   {
+      "g_id" : "113",
+      "g_adi" : "9/M",
+      "varis_yeri" : "Durak: KORUYUCU PERON 2;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: ATAEVLER PAZAR YERİ;Cadde: ATAEVLER PAZAR YERİ; Mahalle: ATAEVLER"
+   },
+   {
+      "g_id" : "114",
+      "g_adi" : "9/P-A",
+      "varis_yeri" : "Durak: KORUYUCU PERON 2;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: IŞIKTEPE MURTARLIĞI;Cadde: MEHTAP SK; Mahalle: IŞIK TEPE"
+   },
+   {
+      "g_id" : "17",
+      "g_adi" : "91",
+      "varis_yeri" : "Durak: FATİH CAD. 1 KESTEL;Cadde: FATİH CD; Mahalle: YENİ",
+      "kalkis_yeri" : "Durak: TERMİNAL PERON 2;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR"
+   },
+   {
+      "g_id" : "115",
+      "g_adi" : "91/G",
+      "varis_yeri" : "Durak: GÜRSU 1;Cadde: KARANFİL CD; Mahalle: ZAFER",
+      "kalkis_yeri" : "Durak: TERMİNAL PERON 2;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR"
+   },
+   {
+      "g_id" : "18",
+      "g_adi" : "92",
+      "varis_yeri" : "Durak: KÜLTÜR MAH. MUHTARLIĞI;Cadde: BOLU SK; Mahalle: KÜLTÜR",
+      "kalkis_yeri" : "Durak: TERMİNAL PERON 3;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR"
+   },
+   {
+      "g_id" : "19",
+      "g_adi" : "93",
+      "varis_yeri" : "Durak: U.Ü. ÖĞRENCİ YURDU;Cadde: ÜNİVERSİTE 8. SK; Mahalle: ÖZLÜCE",
+      "kalkis_yeri" : "Durak: TERMİNAL PERON 4;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR"
+   },
+   {
+      "g_id" : "193",
+      "g_adi" : "93/E",
+      "varis_yeri" : "Durak: ATATÜRK CAD. 1;Cadde: ATATÜRK CD; Mahalle: GÖRÜKLE DUMLUPINAR",
+      "kalkis_yeri" : "Durak: ATATÜRK CAD. 1;Cadde: ATATÜRK CD; Mahalle: GÖRÜKLE DUMLUPINAR"
+   },
+   {
+      "g_id" : "20",
+      "g_adi" : "94",
+      "varis_yeri" : "Durak: KAPLIKAYA;Cadde: KANUNİ CD; Mahalle: KAPLIKAYA",
+      "kalkis_yeri" : "Durak: TERMİNAL PERON 5;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR"
+   },
+   {
+      "g_id" : "21",
+      "g_adi" : "95",
+      "varis_yeri" : "Durak: PAZAR YERİ;Cadde: NENE HATUN CD; Mahalle: ATAEVLER",
+      "kalkis_yeri" : "Durak: TERMİNAL PERON 6;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR"
+   },
+   {
+      "g_id" : "22",
+      "g_adi" : "96",
+      "varis_yeri" : "Durak: ÇEKİRGE DEVLET HASTANESİ PERON 9;Cadde: 2. NAZLI CD; Mahalle: ÇEKİRGE",
+      "kalkis_yeri" : "Durak: TERMİNAL PERON 7;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR"
+   },
+   {
+      "g_id" : "23",
+      "g_adi" : "97",
+      "varis_yeri" : "Durak: EMEK;Cadde: 2. OKUL CD; Mahalle: EMEK ADNAN MENDERES",
+      "kalkis_yeri" : "Durak: TERMİNAL PERON 8;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR"
+   },
+   {
+      "g_id" : "194",
+      "g_adi" : "97/G",
+      "varis_yeri" : "Durak: TERMİNAL PERON 8;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR",
+      "kalkis_yeri" : "Durak: TERMİNAL PERON 8;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR"
+   },
+   {
+      "g_id" : "24",
+      "g_adi" : "98",
+      "varis_yeri" : "Durak: SİTELER 31/A, 98 SON DURAĞI;Cadde: BURSA CD; Mahalle: SİTELER",
+      "kalkis_yeri" : "Durak: TERMİNAL PERON 9;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR"
+   },
+   {
+      "g_id" : "25",
+      "g_adi" : "99",
+      "varis_yeri" : "Durak: SİTELER ;Cadde: BURSA CD; Mahalle: SİTELER",
+      "kalkis_yeri" : "Durak: TERMİNAL PERON 9;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR"
+   },
+   {
+      "g_id" : "195",
+      "g_adi" : "B/10",
+      "varis_yeri" : "Durak: ORGANİZE SANAYİ İSTASYONU;Cadde: SANAYİ CD; Mahalle: AKPINAR",
+      "kalkis_yeri" : "Durak: BİLLUR SK.;Cadde: BİLLUR SK; Mahalle: BALAT"
+   },
+   {
+      "g_id" : "116",
+      "g_adi" : "B/12",
+      "varis_yeri" : "Durak: ORGANİZE SANAYİ İSTASYONU;Cadde: SANAYİ CD; Mahalle: AKPINAR",
+      "kalkis_yeri" : "Durak: YENİKENT MAH. 10;Cadde: 735. SK; Mahalle: YENİKENT"
+   },
+   {
+      "g_id" : "117",
+      "g_adi" : "B/13",
+      "varis_yeri" : "Durak: KARANFİL CAD.;Cadde: 1. KARANFİL CD; Mahalle: EMEK ADNAN MENDERES",
+      "kalkis_yeri" : "Durak: ESENTEPE İSTASYONU;Cadde: MUDANYA BLV; Mahalle: BAĞLARBAŞI"
+   },
+   {
+      "g_id" : "118",
+      "g_adi" : "B/16-A",
+      "varis_yeri" : "Durak: 2.PERON B-16;Cadde: ACEMLER İSTASYONU; Mahalle: DİKKALDIRIM",
+      "kalkis_yeri" : "Durak: OSMANGAZİ TOKİ 1;Cadde: HIDIRBEY SK; Mahalle: HAMİTLER"
+   },
+   {
+      "g_id" : "196",
+      "g_adi" : "B/16-B",
+      "varis_yeri" : "Durak: ESENTEPE İSTASYONU;Cadde: MUDANYA BLV; Mahalle: BAĞLARBAŞI",
+      "kalkis_yeri" : "Durak: OSMANGAZİ TOKİ 1;Cadde: HIDIRBEY SK; Mahalle: HAMİTLER"
+   },
+   {
+      "g_id" : "119",
+      "g_adi" : "B/17",
+      "varis_yeri" : "Durak: ACEMLER İSTASYONU;Cadde: MUDANYA BLV; Mahalle: DİKKALDIRIM",
+      "kalkis_yeri" : "Durak: OSMANGAZİ TOKİ 1;Cadde: HIDIRBEY SK; Mahalle: HAMİTLER"
+   },
+   {
+      "g_id" : "120",
+      "g_adi" : "B/17-A",
+      "varis_yeri" : "Durak: 5.PERON B-17 B/17-A B/19;Cadde: ACEMLER İSTASYONU; Mahalle: DİKKALDIRIM",
+      "kalkis_yeri" : "Durak: OSMANGAZİ TOKİ 1;Cadde: HIDIRBEY SK; Mahalle: HAMİTLER"
+   },
+   {
+      "g_id" : "121",
+      "g_adi" : "B/19",
+      "varis_yeri" : "Durak: AŞİYAN;Cadde: ULUDAĞ CD; Mahalle: İNKAYA",
+      "kalkis_yeri" : "Durak: 5.PERON B-17 B/17-A B/19;Cadde: ACEMLER İSTASYONU; Mahalle: DİKKALDIRIM"
+   },
+   {
+      "g_id" : "241",
+      "g_adi" : "B/20-A",
+      "varis_yeri" : "Durak: 5.PERON B-17 B/17-A B/19;Cadde: ACEMLER İSTASYONU; Mahalle: DİKKALDIRIM",
+      "kalkis_yeri" : "Durak: GÜMÜŞTEPE 8;Cadde: KARŞIYAKA CD; Mahalle: GÜMÜŞTEPE"
+   },
+   {
+      "g_id" : "122",
+      "g_adi" : "B/20-B",
+      "varis_yeri" : "Durak: 3.PERON B-20;Cadde: ACEMLER İSTASYONU; Mahalle: DİKKALDIRIM",
+      "kalkis_yeri" : "Durak: GÜMÜŞTEPE 8;Cadde: KARŞIYAKA CD; Mahalle: GÜMÜŞTEPE"
+   },
+   {
+      "g_id" : "125",
+      "g_adi" : "B/22",
+      "varis_yeri" : "Durak: KÜÇÜK SANAYİ PERON 4;Cadde: KÜÇÜK SANAYİ İSTASYONU; Mahalle: ÜÇEVLER",
+      "kalkis_yeri" : "Durak: ÜRÜNLÜ;Cadde: ÜRÜNLÜ CD; Mahalle: ÜRÜNLÜ"
+   },
+   {
+      "g_id" : "126",
+      "g_adi" : "B/24",
+      "varis_yeri" : "Durak: U.Ü. ÖĞRENCİ YURDU;Cadde: ÜNİVERSİTE 8. SK; Mahalle: ÖZLÜCE",
+      "kalkis_yeri" : "Durak: F. KUŞÇUOĞLU CAD. 7;Cadde: FUAT KUŞÇUOĞLU CD; Mahalle: YUNUSELI"
+   },
+   {
+      "g_id" : "127",
+      "g_adi" : "B/25",
+      "varis_yeri" : "Durak: KORUYUCU PERON 2;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: OSMANGAZİ TOKİ 1;Cadde: HIDIRBEY SK; Mahalle: HAMİTLER"
+   },
+   {
+      "g_id" : "128",
+      "g_adi" : "B/27",
+      "varis_yeri" : "Durak: 5.PERON B-17 B/17-A B/19;Cadde: ACEMLER İSTASYONU; Mahalle: DİKKALDIRIM",
+      "kalkis_yeri" : "Durak: AHMETBEY KÖYÜ 1  B/27 SON DUR;Cadde: AHMETBEY; Mahalle: AHMETBEY"
+   },
+   {
+      "g_id" : "129",
+      "g_adi" : "B/29",
+      "varis_yeri" : "Durak: 5.PERON B-17 B/17-A B/19;Cadde: ACEMLER İSTASYONU; Mahalle: DİKKALDIRIM",
+      "kalkis_yeri" : "Durak: GÜNDOĞDU B/29 SON DURAGI;Cadde: GÜNDOĞDU; Mahalle: GÜNDOĞDU"
+   },
+   {
+      "g_id" : "203",
+      "g_adi" : "B/3",
+      "varis_yeri" : "Durak: NİLÜFER İSTASYONU;Cadde: İZMİR BLV; Mahalle: KONAK",
+      "kalkis_yeri" : "Durak: KÜLTÜR MAH. MUHTARLIĞI;Cadde: BOLU SK; Mahalle: KÜLTÜR"
+   },
+   {
+      "g_id" : "130",
+      "g_adi" : "B/31",
+      "varis_yeri" : "Durak: KÜÇÜK SANAYİ PERON 2;Cadde: KÜÇÜK SANAYİ İSTASYONU; Mahalle: ÜÇEVLER",
+      "kalkis_yeri" : "Durak: DEMİRCİ CAD. 10;Cadde: DEMİRCİ CD; Mahalle: DEMİRCİ"
+   },
+   {
+      "g_id" : "214",
+      "g_adi" : "B/33",
+      "varis_yeri" : "Durak: KÜÇÜK SANAYİ PERON 1;Cadde: KÜÇÜK SANAYİ İSTASYONU; Mahalle: ÜÇEVLER",
+      "kalkis_yeri" : "Durak: /KAYAPA TOKİ;Cadde: 81. SK; Mahalle: KAYAPA ÇAMLIK"
+   },
+   {
+      "g_id" : "131",
+      "g_adi" : "B/33-H",
+      "varis_yeri" : "Durak: KÜÇÜK SANAYİ PERON 1;Cadde: KÜÇÜK SANAYİ İSTASYONU; Mahalle: ÜÇEVLER",
+      "kalkis_yeri" : "Durak: HASANAĞA;Cadde: CUMHURİYET CD; Mahalle: HASANAĞA"
+   },
+   {
+      "g_id" : "132",
+      "g_adi" : "B/33-K",
+      "varis_yeri" : "Durak: ÜNİVERSİTE İSTASYONU;Cadde: V; Mahalle: GÖRÜKLE SAKARYA",
+      "kalkis_yeri" : "Durak: HASANAĞA;Cadde: CUMHURİYET CD; Mahalle: HASANAĞA"
+   },
+   {
+      "g_id" : "244",
+      "g_adi" : "B/33-M",
+      "varis_yeri" : "Durak: KÜÇÜK SANAYİ PERON 4;Cadde: KÜÇÜK SANAYİ İSTASYONU; Mahalle: ÜÇEVLER",
+      "kalkis_yeri" : "Durak: UNÇUKURU;Cadde: UNÇUKURU; Mahalle: UNÇUKURU"
+   },
+   {
+      "g_id" : "133",
+      "g_adi" : "B/34",
+      "varis_yeri" : "Durak: ORGANİZE SANAYİ İSTASYONU;Cadde: SANAYİ CD; Mahalle: AKPINAR",
+      "kalkis_yeri" : "Durak: YOLÇATI CAMİİ;Cadde: ATATÜRK CD; Mahalle: YOLÇATI"
+   },
+   {
+      "g_id" : "135",
+      "g_adi" : "B/35-K",
+      "varis_yeri" : "Durak: ORGANİZE SANAYİ İST.;Cadde: SANAYİ CD; Mahalle: FETHİYE",
+      "kalkis_yeri" : "Durak: KÜÇÜK SANAYİ PERON 1;Cadde: KÜÇÜK SANAYİ İSTASYONU; Mahalle: ÜÇEVLER"
+   },
+   {
+      "g_id" : "136",
+      "g_adi" : "B/36",
+      "varis_yeri" : "Durak: EMEK İSTASYONU PERON 3;Cadde: ; Mahalle: ",
+      "kalkis_yeri" : "Durak: B/36 SON DURAGI;Cadde: EĞİTİM CD; Mahalle: BADEMLİ"
+   },
+   {
+      "g_id" : "137",
+      "g_adi" : "B/36-A",
+      "varis_yeri" : "Durak: EMEK İSTASYONU PERON 3;Cadde: ; Mahalle: ",
+      "kalkis_yeri" : "Durak: ÇEKRİCE;Cadde: ÇEKRİCE; Mahalle: ÇEKRİCE"
+   },
+   {
+      "g_id" : "138",
+      "g_adi" : "B/36-C",
+      "varis_yeri" : "Durak: GÖKTAŞ AYDIN PINAR EVLERİ;Cadde: ESKİ BURSA MUDANYA YOLU; Mahalle: AYDINPINAR",
+      "kalkis_yeri" : "Durak: EMEK İSTASYONU PERON 3;Cadde: ; Mahalle: "
+   },
+   {
+      "g_id" : "139",
+      "g_adi" : "B/38",
+      "varis_yeri" : "Durak: KEYRUVAN PARKI;Cadde: MENEKŞE CD; Mahalle: TEFERRÜÇ",
+      "kalkis_yeri" : "Durak: KÜLTÜRPARK İSTASYONU;Cadde: İHTİYAR SK; Mahalle: GAZİAKDEMİR"
+   },
+   {
+      "g_id" : "140",
+      "g_adi" : "B/39",
+      "varis_yeri" : "Durak: KORUYUCU PERON 1;Cadde: ATATÜRK CD; Mahalle: ORHANBEY",
+      "kalkis_yeri" : "Durak: 1.PERON B-39;Cadde: ACEMLER İSTASYONU; Mahalle: DİKKALDIRIM"
+   },
+   {
+      "g_id" : "141",
+      "g_adi" : "B/4",
+      "varis_yeri" : "Durak: F.SULTAN MEHMET BUL. 4;Cadde: FATİH SULTAN MEHMET BLV; Mahalle: CUMHURİYET",
+      "kalkis_yeri" : "Durak: KÜÇÜK SANAYİ PERON 2;Cadde: KÜÇÜK SANAYİ İSTASYONU; Mahalle: ÜÇEVLER"
+   },
+   {
+      "g_id" : "142",
+      "g_adi" : "B/40",
+      "varis_yeri" : "Durak: TİMURTAŞPAŞA 1 PERON;Cadde: CEMAL NADİR CD; Mahalle: OSMANGAZİ",
+      "kalkis_yeri" : "Durak: KARANFİL CAD.;Cadde: 1. KARANFİL CD; Mahalle: EMEK ADNAN MENDERES"
+   },
+   {
+      "g_id" : "143",
+      "g_adi" : "B/40-A",
+      "varis_yeri" : "Durak: TİMURTAŞPAŞA 1 PERON;Cadde: CEMAL NADİR CD; Mahalle: OSMANGAZİ",
+      "kalkis_yeri" : "Durak: KARANFİL CAD.;Cadde: 1. KARANFİL CD; Mahalle: EMEK ADNAN MENDERES"
+   },
+   {
+      "g_id" : "144",
+      "g_adi" : "B/41-B",
+      "varis_yeri" : "Durak: TİMURTAŞPAŞA 1 PERON;Cadde: CEMAL NADİR CD; Mahalle: OSMANGAZİ",
+      "kalkis_yeri" : "Durak: GEÇİT SAĞLIK OCAĞI;Cadde: 2. GEÇİT SK; Mahalle: GEÇİT"
+   },
+   {
+      "g_id" : "145",
+      "g_adi" : "B/41-C",
+      "varis_yeri" : "Durak: TİMURTAŞPAŞA 1 PERON;Cadde: CEMAL NADİR CD; Mahalle: OSMANGAZİ",
+      "kalkis_yeri" : "Durak: MADENCİLER SİTESİ 1;Cadde: ADALET CD; Mahalle: EMEK FATİH SULTAN MEHMET"
+   },
+   {
+      "g_id" : "146",
+      "g_adi" : "B/42-A",
+      "varis_yeri" : "Durak: DEVLET HASTANESİ;Cadde: HASTA YURDU CD; Mahalle: KURUÇEŞME",
+      "kalkis_yeri" : "Durak: ATAEVLER PAZAR YERİ;Cadde: ATAEVLER PAZAR YERİ; Mahalle: ATAEVLER"
+   },
+   {
+      "g_id" : "147",
+      "g_adi" : "B/43",
+      "varis_yeri" : "Durak: TİMURTAŞPAŞA 1 PERON;Cadde: CEMAL NADİR CD; Mahalle: OSMANGAZİ",
+      "kalkis_yeri" : "Durak: EMEK;Cadde: 2. OKUL CD; Mahalle: EMEK ADNAN MENDERES"
+   },
+   {
+      "g_id" : "148",
+      "g_adi" : "B/44-B",
+      "varis_yeri" : "Durak: MEŞELİ CAMİİ;Cadde: 2. KANAL CD; Mahalle: SOĞANLI",
+      "kalkis_yeri" : "Durak: U.Ü. ÖĞRENCİ YURDU;Cadde: ÜNİVERSİTE 8. SK; Mahalle: ÖZLÜCE"
+   },
+   {
+      "g_id" : "150",
+      "g_adi" : "B/46",
+      "varis_yeri" : "Durak: U.Ü. ÖĞRENCİ YURDU;Cadde: ÜNİVERSİTE 8. SK; Mahalle: ÖZLÜCE",
+      "kalkis_yeri" : "Durak: SİTEEVLER;Cadde: 1. HÜRRİYET CD; Mahalle: SOĞUKKUYU"
+   },
+   {
+      "g_id" : "151",
+      "g_adi" : "B/5",
+      "varis_yeri" : "Durak: 4.PERON B-5;Cadde: ACEMLER İSTASYONU; Mahalle: DİKKALDIRIM",
+      "kalkis_yeri" : "Durak: KÜÇÜK SANAYİ PERON 2;Cadde: KÜÇÜK SANAYİ İSTASYONU; Mahalle: ÜÇEVLER"
+   },
+   {
+      "g_id" : "152",
+      "g_adi" : "B/6",
+      "varis_yeri" : "Durak: CUMHURİYET LİSESİ;Cadde: ZÜBEYDE HANIM CD; Mahalle: DİKKALDIRIM",
+      "kalkis_yeri" : "Durak: KÜÇÜK SANAYİ PERON 2;Cadde: KÜÇÜK SANAYİ İSTASYONU; Mahalle: ÜÇEVLER"
+   },
+   {
+      "g_id" : "153",
+      "g_adi" : "B/7",
+      "varis_yeri" : "Durak: CUMHURİYET LİSESİ;Cadde: ZÜBEYDE HANIM CD; Mahalle: KÜKÜRTLÜ",
+      "kalkis_yeri" : "Durak: KÜÇÜK SANAYİ PERON 2;Cadde: KÜÇÜK SANAYİ İSTASYONU; Mahalle: ÜÇEVLER"
+   },
+   {
+      "g_id" : "154",
+      "g_adi" : "B/8",
+      "varis_yeri" : "Durak: NİLÜFER METRO İSTASYONU / B/4 SON;Cadde: İZMİR BLV; Mahalle: İHSANİYE",
+      "kalkis_yeri" : "Durak: BEŞEVLER İSTASYONU;Cadde: İZMİR BLV; Mahalle: BARIŞ"
+   },
+   {
+      "g_id" : "155",
+      "g_adi" : "B/9",
+      "varis_yeri" : "Durak: KÜÇÜK SANAYİ PERON 2;Cadde: KÜÇÜK SANAYİ İSTASYONU; Mahalle: ÜÇEVLER",
+      "kalkis_yeri" : "Durak: ESENTEPE İSTASYONU;Cadde: MUDANYA BLV; Mahalle: BAĞLARBAŞI"
+   },
+   {
+      "g_id" : "164",
+      "g_adi" : "BRS-1",
+      "varis_yeri" : "Durak: BURSARAY ARABAYATAĞI İSTASYONU;Cadde: ANKARA YOLU CD; Mahalle: YAVUZSELİM",
+      "kalkis_yeri" : "Durak: BURSARAY EMEK İSTASYONU;Cadde: SANAYİ CD; Mahalle: "
+   },
+   {
+      "g_id" : "165",
+      "g_adi" : "BRS-2",
+      "varis_yeri" : "Durak: BURSARAY ARABAYATAĞI İSTASYONU;Cadde: ANKARA YOLU CD; Mahalle: YAVUZSELİM",
+      "kalkis_yeri" : "Durak: BURSARAY ÜNİVERSİTE İSTASYONU;Cadde: ÜNİVERSİTE 1. SK; Mahalle: GÖRÜKLE SAKARYA"
+   },
+   {
+      "g_id" : "156",
+      "g_adi" : "D/1",
+      "varis_yeri" : "Durak: ARABAYATAĞI İSTASYONU;Cadde: ANKARA YOLU CD; Mahalle: ORTABAGLAR",
+      "kalkis_yeri" : "Durak: YILDIRIM TEMİZLİK İŞLERİ MÜD.;Cadde: EĞRİYOL SK; Mahalle: ERİKLİ"
+   },
+   {
+      "g_id" : "215",
+      "g_adi" : "D/13",
+      "varis_yeri" : "Durak: ARABAYATAĞI İSTASYONU;Cadde: ANKARA YOLU CD; Mahalle: ORTABAGLAR",
+      "kalkis_yeri" : "Durak: BARAKFAKİ;Cadde: BARAKFAKİ; Mahalle: BARAKFAKİ"
+   },
+   {
+      "g_id" : "236",
+      "g_adi" : "D/14-A",
+      "varis_yeri" : "Durak: ARABAYATAĞI İSTASYONU;Cadde: ANKARA YOLU CD; Mahalle: ORTABAGLAR",
+      "kalkis_yeri" : "Durak: SOĞUKSU KÖYÜ;Cadde: SOĞUKSU; Mahalle: SOĞUKSU KÖYÜ"
+   },
+   {
+      "g_id" : "227",
+      "g_adi" : "D/15",
+      "varis_yeri" : "Durak: ARABAYATAĞI İSTASYONU;Cadde: ANKARA YOLU CD; Mahalle: ORTABAGLAR",
+      "kalkis_yeri" : "Durak: ÜMİTALAN;Cadde: ÜMİTALAN; Mahalle: ÜMİTALAN"
+   },
+   {
+      "g_id" : "234",
+      "g_adi" : "D/16",
+      "varis_yeri" : "Durak: ARABAYATAĞI İSTASYONU;Cadde: ANKARA YOLU CD; Mahalle: ORTABAGLAR",
+      "kalkis_yeri" : "Durak: ŞEVKETİYE KÖYÜ;Cadde: ; Mahalle: "
+   },
+   {
+      "g_id" : "237",
+      "g_adi" : "D/17",
+      "varis_yeri" : "Durak: ARABAYATAĞI İSTASYONU;Cadde: ANKARA YOLU CD; Mahalle: ORTABAGLAR",
+      "kalkis_yeri" : "Durak: BABASULTAN;Cadde: BABASULTAN; Mahalle: BABASULTAN KÖYÜ"
+   },
+   {
+      "g_id" : "243",
+      "g_adi" : "D/18",
+      "varis_yeri" : "Durak: ARABAYATAĞI İSTASYONU;Cadde: ANKARA YOLU CD; Mahalle: ORTABAGLAR",
+      "kalkis_yeri" : "Durak: ALAÇAM KÖYÜ;Cadde: ALAÇAM; Mahalle: ALAÇAM"
+   },
+   {
+      "g_id" : "200",
+      "g_adi" : "D/1-A",
+      "varis_yeri" : "Durak: SİTELER D/1-A, D/2-A SON DURAĞI;Cadde: BURSA CD; Mahalle: SİTELER",
+      "kalkis_yeri" : "Durak: 1. MARMARA SK;Cadde: 1. MARMARA SK; Mahalle: MİLLET"
+   },
+   {
+      "g_id" : "201",
+      "g_adi" : "D/2-A",
+      "varis_yeri" : "Durak: İMKB T.E.M.L.;Cadde: 32. CD; Mahalle: YİĞİTLER",
+      "kalkis_yeri" : "Durak: MEVLANA MAH.;Cadde: YAKA SK; Mahalle: MEVLANA"
+   },
+   {
+      "g_id" : "202",
+      "g_adi" : "D/4",
+      "varis_yeri" : "Durak: SİTELER D/1-A, D/2-A SON DURAĞI;Cadde: BURSA CD; Mahalle: SİTELER",
+      "kalkis_yeri" : "Durak: VAKIFKÖY HOBİ BAHÇELERİ;Cadde: 4. DELİÇAY SK; Mahalle: VAKIF"
+   },
+   {
+      "g_id" : "222",
+      "g_adi" : "D/5",
+      "varis_yeri" : "Durak: SİTELER D/1-A, D/2-A SON DURAĞI;Cadde: BURSA CD; Mahalle: SİTELER",
+      "kalkis_yeri" : "Durak: HACİVAT MAH.;Cadde: A338 SK; Mahalle: HACIVAT"
+   },
+   {
+      "g_id" : "223",
+      "g_adi" : "D/6",
+      "varis_yeri" : "Durak: SİTELER D/1-A, D/2-A SON DURAĞI;Cadde: BURSA CD; Mahalle: SİTELER",
+      "kalkis_yeri" : "Durak: İSABEY 5;Cadde: İSABEY CD; Mahalle: İSABEY"
+   },
+   {
+      "g_id" : "224",
+      "g_adi" : "D/7",
+      "varis_yeri" : "Durak: SİTELER D/1-A, D/2-A SON DURAĞI;Cadde: BURSA CD; Mahalle: SİTELER",
+      "kalkis_yeri" : "Durak: AKTAŞTEPE;Cadde: ÜLKÜ SK; Mahalle: YENİ"
+   },
+   {
+      "g_id" : "225",
+      "g_adi" : "D/8",
+      "varis_yeri" : "Durak: SİTELER D/1-A, D/2-A SON DURAĞI;Cadde: BURSA CD; Mahalle: SİTELER",
+      "kalkis_yeri" : "Durak: FİLİZ SK;Cadde: FİLİZ SK; Mahalle: HAMAMLIKIZIK"
+   },
+   {
+      "g_id" : "242",
+      "g_adi" : "D/9",
+      "varis_yeri" : "Durak: ŞEVKET YILMAZ DEVLET HASTANESİ;Cadde: EMNİYET CD; Mahalle: MİMARSİNAN",
+      "kalkis_yeri" : "Durak: KUMLUKALAN SON DURAĞI;Cadde: İSABEY CD; Mahalle: KUMLUKALAN"
+   },
+   {
+      "g_id" : "158",
+      "g_adi" : "E/12",
+      "varis_yeri" : "Durak: U.Ü. ÖĞRENCİ YURDU;Cadde: ÜNİVERSİTE 8. SK; Mahalle: ÖZLÜCE",
+      "kalkis_yeri" : "Durak: SİTELER E/12 - E/13;Cadde: BURSA CD; Mahalle: SİTELER"
+   },
+   {
+      "g_id" : "159",
+      "g_adi" : "E/13",
+      "varis_yeri" : "Durak: U.Ü. ÖĞRENCİ YURDU;Cadde: ÜNİVERSİTE 8. SK; Mahalle: ÖZLÜCE",
+      "kalkis_yeri" : "Durak: SİTELER E/12 - E/13;Cadde: BURSA CD; Mahalle: SİTELER"
+   },
+   {
+      "g_id" : "160",
+      "g_adi" : "E/2",
+      "varis_yeri" : "Durak: ULUYOL - KENT MEYDANI;Cadde: KIBRIS ŞEHİTLERİ CD; Mahalle: ULU",
+      "kalkis_yeri" : "Durak: HAMZABEY CAMİİ;Cadde: HAMZABEY CD; Mahalle: MURADİYE"
+   },
+   {
+      "g_id" : "161",
+      "g_adi" : "F/1",
+      "varis_yeri" : "Durak: TERMİNAL PERON 8;Cadde: ŞEHİRLER ARASI OTOBÜS TERMİNALİ; Mahalle: ALAŞAR",
+      "kalkis_yeri" : "Durak: MUDANYA İSKELESİ;Cadde: HALİTPAŞA CD; Mahalle: ÖMERBEY"
+   },
+   {
+      "g_id" : "197",
+      "g_adi" : "F/2",
+      "varis_yeri" : "Durak: DEREBAHÇE;Cadde: 1. SULTAN SK; Mahalle: DAVUTKADI",
+      "kalkis_yeri" : "Durak: GÜZELYALI FERİBOT İSKELESİ 1;Cadde: LİMAN SK; Mahalle: BURGAZ"
+   },
+   {
+      "g_id" : "235",
+      "g_adi" : "NOSTALJIK",
+      "varis_yeri" : "Durak: TRAMVAY ÇINARÖNÜ DURAĞI;Cadde: İNCİRLİ CD; Mahalle: HACI SEYFETTİN",
+      "kalkis_yeri" : "Durak: TRAMVAY ZAFER PLAZA DURAĞI;Cadde: CUMHURİYET CD; Mahalle: ŞEHREKÜSTÜ"
+   },
+   {
+      "g_id" : "162",
+      "g_adi" : "S/1",
+      "varis_yeri" : "Durak: İNEGÖL ÇARŞISI PERON 3;Cadde: İNÖNÜ CD; Mahalle: KAYHAN",
+      "kalkis_yeri" : "Durak: SİTELER S/1 SON DURAĞI;Cadde: BURSA CD; Mahalle: SİTELER"
+   },
+   {
+      "g_id" : "163",
+      "g_adi" : "S/2",
+      "varis_yeri" : "Durak: KAFKAS PERON 1;Cadde: ATATÜRK CD; Mahalle: HOCAALİZADE",
+      "kalkis_yeri" : "Durak: SİTELER S/2 SON DURAĞI;Cadde: BURSA CD; Mahalle: SİTELER"
+   },
+   {
+      "g_id" : "207",
+      "g_adi" : "TELEFERIK",
+      "varis_yeri" : "Durak: SARIALAN;Cadde: SARIALAN; Mahalle: SARIALAN",
+      "kalkis_yeri" : "Durak: TELEFERİK TESİSLERİ;Cadde: TELEFERİK CD; Mahalle: PİREMİR"
+   }
+]
