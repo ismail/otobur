@@ -7,27 +7,47 @@ linesURL="http://www.bursa.bel.tr/mobil/json.php?islem=hatlar"
 stopsURL="http://www.bursa.bel.tr/mobil/json.php?islem=hat_durak&hat="
 hoursURL="http://www.bursa.bel.tr/mobil/json.php?islem=durak_saatler&durak=%s&hat=%s"
 
+scheduleDict = {}
+
 def parseLines():
     data = check_output(["./jsonify.sh", linesURL])
     data = json.loads(data)
     for d in data:
-        print("### %s" % d["g_adi"])
-        parseStops(d["g_adi"])
+        lineName = d["g_adi"]
+        scheduleDict[lineName] = {}
+        print("### %s" % lineName)
+        parseStops(lineName)
 
-def parseStops(line):
-    data = check_output(["./jsonify.sh", "%s%s" % (stopsURL, line)])
+def parseStops(lineName):
+    data = check_output(["./jsonify.sh", "%s%s" % (stopsURL, lineName)])
     data = json.loads(data)
     for d in data:
-        print("\t-> %s" % d["DurakAdi"])
-        parseHours(line, d["DurakKodu"])
+        stopName = d["DurakAdi"]
+        stopCode = d["DurakKodu"]
+        scheduleDict[lineName][stopName] = {}
 
-def parseHours(line, stop):
-    data = check_output(["./jsonify.sh", hoursURL % (stop, line)])
+        print("\t-> %s" % stopName)
+        parseHours(lineName, stopCode, stopName)
+
+def parseHours(lineName, stopCode, stopName):
+    data = check_output(["./jsonify.sh", hoursURL % (stopCode, lineName)])
     data = json.loads(data)
+
     for d in data:
-        print("\t\t-> %s" % d)
+        try:
+            scheduleDict[lineName][stopName][d["kisagun"]]
+        except KeyError:
+            scheduleDict[lineName][stopName][d["kisagun"]] = []
+        finally:
+            scheduleDict[lineName][stopName][d["kisagun"]].append(d["dakika"])
+
+def dumpJSON():
+    print(json.dumps(scheduleDict, sort_keys=False,
+                    indent=4, separators=(',', ': ')))
 
 if __name__ == "__main__":
     parseLines()
 
-
+    with open("schedule.json", "wb") as fp:
+        fp.write(json.dumps(scheduleDict, sort_keys=False,
+                            indent=4, separators=(',', ': ')))
