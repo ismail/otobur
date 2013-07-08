@@ -1,0 +1,24 @@
+package otobur;
+
+message Line {
+    repeated Stop stops = 1;
+    required string name = 2;
+    required string id = 3;
+    required Location start = 4;
+    required Location end = 5;
+}
+
+message Stop {
+    required int32 direction = 1;
+    required string stopCode = 2;
+    required string stopName = 3;
+    required Location loc = 4;
+    required string latitude = 5;
+    required string longitude = 6;
+    required int32 order = 7;
+}
+
+message Location {
+    required string mahalle = 1;
+    required string cadde = 2;
+}

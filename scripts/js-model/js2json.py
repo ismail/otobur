@@ -7,7 +7,9 @@ import json
 linesURL="http://www.bursa.bel.tr/mobil/json.php?islem=hatlar"
 stopsURL="http://www.bursa.bel.tr/mobil/json.php?islem=hat_durak&hat="
 hoursURL="http://www.bursa.bel.tr/mobil/json.php?islem=durak_saatler&durak=%s&hat=%s"
-concurrentConnections = 16
+# BuKART: http://www.bursa.bel.tr/mobil/json.php?islem=bukart&lat=28.993744&long=40.208102
+# DURAKLAR: http://www.bursa.bel.tr/mobil/json.php?islem=durak_ara&ara=
+concurrentConnections = 8
 
 def parseLines():
     data = check_output(["./jsonify.sh", linesURL])
