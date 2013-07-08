@@ -10,6 +10,7 @@ hoursURL="http://www.bursa.bel.tr/mobil/json.php?islem=durak_saatler&durak=%s&ha
 # BuKART: http://www.bursa.bel.tr/mobil/json.php?islem=bukart&lat=28.993744&long=40.208102
 # DURAKLAR: http://www.bursa.bel.tr/mobil/json.php?islem=durak_ara&ara=
 concurrentConnections = 8
+final_schedule = {}
 
 def parseLines():
     data = check_output(["./jsonify.sh", linesURL])
@@ -21,7 +22,9 @@ def parseLines():
         lines.append(lineName)
 
     p = Pool(concurrentConnections)
-    p.map(parseStops, lines)
+    scheduleArray = p.map(parseStops, lines)
+    for schedule in scheduleArray:
+        final_schedule.update(schedule)
 
 def parseStops(lineName):
     print("## %s" % lineName)
@@ -53,14 +56,10 @@ def parseHours(scheduleDict, lineName, stopCode, stopName):
         finally:
             scheduleDict[lineName][stopName][d["kisagun"]].append(d["dakika"])
 
-def dumpJSON():
-    print(json.dumps(scheduleDict, sort_keys=False,
-                    indent=4, separators=(',', ': ')))
-
 if __name__ == "__main__":
     parseLines()
 
-    with open("schedule.json", "wb") as fp:
-        fp.write(json.dumps(scheduleDict, sort_keys=False,
+    with open("schedule_v2.json", "wb") as fp:
+        fp.write(json.dumps(final_schedule, sort_keys=False,
                             indent=4, separators=(',', ': ')))
 
