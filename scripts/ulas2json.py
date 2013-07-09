@@ -13,7 +13,7 @@ import sys
 
 root = "http://www.burulas.com.tr/hatsorgulama.aspx?hatAdi=99999"
 baseUrl = "http://www.burulas.com.tr/hareketSaatleri.aspx"
-scheduleVersion="20130706"
+scheduleVersion="20130709"
 scheduleDict = {}
 
 def parseSchedule(busIndex, address):
