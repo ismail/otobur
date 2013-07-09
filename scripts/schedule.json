@@ -8215,19 +8215,19 @@
                 "09:00",
                 "18:00"
             ],
-            "K\u0130RAZLI [PAZARTES\u0130 - CUMA]": [
+            " [PAZARTES\u0130 - CUMA]": [
                 "06:50",
                 "10:00",
                 "12:00",
                 "15:00",
                 "17:00"
             ],
-            "K\u0130RAZLI [CUMARTES\u0130]": [
+            " [CUMARTES\u0130]": [
                 "07:30",
                 "10:00",
                 "17:00"
             ],
-            "K\u0130RAZLI [PAZAR - RESM\u0130 TAT\u0130L]": [
+            " [PAZAR - RESM\u0130 TAT\u0130L]": [
                 "08:00",
                 "17:00"
             ]
@@ -10329,143 +10329,51 @@
         ],
         "url": "http://www.burulas.com.tr/hareketSaatleri.aspx?id=27&hat=102",
         "hours": {
-            "MER\u0130NOS \u0130STASYONU [PAZARTES\u0130 - CUMA]": [
-                "00:15",
+            "MER\u0130NOS \u0130STASYONU [T\u00dcM HAFTA]": [
+                "00:00",
                 "07:00",
-                "07:30",
-                "08:00",
+                "07:45",
                 "08:30",
                 "09:00",
-                "09:30",
                 "10:00",
-                "10:30",
                 "11:00",
-                "11:30",
                 "12:00",
-                "12:30",
                 "13:00",
-                "13:30",
                 "14:00",
-                "14:30",
                 "15:00",
-                "15:30",
                 "16:00",
-                "16:30",
                 "17:00",
                 "17:30",
                 "18:00",
                 "18:30",
                 "19:00",
-                "19:30",
                 "20:00",
-                "20:30",
                 "21:00",
                 "22:00",
-                "23:15"
+                "23:00"
             ],
-            "MER\u0130NOS \u0130STASYONU [CUMARTES\u0130 - PAZAR - RESM\u0130 TAT\u0130L]": [
-                "00:15",
-                "07:00",
-                "07:30",
-                "08:00",
-                "08:30",
-                "09:00",
-                "09:30",
-                "10:00",
-                "10:30",
-                "11:00",
-                "11:30",
-                "12:00",
-                "12:30",
-                "13:00",
-                "13:30",
-                "14:00",
-                "14:30",
-                "15:00",
-                "15:30",
-                "16:00",
-                "16:30",
-                "17:00",
-                "17:30",
-                "18:00",
-                "18:30",
-                "19:00",
-                "19:30",
-                "20:00",
-                "20:30",
-                "21:00",
-                "22:00",
-                "22:45",
-                "23:30"
-            ],
-            "KUR\u015eUNLU [PAZARTES\u0130 - CUMA]": [
+            "KUR\u015eUNLU [T\u00dcM HAFTA]": [
                 "06:20",
                 "07:00",
                 "07:30",
                 "08:00",
                 "08:30",
-                "09:00",
                 "09:30",
-                "10:00",
                 "10:30",
-                "11:00",
                 "11:30",
-                "12:00",
                 "12:30",
-                "13:00",
                 "13:30",
-                "14:00",
                 "14:30",
-                "15:00",
                 "15:30",
                 "16:00",
                 "16:30",
-                "17:00",
                 "17:30",
-                "18:00",
                 "18:30",
                 "19:00",
                 "19:30",
                 "20:00",
                 "21:00",
-                "21:30",
-                "22:00",
-                "23:00"
-            ],
-            "KUR\u015eUNLU [CUMARTES\u0130 - PAZAR - RESM\u0130 TAT\u0130L]": [
-                "06:20",
-                "07:00",
-                "07:30",
-                "08:00",
-                "08:30",
-                "09:00",
-                "09:30",
-                "10:00",
-                "10:30",
-                "11:00",
-                "11:30",
-                "12:00",
-                "12:30",
-                "13:00",
-                "13:30",
-                "14:00",
-                "14:30",
-                "15:00",
-                "15:30",
-                "16:00",
-                "16:30",
-                "17:00",
-                "17:30",
-                "18:00",
-                "18:30",
-                "19:00",
-                "19:30",
-                "20:00",
-                "20:30",
-                "21:00",
-                "21:30",
-                "22:00",
-                "23:00"
+                "22:30"
             ]
         }
     },
@@ -13769,6 +13677,92 @@
         }
     },
     "111": {
+        "name": "D/6",
+        "forward": [
+            "\u0130SABEY MAH. MUHTARLI\u011eI \u2013 \u0130SABEY CAD.",
+            "\u0130SMET PA\u015eA CAD.",
+            "201. SK.",
+            "\u0130SMET\u0130YE CAD.",
+            "119.SK.",
+            "\u015e\u0130R\u0130NEVLER CAD.",
+            "39.SK.",
+            "BULU\u015e SK.",
+            "21.SK.",
+            "96.SK.",
+            "27.SK.",
+            "ANKARA YOLU \u2013 ARABAYATA\u011eI \u0130ST.",
+            "\u0130HT\u0130SAS KAV\u015eA\u011eI \u2013 M\u0130MAR S\u0130NAN BULVARI \u2013 EMN\u0130YET CAD.",
+            "MEYVEL\u0130 SK.",
+            "MERAL SK.",
+            "3.SK.",
+            "S\u0130TELER"
+        ],
+        "backward": [
+            "S\u0130TELER",
+            "3.SK.",
+            "MERAL SK.",
+            "MER\u0130\u00c7 SK.",
+            "EMN\u0130YET CAD.",
+            "M\u0130MAR S\u0130NAN BULVARI \u2013 \u0130HT\u0130SAS KAV\u015eA\u011eI \u2013 ANKARA YOLU \u2013 ARABAYATA\u011eI \u0130ST.",
+            "OTOSANS\u0130T KAV\u015eA\u011eI \u2013 ER SK.",
+            ".",
+            "96.SK.",
+            "21.SK.",
+            "BULU\u015e SK.",
+            "39.SK.",
+            "\u015e\u0130R\u0130NEVLER CAD.",
+            "119.SK.",
+            "\u0130SMET\u0130YE CAD.",
+            "201. SK.",
+            "\u0130SMET PA\u015eA CAD.",
+            "\u0130SABEY CAD.",
+            "\u0130SABEY MAH. MUHTARLI\u011eI"
+        ],
+        "url": "http://www.burulas.com.tr/hareketSaatleri.aspx?id=201&hat=D/6",
+        "hours": {
+            "\u0130SABEY MH. [T\u00dcM HAFTA]": [
+                "06:30",
+                "07:15",
+                "08:00",
+                "08:45",
+                "09:30",
+                "10:15",
+                "11:00",
+                "11:45",
+                "12:30",
+                "13:15",
+                "14:00",
+                "14:45",
+                "15:30",
+                "16:15",
+                "17:00",
+                "17:45",
+                "18:30",
+                "19:15"
+            ],
+            "S\u0130TELER [T\u00dcM HAFTA]": [
+                "06:30",
+                "07:15",
+                "08:00",
+                "08:45",
+                "09:30",
+                "10:15",
+                "11:00",
+                "11:45",
+                "12:30",
+                "13:15",
+                "14:00",
+                "14:45",
+                "15:30",
+                "16:15",
+                "17:00",
+                "17:45",
+                "18:30",
+                "19:15"
+            ]
+        }
+    },
+    "112": {
         "name": "D/7",
         "forward": [
             "KARAPINAR MAH.",
@@ -13837,7 +13831,7 @@
             ]
         }
     },
-    "112": {
+    "113": {
         "name": "D/8",
         "forward": [
             "DE\u011e\u0130RMEN\u00d6N\u00dc MAHALLES\u0130 \u2013 F\u0130L\u0130Z SK.",
@@ -13895,7 +13889,7 @@
             ]
         }
     },
-    "113": {
+    "114": {
         "name": "D/9",
         "forward": [
             "KUMLUKALAN",
@@ -13974,7 +13968,7 @@
             ]
         }
     },
-    "114": {
+    "115": {
         "name": "D/13",
         "forward": [
             "BARAKFAK\u0130H",
@@ -14064,7 +14058,7 @@
             ]
         }
     },
-    "115": {
+    "116": {
         "name": "D/13-A",
         "forward": [
             "BARAKFAK\u0130H",
@@ -14164,7 +14158,7 @@
             ]
         }
     },
-    "116": {
+    "117": {
         "name": "D/14-A",
         "forward": [
             "SO\u011eUKSU K\u00d6Y\u00dc",
@@ -14211,7 +14205,7 @@
             ]
         }
     },
-    "117": {
+    "118": {
         "name": "D/15",
         "forward": [
             "\u00dcM\u0130TALAN",
@@ -14290,7 +14284,7 @@
             ]
         }
     },
-    "118": {
+    "119": {
         "name": "D/16",
         "forward": [
             "SAYF\u0130YE",
@@ -14354,7 +14348,63 @@
             ]
         }
     },
-    "119": {
+    "120": {
+        "name": "D/16-A",
+        "forward": [
+            "L\u00dcTF\u0130YE",
+            "AKSU",
+            "FAT\u0130H CD.",
+            "TURGUT \u00d6ZAL CD.",
+            "VAN\u0130 SK.",
+            "\u015eEH\u0130T KOM\u0130SER N\u0130ZAMETT\u0130N YAVLAK CD.",
+            "NAMIK KEMAL CD.",
+            "BURSA CD.",
+            "KESTEL KAV\u015eA\u011eI",
+            "ANKARA YOLU CD.",
+            "Y\u00dcKSEK \u0130HT\u0130SAS KAV\u015eA\u011eI",
+            "ARABAYATA\u011eI \u0130ST."
+        ],
+        "backward": [
+            "ARABAYATA\u011eI \u0130ST.",
+            "ANKARA YOLU CD.",
+            "KESTEL KAV\u015eA\u011eI",
+            "BURSA CD.",
+            "NAMIK KEMAL CD.",
+            "\u015eEH\u0130T KOM\u0130SER N\u0130ZAMETT\u0130N YAVLAK CD.",
+            "VAN\u0130 SK.",
+            "GAZ\u0130 CD.",
+            "TURGUT \u00d6ZAL CD.",
+            "AKSU",
+            "L\u00dcTF\u0130YE"
+        ],
+        "url": "http://www.burulas.com.tr/hareketSaatleri.aspx?id=228&hat=D/16-A",
+        "hours": {
+            "ARABAYATA\u011eI \u0130STASYONU [PAZAR - RESM\u0130 TAT\u0130L]": [
+                "08:00",
+                "08:50",
+                "12:00",
+                "13:20",
+                "15:00",
+                "16:20",
+                "17:30",
+                "18:20",
+                "19:30"
+            ],
+            "L\u00dcTF\u0130YE [PAZARTES\u0130 - CUMARTES\u0130]": [
+                "06:30",
+                "08:00",
+                "08:50",
+                "12:00",
+                "13:20",
+                "15:00",
+                "16:20",
+                "17:30",
+                "18:20",
+                "19:30"
+            ]
+        }
+    },
+    "121": {
         "name": "D/17",
         "forward": [
             "BABASULTAN",
@@ -14442,7 +14492,7 @@
             ]
         }
     },
-    "120": {
+    "122": {
         "name": "D/18",
         "forward": [
             "ALA\u00c7AM",
@@ -14498,7 +14548,7 @@
             ]
         }
     },
-    "121": {
+    "123": {
         "name": "D/19",
         "forward": [
             "SA\u0130TABAT",
@@ -14544,7 +14594,7 @@
             ]
         }
     },
-    "122": {
+    "124": {
         "name": "D/20",
         "forward": [
             "ORHAN\u0130YE",
@@ -14591,7 +14641,40 @@
             ]
         }
     },
-    "123": {
+    "125": {
+        "name": "D/21",
+        "forward": [
+            "G\u00d6LC\u00dcK",
+            "G\u00d6LBA\u015eI",
+            "ANKARA YOLU",
+            "KESTEL KURTULU\u015e CAD.",
+            "KESTEL BELED\u0130YE MEYDANI",
+            "KESTEL BURSA CAD.",
+            "KESTEL KAV\u015eA\u011eI",
+            "ANKARA YOLU",
+            "Y\u00dcKSEK \u0130HT\u0130SAS KAV\u015eA\u011eI",
+            "ARABAYATA\u011eI \u0130ST."
+        ],
+        "backward": [
+            "AYNI G\u00dcZERGAH"
+        ],
+        "url": "http://www.burulas.com.tr/hareketSaatleri.aspx?id=227&hat=D/21",
+        "hours": {
+            "ARABAYATA\u011eI \u0130STASYONU [T\u00dcM HAFTA]": [
+                "08:30",
+                "13:30",
+                "17:00",
+                "20:00"
+            ],
+            "G\u00d6LC\u00dcK [T\u00dcM HAFTA]": [
+                "07:00",
+                "10:00",
+                "15:00",
+                "18:30"
+            ]
+        }
+    },
+    "126": {
         "name": "E/2",
         "forward": [
             "HAMZABEY",
@@ -14722,7 +14805,7 @@
             ]
         }
     },
-    "124": {
+    "127": {
         "name": "E/12",
         "forward": [
             "S\u0130TELER",
@@ -14823,7 +14906,7 @@
             ]
         }
     },
-    "125": {
+    "128": {
         "name": "E/13",
         "forward": [
             "S\u0130TELER",
@@ -14919,7 +15002,7 @@
             ]
         }
     },
-    "126": {
+    "129": {
         "name": "F/1",
         "forward": [
             "MUDANYA \u0130SKELES\u0130",
@@ -15046,7 +15129,7 @@
             ]
         }
     },
-    "127": {
+    "130": {
         "name": "F/2",
         "forward": [
             "G\u00dcZELYALI FER\u0130BOT \u0130SKELES\u0130",
@@ -15079,45 +15162,31 @@
         ],
         "url": "http://www.burulas.com.tr/hareketSaatleri.aspx?id=210&hat=F/2",
         "hours": {
-            "G\u00dcZELYALI FER\u0130BOT \u0130SKELES\u0130 [PAZARTES\u0130 - PER\u015eEMBE]": [
-                "06:30",
+            "G\u00dcZELYALI FER\u0130BOT \u0130SKELES\u0130 [PAZARTES\u0130 - CUMARTES\u0130]": [
                 "09:15",
-                "14:30",
-                "16:30",
-                "19:15",
-                "21:30",
+                "13:30",
+                "19:45",
                 "23:30"
             ],
-            "G\u00dcZELYALI FER\u0130BOT \u0130SKELES\u0130 [CUMA - CUMARTES\u0130 - PAZAR]": [
-                "06:30",
-                "09:15",
-                "14:30",
-                "16:30",
-                "19:15",
-                "21:30",
-                "23:45"
+            "G\u00dcZELYALI FER\u0130BOT \u0130SKELES\u0130 [PAZAR - RESM\u0130 TAT\u0130L]": [
+                "13:30",
+                "19:45",
+                "23:30"
             ],
-            "DEREBAH\u00c7E [PAZARTES\u0130 - PER\u015eEMBE]": [
+            "DEREBAH\u00c7E [PAZARTES\u0130 - CUMARTES\u0130]": [
                 "05:30",
-                "08:00",
-                "12:00",
-                "15:30",
-                "17:30",
-                "20:15",
+                "12:30",
+                "16:30",
                 "22:30"
             ],
-            "DEREBAH\u00c7E [CUMA - CUMARTES\u0130 - PAZAR]": [
-                "05:30",
-                "08:00",
-                "12:00",
-                "15:30",
-                "17:30",
-                "20:15",
+            "DEREBAH\u00c7E [PAZAR - RESM\u0130 TAT\u0130L]": [
+                "12:30",
+                "16:30",
                 "22:30"
             ]
         }
     },
-    "128": {
+    "131": {
         "name": "F/3",
         "forward": [
             "MUDANYA \u0130SKELES\u0130",
@@ -15204,7 +15273,7 @@
             ]
         }
     },
-    "129": {
+    "132": {
         "name": "G/1",
         "forward": [
             "KU\u015eTEPE",
@@ -15263,7 +15332,7 @@
             ]
         }
     },
-    "130": {
+    "133": {
         "name": "G/2",
         "forward": [
             "S\u0130TELER",
@@ -15453,7 +15522,7 @@
             ]
         }
     },
-    "131": {
+    "134": {
         "name": "S/1",
         "forward": [
             "S\u0130TELER",
@@ -15642,7 +15711,7 @@
             ]
         }
     },
-    "132": {
+    "135": {
         "name": "S/2",
         "forward": [
             "S\u0130TELER",
