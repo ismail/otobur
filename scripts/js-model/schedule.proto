@@ -1,4 +1,4 @@
-package otobur;
+package ws.donmez.otobur;
 
 message Line {
     repeated Stop stops = 1;
