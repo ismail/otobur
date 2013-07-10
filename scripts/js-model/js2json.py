@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-from multiprocessing import Pool
 from subprocess import check_output
+from schedule_pb2 import Schedule, Line, Location
 import json
 
 linesURL="http://www.bursa.bel.tr/mobil/json.php?islem=hatlar"
@@ -9,27 +9,22 @@ stopsURL="http://www.bursa.bel.tr/mobil/json.php?islem=hat_durak&hat="
 hoursURL="http://www.bursa.bel.tr/mobil/json.php?islem=durak_saatler&durak=%s&hat=%s"
 # BuKART: http://www.bursa.bel.tr/mobil/json.php?islem=bukart&lat=28.993744&long=40.208102
 # DURAKLAR: http://www.bursa.bel.tr/mobil/json.php?islem=durak_ara&ara=
-concurrentConnections = 8
-final_schedule = {}
+
 
 def parseLines():
     data = check_output(["./jsonify.sh", linesURL])
     data = json.loads(data)
-    lines = []
-    for d in data:
-        lineName = d["g_adi"]
-        lineName = lineName.encode("utf-8")
-        lines.append(lineName)
+    schedule = Schedule()
 
-    p = Pool(concurrentConnections)
-    scheduleArray = p.map(parseStops, lines)
-    for schedule in scheduleArray:
-        final_schedule.update(schedule)
+    for d in data:
+        line = schedule.lines.add()
+        line.name = d["g_adi"].encode("utf-8")
+        line.id = d["g_id"]
+        parseStops(lineName)
 
 def parseStops(lineName):
     print("## %s" % lineName)
-    scheduleDict = {}
-    scheduleDict[lineName] = {}
+
     data = check_output(["./jsonify.sh", "%s%s" % (stopsURL, lineName)])
     data = json.loads(data)
     for d in data:

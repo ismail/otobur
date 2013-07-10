@@ -19,8 +19,9 @@ message Stop {
 }
 
 message Location {
-    required string mahalle = 1;
-    required string cadde = 2;
+    required string stopName = 1;
+    required string mahalle = 2;
+    required string cadde = 3;
 }
 
 message Schedule {
