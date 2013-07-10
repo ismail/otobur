@@ -18,7 +18,7 @@ def parseLines():
 
     for d in data:
         line = schedule.lines.add()
-        line.name = d["g_adi"].encode("utf-8")
+        line.name = unicode(d["g_adi"])
         line.id = d["g_id"]
 
         startLoc = line.start
