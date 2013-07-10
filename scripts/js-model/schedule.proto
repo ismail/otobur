@@ -10,9 +10,9 @@ message Line {
 
 message Stop {
     required int32 direction = 1;
-    required string stopCode = 2;
-    required string stopName = 3;
-    required Location loc = 4;
+    required string code = 2;
+    required string name = 3;
+    required Location location = 4;
     required string latitude = 5;
     required string longitude = 6;
     required int32 order = 7;

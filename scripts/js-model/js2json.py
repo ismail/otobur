@@ -20,10 +20,24 @@ def parseLines():
         line = schedule.lines.add()
         line.name = d["g_adi"].encode("utf-8")
         line.id = d["g_id"]
-        parseStops(lineName)
 
-def parseStops(lineName):
-    print("## %s" % lineName)
+        startLoc = Location()
+        startLoc.stopName = d["kalkis_yeri"]["Durak"]
+        startLoc.cadde = d["kalkis_yeri"]["Cadde"]
+        startLoc.mahalle = d["kalkis_yeri"]["Mahalle"]
+
+        endLoc = Location()
+        endLoc.stopName = d["varis_yeri"]["Durak"]
+        endLoc.cadde = d["varis_yeri"]["Cadde"]
+        endLoc.mahalle = d["varis_yeri"]["Mahalle"]
+
+        line.start = startLoc
+        line.end = endLoc
+
+        parseStops(line)
+
+def parseStops(line):
+    print("## %s" % line.name)
 
     data = check_output(["./jsonify.sh", "%s%s" % (stopsURL, lineName)])
     data = json.loads(data)
@@ -33,14 +47,25 @@ def parseStops(lineName):
         stopName = stopName.encode("utf-8")
         stopCode = stopCode.encode("utf-8")
         if stopName.strip():
-            parseHours(scheduleDict, lineName, stopCode, stopName)
+            stop = line.stops.add()
+            stop.direction = d["Yon"]
+            stop.code = stopCode
+            stop.name = stopName
 
-    return scheduleDict
+            loc = Location()
+            loc.stopName = stopName
+            loc.mahalle = d["Mahalle"]
+            loc.cadde = d["Cadde"]
+            stop.loc = loc
 
-def parseHours(scheduleDict, lineName, stopCode, stopName):
-    scheduleDict[lineName][stopName] = {}
-    print("\t--> %s" % stopName)
-    data = check_output(["./jsonify.sh", hoursURL % (stopCode, lineName)])
+            stop.longitude = d["Long"]
+            stop.latitude = d["Lat"]
+
+            parseHours(stop, line.name)
+
+def parseHours(stop, lineName):
+    print("\t--> %s" % stop.name)
+    data = check_output(["./jsonify.sh", hoursURL % (stop.code, lineName)])
     data = json.loads(data)
 
     for d in data:
