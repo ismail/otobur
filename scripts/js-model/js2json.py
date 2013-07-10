@@ -56,7 +56,7 @@ def parseStops(line):
             loc.stopName = stopName
             loc.mahalle = d["Mahalle"]
             loc.cadde = d["Cadde"]
-            stop.loc = loc
+            stop.location = loc
 
             stop.longitude = d["Long"]
             stop.latitude = d["Lat"]
@@ -69,17 +69,7 @@ def parseHours(stop, lineName):
     data = json.loads(data)
 
     for d in data:
-        try:
-            scheduleDict[lineName][stopName][d["kisagun"]]
-        except KeyError:
-            scheduleDict[lineName][stopName][d["kisagun"]] = []
-        finally:
-            scheduleDict[lineName][stopName][d["kisagun"]].append(d["dakika"])
+
 
 if __name__ == "__main__":
     parseLines()
-
-    with open("schedule_v2.json", "wb") as fp:
-        fp.write(json.dumps(final_schedule, sort_keys=False,
-                            indent=4, separators=(',', ': ')))
-

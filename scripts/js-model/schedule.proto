@@ -16,12 +16,22 @@ message Stop {
     required string latitude = 5;
     required string longitude = 6;
     required int32 order = 7;
+    required Hours hours = 8;
 }
 
 message Location {
     required string stopName = 1;
     required string mahalle = 2;
     required string cadde = 3;
+}
+
+message HourPair {
+    required string day = 1;
+    required string hours = 2;
+}
+
+message Hours {
+    repeated HourPair hour = 1;
 }
 
 message Schedule {
