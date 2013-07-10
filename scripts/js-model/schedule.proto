@@ -16,7 +16,7 @@ message Stop {
     required string latitude = 5;
     required string longitude = 6;
     required int32 order = 7;
-    required Hours hours = 8;
+    required TimeLine timeLine = 8;
 }
 
 message Location {
@@ -25,13 +25,13 @@ message Location {
     required string cadde = 3;
 }
 
-message HourPair {
+message TimePair {
     required string day = 1;
     required string hours = 2;
 }
 
-message Hours {
-    repeated HourPair hour = 1;
+message TimeLine {
+    repeated TimePair time = 1;
 }
 
 message Schedule {
