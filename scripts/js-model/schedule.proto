@@ -22,3 +22,8 @@ message Location {
     required string mahalle = 1;
     required string cadde = 2;
 }
+
+message Schedule {
+    repeated Line lines = 1;
+}
+
