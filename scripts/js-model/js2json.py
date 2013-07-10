@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-
+from collections import defaultdict
 from subprocess import check_output
 from schedule_pb2 import Schedule, Line, Location
 import json
@@ -36,6 +36,9 @@ def parseLines():
 
         parseStops(line)
 
+    with open("schedule.data", "wb") as fp:
+        fp.write(schedule.SerializeToString())
+
 def parseStops(line):
     print("## %s" % line.name)
 
@@ -60,6 +63,7 @@ def parseStops(line):
 
             stop.longitude = d["Long"]
             stop.latitude = d["Lat"]
+            stop.order = d["Sira"]
 
             parseHours(stop, line.name)
 
@@ -68,8 +72,15 @@ def parseHours(stop, lineName):
     data = check_output(["./jsonify.sh", hoursURL % (stop.code, lineName)])
     data = json.loads(data)
 
-    for d in data:
+    hourDict = defaultdict([])
 
+    for d in data:
+        hourDict[d["kisagun"]].append(d["dakika"])
+
+    for d in hourDict.keys():
+        hour = stop.hours.add()
+        hour.day = d
+        hour.hours= ",".join(hourDict[d])
 
 if __name__ == "__main__":
     parseLines()
