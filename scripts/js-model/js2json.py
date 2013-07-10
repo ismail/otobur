@@ -72,7 +72,7 @@ def parseHours(stop, lineName):
     data = check_output(["./jsonify.sh", hoursURL % (stop.code, lineName)])
     data = json.loads(data)
 
-    hourDict = defaultdict([])
+    hourDict = defaultdict(list)
 
     for d in data:
         hourDict[d["kisagun"]].append(d["dakika"])
