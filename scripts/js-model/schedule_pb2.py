@@ -13,7 +13,7 @@ from google.protobuf import descriptor_pb2
 DESCRIPTOR = _descriptor.FileDescriptor(
   name='schedule.proto',
   package='otobur',
-  serialized_pb='\n\x0eschedule.proto\x12\x06otobur\"}\n\x04Line\x12\x1b\n\x05stops\x18\x01 \x03(\x0b\x32\x0c.otobur.Stop\x12\x0c\n\x04name\x18\x02 \x02(\t\x12\n\n\x02id\x18\x03 \x02(\t\x12\x1f\n\x05start\x18\x04 \x02(\x0b\x32\x10.otobur.Location\x12\x1d\n\x03\x65nd\x18\x05 \x02(\x0b\x32\x10.otobur.Location\"\x90\x01\n\x04Stop\x12\x11\n\tdirection\x18\x01 \x02(\x05\x12\x10\n\x08stopCode\x18\x02 \x02(\t\x12\x10\n\x08stopName\x18\x03 \x02(\t\x12\x1d\n\x03loc\x18\x04 \x02(\x0b\x32\x10.otobur.Location\x12\x10\n\x08latitude\x18\x05 \x02(\t\x12\x11\n\tlongitude\x18\x06 \x02(\t\x12\r\n\x05order\x18\x07 \x02(\x05\"*\n\x08Location\x12\x0f\n\x07mahalle\x18\x01 \x02(\t\x12\r\n\x05\x63\x61\x64\x64\x65\x18\x02 \x02(\t\"\'\n\x08Schedule\x12\x1b\n\x05lines\x18\x01 \x03(\x0b\x32\x0c.otobur.Line')
+  serialized_pb='\n\x0eschedule.proto\x12\x06otobur\"}\n\x04Line\x12\x1b\n\x05stops\x18\x01 \x03(\x0b\x32\x0c.otobur.Stop\x12\x0c\n\x04name\x18\x02 \x02(\t\x12\n\n\x02id\x18\x03 \x02(\t\x12\x1f\n\x05start\x18\x04 \x02(\x0b\x32\x10.otobur.Location\x12\x1d\n\x03\x65nd\x18\x05 \x02(\x0b\x32\x10.otobur.Location\"\x90\x01\n\x04Stop\x12\x11\n\tdirection\x18\x01 \x02(\x05\x12\x10\n\x08stopCode\x18\x02 \x02(\t\x12\x10\n\x08stopName\x18\x03 \x02(\t\x12\x1d\n\x03loc\x18\x04 \x02(\x0b\x32\x10.otobur.Location\x12\x10\n\x08latitude\x18\x05 \x02(\t\x12\x11\n\tlongitude\x18\x06 \x02(\t\x12\r\n\x05order\x18\x07 \x02(\x05\"<\n\x08Location\x12\x10\n\x08stopName\x18\x01 \x02(\t\x12\x0f\n\x07mahalle\x18\x02 \x02(\t\x12\r\n\x05\x63\x61\x64\x64\x65\x18\x03 \x02(\t\"\'\n\x08Schedule\x12\x1b\n\x05lines\x18\x01 \x03(\x0b\x32\x0c.otobur.Line')
 
 
 
@@ -152,15 +152,22 @@ _LOCATION = _descriptor.Descriptor(
   containing_type=None,
   fields=[
     _descriptor.FieldDescriptor(
-      name='mahalle', full_name='otobur.Location.mahalle', index=0,
+      name='stopName', full_name='otobur.Location.stopName', index=0,
       number=1, type=9, cpp_type=9, label=2,
       has_default_value=False, default_value=unicode("", "utf-8"),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='cadde', full_name='otobur.Location.cadde', index=1,
+      name='mahalle', full_name='otobur.Location.mahalle', index=1,
       number=2, type=9, cpp_type=9, label=2,
+      has_default_value=False, default_value=unicode("", "utf-8"),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='cadde', full_name='otobur.Location.cadde', index=2,
+      number=3, type=9, cpp_type=9, label=2,
       has_default_value=False, default_value=unicode("", "utf-8"),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -175,7 +182,7 @@ _LOCATION = _descriptor.Descriptor(
   is_extendable=False,
   extension_ranges=[],
   serialized_start=300,
-  serialized_end=342,
+  serialized_end=360,
 )
 
 
@@ -202,8 +209,8 @@ _SCHEDULE = _descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=344,
-  serialized_end=383,
+  serialized_start=362,
+  serialized_end=401,
 )
 
 _LINE.fields_by_name['stops'].message_type = _STOP
