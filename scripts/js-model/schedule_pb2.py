@@ -13,7 +13,7 @@ from google.protobuf import descriptor_pb2
 DESCRIPTOR = _descriptor.FileDescriptor(
   name='schedule.proto',
   package='otobur',
-  serialized_pb='\n\x0eschedule.proto\x12\x06otobur\"}\n\x04Line\x12\x1b\n\x05stops\x18\x01 \x03(\x0b\x32\x0c.otobur.Stop\x12\x0c\n\x04name\x18\x02 \x02(\t\x12\n\n\x02id\x18\x03 \x02(\t\x12\x1f\n\x05start\x18\x04 \x02(\x0b\x32\x10.otobur.Location\x12\x1d\n\x03\x65nd\x18\x05 \x02(\x0b\x32\x10.otobur.Location\"\x90\x01\n\x04Stop\x12\x11\n\tdirection\x18\x01 \x02(\x05\x12\x10\n\x08stopCode\x18\x02 \x02(\t\x12\x10\n\x08stopName\x18\x03 \x02(\t\x12\x1d\n\x03loc\x18\x04 \x02(\x0b\x32\x10.otobur.Location\x12\x10\n\x08latitude\x18\x05 \x02(\t\x12\x11\n\tlongitude\x18\x06 \x02(\t\x12\r\n\x05order\x18\x07 \x02(\x05\"<\n\x08Location\x12\x10\n\x08stopName\x18\x01 \x02(\t\x12\x0f\n\x07mahalle\x18\x02 \x02(\t\x12\r\n\x05\x63\x61\x64\x64\x65\x18\x03 \x02(\t\"\'\n\x08Schedule\x12\x1b\n\x05lines\x18\x01 \x03(\x0b\x32\x0c.otobur.Line')
+  serialized_pb='\n\x0eschedule.proto\x12\x06otobur\"}\n\x04Line\x12\x1b\n\x05stops\x18\x01 \x03(\x0b\x32\x0c.otobur.Stop\x12\x0c\n\x04name\x18\x02 \x02(\t\x12\n\n\x02id\x18\x03 \x02(\t\x12\x1f\n\x05start\x18\x04 \x02(\x0b\x32\x10.otobur.Location\x12\x1d\n\x03\x65nd\x18\x05 \x02(\x0b\x32\x10.otobur.Location\"\x8d\x01\n\x04Stop\x12\x11\n\tdirection\x18\x01 \x02(\x05\x12\x0c\n\x04\x63ode\x18\x02 \x02(\t\x12\x0c\n\x04name\x18\x03 \x02(\t\x12\"\n\x08location\x18\x04 \x02(\x0b\x32\x10.otobur.Location\x12\x10\n\x08latitude\x18\x05 \x02(\t\x12\x11\n\tlongitude\x18\x06 \x02(\t\x12\r\n\x05order\x18\x07 \x02(\x05\"<\n\x08Location\x12\x10\n\x08stopName\x18\x01 \x02(\t\x12\x0f\n\x07mahalle\x18\x02 \x02(\t\x12\r\n\x05\x63\x61\x64\x64\x65\x18\x03 \x02(\t\"\'\n\x08Schedule\x12\x1b\n\x05lines\x18\x01 \x03(\x0b\x32\x0c.otobur.Line')
 
 
 
@@ -89,21 +89,21 @@ _STOP = _descriptor.Descriptor(
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='stopCode', full_name='otobur.Stop.stopCode', index=1,
+      name='code', full_name='otobur.Stop.code', index=1,
       number=2, type=9, cpp_type=9, label=2,
       has_default_value=False, default_value=unicode("", "utf-8"),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='stopName', full_name='otobur.Stop.stopName', index=2,
+      name='name', full_name='otobur.Stop.name', index=2,
       number=3, type=9, cpp_type=9, label=2,
       has_default_value=False, default_value=unicode("", "utf-8"),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
     _descriptor.FieldDescriptor(
-      name='loc', full_name='otobur.Stop.loc', index=3,
+      name='location', full_name='otobur.Stop.location', index=3,
       number=4, type=11, cpp_type=10, label=2,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
@@ -140,7 +140,7 @@ _STOP = _descriptor.Descriptor(
   is_extendable=False,
   extension_ranges=[],
   serialized_start=154,
-  serialized_end=298,
+  serialized_end=295,
 )
 
 
@@ -181,8 +181,8 @@ _LOCATION = _descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=300,
-  serialized_end=360,
+  serialized_start=297,
+  serialized_end=357,
 )
 
 
@@ -209,14 +209,14 @@ _SCHEDULE = _descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=362,
-  serialized_end=401,
+  serialized_start=359,
+  serialized_end=398,
 )
 
 _LINE.fields_by_name['stops'].message_type = _STOP
 _LINE.fields_by_name['start'].message_type = _LOCATION
 _LINE.fields_by_name['end'].message_type = _LOCATION
-_STOP.fields_by_name['loc'].message_type = _LOCATION
+_STOP.fields_by_name['location'].message_type = _LOCATION
 _SCHEDULE.fields_by_name['lines'].message_type = _LINE
 DESCRIPTOR.message_types_by_name['Line'] = _LINE
 DESCRIPTOR.message_types_by_name['Stop'] = _STOP
