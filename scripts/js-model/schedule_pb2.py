@@ -13,7 +13,7 @@ from google.protobuf import descriptor_pb2
 DESCRIPTOR = _descriptor.FileDescriptor(
   name='schedule.proto',
   package='otobur',
-  serialized_pb='\n\x0eschedule.proto\x12\x06otobur\"}\n\x04Line\x12\x1b\n\x05stops\x18\x01 \x03(\x0b\x32\x0c.otobur.Stop\x12\x0c\n\x04name\x18\x02 \x02(\t\x12\n\n\x02id\x18\x03 \x02(\t\x12\x1f\n\x05start\x18\x04 \x02(\x0b\x32\x10.otobur.Location\x12\x1d\n\x03\x65nd\x18\x05 \x02(\x0b\x32\x10.otobur.Location\"\x8d\x01\n\x04Stop\x12\x11\n\tdirection\x18\x01 \x02(\x05\x12\x0c\n\x04\x63ode\x18\x02 \x02(\t\x12\x0c\n\x04name\x18\x03 \x02(\t\x12\"\n\x08location\x18\x04 \x02(\x0b\x32\x10.otobur.Location\x12\x10\n\x08latitude\x18\x05 \x02(\t\x12\x11\n\tlongitude\x18\x06 \x02(\t\x12\r\n\x05order\x18\x07 \x02(\x05\"<\n\x08Location\x12\x10\n\x08stopName\x18\x01 \x02(\t\x12\x0f\n\x07mahalle\x18\x02 \x02(\t\x12\r\n\x05\x63\x61\x64\x64\x65\x18\x03 \x02(\t\"\'\n\x08Schedule\x12\x1b\n\x05lines\x18\x01 \x03(\x0b\x32\x0c.otobur.Line')
+  serialized_pb='\n\x0eschedule.proto\x12\x06otobur\"}\n\x04Line\x12\x1b\n\x05stops\x18\x01 \x03(\x0b\x32\x0c.otobur.Stop\x12\x0c\n\x04name\x18\x02 \x02(\t\x12\n\n\x02id\x18\x03 \x02(\t\x12\x1f\n\x05start\x18\x04 \x02(\x0b\x32\x10.otobur.Location\x12\x1d\n\x03\x65nd\x18\x05 \x02(\x0b\x32\x10.otobur.Location\"\xab\x01\n\x04Stop\x12\x11\n\tdirection\x18\x01 \x02(\x05\x12\x0c\n\x04\x63ode\x18\x02 \x02(\t\x12\x0c\n\x04name\x18\x03 \x02(\t\x12\"\n\x08location\x18\x04 \x02(\x0b\x32\x10.otobur.Location\x12\x10\n\x08latitude\x18\x05 \x02(\t\x12\x11\n\tlongitude\x18\x06 \x02(\t\x12\r\n\x05order\x18\x07 \x02(\x05\x12\x1c\n\x05hours\x18\x08 \x02(\x0b\x32\r.otobur.Hours\"<\n\x08Location\x12\x10\n\x08stopName\x18\x01 \x02(\t\x12\x0f\n\x07mahalle\x18\x02 \x02(\t\x12\r\n\x05\x63\x61\x64\x64\x65\x18\x03 \x02(\t\"&\n\x08HourPair\x12\x0b\n\x03\x64\x61y\x18\x01 \x02(\t\x12\r\n\x05hours\x18\x02 \x02(\t\"\'\n\x05Hours\x12\x1e\n\x04hour\x18\x01 \x03(\x0b\x32\x10.otobur.HourPair\"\'\n\x08Schedule\x12\x1b\n\x05lines\x18\x01 \x03(\x0b\x32\x0c.otobur.Line')
 
 
 
@@ -130,6 +130,13 @@ _STOP = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
+    _descriptor.FieldDescriptor(
+      name='hours', full_name='otobur.Stop.hours', index=7,
+      number=8, type=11, cpp_type=10, label=2,
+      has_default_value=False, default_value=None,
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
   ],
   extensions=[
   ],
@@ -140,7 +147,7 @@ _STOP = _descriptor.Descriptor(
   is_extendable=False,
   extension_ranges=[],
   serialized_start=154,
-  serialized_end=295,
+  serialized_end=325,
 )
 
 
@@ -181,8 +188,71 @@ _LOCATION = _descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=297,
-  serialized_end=357,
+  serialized_start=327,
+  serialized_end=387,
+)
+
+
+_HOURPAIR = _descriptor.Descriptor(
+  name='HourPair',
+  full_name='otobur.HourPair',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='day', full_name='otobur.HourPair.day', index=0,
+      number=1, type=9, cpp_type=9, label=2,
+      has_default_value=False, default_value=unicode("", "utf-8"),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+    _descriptor.FieldDescriptor(
+      name='hours', full_name='otobur.HourPair.hours', index=1,
+      number=2, type=9, cpp_type=9, label=2,
+      has_default_value=False, default_value=unicode("", "utf-8"),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  options=None,
+  is_extendable=False,
+  extension_ranges=[],
+  serialized_start=389,
+  serialized_end=427,
+)
+
+
+_HOURS = _descriptor.Descriptor(
+  name='Hours',
+  full_name='otobur.Hours',
+  filename=None,
+  file=DESCRIPTOR,
+  containing_type=None,
+  fields=[
+    _descriptor.FieldDescriptor(
+      name='hour', full_name='otobur.Hours.hour', index=0,
+      number=1, type=11, cpp_type=10, label=3,
+      has_default_value=False, default_value=[],
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
+  ],
+  extensions=[
+  ],
+  nested_types=[],
+  enum_types=[
+  ],
+  options=None,
+  is_extendable=False,
+  extension_ranges=[],
+  serialized_start=429,
+  serialized_end=468,
 )
 
 
@@ -209,18 +279,22 @@ _SCHEDULE = _descriptor.Descriptor(
   options=None,
   is_extendable=False,
   extension_ranges=[],
-  serialized_start=359,
-  serialized_end=398,
+  serialized_start=470,
+  serialized_end=509,
 )
 
 _LINE.fields_by_name['stops'].message_type = _STOP
 _LINE.fields_by_name['start'].message_type = _LOCATION
 _LINE.fields_by_name['end'].message_type = _LOCATION
 _STOP.fields_by_name['location'].message_type = _LOCATION
+_STOP.fields_by_name['hours'].message_type = _HOURS
+_HOURS.fields_by_name['hour'].message_type = _HOURPAIR
 _SCHEDULE.fields_by_name['lines'].message_type = _LINE
 DESCRIPTOR.message_types_by_name['Line'] = _LINE
 DESCRIPTOR.message_types_by_name['Stop'] = _STOP
 DESCRIPTOR.message_types_by_name['Location'] = _LOCATION
+DESCRIPTOR.message_types_by_name['HourPair'] = _HOURPAIR
+DESCRIPTOR.message_types_by_name['Hours'] = _HOURS
 DESCRIPTOR.message_types_by_name['Schedule'] = _SCHEDULE
 
 class Line(_message.Message):
@@ -240,6 +314,18 @@ class Location(_message.Message):
   DESCRIPTOR = _LOCATION
 
   # @@protoc_insertion_point(class_scope:otobur.Location)
+
+class HourPair(_message.Message):
+  __metaclass__ = _reflection.GeneratedProtocolMessageType
+  DESCRIPTOR = _HOURPAIR
+
+  # @@protoc_insertion_point(class_scope:otobur.HourPair)
+
+class Hours(_message.Message):
+  __metaclass__ = _reflection.GeneratedProtocolMessageType
+  DESCRIPTOR = _HOURS
+
+  # @@protoc_insertion_point(class_scope:otobur.Hours)
 
 class Schedule(_message.Message):
   __metaclass__ = _reflection.GeneratedProtocolMessageType
