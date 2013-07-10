@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from collections import defaultdict
 from subprocess import check_output
-from schedule_pb2 import Schedule, Line, Location
+from otobur_pb2 import Schedule, Line, Location
 import json
 
 linesURL="http://www.bursa.bel.tr/mobil/json.php?islem=hatlar"
