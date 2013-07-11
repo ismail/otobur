@@ -1,20 +1,23 @@
 #!/usr/bin/env python
 from collections import defaultdict
 from subprocess import check_output
+from multiprocessing import Process
 from otobur_pb2 import Schedule, Line, Location
 import json
+import math
 
 linesURL="http://www.bursa.bel.tr/mobil/json.php?islem=hatlar"
 stopsURL="http://www.bursa.bel.tr/mobil/json.php?islem=hat_durak&hat="
 hoursURL="http://www.bursa.bel.tr/mobil/json.php?islem=durak_saatler&durak=%s&hat=%s"
 # BuKART: http://www.bursa.bel.tr/mobil/json.php?islem=bukart&lat=28.993744&long=40.208102
 # DURAKLAR: http://www.bursa.bel.tr/mobil/json.php?islem=durak_ara&ara=
+concurrentConnections = 32
 
-
-def parseLines():
+def discoverLines():
     data = check_output(["./jsonify.sh", linesURL])
     data = json.loads(data)
     schedule = Schedule()
+    lines= []
 
     for d in data:
         line = schedule.lines.add()
@@ -33,10 +36,25 @@ def parseLines():
         endLoc.cadde = tmp[1].split(": ")[1]
         endLoc.mahalle = tmp[2].split(": ")[1]
 
-        parseStops(line)
+        lines.append(line)
+
+    chunksize = int(math.ceil(len(lines) / float(concurrentConnections)))
+    procs = []
+    for i in range(concurrentConnections):
+        p = Process(target=parseMultipleLines,
+                    args=(lines[chunksize * i:chunksize * (i + 1)],))
+        procs.append(p)
+        p.start()
+
+    for p in procs:
+        p.join()
 
     with open("schedule.data", "wb") as fp:
         fp.write(schedule.SerializeToString())
+
+def parseMultipleLines(lines):
+    for line in lines:
+        parseStops(line)
 
 def parseStops(line):
     print("## %s" % line.name)
@@ -80,4 +98,4 @@ def parseHours(stop, lineName):
         time.hours= "|".join(hourDict[d])
 
 if __name__ == "__main__":
-    parseLines()
+    discoverLines()
