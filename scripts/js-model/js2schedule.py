@@ -2,7 +2,7 @@
 from collections import defaultdict
 from subprocess import check_output
 from multiprocessing import Process, Queue
-from otobur_pb2 import Schedule, Line, Location
+from otobur_pb2 import Schedule, Stop
 import json
 import math
 
@@ -11,16 +11,15 @@ stopsURL="http://www.bursa.bel.tr/mobil/json.php?islem=hat_durak&hat="
 hoursURL="http://www.bursa.bel.tr/mobil/json.php?islem=durak_saatler&durak=%s&hat=%s"
 # BuKART: http://www.bursa.bel.tr/mobil/json.php?islem=bukart&lat=28.993744&long=40.208102
 # DURAKLAR: http://www.bursa.bel.tr/mobil/json.php?islem=durak_ara&ara=
-concurrentConnections = 32
+concurrentConnections = 12
 
 def discoverLines():
     data = check_output(["./jsonify.sh", linesURL])
     data = json.loads(data)
     schedule = Schedule()
-    lines= []
 
     for d in data:
-        line = Line()
+        line = schedule.lines.add()
         line.name = unicode(d["g_adi"])
         line.id = d["g_id"]
 
@@ -36,45 +35,23 @@ def discoverLines():
         endLoc.cadde = tmp[1].split(": ")[1]
         endLoc.mahalle = tmp[2].split(": ")[1]
 
-        lines.append(line)
-
-    chunksize = int(math.ceil(len(lines) / float(concurrentConnections)))
-    procs = []
-    outQueue = Queue()
-
-    for i in range(concurrentConnections):
-        p = Process(target=parseMultipleLines,
-                    args=(lines[chunksize * i:chunksize * (i + 1)], outQueue))
-        procs.append(p)
-        p.start()
-
-    for p in procs:
-        p.join()
-
-    lines = []
-    for i in range(concurrentConnections):
-        lines.append(outQueue.get())
-
-    schedule.lines.extend(lines)
+        parseStops(line)
 
     with open("schedule.data", "wb") as fp:
         fp.write(schedule.SerializeToString())
-
-def parseMultipleLines(lines, outQueue):
-    for line in lines:
-        parseStops(line)
-        outQueue.put(line)
 
 def parseStops(line):
     print("## %s" % line.name)
 
     data = check_output(["./jsonify.sh", "%s%s" % (stopsURL, line.name)])
     data = json.loads(data)
+    stops = []
+
     for d in data:
         stopName = unicode(d["DurakAdi"])
         stopCode = unicode(d["DurakKodu"])
         if stopName.strip():
-            stop = line.stops.add()
+            stop = Stop()
             stop.direction = int(d["Yon"])
             stop.code = stopCode
             stop.name = stopName
@@ -88,7 +65,29 @@ def parseStops(line):
             stop.latitude = d["Lat"]
             stop.order = int(d["Sira"])
 
-            parseHours(stop, line.name)
+            stops.append(stop)
+
+    out_q = Queue()
+    chunksize = int(math.ceil(len(stops) / float(concurrentConnections)))
+    procs = []
+
+    for i in range(concurrentConnections):
+        p = Process(target=parseHoursList,
+                    args=(stops[chunksize * i:chunksize * (i + 1)],
+                          line.name, out_q))
+        procs.append(p)
+        p.start()
+
+    for i in range(concurrentConnections):
+        line.stops.extend(out_q.get())
+
+    for p in procs:
+        p.join()
+
+def parseHoursList(stops, lineName, out_q):
+    for stop in stops:
+        parseHours(stop, lineName)
+    out_q.put(stops)
 
 def parseHours(stop, lineName):
     print("\t--> %s" % stop.name)
