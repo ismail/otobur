@@ -13,7 +13,7 @@ from google.protobuf import descriptor_pb2
 DESCRIPTOR = _descriptor.FileDescriptor(
   name='otobur.proto',
   package='ws.donmez.otobur',
-  serialized_pb='\n\x0cotobur.proto\x12\x10ws.donmez.otobur\"\x9b\x01\n\x04Line\x12%\n\x05stops\x18\x01 \x03(\x0b\x32\x16.ws.donmez.otobur.Stop\x12\x0c\n\x04name\x18\x02 \x02(\t\x12\n\n\x02id\x18\x03 \x02(\t\x12)\n\x05start\x18\x04 \x02(\x0b\x32\x1a.ws.donmez.otobur.Location\x12\'\n\x03\x65nd\x18\x05 \x02(\x0b\x32\x1a.ws.donmez.otobur.Location\"\xc5\x01\n\x04Stop\x12\x11\n\tdirection\x18\x01 \x02(\x05\x12\x0c\n\x04\x63ode\x18\x02 \x02(\t\x12\x0c\n\x04name\x18\x03 \x02(\t\x12,\n\x08location\x18\x04 \x02(\x0b\x32\x1a.ws.donmez.otobur.Location\x12\x10\n\x08latitude\x18\x05 \x02(\t\x12\x11\n\tlongitude\x18\x06 \x02(\t\x12\r\n\x05order\x18\x07 \x02(\x05\x12,\n\x08timeLine\x18\x08 \x02(\x0b\x32\x1a.ws.donmez.otobur.TimeLine\"<\n\x08Location\x12\x10\n\x08stopName\x18\x01 \x02(\t\x12\x0f\n\x07mahalle\x18\x02 \x02(\t\x12\r\n\x05\x63\x61\x64\x64\x65\x18\x03 \x02(\t\"&\n\x08TimePair\x12\x0b\n\x03\x64\x61y\x18\x01 \x02(\t\x12\r\n\x05hours\x18\x02 \x02(\t\"4\n\x08TimeLine\x12(\n\x04time\x18\x01 \x03(\x0b\x32\x1a.ws.donmez.otobur.TimePair\"1\n\x08Schedule\x12%\n\x05lines\x18\x01 \x03(\x0b\x32\x16.ws.donmez.otobur.Line')
+  serialized_pb='\n\x0cotobur.proto\x12\x10ws.donmez.otobur\"\x9b\x01\n\x04Line\x12%\n\x05stops\x18\x01 \x03(\x0b\x32\x16.ws.donmez.otobur.Stop\x12\x0c\n\x04name\x18\x02 \x02(\t\x12\n\n\x02id\x18\x03 \x02(\t\x12)\n\x05start\x18\x04 \x02(\x0b\x32\x1a.ws.donmez.otobur.Location\x12\'\n\x03\x65nd\x18\x05 \x02(\x0b\x32\x1a.ws.donmez.otobur.Location\"\xc5\x01\n\x04Stop\x12\x11\n\tdirection\x18\x01 \x02(\x05\x12\x0c\n\x04\x63ode\x18\x02 \x02(\t\x12\x0c\n\x04name\x18\x03 \x02(\t\x12,\n\x08location\x18\x04 \x02(\x0b\x32\x1a.ws.donmez.otobur.Location\x12\x10\n\x08latitude\x18\x05 \x02(\t\x12\x11\n\tlongitude\x18\x06 \x02(\t\x12\r\n\x05order\x18\x07 \x02(\x05\x12,\n\x08timeLine\x18\x08 \x01(\x0b\x32\x1a.ws.donmez.otobur.TimeLine\"<\n\x08Location\x12\x10\n\x08stopName\x18\x01 \x02(\t\x12\x0f\n\x07mahalle\x18\x02 \x02(\t\x12\r\n\x05\x63\x61\x64\x64\x65\x18\x03 \x02(\t\"&\n\x08TimePair\x12\x0b\n\x03\x64\x61y\x18\x01 \x02(\t\x12\r\n\x05hours\x18\x02 \x02(\t\"4\n\x08TimeLine\x12(\n\x04time\x18\x01 \x03(\x0b\x32\x1a.ws.donmez.otobur.TimePair\"B\n\x08Schedule\x12%\n\x05lines\x18\x01 \x03(\x0b\x32\x16.ws.donmez.otobur.Line\x12\x0f\n\x07version\x18\x02 \x01(\t')
 
 
 
@@ -132,7 +132,7 @@ _STOP = _descriptor.Descriptor(
       options=None),
     _descriptor.FieldDescriptor(
       name='timeLine', full_name='ws.donmez.otobur.Stop.timeLine', index=7,
-      number=8, type=11, cpp_type=10, label=2,
+      number=8, type=11, cpp_type=10, label=1,
       has_default_value=False, default_value=None,
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
@@ -270,6 +270,13 @@ _SCHEDULE = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),
+    _descriptor.FieldDescriptor(
+      name='version', full_name='ws.donmez.otobur.Schedule.version', index=1,
+      number=2, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=unicode("", "utf-8"),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      options=None),
   ],
   extensions=[
   ],
@@ -280,7 +287,7 @@ _SCHEDULE = _descriptor.Descriptor(
   is_extendable=False,
   extension_ranges=[],
   serialized_start=548,
-  serialized_end=597,
+  serialized_end=614,
 )
 
 _LINE.fields_by_name['stops'].message_type = _STOP

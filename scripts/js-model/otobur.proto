@@ -16,7 +16,7 @@ message Stop {
     required string latitude = 5;
     required string longitude = 6;
     required int32 order = 7;
-    required TimeLine timeLine = 8;
+    optional TimeLine timeLine = 8;
 }
 
 message Location {
@@ -36,5 +36,6 @@ message TimeLine {
 
 message Schedule {
     repeated Line lines = 1;
+    optional string version = 2 ;
 }
 
