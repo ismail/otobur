@@ -35,13 +35,34 @@ def coerce(s):
 def copy_line(line, new_line):
     new_line.name = line.name
     new_line.id = line.id
+    orderArray = []
+    prev_stop = None
 
     copy_location(line.start, new_line.start)
     copy_location(line.end, new_line.end)
 
     for stop in sorted(line.stops, cmp=compare_stops):
-        new_stop = new_line.stops.add()
-        copy_stop(stop, new_stop)
+        if (stop.direction, stop.order) in orderArray:
+            print("%s is a duplicate stop, ignoring" % stop.name.encode("utf-8"))
+            check_duplicate(prev_stop, stop)
+        else:
+            # To check for duplicate stops
+            prev_stop = otobur_pb2.Stop()
+            copy_stop(stop, prev_stop)
+            orderArray.append((stop.direction, stop.order))
+
+            new_stop = new_line.stops.add()
+            copy_stop(stop, new_stop)
+
+def check_duplicate(prev_stop, stop):
+    assert prev_stop.direction == stop.direction
+    assert prev_stop.code == stop.code
+    assert prev_stop.name == stop.name
+    assert prev_stop.location == stop.location
+    assert prev_stop.longitude == stop.longitude
+    assert prev_stop.latitude == stop.latitude
+    assert prev_stop.order == stop.order
+    assert prev_stop.timeLine == stop.timeLine
 
 def copy_stop(stop, new_stop):
     new_stop.direction = stop.direction
