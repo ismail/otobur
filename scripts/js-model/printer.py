@@ -5,7 +5,11 @@ import sys
 
 if __name__ == "__main__":
     schedule = otobur_pb2.Schedule()
-    schedule.ParseFromString(open(sys.argv[1],"rb").read())
+
+    if sys.argv[1] == "-":
+        schedule.ParseFromString(sys.stdin.read())
+    else:
+        schedule.ParseFromString(open(sys.argv[1],"rb").read())
 
     for line in schedule.lines:
         print("++ %s" % line.name.encode("utf-8"))
