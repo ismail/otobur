@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#./js2schedule.py &&
+time ./js2schedule.py &&
 ./sorter.py schedule.data &&
 ./printer.py sorted.data > schedule.txt &&
 mv sorted.data schedule.data &&
