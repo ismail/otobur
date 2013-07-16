@@ -13,6 +13,19 @@ def compare_lines(x, y):
 
     return cmp(val_x, val_y)
 
+def compare_stops(x, y):
+    direction_x = x.direction
+    direction_y = y.direction
+    order_x = x.order
+    order_y = y.order
+
+    if direction_x == direction_y:
+        return order_x - order_y
+    elif direction_x < direction_y:
+        return -1
+    else:
+        return 1
+
 def coerce(s):
     if s.isdigit():
         return int(s)
@@ -26,7 +39,7 @@ def copy_line(line, new_line):
     copy_location(line.start, new_line.start)
     copy_location(line.end, new_line.end)
 
-    for stop in line.stops:
+    for stop in sorted(line.stops, cmp=compare_stops):
         new_stop = new_line.stops.add()
         copy_stop(stop, new_stop)
 
